@@ -1,0 +1,43 @@
+body {
+    margin: 60px auto;
+    width: 80%;
+    background-color: #FBF4F3;
+}
+nav ul, footer ul {
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #FE8F77;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 36px;
+    color: #2B1915;
+}
+p {
+    font-size: 26px;
+    line-height: 10px;
+    color: #843E2E;
+}
+footer {
+    border-top: 1px solid #C46A56;
+    font-size: 1em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 26px;
+}
+
+ul.posts li {
+    list-style: none;
+}
