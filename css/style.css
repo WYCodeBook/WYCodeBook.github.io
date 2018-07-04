@@ -14,22 +14,22 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #FE8F77;
+    color: #EED8D3;
 }
 a:hover {
     text-decoration: underline;
 }
 h1 {
     font-size: 36px;
-    color: #2B1915;
+    color: #341F1B;
 }
 p {
     font-size: 26px;
     line-height: 10px;
-    color: #843E2E;
+    color: #B15843;
 }
 footer {
-    border-top: 1px solid #C46A56;
+    border-top: 1px solid #D3978A;
     font-size: 1em;
 }
 
