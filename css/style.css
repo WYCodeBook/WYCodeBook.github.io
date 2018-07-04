@@ -8,9 +8,16 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
+nav ul li {
     display: inline;
     margin-right: 20px;
+    color: #EFA99A;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 16px;
+    color: #EFA99A;
 }
 a {
     text-decoration: none;
