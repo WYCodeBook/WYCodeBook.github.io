@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
     width: 80%;
-    background-color: #FEFDFD;
+    background-color: #FFFDFD;
 }
 nav ul, footer ul {
     padding: 0px;
@@ -11,23 +11,30 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+}
+a {
     text-decoration: none;
-    color: #DBB6AD;
+    color: #EFA99A;
 }
 a:hover {
     text-decoration: underline;
 }
 h1 {
     font-size: 36px;
-    color: #2A1B18;
+    color: #A33319;
 }
 p {
     font-size: 26px;
     line-height: 10px;
-    color: #83473A;
+    color: #E15E41;
+}
+
+nav {
+    border-bottom: 1px solid #EFA99A;
+    font-size: 1em;
 }
 footer {
-    border-top: 1px solid #2A1B18;
+    border-top: 1px solid #EFA99A;
     font-size: 1em;
 }
 
