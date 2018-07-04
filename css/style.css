@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
     width: 80%;
-    background-color: #FBF4F3;
+    background-color: #FEFDFD;
 }
 nav ul, footer ul {
     padding: 0px;
@@ -14,22 +14,22 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #EED8D3;
+    color: #DBB6AD;
 }
 a:hover {
     text-decoration: underline;
 }
 h1 {
     font-size: 36px;
-    color: #341F1B;
+    color: #2A1B18;
 }
 p {
     font-size: 26px;
     line-height: 10px;
-    color: #B15843;
+    color: #83473A;
 }
 footer {
-    border-top: 1px solid #D3978A;
+    border-top: 1px solid #2A1B18;
     font-size: 1em;
 }
 
