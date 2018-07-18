@@ -1,7 +1,9 @@
 body {
     margin: 60px auto;
     width: 80%;
-    background-color: #FFFDFD;
+    background: url(mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 nav ul, footer ul {
     padding: 0px;
@@ -45,8 +47,8 @@ footer {
     font-size: 1em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 26px;
 }
 
