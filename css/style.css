@@ -1,5 +1,6 @@
 body {
-
+    margin: 60px auto;
+    width: 80%;
     background: url(/img/daisybackground.jpg);
     background-repeat: no-repeat;
     background-size: auto;
@@ -12,38 +13,38 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-    color: #EFA99A;
+    color: #0E1807;
 }
 a {
     text-decoration: none;
-    color: #EFA99A;
+    color: #0E1807;
 }
 a:hover {
     text-decoration: underline;
 }
 h1 {
     font-size: 36px;
-    color: #A33319;
+    color: #0E1807;
     font-weight: bold;
 }
 
 h2 {
     font-size: 30px;
-    color: #A33319;
+    color: #0E1807;
 }
 p {
     font-size: 26px;
     line-height: 10px;
-    color: #E15E41;
+    color: #0E1807;
 }
 
 nav {
-    border-bottom: 1px solid #EFA99A;
+    border-bottom: 1px solid #0E1807;
     font-size: 1em;
 }
 footer {
-    border-top: 1px solid #EFA99A;
-    font-size: 1em;
+    border-top: 1px solid #0E1807;
+    font-size: 12px;
 }
 
 ul.posts {
