@@ -8,8 +8,8 @@ title: Notes
 	  <h3>{{ category[0] }}</h3>
 	  <ul>
 	    {% for post in category[1] %}
-	      <p><li><a href="{{ post.url }}">{{ post.title }}</a> --- <span>{{ post.date | date_to_string }}</span>
-				</li></p>
+	      <p><ol><a href="{{ post.url }}">{{ post.title }}</a> --- <span>{{ post.date | date_to_string }}</span>
+				</ol></p>
 	    {% endfor %}
 	  </ul>
 	{% endfor %}
