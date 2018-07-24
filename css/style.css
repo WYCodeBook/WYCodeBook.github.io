@@ -9,10 +9,11 @@ body {
 .layer {
     background-color: rgba(255, 238, 204, 0.5);
     background-position: center;
+    padding: 30px;
 }
 
 nav ul, footer ul {
-    padding: 10px;
+    padding: 0px;
     list-style: none;
     font-weight: bold;
 }
