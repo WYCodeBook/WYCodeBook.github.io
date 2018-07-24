@@ -5,13 +5,11 @@ title: Notes
 	<h1>{{ page.title }}</h1>
 
 	{% for category in site.categories %}
-	  <h2>{{ category[0] }}</h2>
+	  <h3>{{ category[0] }}</h3>
 	  <ul>
 	    {% for post in category[1] %}
-	      <h3><li><a href="{{ post.url }}">{{ post.title }}</a>
-					<p></p>
-					<span>{{ post.date | date_to_string }}</span>
-				</li></h3>
+	      <p><li><a href="{{ post.url }}">{{ post.title }}</a> --- <span>{{ post.date | date_to_string }}</span>
+				</li></p>
 	    {% endfor %}
 	  </ul>
 	{% endfor %}
