@@ -9,7 +9,6 @@ body {
 .layer {
     background-color: rgba(255, 238, 204, 0.5);
     background-position: center;
-    margin: 30px auto;
 }
 
 nav ul, footer ul {
