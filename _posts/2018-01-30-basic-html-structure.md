@@ -2,7 +2,7 @@
 layout: post
 title: "Basic HTML Structure"
 date: 2018-01-30
-categories: HTML
+categories: [HTML, coding]
 ---
 
 A basic HTML structure to build the first web page.
