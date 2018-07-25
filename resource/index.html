@@ -4,6 +4,17 @@ title: Resources
 ---
 <h1>{{ page.title }}</h1>
 
+{% for category in site.categories %}
+  <h2>{{ category[0] }}</h2>
+  <ul>
+    {% for post in category[1] %}
+      <h3><ol><a href="{{ post.url }}">{{ post.title }}</a> --- <span>{{ post.date | date_to_string }}</span>
+			</ol></h3>
+    {% endfor %}
+  </ul>
+{% endfor %}
+
+
 <h2>GitHub Page</h2>
 <ul><h3>
 		<li><a href="http://jmcglone.com/guides/github-pages/"> Creating and Hosting a Personal Site on GitHub </a></li>
@@ -12,13 +23,3 @@ title: Resources
 		<li><a href="https://learn.cloudcannon.com/jekyll-cheat-sheet/"> Jekyll Syntax Cheat Sheet </a></li>
 
 </h3></ul>
-
-{% for tag in site.tags %}
-  <h2>{{ tag[0] }}</h2>
-  <ul>
-    {% for post in tag[1] %}
-      <h3><ol><a href="{{ post.url }}">{{ post.title }}</a> --- <span>{{ post.date | date_to_string }}</span>
-			</ol></h3>
-    {% endfor %}
-  </ul>
-{% endfor %}
