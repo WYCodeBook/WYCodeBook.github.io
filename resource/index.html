@@ -8,10 +8,10 @@ title: Resources
   <h2>{{ tag[0] }}</h2>
   <ul>
     {% for post in tag[1] %}
-      <h3><ol>
-				<a href="{{ post.url }}">{{ post.title }}</a>
-				{{ post.excerpt }}
-			</ol></h3>
+      <li>
+				<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+				<p>{{ post.excerpt }}</p>
+			</li>
     {% endfor %}
   </ul>
 {% endfor %}
