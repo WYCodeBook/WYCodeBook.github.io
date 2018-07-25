@@ -34,7 +34,7 @@ a:hover {
     font-size: 62px;
     color: #0E1807;
     font-weight: bold;
-    text-align: center;
+    position: center;
 }
 
 h1 {
