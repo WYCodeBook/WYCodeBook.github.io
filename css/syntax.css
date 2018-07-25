@@ -1,4 +1,4 @@
-.highlight  { background: rgba(255, 240, 230, 0.75); overflow-wrap: break-word; word-wrap: break-word;}
+.highlight  { background: #ebebe0; overflow-wrap: break-word; word-wrap: break-word;}
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */
