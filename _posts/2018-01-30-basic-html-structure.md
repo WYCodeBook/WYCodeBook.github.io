@@ -23,4 +23,4 @@ A basic HTML structure to build the first web page.
   </body>
 </html>
 
-```{% endhighlight %}```
+```
