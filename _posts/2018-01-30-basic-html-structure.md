@@ -8,7 +8,7 @@ categories: [HTML, Coding]
 A basic HTML structure to build the first web page.
 
 
-``<!DOCTYPE html>
+``  <!DOCTYPE html>
     <html lang="en">
       <head>
         <title>First Web Page</title>
