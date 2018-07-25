@@ -1,0 +1,18 @@
+/*responsive for 400px */
+@media screen and (max-width:450px) {
+    h1 {
+        font-size: 36px;
+        word-break: break-all;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 26px;
+    }
