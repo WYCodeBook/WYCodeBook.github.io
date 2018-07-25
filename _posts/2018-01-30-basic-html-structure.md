@@ -7,8 +7,9 @@ categories: [HTML, Coding]
 
 A basic HTML structure to build the first web page.
 
+{% highlight html %}
 {% raw %}
-```
+
     <!DOCTYPE html>
     <html lang="en">
       <head>
@@ -22,5 +23,6 @@ A basic HTML structure to build the first web page.
         Basic content for the first web page.
       </body>
     </html>
-```
+
 {% endraw %}
+{% endhighlight %}
