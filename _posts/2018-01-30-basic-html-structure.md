@@ -7,7 +7,7 @@ categories: [HTML, Coding]
 
 A basic HTML structure to build the first web page.
 
-{% highlight html %}
+{% codeblock %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -21,4 +21,4 @@ A basic HTML structure to build the first web page.
   </body>
 </html>
 
-{% endhighlight %}
+{% endcodeblock %}
