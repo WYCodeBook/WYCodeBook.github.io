@@ -11,6 +11,14 @@ title: Resources
 		<li><a href="https://blog.webjeda.com/jekyll-categories/"> Setup Jekyll Categories And Tags </a></li>
 		<li><a href="https://learn.cloudcannon.com/jekyll-cheat-sheet/"> Jekyll Syntax Cheat Sheet </a></li>
 
-		[Google](http://google.com/) 
-
 </h3></ul>
+
+{% for category in site.categories %}
+  <h2>{{ tag[0] }}</h2>
+  <ul>
+    {% for post in tag[1] %}
+      <h3><ol><a href="{{ post.url }}">{{ post.title }}</a> --- <span>{{ post.date | date_to_string }}</span>
+			</ol></h3>
+    {% endfor %}
+  </ul>
+{% endfor %}
