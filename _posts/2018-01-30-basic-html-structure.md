@@ -7,7 +7,7 @@ categories: [HTML, Coding]
 
 A basic HTML structure to build the first web page.
 
-(% highlight html %)
+(% highlight %)
 
 <!DOCTYPE html>
 <html lang="en">
