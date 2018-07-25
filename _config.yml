@@ -1,3 +1,4 @@
 name: WY's Code Book
 url: http://wycodebook.github.io/
+markdown: kramdown
 highlighter: rouge
