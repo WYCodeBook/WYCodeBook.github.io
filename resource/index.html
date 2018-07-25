@@ -4,7 +4,7 @@ title: Resources
 ---
 <h1>{{ page.title }}</h1>
 
-{% for tag in site.tags order:ascending %}
+{% for tag in site.tags | sort: 'title' %}
   <h2>{{ tag[0] }}</h2>
   <ul>
     {% for post in tag[1] %}
