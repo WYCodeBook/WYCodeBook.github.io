@@ -14,7 +14,9 @@ A basic HTML structure to build the first web page.
   <head>
     <title>First Web Page</title>
     <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=
+    Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet"
+    type="text/css">
   </head>
   <body>
     Basic content for the first web page.
