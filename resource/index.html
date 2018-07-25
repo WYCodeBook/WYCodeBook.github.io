@@ -8,15 +8,5 @@ title: Resources
 <ul><h3>
 		<li><a href="http://jmcglone.com/guides/github-pages/"> Creating and Hosting a Personal Site on GitHub </a></li>
 		<li><a href="http://packetlife.net/media/library/16/Markdown.pdf"> Text to HTML Markdown </a></li>
+		<li><a href="https://blog.webjeda.com/jekyll-categories/"> Setup Jekyll Categories And Tags </a></li>
 </h3></ul>
-
-
-{% for tag in site.tags %}
-  <h2>{{ tag[0] }}</h2>
-  <ul>
-    {% for post in tag[1] %}
-      <h3><ol><a href="{{ post.url }}">{{ post.title }}</a> --- <span>{{ post.date | date_to_string }}</span>
-			</ol></h3>
-    {% endfor %}
-  </ul>
-{% endfor %}
