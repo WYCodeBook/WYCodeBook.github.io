@@ -1,17 +1,17 @@
 /*responsive for 400px */
 @media screen and (max-width:450px) {
     h1 {
-        font-size: 36px;
+        font-size: 38px;
     }
 
     h2 {
-        font-size: 32px;
+        font-size: 34px;
     }
 
     h3 {
-        font-size: 28px;
+        font-size: 32px;
     }
 
     p {
-        font-size: 26px;
+        font-size: 30px;
     }
