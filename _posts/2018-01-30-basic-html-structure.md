@@ -15,6 +15,9 @@ The `<html>` tag tells the browser that this is an HTML document. The `<html>` t
 
 ## <head>...</head>
 
+The `<head>` contains information about the document that will not appear on the actual page The `<head>` element can include a title for the document, scripts, styles, meta information, and more.
+
+## <title>...</title>
 
 
 
@@ -22,7 +25,7 @@ The `<html>` tag tells the browser that this is an HTML document. The `<html>` t
 {% highlight html %}
 
     <!DOCTYPE html>
-    <html lang="en">
+    <html>
       <head>
         <title>First Web Page</title>
         <meta charset="UTF-8">
