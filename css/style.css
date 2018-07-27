@@ -39,7 +39,7 @@ a:hover {
 }
 
 h1 {
-    font-size: 52px;
+    font-size: 48px;
     color: #0E1807;
 }
 
@@ -49,13 +49,13 @@ h2 {
 }
 
 h3 {
-    font-size: 30px;
-    line-height: 32px;
+    font-size: 32px;
+    line-height: 34px;
     color: #0E1807;
 }
 
 p {
-    font-size: 28px;
+    font-size: 30px;
     line-height: 30px;
     color: #0E1807;
 }
