@@ -27,7 +27,7 @@ Metadata is data (information) about data. `<Meta>` tags contain information abo
 
 HTML5 has a new attribute, charset, which makes it easier to define charset: `<meta charset="UTF-8">`
 
-### <
+## <
 
 
 {% highlight html %}
