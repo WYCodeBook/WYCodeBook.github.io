@@ -17,7 +17,7 @@ The `<html>` tag tells the browser that this is an HTML document. The `<html>` t
 
 The `<head>` contains information about the document that will not appear on the actual page The `<head>` element can include a title for the document, scripts, styles, meta information, and more.
 
-- ### <title>...</title>
+### <title>...</title>
 
   The `<title>` tag is required in all HTML documents and it defines the title of the document in the title bar of your web browser.
 
