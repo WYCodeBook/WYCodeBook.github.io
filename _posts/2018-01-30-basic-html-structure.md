@@ -19,6 +19,13 @@ The `<head>` contains information about the document that will not appear on the
 
 ## <title>...</title>
 
+The `<title>` tag is required in all HTML documents and it defines the title of the document in the title bar of your web browser.
+
+## <meta ...>
+
+Metadata is data (information) about data. `<Meta>` tags contain information about the page that does not need to be displayed, but it still used by search engines and other web crawlers. `<meta>` can be used by browsers (how to display content or reload page), search engines (keywords), or other web services.
+
+HTML5 has a new attribute, charset, which makes it easier to define charset: `<meta charset="UTF-8">`
 
 
 
