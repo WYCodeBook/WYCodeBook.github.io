@@ -5,8 +5,6 @@ date: 2018-01-30
 categories: HTML
 ---
 
-## A basic HTML structure to build the first web page.
-
 ## <!DOCTYPE>
 
 The `<!DOCTYPE>` is an instruction to the web browser about what version of HTML the page is written in. The `<!DOCTYPE>` declaration must be the very first thing in your HTML document, before the `<html>` tag. The `<!DOCTYPE>` declaration is NOT case sensitive.
