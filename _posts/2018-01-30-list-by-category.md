@@ -5,4 +5,4 @@ date: 2018-01-30
 tags: Jekyll
 ---
 
-List posts by categories --- <https://learn.cloudcannon.com/jekyll/list-posts-by-category/>
+[List posts by categories](https://learn.cloudcannon.com/jekyll/list-posts-by-category/)

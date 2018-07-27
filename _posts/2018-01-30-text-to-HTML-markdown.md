@@ -5,4 +5,4 @@ date: 2018-01-30
 tags: [GitHub, Jekyll]
 ---
 
-Text to HTML Markdown --- <http://packetlife.net/media/library/16/Markdown.pdf>
+[Text to HTML Markdown](http://packetlife.net/media/library/16/Markdown.pdf)

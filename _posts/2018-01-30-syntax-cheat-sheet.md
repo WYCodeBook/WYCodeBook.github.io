@@ -5,4 +5,4 @@ date: 2018-01-30
 tags: Jekyll
 ---
 
-Syntax Cheat Sheet --- <https://learn.cloudcannon.com/jekyll-cheat-sheet/>
+[Syntax Cheat Sheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/)
