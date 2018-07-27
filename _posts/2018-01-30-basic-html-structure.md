@@ -15,10 +15,13 @@ The `<!DOCTYPE>` is an instruction to the web browser about what version of HTML
 
 The `<html>` tag tells the browser that this is an HTML document. The `<html>` tag represents the root of an HTML document. All other tags must fall between the `<html>` tags.
 
+## <head>...</head>
+
+
+
 
 
 {% highlight html %}
-{% raw %}
 
     <!DOCTYPE html>
     <html lang="en">
@@ -32,7 +35,6 @@ The `<html>` tag tells the browser that this is an HTML document. The `<html>` t
       </body>
     </html>
 
-{% endraw %}
 {% endhighlight %}
 
 testing testing
