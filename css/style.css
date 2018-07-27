@@ -39,7 +39,7 @@ a:hover {
     font-family: Georgia, serif;
 }
 
-h1, h2, h3, p {
+h1, h2, p {
   line-height:150%;
 }
 
@@ -55,14 +55,9 @@ h2 {
     font-family: Georgia, serif;
 }
 
-h3 {
-    font-size: 26px;
-    color: #0E1807;
-    font-family: Georgia, serif;
-}
 
 p {
-    font-size: 22px;
+    font-size: 28px;
     color: #0E1807;
     font-family: Georgia, serif;
 }
