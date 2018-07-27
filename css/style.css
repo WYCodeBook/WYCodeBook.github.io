@@ -36,39 +36,46 @@ a:hover {
     color: #0E1807;
     font-weight: bold;
     text-align: center;
+    font-family: Georgia, serif;
 }
 
 h1 {
     font-size: 48px;
     color: #0E1807;
+    font-family: Georgia, serif;
 }
 
 h2 {
     font-size: 38px;
     color: #0E1807;
+    font-family: Georgia, serif;
 }
 
 h3 {
     font-size: 32px;
     line-height: 34px;
     color: #0E1807;
+    font-family: Georgia, serif;
 }
 
 p {
     font-size: 30px;
     line-height: 30px;
     color: #0E1807;
+    font-family: Georgia, serif;
 }
 
 nav {
     border-bottom: 1px solid #0E1807;
     font-size: 30px;
     text-align: center;
+    font-family: Georgia, serif;
 }
 footer {
     border-top: 1px solid #0E1807;
     font-size: 16px;
     text-align: center;
+    font-family: Georgia, serif;
 }
 
 ul.posts {
