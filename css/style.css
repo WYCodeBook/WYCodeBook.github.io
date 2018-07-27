@@ -88,6 +88,7 @@ ul.posts li {
 }
 
 code {
-  background-color: #fff7e6;
-  border-radius: 6px;
+  background-color: LightGray;
+  border-radius: 8px;
+  font-size: 20px;
 }
