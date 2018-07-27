@@ -1,6 +1,5 @@
 body {
-    margin: auto;
-
+    margin: 6px, auto;
     background: url(/img/daisybackground.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
