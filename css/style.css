@@ -1,5 +1,5 @@
 body {
-    margin: 20px auto;
+    margin: 10px auto;
     width: 90%;
     background: url(/img/daisybackground.jpg);
     background-repeat: no-repeat;
@@ -10,7 +10,7 @@ body {
 .layer {
     background-color: rgba(237, 218, 201, 0.80);
     background-position: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 nav ul, footer ul {
@@ -53,14 +53,14 @@ h2 {
 
 h3 {
     font-size: 28px;
-    line-height: 34px;
+    line-height: 28px;
     color: #0E1807;
     font-family: Georgia, serif;
 }
 
 p {
     font-size: 26px;
-    line-height: 30px;
+    line-height: 26px;
     color: #0E1807;
     font-family: Georgia, serif;
 }
@@ -88,7 +88,7 @@ ul.posts li {
 }
 
 code {
-  background-color: LightGray;
+  background-color: #ebe0e0;
   border-radius: 8px;
   font-size: 20px;
 }
