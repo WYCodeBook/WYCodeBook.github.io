@@ -36,9 +36,3 @@ The `<html>` tag tells the browser that this is an HTML document. The `<html>` t
     </html>
 
 {% endhighlight %}
-
-testing testing
-
-testing
-testing
-what a longgggggggggggggggggggggggggggggggggggg sentence.... senteeeeeeeeeece.....
