@@ -2,10 +2,20 @@
 layout: post
 title: "Basic HTML Structure"
 date: 2018-01-30
-categories: [HTML, Coding]
+categories: HTML
 ---
 
-A basic HTML structure to build the first web page.
+## A basic HTML structure to build the first web page.
+
+## <!DOCTYPE>
+
+The `<!DOCTYPE>` is an instruction to the web browser about what version of HTML the page is written in. The `<!DOCTYPE>` declaration must be the very first thing in your HTML document, before the `<html>` tag. The `<!DOCTYPE>` declaration is NOT case sensitive.
+
+## <html>...</html>
+
+The `<html>` tag tells the browser that this is an HTML document. The `<html>` tag represents the root of an HTML document. All other tags must fall between the `<html>` tags.
+
+
 
 {% highlight html %}
 {% raw %}
