@@ -12,11 +12,11 @@ title: WY's Code Book
 
   <h2> ✏️ Recent Notes ✏️ </h2>
 
-  {% for category in site.categories limit:3 %}
+  {% for category in site.categories | sort: 'date' %}
     <ul>
       {% for post in category[1] limit:3  %}
-        <h3><li><a href="{{ post.url }}">{{ post.title }}</a>
-  			</li></h3>
+        <p><li><a href="{{ post.url }}">{{ post.title }}</a>
+  			</li></p>
       {% endfor %}
     </ul>
   {% endfor %}
@@ -25,11 +25,11 @@ title: WY's Code Book
 
   <h2> 🔍 Resources 🔍 </h2>
 
-  {% for tag in site.tags limit:3 %}
+  {% for tag in site.tags | sort: 'date' %}
     <ul>
-      {% for post in tag[1] %}
+      {% for post in tag[1] limit:3 %}
         <li>
-  				<h3>{{ post.excerpt }}</h3>
+  				<p>{{ post.excerpt }}</p>
   			</li>
       {% endfor %}
     </ul>
