@@ -13,6 +13,12 @@ body {
     word-wrap: normal;
 }
 
+.header {
+  border: 10px ridge transparent;
+  padding: 20px;
+  border-image: url(topbottomdaisyframe.jpg);
+}
+
 nav ul, footer ul {
     padding: 0px;
     list-style: none;
@@ -31,12 +37,12 @@ a:hover {
     text-decoration: underline;
 }
 
-.header {
+.title {
     font-size: 60px;
     color: #0E1807;
     font-weight: bold;
     text-align: center;
-    font-family: Apple Chancery, cursive;
+    font-family: Bookman, URW Bookman L, serif;
 }
 
 h1, h2, h3, p {

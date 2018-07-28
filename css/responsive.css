@@ -1,6 +1,6 @@
 /*responsive for 400px */
 @media screen and (max-width:450px) {
-    .header {
+    .title {
       font-size: 52px;
     }
     h1 {
