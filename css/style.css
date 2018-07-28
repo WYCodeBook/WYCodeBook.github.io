@@ -69,8 +69,7 @@ nav {
     font-family: Apple Chancery, cursive;
 }
 footer {
-    border-top: 1px ridge #0E1807;
-    border-image: url(topbottomdaisyframe.jpg) 20% round;
+    border-top: 1px solid #0E1807;
     font-size: 16px;
     text-align: center;
     font-family: Apple Chancery, cursive;
