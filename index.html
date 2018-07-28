@@ -8,7 +8,7 @@ title: WY's Code Book
 
   <p>WY's Code Book is a simple blog that recorded notes, projects, and resources for learning how to code</p>
 
-  <h2> ✏️ Recent Notes</h2>
+  <h2> 🌼 Recent Notes 🌼 </h2>
 
   {% for category in site.categories | sort: 'title' %}
     <ul>
@@ -19,9 +19,9 @@ title: WY's Code Book
     </ul>
   {% endfor %}
 
-  <h2> ✏️ Resources</h2>
+  <h2> 🔖 Resources 🔖 </h2>
 
-  {% for tag in site.tags | sort: 'title' | limit: 3%}
+  {% for tag in site.tags | sort: 'title' | limit: 3 %}
     <ul>
       {% for post in tag[1] %}
         <li>
