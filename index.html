@@ -15,8 +15,8 @@ title: WY's Code Book
   {% for category in site.categories | sort: 'title' %}
     <ul>
       {% for post in category[1] limit:3 offset:0 %}
-        <p><li><a href="{{ post.url }}">{{ post.title }}</a>
-  			</li></p>
+        <h3><li><a href="{{ post.url }}">{{ post.title }}</a>
+  			</li></h3>
       {% endfor %}
     </ul>
   {% endfor %}
@@ -29,7 +29,7 @@ title: WY's Code Book
     <ul>
       {% for post in tag[1] limit:3 offset:0 %}
         <li>
-  				<p>{{ post.excerpt }}</p>
+  				<h3>{{ post.excerpt }}</h3>
   			</li>
       {% endfor %}
     </ul>
