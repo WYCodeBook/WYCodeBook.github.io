@@ -26,13 +26,13 @@ The `<title>` tag is required in all HTML documents and it defines the title of 
 
 Metadata is data (information) about data. `<Meta>` tags contain information about the page that does not need to be displayed, but it still used by search engines and other web crawlers. `<meta>` can be used by browsers (how to display content or reload page), search engines (keywords), or other web services.
 
-*Note!* HTML5 has a new attribute, charset, which makes it easier to define charset: `<meta charset="UTF-8">`
+💡 HTML5 has a new attribute, charset, which makes it easier to define charset: `<meta charset="UTF-8">`
 
 ## <link ...>
 
 The `<link>` tag defines a link between a document and an external resource. The `<link>` tag is used to link to stylesheet(s). The `<link>` element is an empty element, it contains attributes only.
 
-*Note!* Since there are many version if Internet Explorer, remember to link older versions of IE to ensure codes are working properly: `<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">`
+💡 Since there are many version if Internet Explorer, remember to link older versions of IE to ensure codes are working properly: `<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">`
 
 ## The Body <body>...</body>
 
