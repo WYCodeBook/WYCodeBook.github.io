@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Basic JavaScript"
-date: 2018-01-30
+date: 2018-07-28
 categories: JavaScript
 ---
 
