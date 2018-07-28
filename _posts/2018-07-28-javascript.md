@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Basic HTML Structure"
+title: "Basic JavaScript"
 date: 2018-01-30
 categories: JavaScript
 ---
