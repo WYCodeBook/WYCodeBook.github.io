@@ -37,13 +37,13 @@ a:hover {
     font-weight: bold;
     text-align: center;
     padding: 60px;
-    font-family: Bookman, URW Bookman L, serif;
+    font-family: "Bookman", URW Bookman L, serif;
     border-bottom: 1px solid #0E1807;
 }
 
 h1, h2, h3, p {
   line-height:150%;
-  font-family: Bookman, URW Bookman L, serif;
+  font-family: "Bookman", URW Bookman L, serif;
   color: #0E1807;
 }
 
@@ -68,13 +68,13 @@ nav {
     border-bottom: 1px solid #0E1807;
     font-size: 30px;
     text-align: center;
-    font-family: Apple Chancery, cursive;
+    font-family: "Apple Chancery", cursive, sans-serif;
 }
 footer {
     border-top: 1px solid #0E1807;
     font-size: 16px;
     text-align: center;
-    font-family: Apple Chancery, cursive;
+    font-family: "Apple Chancery", cursive, sans-serif;
 }
 
 ul.posts {
