@@ -36,7 +36,7 @@ a:hover {
     color: #0E1807;
     font-weight: bold;
     text-align: center;
-    font-family: Apple Chancery, cursive;
+    font-family: Bookman, URW Bookman L, serif;
 }
 
 h1, h2, h3, p {
@@ -70,6 +70,7 @@ nav {
 }
 footer {
     border-top: 1px solid #0E1807;
+    border-image: url(topbottomdaisyframe.jpg) 20% round;
     font-size: 16px;
     text-align: center;
     font-family: Apple Chancery, cursive;
