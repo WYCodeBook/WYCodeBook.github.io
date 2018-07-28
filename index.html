@@ -9,13 +9,12 @@ title: WY's Code Book
   <h3>WY's Code Book is a simple blog that recorded notes, projects, and resources for learning how to code</h3>
 
   <h3>Recent Notes</h3>
-  <h1 class="entry-title">
-  {% if page.title %}
-      <a href="{{ root_url }}{{ page.url }}">{{ page.title }}</a>
-  {% endif %}
-  {% if post.title %}
-      <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
-  {% endif %}
-  </h1>
+    <ul class="tags">
+    {% for title in site.titles %}
+      {% assign t = title | first %}
+      {% assign posts = title | last %}
+      <li>{{t | downcase | replace:" ","-" }} has {{ posts | size }} posts</li>
+    {% endfor %}
+    </ul>
 
 </div><!-- /.blurb -->
