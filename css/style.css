@@ -36,7 +36,9 @@ a:hover {
     color: #0E1807;
     font-weight: bold;
     text-align: center;
+    padding: 30px;
     font-family: Bookman, URW Bookman L, serif;
+    border-bottom: 1px solid #0E1807;
 }
 
 h1, h2, h3, p {
