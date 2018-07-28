@@ -8,22 +8,22 @@ title: WY's Code Book
 
   <p>WY's Code Book is a simple blog that recorded notes, projects, and resources for learning how to code</p>
 
-  ✏️ <h2>Recent Notes</h2>
+  <h2> ✏️ Recent Notes</h2>
 
   {% for category in site.categories | sort: 'title' %}
     <ul>
       {% for post in category[1] limit:3  %}
-        <li><h3><a href="{{ post.url }}">{{ post.title }}</a></h3><p>{{ post.excerpt }}</p>
-  			</li>
+        <h3><li><a href="{{ post.url }}">{{ post.title }}</a>
+  			</li></h3>
       {% endfor %}
     </ul>
   {% endfor %}
 
-  ✏️ <h2>Resources</h2>
+  <h2> ✏️ Resources</h2>
 
-  {% for tag in site.tags | sort: 'title' %}
+  {% for tag in site.tags | sort: 'title' | limit: 3%}
     <ul>
-      {% for post in tag[1] limit:3 %}
+      {% for post in tag[1] %}
         <li>
   				<h3>{{ post.excerpt }}</h3>
   			</li>
