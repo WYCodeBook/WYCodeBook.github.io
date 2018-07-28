@@ -36,35 +36,29 @@ a:hover {
     color: #0E1807;
     font-weight: bold;
     text-align: center;
-    font-family: Georgia, serif;
+    font-family: Apple Chancery, cursive;
 }
 
 h1, h2, h3, p {
   line-height:150%;
+  font-family: Bookman, URW Bookman L, serif;
+  color: #0E1807;
 }
 
 h1 {
-    color: #0E1807;
     font-size: 42px;
-    font-family: Georgia, serif;
 }
 
 h2 {
-    color: #0E1807;
     font-size: 38px;
-    font-family: Georgia, serif;
 }
 
 h3 {
-    color: #0E1807;
     font-size: 32px;
-    font-family: Georgia, serif;
 }
 
 p {
     font-size: 28px;
-    color: #0E1807;
-    font-family: Georgia, serif;
     font-weight: bold;
 }
 
@@ -72,13 +66,13 @@ nav {
     border-bottom: 1px solid #0E1807;
     font-size: 30px;
     text-align: center;
-    font-family: Georgia, serif;
+    font-family: Apple Chancery, cursive;
 }
 footer {
     border-top: 1px solid #0E1807;
     font-size: 16px;
     text-align: center;
-    font-family: Georgia, serif;
+    font-family: Apple Chancery, cursive;
 }
 
 ul.posts {
