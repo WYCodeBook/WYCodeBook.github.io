@@ -9,12 +9,9 @@ title: WY's Code Book
   <h3>WY's Code Book is a simple blog that recorded notes, projects, and resources for learning how to code</h3>
 
   <h3>Recent Notes</h3>
-    <ul class="tags">
-    {% for title in site.titles %}
-      {% assign t = title | first %}
-      {% assign posts = title | last %}
-      <li>{{t | downcase | replace:" ","-" }} has {{ posts | size }} posts</li>
-    {% endfor %}
-    </ul>
+  
+  {% for post in site.posts limit:6 %}
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  {% endfor %}
 
 </div><!-- /.blurb -->
