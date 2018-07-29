@@ -2,7 +2,6 @@
 layout: post
 title: "Resources"
 date: 2018-01-30
-tags: [GitHub, Jekyll]
 ---
 
 - [Color](#color)
