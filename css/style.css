@@ -127,6 +127,7 @@ blockquote {
   width: 200px;
   height: 200px;
   float: right;
+  padding: 10px;
 }
 
 .clearfix {
