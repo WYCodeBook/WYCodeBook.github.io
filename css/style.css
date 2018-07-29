@@ -66,13 +66,13 @@ p {
 }
 
 nav {
-    border-bottom: 1px solid #0E1807;
+    border-bottom: 2px solid #0E1807;
     font-size: 30px;
     text-align: center;
     font-family: "Apple Chancery", cursive, sans-serif;
 }
 footer {
-    border-top: 1px solid #0E1807;
+    border-top: 2px solid #0E1807;
     font-size: 16px;
     text-align: center;
     font-family: "Apple Chancery", cursive, sans-serif;
