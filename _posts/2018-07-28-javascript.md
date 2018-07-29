@@ -2,6 +2,7 @@
 layout: post
 title: "Basic JavaScript"
 date: 2018-07-28
+collection: Notes
 categories: JavaScript
 ---
 
