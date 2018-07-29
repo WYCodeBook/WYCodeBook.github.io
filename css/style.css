@@ -93,11 +93,3 @@ code {
   border-radius: 10px;
   font-size: 20px;
 }
-
-.blurb {
-    border: 10px solid transparent;
-    padding: 30px;
-    border-image: url(/img/ladybugdaisyframe.png);
-    text-align: center;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-}
