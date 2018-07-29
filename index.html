@@ -10,7 +10,7 @@ title: WY's Code Book
 
   <p></p>
 
-  <h2><a href="/note">✏️ Recent Notes ✏️</a></h2>
+  <h2><a href="/note">✏️ Latest Note ✏️</a></h2>
 
   {% for category in site.categories | sort: 'title' %}
     <ul>
@@ -19,23 +19,6 @@ title: WY's Code Book
   			</li></h3>
       {% endfor %}
     </ul>
-  {% endfor %}
-
-	{% for category in site.categories | sort: 'title' %}
-		{% for post in site.posts limit:1 %}
-		  {% if post.url != page.url %}
-		    {% if forloop.index < 1 or found %}
-				<ul>
-		      {% for post in category[1] %}
-		        <h3><li><a href="{{ post.url }}">{{ post.title }}</a>
-		  			</li></h3>
-		      {% endfor %}
-		    </ul>
-		    {% endif %}
-		  {% else %}
-		    {% assign found = true %}
-		  {% endif %}
-		{% endfor %}
   {% endfor %}
 
 

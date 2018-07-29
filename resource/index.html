@@ -13,10 +13,9 @@ title: Resources
 			</li>
     {% endfor %}
 
-    {% if excerpt_words != content_words %}
-    <p><a class="btn btn-sm btn-primary" href="{{ post.url }}/#read-more" role="button">Read more <i class="fa fa-arrow-circle-right"></i></a>
-    </p>
+    {% if content_words != excerpt_words  %}
+    <p class="right"><a href="{{site.baseurl}}{{ post.url }}">Read more</a></p>
     {% endif %}
-    
+
   </ul>
 {% endfor %}
