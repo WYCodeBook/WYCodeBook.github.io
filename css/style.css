@@ -132,7 +132,7 @@ blockquote {
     margin: auto;
     overflow: auto;
     border: 2px dotted transparent;
-    border-image: url(/img/daisybanner.png) 10 stretch;
+    border-image: url(/img/daisyside.jpg) 10 stretch;
     padding: 10px;
     border-radius: 20px;
 }
