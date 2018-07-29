@@ -13,3 +13,13 @@ title: Notes
     {% endfor %}
   </ul>
 {% endfor %}
+
+{% for category in site.categories | sort: 'title' %}
+  <h2>{{ category[0] }}</h2>
+  <ul>
+    {% for post in category[1] %}
+      <h3><ol><a href="{{ post.url }}">{{ post.title }} --- <span>{{ post.date | date: '%B %-d, %Y' }}</span></a>
+			</ol></h3>
+    {% endfor %}
+  </ul>
+{% endfor %}
