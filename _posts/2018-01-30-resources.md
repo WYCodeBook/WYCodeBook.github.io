@@ -21,7 +21,7 @@ img: /img/resource_logo.png
 
 - [Jekyll](#jekyll)
 
-<!-- more -->
+
 ---
 
 ## Color

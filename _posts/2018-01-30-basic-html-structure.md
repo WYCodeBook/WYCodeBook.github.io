@@ -8,7 +8,7 @@ img: /img/coding_logo.png
 
 ## Document Type <!DOCTYPE>
 
-The `<!DOCTYPE>` is an instruction to the web browser about what version of HTML the page is written in. `<!DOCTYPE html>` is used to declear HTML 5. The `<!DOCTYPE>` declaration must be the very first thing in your HTML document, before the `<html>` tag. The `<!DOCTYPE>` declaration is NOT case sensitive. <!-- more -->
+The `<!DOCTYPE>` is an instruction to the web browser about what version of HTML the page is written in. `<!DOCTYPE html>` is used to declear HTML 5. The `<!DOCTYPE>` declaration must be the very first thing in your HTML document, before the `<html>` tag. The `<!DOCTYPE>` declaration is NOT case sensitive. 
 
 ## The HTML <html>...</html>
 
