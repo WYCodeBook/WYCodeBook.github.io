@@ -4,6 +4,8 @@ title: Resources
 ---
 <h1>👓{{ page.title }}👓</h1>
 
+<h6>Updated on: {{ site.time | date: '%B %-d, %Y' }}</h6>
+
 {% for post in site.posts %}
   {% if post.title == 'Resources' %}
     <p>{{ post.content }}</p>
