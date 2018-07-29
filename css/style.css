@@ -32,13 +32,13 @@ a:hover {
 }
 
 .header {
-    font-size: 60px;
+    font-size: 80px;
     color: #0E1807;
     font-weight: bold;
     text-align: center;
     margin: 20px auto;
     padding: 60px;
-    background-image: url(/img/daisybackground.jpg);
+    background-image: url(/img/daisybanner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px;
@@ -132,7 +132,7 @@ blockquote {
     margin: auto;
     overflow: auto;
     border: 2px dotted transparent;
-    border-image: url(/img/floraborder.png) 10 stretch;
+    border-image: url(/img/daisybanner.png) 10 stretch;
     padding: 10px;
     border-radius: 20px;
 }
