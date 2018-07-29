@@ -6,9 +6,11 @@ date: 2018-01-30
 
 - [Color](#color)
 
+- [Computer Science](#computer-science)
+
 - [CSS](#css)
 
-- [Developer Tools](#devtools)
+- [Developer Tools](#developer-tools)
 
 - [Emoji](#emoji)
 
@@ -18,17 +20,22 @@ date: 2018-01-30
 
 - [Jekyll](#jekyll)
 
+
 ---
 
 ## Color
 
 - [w3schools Color Picker](https://www.w3schools.com/colors/default.asp)
 
+## Computer Science
+
+- [Introduction to Computing](http://computingbook.org/)
+
 ## CSS
 
 - [Stylesheets for syntax highlighting - Syntax.css](https://github.com/mojombo/tpw/blob/master/css/syntax.css)
 
-## DevTools
+## Developer Tools
 
 - [Chrome DevTool](https://developers.google.com/web/tools/chrome-devtools/)
 - [FireFox DevTool](https://developer.mozilla.org/en-US/docs/Tools)
