@@ -21,7 +21,7 @@ tags: [GitHub, Jekyll]
 
 ---
 
-### Color {#Color}
+### [Color]
 
 - [w3schools Color Picker](https://www.w3schools.com/colors/default.asp)
 
