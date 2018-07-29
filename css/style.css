@@ -101,4 +101,5 @@ blockquote {
     background-image: url(/img/daisyvintagebackground.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 }
