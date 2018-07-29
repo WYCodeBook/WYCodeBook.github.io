@@ -21,15 +21,13 @@ title: WY's Code Book
   {% endfor %}
 
 
-	{% for tag in site.tags %}
-	  <ul>
-	    {% for post in site.tags limit:3 %}
-	      <li>
-					<h3>{{ post.excerpt }} </h3>
-				</li>
-	    {% endfor %}
-	  </ul>
-	{% endfor %}
+
+  {% for post in site.tags limit:3 %}
+    <li>
+			<h3>{{ post.excerpt }} </h3>
+		</li>
+  {% endfor %}
+
 
 
 
