@@ -7,7 +7,9 @@ tags: [GitHub, Jekyll]
 
 - [Color](#color)
 
-- [Developer Tools](#developer tools)
+- [CSS](#css)
+
+- [Developer Tools](#devtools)
 
 - [Emoji](#emoji)
 
@@ -17,15 +19,17 @@ tags: [GitHub, Jekyll]
 
 - [Jekyll](#jekyll)
 
-- [Stylesheet - CSS](#stylesheet - css)
-
 ---
 
 ### Color
 
 - [w3schools Color Picker](https://www.w3schools.com/colors/default.asp)
 
-## Developer Tools
+## CSS
+
+- [Stylesheets for syntax highlighting - Syntax.css](https://github.com/mojombo/tpw/blob/master/css/syntax.css)
+
+## DevTools
 
 - [Chrome DevTool](https://developers.google.com/web/tools/chrome-devtools/)
 - [FireFox DevTool](https://developer.mozilla.org/en-US/docs/Tools)
@@ -55,8 +59,4 @@ tags: [GitHub, Jekyll]
 - [List posts by categories](https://learn.cloudcannon.com/jekyll/list-posts-by-category/)
 - [List posts by tag](https://learn.cloudcannon.com/jekyll/list-posts-by-tag/)
 - [Syntax Cheat Sheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/)
-- [Stylesheets for syntax highlighting - Syntax.css](https://github.com/mojombo/tpw/blob/master/css/syntax.css)
-
-## Stylesheet - CSS
-
 - [Stylesheets for syntax highlighting - Syntax.css](https://github.com/mojombo/tpw/blob/master/css/syntax.css)
