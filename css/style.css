@@ -38,7 +38,7 @@ a:hover {
     text-align: center;
     padding: 60px;
     font-family: "Bookman", URW Bookman L, serif;
-    border-bottom: 10px dotted #0E1807;
+    border-bottom: 10px dotted #994d00;
 }
 
 h1, h2, h3, p {
@@ -66,13 +66,13 @@ p {
 }
 
 nav {
-    border-bottom: 10px dotted #0E1807;
+    border-bottom: 10px dotted #994d00;
     font-size: 30px;
     text-align: center;
     font-family: "Apple Chancery", cursive, sans-serif;
 }
 footer {
-    border-top: 10px dotted #0E1807;
+    border-top: 10px dotted #994d00;
     font-size: 16px;
     text-align: center;
     font-family: "Apple Chancery", cursive, sans-serif;
