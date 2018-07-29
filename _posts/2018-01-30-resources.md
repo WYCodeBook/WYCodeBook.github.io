@@ -32,7 +32,6 @@ tags: [GitHub, Jekyll]
 - [Internet Explorer 11](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/bg182636(v=vs.85))
 - [Safari DevTool](https://developer.apple.com/safari/tools/)
 
-
 ## Emoji
 
 - [Emojipedia ](https://emojipedia.org/)
@@ -57,7 +56,6 @@ tags: [GitHub, Jekyll]
 - [List posts by tag](https://learn.cloudcannon.com/jekyll/list-posts-by-tag/)
 - [Syntax Cheat Sheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/)
 - [Stylesheets for syntax highlighting - Syntax.css](https://github.com/mojombo/tpw/blob/master/css/syntax.css)
-
 
 ## Stylesheet - CSS
 
