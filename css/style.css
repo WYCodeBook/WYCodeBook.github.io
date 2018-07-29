@@ -131,6 +131,7 @@ blockquote {
 }
 
 .clearfix {
+    max-width: 1000px;
     margin: auto;
     overflow: auto;
     padding: 30px;
