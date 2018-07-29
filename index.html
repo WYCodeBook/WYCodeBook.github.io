@@ -25,11 +25,9 @@ title: WY's Code Book
 
 {% for post in site.tags limit: 3 %}
 <ul>
-	{% for post in tag[1] %}
 		<li>
 			<h3>{{ post.excerpt }} </h3>
 		</li>
-	{% endfor %}
 </ul>
 {% endfor %}
 
