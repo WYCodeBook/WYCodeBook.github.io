@@ -12,25 +12,14 @@ title: WY's Code Book
 
   <h2><a href="/note">✏️ Latest Note ✏️</a></h2>
 
-  {% for category in site.categories | sort: 'title' %}
+  {% for category in site.categories | sort: 'title' limit: 3 %}
     <ul>
-      {% for post in category[1] limit:6 offset:0 %}
+      {% for post in category[1] %}
         <h3><li><a href="{{ post.url }}">{{ post.title }}</a>
   			</li></h3>
       {% endfor %}
     </ul>
   {% endfor %}
-
-
-
-{% for post in site.tags | limit: 3 %}
-<ul>
-		<li>
-			<h3><a href="{{ post.url }}">{{ post.title }}</a>
-			</li></h3>
-		</li>
-</ul>
-{% endfor %}
 
 
 </div><!-- /.blurb -->
