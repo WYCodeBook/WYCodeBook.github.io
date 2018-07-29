@@ -118,6 +118,10 @@ blockquote {
     filter: alpha(opacity=75); /* For IE8 and earlier */
 }
 
+.latest {
+    text-align: center;
+}
+
 .pageimg {
   width: 300px;
   height: 300px;
