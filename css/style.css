@@ -41,7 +41,7 @@ a:hover {
     border-bottom: 2px dotted #994d00;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, h6, p {
   line-height:150%;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   color: #0E1807;
@@ -58,6 +58,10 @@ h2 {
 
 h3 {
     font-size: 32px;
+}
+
+h6 {
+    font-size: 20px;
 }
 
 p {
@@ -112,6 +116,7 @@ blockquote {
 }
 
 .clearfix {
+    margin: 30px, auto;
     overflow: auto;
     border: 2px dotted #994d00;
     padding: 10px;
