@@ -22,12 +22,10 @@ title: WY's Code Book
 			{% assign count = 1 %}
 				{% for post in site.posts %}
 						{% if post.url != page.url and count < 7 %}
-							<div class="flex-container">
 								<h3><ol>
 									<a href="{{ post.url }}">{{ post.title }}</a>
 									<p><img class="postimg" src="{{ post.img }}"></p>
 								</ol></h3>
-							</div>
 						{% assign count = count | plus: 1 %}
 				{% endif %}
 			{% endfor %}
