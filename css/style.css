@@ -36,10 +36,12 @@ a:hover {
     color: #0E1807;
     font-weight: bold;
     text-align: center;
+    margin: 20px auto;
     padding: 60px;
     background-image: url(/img/daisybackground.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 20px;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     border-bottom: 2px dotted #994d00;
 }
