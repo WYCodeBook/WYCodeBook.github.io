@@ -22,9 +22,9 @@ title: WY's Code Book
 
 
 
-	{% if forloop.last limit: 3 %}
+	{% if forloop.last %}
 	  <li>
-	    <a href="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+	    <a href="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}{{ post.content }}</a>
 	  </li>
 	{% endif %}
 
