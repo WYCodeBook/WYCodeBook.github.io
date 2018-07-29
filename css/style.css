@@ -101,5 +101,6 @@ blockquote {
     background-image: url(/img/daisybanner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 20px;
     text-align: center;
 }
