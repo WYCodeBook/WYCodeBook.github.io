@@ -98,7 +98,8 @@ blockquote {
     display: block;
     margin: 20px auto;
     padding: 60px;
-    border: ridge;
-    border-radius: 16px;
+    background-image: url(/img/daisybanner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
 }
