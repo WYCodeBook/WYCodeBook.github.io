@@ -20,13 +20,4 @@ title: WY's Code Book
     </ul>
   {% endfor %}
 
-
-
-	{% if forloop.last %}
-	  <li>
-	    <a href="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}{{ post.content }}</a>
-	  </li>
-	{% endif %}
-
-
 </div><!-- /.blurb -->
