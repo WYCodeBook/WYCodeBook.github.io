@@ -26,7 +26,7 @@ title: WY's Code Book
 									<div class="clearfix">
 										<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
 										<img class="postimg" src="{{ post.img }}">
-										<p>{{ post.excerpt | strip_html | truncatewords:75 }}</p><p>{{ post.date | date: '%B %-d, %Y'}}</p>
+										<p>{{ post.excerpt | strip_html | truncatewords:30 }}</p><p>{{ post.date | date: '%B %-d, %Y'}}</p>
 									</div>
 								</ol>
 						{% assign count = count | plus: 1 %}
