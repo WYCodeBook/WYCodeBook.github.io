@@ -3,7 +3,7 @@ layout: post
 title: "Basic HTML Structure"
 date: 2018-01-30
 categories: HTML
-img: /img/html_logo.png
+img: /img/coding_logo.png
 ---
 
 ## Document Type <!DOCTYPE>

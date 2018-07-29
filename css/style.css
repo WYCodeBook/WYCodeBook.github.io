@@ -116,7 +116,7 @@ blockquote {
   background-color: DodgerBlue;
 }
 
-.flex-container > ul {
+.flex-container > li {
   background-color: #f1f1f1;
   width: 300px;
   margin: 10px;
