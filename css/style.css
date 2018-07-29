@@ -38,7 +38,7 @@ a:hover {
     text-align: center;
     margin: 20px auto;
     padding: 100px;
-    background-image: url(/img/daisybanner.jpg);
+    background-image: url(/img/daisybackground.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px;
@@ -107,7 +107,7 @@ blockquote {
     display: block;
     margin: 20px auto;
     padding: 30px;
-    background-image: url(/img/daisybackground.jpg);
+    background-image: url(/img/ladybugdaisyframe.png);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px;
