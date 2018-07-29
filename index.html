@@ -22,4 +22,12 @@ title: WY's Code Book
   {% endfor %}
 
 
+
+{% for post in site.tags limit: 3 %}
+	<ul>
+		<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+	</ul>
+{% endfor %}
+
+
 </div><!-- /.blurb -->

@@ -12,10 +12,5 @@ title: Resources
 				<h3>{{ post.excerpt }} </h3>
 			</li>
     {% endfor %}
-
-    {% if content_words != excerpt_words  %}
-    <p class="right"><a href="{{site.baseurl}}{{ post.url }}">Read more</a></p>
-    {% endif %}
-
   </ul>
 {% endfor %}
