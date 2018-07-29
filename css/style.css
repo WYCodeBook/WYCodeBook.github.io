@@ -99,7 +99,5 @@ blockquote {
     margin: 20px auto;
     padding: 60px;
     background-image: url(/img/daisyvintagebackground.jpg);
-    background-attachment: fixed;
-
     background-repeat: no-repeat;
 }
