@@ -7,9 +7,9 @@ tags: [GitHub, Jekyll]
 
 - [Color](#Color)
 
-- [Developer Tools](Developer Tools)
+- [Developer Tools](#Developer Tools)
 
-- [Emoji](Emoji)
+- [Emoji](#Emoji)
 
 - [GitHub](#GitHub)
 
@@ -17,11 +17,11 @@ tags: [GitHub, Jekyll]
 
 - [Jekyll](#Jekyll)
 
-- [Stylesheet - CSS](Stylesheet - CSS)
+- [Stylesheet - CSS](#Stylesheet - CSS)
 
 ---
 
-## Color
+### (#Color)
 
 - [w3schools Color Picker](https://www.w3schools.com/colors/default.asp)
 
