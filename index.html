@@ -21,7 +21,10 @@ title: WY's Code Book
 		{% assign count = 1 %}
 			{% for post in site.posts %}
 					{% if post.url != page.url and count < 7 %}
-						<h3><li><a href="{{ post.url }}">{{ post.title }}{{post.image}}</a></li></h3>
+						<h3><li>
+							{{post.img}}
+							<a href="{{ post.url }}">{{ post.title }}</a>
+						</li></h3>
 					{% assign count = count | plus: 1 %}
 			{% endif %}
 		{% endfor %}

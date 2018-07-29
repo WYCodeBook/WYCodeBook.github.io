@@ -3,7 +3,7 @@ layout: post
 title: "Basic JavaScript"
 date: 2018-07-28
 categories: JavaScript
-image: /img/ladybugdiasyframe.png
+img: /img/ladybugdiasyframe.png
 ---
 
 ## What's JavaScript
