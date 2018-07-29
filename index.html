@@ -20,17 +20,17 @@ title: WY's Code Book
     </ul>
   {% endfor %}
 
-	{% for post in site.posts offset:1 limit:2 %}
-		{% for tag in site.tags | sort: 'title' %}
-		  <ul>
-		    {% for post in tag[1] %}
-		      <li>
-						<h3>{{ post.excerpt }} </h3>
-					</li>
-		    {% endfor %}
-		  </ul>
-		{% endfor %}
+
+	{% for tag in site.tags offset:1 limit:2 %}
+	  <ul>
+	    {% for post in tag[1] %}
+	      <li>
+					<h3>{{ post.excerpt }} </h3>
+				</li>
+	    {% endfor %}
+	  </ul>
 	{% endfor %}
+
 
 
 </div><!-- /.blurb -->
