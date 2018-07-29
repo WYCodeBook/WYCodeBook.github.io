@@ -43,7 +43,6 @@ a:hover {
     background-repeat: no-repeat;
     border-radius: 20px;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    border-bottom: 2px dotted #994d00;
 }
 
 h1, h2, h3, h6, p {
@@ -75,6 +74,7 @@ p {
 }
 
 nav {
+    border-top: 2px dotted #994d00;
     border-bottom: 2px dotted #994d00;
     font-size: 30px;
     text-align: center;
@@ -82,6 +82,7 @@ nav {
 }
 footer {
     border-top: 2px dotted #994d00;
+    border-bottom: 2px dotted #994d00;
     font-size: 16px;
     text-align: center;
     font-family: "Comic Sans MS", cursive, sans-serif;
