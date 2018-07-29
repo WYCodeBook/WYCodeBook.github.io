@@ -130,12 +130,9 @@ blockquote {
 }
 
 .clearfix {
-
     margin: auto;
     overflow: auto;
-    background-image: url(/img/floralborder.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 60px;
+    padding: 30px;
+    border: 10px ridge #994d00;
     border-radius: 20px;
 }
