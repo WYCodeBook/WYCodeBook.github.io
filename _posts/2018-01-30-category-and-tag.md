@@ -2,7 +2,6 @@
 layout: post
 title: "Setup Jekyll Categories And Tags"
 date: 2018-01-30
-collection: Resources
 tags: Jekyll
 ---
 
