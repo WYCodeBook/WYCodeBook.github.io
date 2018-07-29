@@ -4,8 +4,10 @@ layout: default
 ---
 <h1>👓 {{ page.title }} 👓</h1>
 
-<h3>
+<h6>Updated on: {{ site.time | date: '%B %-d, %Y' }}</h6>
+
+<p>
   <div class="post">
     {{ content }}
   </div>
-</h3>
+</p>

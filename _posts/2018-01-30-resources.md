@@ -4,8 +4,6 @@ title: "Resources"
 date: 2018-01-30
 ---
 
-###### Updated on: {{ site.time | date: '%B %-d, %Y' }}
-
 - [Color](#color)
 
 - [Computer Science](#computer-science)
