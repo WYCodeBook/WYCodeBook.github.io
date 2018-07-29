@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Basic HTML Structure"
-date: {{site.time}}
+date: 2018-01-30
 categories: HTML
 ---
 
