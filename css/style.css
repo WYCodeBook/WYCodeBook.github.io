@@ -98,8 +98,7 @@ blockquote {
     display: block;
     margin: 20px auto;
     padding: 60px;
-    background-image: url(/img/daisyvintagebackground.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    border: ridge;
+    border-radius: 16px;
     text-align: center;
 }
