@@ -4,18 +4,6 @@ title: Resources
 ---
 <h1>👓{{ page.title }}👓</h1>
 
-{% for tag in site.tags | sort: 'title' %}
-  <h2>{{ tag[0] }}</h2>
-  <ul>
-    {% for post in tag[1] %}
-      <li>
-				<h3>{{ post.excerpt }} </h3>
-			</li>
-    {% endfor %}
-  </ul>
-{% endfor %}
-
-
 {% for post in site.posts %}
   {% if post.title == 'Resource' %}
     {{ post.content }}
