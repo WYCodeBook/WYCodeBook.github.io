@@ -25,10 +25,12 @@ title: WY's Code Book
 	  <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}
 
-{% for post in site.posts limit:6 %}
-	{% for category in site.categories | sort: 'title' %}
+
+	{% for category in site.categories %}
 		<ul>
+			{% for post in site.posts limit:3 %}
 				<h3><li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li></h3>
+			{% endfor %}
 		</ul>
 	{% endfor %}
 {% endfor %}
