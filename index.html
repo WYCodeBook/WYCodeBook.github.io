@@ -17,18 +17,20 @@ title: WY's Code Book
 
   <h2><a href="/note">🆕 Latest Note 🆕</a></h2>
 
-	<ul>
-		{% assign count = 1 %}
-			{% for post in site.posts %}
-					{% if post.url != page.url and count < 7 %}
-						<h3><li>
-							<a href="{{ post.url }}">{{ post.title }}</a>
-							<p><img class="postimg" src="{{ post.img }}"></p>
-						</li></h3>
-					{% assign count = count | plus: 1 %}
-			{% endif %}
-		{% endfor %}
-	</ul>
+	<div class="flex-container">
+		<ul>
+			{% assign count = 1 %}
+				{% for post in site.posts %}
+						{% if post.url != page.url and count < 7 %}
+							<h3><li>
+								<a href="{{ post.url }}">{{ post.title }}</a>
+								<p><img class="postimg" src="{{ post.img }}"></p>
+							</li></h3>
+						{% assign count = count | plus: 1 %}
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</div>
 
 
 

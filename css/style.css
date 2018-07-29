@@ -109,3 +109,17 @@ blockquote {
   width: 300px;
   height: 300px;
 }
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container > ul {
+  background-color: #f1f1f1;
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
