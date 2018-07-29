@@ -132,7 +132,7 @@ blockquote {
     margin: auto;
     overflow: auto;
     border: 2px dotted transparent;
-    border-image: url(/img/floraborder.png);
+    border-image: url(/img/floraborder.png) 10 stretch;
     padding: 10px;
     border-radius: 20px;
 }
