@@ -21,8 +21,18 @@ title: WY's Code Book
   {% endfor %}
 
 
-	{% for post in site.posts limit:6 %}  
+	{% for post in site.posts limit:6 %}
 	  <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}
+
+{% for post in site.posts limit:6 %}
+	{% for category in site.categories | sort: 'title' %}
+		<ul>
+			{% for post in category[1] %}
+				<h3><li><a href="{{ post.url }}">{{ post.title }}</a></li></h3>
+			{% endfor %}
+		</ul>
+	{% endfor %}
+{% endfor %}
 
 </div><!-- /.blurb -->
