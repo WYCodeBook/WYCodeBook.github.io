@@ -97,7 +97,7 @@ code {
 blockquote {
     display: block;
     margin: 20px auto;
-    padding: 60px;
+    padding: 30px;
     background-image: url(/img/daisybackground.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -106,13 +106,13 @@ blockquote {
 }
 
 .postimg {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   float: right;
 }
 
 .clearfix {
     overflow: auto;
-    border: 3px solid #4CAF50;
-    padding: 5px;
+    border: 2px dotted #994d00;
+    padding: 10px;
 }
