@@ -126,7 +126,8 @@ blockquote {
     max-width: 700px;
     margin: auto;
     overflow: auto;
-    border: 2px dotted #994d00;
+    border: 2px dotted transparent;
+    border-image: url(/img/floraborder.png);
     padding: 10px;
     border-radius: 20px;
 }
