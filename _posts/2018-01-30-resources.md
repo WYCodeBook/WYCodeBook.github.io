@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: resource
 title: "Resources"
 date: 2018-01-30
 ---
