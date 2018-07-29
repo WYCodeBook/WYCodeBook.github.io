@@ -116,6 +116,7 @@ blockquote {
 }
 
 .clearfix {
+    max-width: 600px;
     margin: auto;
     overflow: auto;
     border: 2px dotted #994d00;
