@@ -111,7 +111,7 @@ blockquote {
     background-image: url(/img/ladybugdaisyframe2.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: local;
     border-radius: 20px;
     text-align: center;
     opacity: 0.75;
