@@ -16,8 +16,8 @@ title: Resources
 {% endfor %}
 
 
-{% for page in site.pages %}
-  {% if page.title == 'Developer Tools' %}
-    {{ page.content }}
+{% for post in site.posts %}
+  {% if post.title == 'Developer Tools' %}
+    {{ post.content }}
   {% endif %}
 {% endfor %}
