@@ -37,13 +37,13 @@ a:hover {
     font-weight: bold;
     text-align: center;
     padding: 60px;
-    font-family: "Bookman", URW Bookman L, serif;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     border-bottom: 10px dotted #994d00;
 }
 
 h1, h2, h3, p {
   line-height:150%;
-  font-family: "Bookman", URW Bookman L, serif;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   color: #0E1807;
 }
 
@@ -69,13 +69,14 @@ nav {
     border-bottom: 10px dotted #994d00;
     font-size: 30px;
     text-align: center;
-    font-family: "Apple Chancery", cursive, sans-serif;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 footer {
     border-top: 10px dotted #994d00;
     font-size: 16px;
     text-align: center;
-    font-family: "Apple Chancery", cursive, sans-serif;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding: 10px;
 }
 
 ul.posts {
