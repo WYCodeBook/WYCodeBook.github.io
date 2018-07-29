@@ -6,7 +6,7 @@ layout: default
 
 <h6 class="meta">Note Taken Date: {{ page.date | date: '%B %-d, %Y' }}</h6>
 
-{{ site.time }}
+{{ site.time | timezone: America/Los_Angeles }}
 
 <p>
   <div class="post">
