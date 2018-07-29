@@ -100,4 +100,5 @@ blockquote {
     padding: 60px;
     background-image: url(/img/daisyvintagebackground.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
