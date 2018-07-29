@@ -128,12 +128,12 @@ blockquote {
 }
 
 .clearfix {
-    max-width: 900px;
+
     margin: auto;
     overflow: auto;
     background-image: url(/img/floralborder.png);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 30px;
+    padding: 60px;
     border-radius: 20px;
 }
