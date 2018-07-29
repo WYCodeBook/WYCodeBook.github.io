@@ -104,3 +104,8 @@ blockquote {
     border-radius: 20px;
     text-align: center;
 }
+
+.postimg {
+  width: 300px;
+  height: 300px;
+}
