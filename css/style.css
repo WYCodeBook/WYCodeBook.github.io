@@ -93,3 +93,10 @@ code {
   border-radius: 10px;
   font-size: 20px;
 }
+
+blockquote {
+    display: block;
+    margin: 20px auto;
+    padding: 30px;
+    background: url(/img/topbottomdaisyframe.jpg);
+}
