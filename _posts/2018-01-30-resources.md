@@ -5,23 +5,23 @@ date: 2018-01-30
 tags: [GitHub, Jekyll]
 ---
 
-- [Color](#Color)
+- [Color](#color)
 
-- [Developer Tools](#Developer Tools)
+- [Developer Tools](#developer tools)
 
-- [Emoji](#Emoji)
+- [Emoji](#emoji)
 
-- [GitHub](#GitHub)
+- [GitHub](#github)
 
-- [HTML](#HTML)
+- [HTML](#html)
 
-- [Jekyll](#Jekyll)
+- [Jekyll](#jekyll)
 
-- [Stylesheet - CSS](#Stylesheet - CSS)
+- [Stylesheet - CSS](#stylesheet - css)
 
 ---
 
-### [Color]
+### Color
 
 - [w3schools Color Picker](https://www.w3schools.com/colors/default.asp)
 
