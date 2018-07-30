@@ -29,7 +29,7 @@ a {
 }
 a:hover {
     text-decoration: underline;
-    text-shadow: 2px 2px #994d00;
+    text-shadow: 0 0 3px #994d00;
 }
 
 .header {
