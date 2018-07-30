@@ -8,19 +8,6 @@ img: /img/coding_logo.png
 
 ---
 
-Jump to...
-    - [Document Type](document-type)
-    - [The HTML](the-html)
-    - [Header](header)
-    - [Title](title)
-    - [Metadata](metadata)
-    - [Linking](linking)
-    - [The Body](the-body)
-    - [The Basic HTML Structure](the-basic-html-structure)
-    - [Example](example)
-
----
-
 ## Document Type <!DOCTYPE>
 
 The `<!DOCTYPE>` is an instruction to the web browser about what version of HTML the page is written in. `<!DOCTYPE html>` is used to declear HTML 5. The `<!DOCTYPE>` declaration must be the very first thing in your HTML document, before the `<html>` tag. The `<!DOCTYPE>` declaration is NOT case sensitive.
