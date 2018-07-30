@@ -66,6 +66,7 @@ img: /img/resource_logo.png
 - [Personal Site on GitHub](http://jmcglone.com/guides/github-pages/)
 - [Syntax Cheat Sheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/)
 - [Markdown](http://packetlife.net/media/library/16/Markdown.pdf)
+- [Markdown Cheat Sheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ---
 
@@ -86,3 +87,4 @@ img: /img/resource_logo.png
 - [Syntax Cheat Sheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/)
 - [Stylesheets for syntax highlighting - Syntax.css](https://github.com/mojombo/tpw/blob/master/css/syntax.css)
 - [Markdown](http://packetlife.net/media/library/16/Markdown.pdf)
+- [Markdown Cheat Sheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
