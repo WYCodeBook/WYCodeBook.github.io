@@ -1,4 +1,4 @@
-.highlight  { background: #ebe0e0; overflow: scroll; font-size: 20px; border-style: ridge; border-radius: 12px; width: 70%; margin: auto;}
+.highlight  { background: #ebe0e0; overflow: scroll; font-size: 20px; border-color: 6px ridge #994d00; border-radius: 10px; width: 70%; margin: auto;}
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */
