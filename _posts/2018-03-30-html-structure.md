@@ -8,6 +8,19 @@ img: /img/coding_logo.png
 
 ---
 
+Jump to...
+    - [Document Type](document-type)
+    - [The HTML](the-html)
+    - [Header](header)
+    - [Title](title)
+    - [Metadata](metadata)
+    - [Linking](linking)
+    - [The Body](the-body)
+    - [The Basic HTML Structure](the-basic-html-structure)
+    - [Example](example)
+
+---
+
 ## Document Type <!DOCTYPE>
 
 The `<!DOCTYPE>` is an instruction to the web browser about what version of HTML the page is written in. `<!DOCTYPE html>` is used to declear HTML 5. The `<!DOCTYPE>` declaration must be the very first thing in your HTML document, before the `<html>` tag. The `<!DOCTYPE>` declaration is NOT case sensitive.
@@ -31,7 +44,7 @@ Metadata is data (information) about data. `<Meta>` tags contain information abo
 
 💥 HTML5 has a new attribute, charset, which makes it easier to define charset: `<meta charset="UTF-8">`
 
-## <link ...>
+## Linking <link ...>
 
 The `<link>` tag defines a link between a document and an external resource. The `<link>` tag is used to link to stylesheet(s). The `<link>` element is an empty element, it contains attributes only.
 
@@ -41,7 +54,7 @@ The `<link>` tag defines a link between a document and an external resource. The
 
 The `<body>` tags contain all the information and other visible content on the page. The `<body>` element contains all the contents of an HTML document, such as text, hyperlinks, images, tables, lists, etc.
 
-## The Basic structure
+## The Basic HTML Structure
 
 ![Basic HTML Structure from w3schools.com](/pic/htmlstructure.PNG)
 
