@@ -142,9 +142,3 @@ blockquote {
     border: 6px dotted #994d00;
     border-radius: 20px;
 }
-
-.blurb ul ol {
-    padding-left: 0px ;
-    margin-left: 0px ;
-    text-indent: 0px ;
-}
