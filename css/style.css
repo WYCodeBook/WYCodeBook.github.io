@@ -144,6 +144,6 @@ blockquote {
     text-align: center;
 }
 
-.latestnote ul li {
-  list-style: none;
+.latestnote ul {
+  list-style-type: none;
 }
