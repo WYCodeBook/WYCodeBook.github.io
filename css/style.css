@@ -74,15 +74,15 @@ p {
 }
 
 nav {
-    border-top: 2px dotted #994d00;
-    border-bottom: 2px dotted #994d00;
+    border-top: 6px dotted #994d00;
+    border-bottom: 6px dotted #994d00;
     font-size: 30px;
     text-align: center;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 footer {
-    border-top: 2px dotted #994d00;
-    border-bottom: 2px dotted #994d00;
+    border-top: 6px dotted #994d00;
+    border-bottom: 6px dotted #994d00;
     font-size: 16px;
     text-align: center;
     font-family: "Comic Sans MS", cursive, sans-serif;
@@ -139,7 +139,7 @@ blockquote {
     margin: auto;
     overflow: auto;
     padding: 20px;
-    border: 2px dotted #994d00;
+    border: 6px dotted #994d00;
     border-radius: 20px;
 }
 
