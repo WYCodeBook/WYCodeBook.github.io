@@ -8,8 +8,6 @@ img: /img/coding_logo.png
 
 ---
 
-## Links
-
 Links are necessary for users to jump from one page to another. HTML links are defined with the `<a>` tag.
 
 {% highlight html %}

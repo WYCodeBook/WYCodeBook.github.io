@@ -8,8 +8,6 @@ img: /img/coding_logo.png
 
 ---
 
-## Paragraphs
-
 Most content on a simple web page will appear in paragraphs or sections. HTML paragraphs are defined with the `<p>` tag.
 
 {% highlight html %}

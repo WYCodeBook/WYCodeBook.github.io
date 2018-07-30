@@ -8,8 +8,6 @@ img: /img/coding_logo.png
 
 ---
 
-## Headings
-
 Headings are defined with the `<h1>` to `<h6>` tags. `<h1>` defines the most important heading. `<h6>` defines the least important heading.
 
 💥 Each HTML heading has a default size. However, you can specify the size for any heading with the style attribute, using the CSS font-size property. However, it's not recommended, because your codes will be cleaner if you systemically apply styles in the CSS stylesheet(s).

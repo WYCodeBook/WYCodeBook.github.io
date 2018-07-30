@@ -8,8 +8,6 @@ img: /img/coding_logo.png
 
 ---
 
-## Lists
-
 Lists are defined with the `<ul>` (unordered/bullet list) or the `<ol>` (ordered/numbered list) tag, followed by `<li>` tags (list items).
 
 ### Unordered HTML List

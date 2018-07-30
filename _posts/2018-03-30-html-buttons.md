@@ -8,7 +8,6 @@ img: /img/coding_logo.png
 
 ---
 
-### Buttons
 
 Buttons are defined with the `<button>` tag.
 

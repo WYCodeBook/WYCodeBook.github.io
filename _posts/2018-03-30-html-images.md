@@ -8,8 +8,6 @@ img: /img/coding_logo.png
 
 ---
 
-## Images
-
 Images are defined with the `<img>` tag.
 
 💥 The `<img>` tag is empty, it contains attributes only, and does not have a closing tag.
