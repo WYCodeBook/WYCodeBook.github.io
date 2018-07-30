@@ -15,7 +15,6 @@ title: Notes
                 <div class="clearfix">
                   <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
                   <h6>{{ post.date | date: '%B %-d, %Y'}}</h6>
-                  <img class="postimg" src="{{ post.img }}">
                   <p>{{ post.excerpt | strip_html | truncatewords:20 }}</p>
                   <h6><a href="{{ post.url }}">>>Continue to Read More<<</a></h6>
                 </div>
