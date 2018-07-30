@@ -1,9 +1,11 @@
 ---
+
 layout: post
 title: "Basic HTML Structure"
-date: 2018-01-30
+date: 2018-03-30
 categories: HTML
 img: /img/coding_logo.png
+
 ---
 
 ## Document Type <!DOCTYPE>
@@ -38,6 +40,10 @@ The `<link>` tag defines a link between a document and an external resource. The
 ## The Body <body>...</body>
 
 The `<body>` tags contain all the information and other visible content on the page. The `<body>` element contains all the contents of an HTML document, such as text, hyperlinks, images, tables, lists, etc.
+
+## The Basic structure
+
+![Alt text](/pic/htmlstructure.PNG)
 
 ## Example: Basic HTML structure
 

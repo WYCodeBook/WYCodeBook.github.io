@@ -1,8 +1,10 @@
 ---
+
 layout: resource
 title: "Resources"
 date: 2018-01-30
 img: /img/resource_logo.png
+
 ---
 
 - [Color](#color)
@@ -63,6 +65,7 @@ img: /img/resource_logo.png
 - [GitHub Home Page](https://jekyllrb.com/)
 - [Personal Site on GitHub](http://jmcglone.com/guides/github-pages/)
 - [Syntax Cheat Sheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/)
+- [Markdown](http://packetlife.net/media/library/16/Markdown.pdf)
 
 ---
 
@@ -82,3 +85,4 @@ img: /img/resource_logo.png
 - [List posts by tag](https://learn.cloudcannon.com/jekyll/list-posts-by-tag/)
 - [Syntax Cheat Sheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/)
 - [Stylesheets for syntax highlighting - Syntax.css](https://github.com/mojombo/tpw/blob/master/css/syntax.css)
+- [Markdown](http://packetlife.net/media/library/16/Markdown.pdf)
