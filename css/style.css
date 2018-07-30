@@ -137,8 +137,8 @@ blockquote {
     text-align: center;
 }
 
-.latestnote ul li {
+.latestnote ul {
   list-style-type: none;
   margin-left: 0px;
-  padding-left: -10px;
+  padding-left: 0px;
 }
