@@ -46,12 +46,12 @@ The `<body>` tags contain all the information and other visible content on the p
     <!DOCTYPE html>
     <html>
       <head>
-        <title>First Web Page</title>
+        <title>Page Title</title>
         <meta charset="UTF-8">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
       </head>
       <body>
-        Basic content for the first web page.
+        Basic content for the web page.
       </body>
     </html>
 
