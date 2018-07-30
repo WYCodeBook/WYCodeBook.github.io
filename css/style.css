@@ -24,11 +24,12 @@ nav ul li, footer ul li {
     color: #0E1807;
 }
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #0E1807;
 }
 a:hover {
     text-decoration: underline;
+    text-shadow: 2px 2px #994d00;
 }
 
 .header {
