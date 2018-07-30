@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: "Basic HTML Structure"
+title: "HTML Structure"
 date: 2018-03-30
 categories: HTML
 img: /img/coding_logo.png
