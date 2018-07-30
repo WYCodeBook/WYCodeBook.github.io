@@ -1,5 +1,5 @@
 body {
-    margin: 20px, auto;
+    margin: 30px, auto;
     background: url(/img/daisybackground.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -9,7 +9,7 @@ body {
 .layer {
     background-color: rgba(237, 218, 201, 0.75);
     background-position: center;
-    padding: 30px;
+    padding: 60px;
     word-wrap: normal;
 }
 
@@ -36,8 +36,8 @@ a:hover {
     color: #0E1807;
     font-weight: bold;
     text-align: center;
-    margin: 20px auto;
-    padding: 100px;
+    margin: 30px auto;
+    padding: 60px;
     background-image: url(/img/daisybackground.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -106,8 +106,8 @@ code {
 
 blockquote {
     display: block;
-    margin: 20px auto;
-    padding: 30px;
+    margin: 30px auto;
+    padding: 60px;
     background-image: url(/img/ladybugdaisyframe2.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -135,7 +135,7 @@ blockquote {
 }
 
 .clearfix {
-    max-width: 1000px;
+    max-width: 900px;
     margin: auto;
     overflow: auto;
     padding: 30px;
