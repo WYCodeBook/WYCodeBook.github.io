@@ -24,8 +24,7 @@ title: WY's Code Book
 						{% if post.url != page.url and count < 7 %}
 								<li>
 									<div class="clearfix">
-										<a href="{{ post.url }}"><h2>{{ post.title }}</h2><h6>{{ post.date | date: '%B %-d, %Y'}}</h6></a>
-										<img class="postimg" src="{{ post.img }}">
+										<a href="{{ post.url }}"><h2>{{ post.title }}</h2><img class="postimg" src="{{ post.img }}"><h6>{{ post.date | date: '%B %-d, %Y'}}</h6></a>
 										<p>{{ post.excerpt | strip_html | truncatewords:30 }}</p>
 										<h6><a href="{{ post.url }}">>>Continue to Read More<<</a></h6>
 									</div>
