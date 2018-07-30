@@ -43,7 +43,7 @@ The `<body>` tags contain all the information and other visible content on the p
 
 ## The Basic structure
 
-![Alt text](/pic/htmlstructure.PNG)
+![Basic HTML Structure from w3schools.com](/pic/htmlstructure.PNG)
 
 ## Example: Basic HTML structure
 
