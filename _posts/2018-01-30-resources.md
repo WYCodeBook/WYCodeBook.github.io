@@ -25,7 +25,7 @@ img: /img/resource_logo.png
 
 
 ---
----
+
 
 ## Color
 
