@@ -142,3 +142,8 @@ blockquote {
     border: 2px dotted #994d00;
     border-radius: 20px;
 }
+
+.clearfix ol {
+    list-style: none;
+    padding-left: 0;
+}
