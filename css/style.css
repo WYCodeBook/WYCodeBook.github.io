@@ -128,7 +128,7 @@ blockquote {
     max-width: 900px;
     margin: auto;
     overflow: auto;
-    padding: 10px;
+    padding: 20px;
     border: 6px dotted #994d00;
     border-radius: 20px;
 }
