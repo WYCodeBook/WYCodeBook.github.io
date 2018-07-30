@@ -135,10 +135,10 @@ blockquote {
 }
 
 .clearfix {
-    max-width: 900px;
+    max-width: 800px;
     margin: auto;
     overflow: auto;
     padding: 30px;
-    border: 6px ridge #ebe0e0;
+    border: 2px dotted #994d00;
     border-radius: 20px;
 }
