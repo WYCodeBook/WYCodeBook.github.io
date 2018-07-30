@@ -16,4 +16,4 @@ JavaScript is a programming language. Programming languages are used to communic
 
 💥 Use `Control+Shift+J` to open the Console panel in Google chrome with a Window. Use `Command+Option+J` to open the Console panel in Google Chrome with a Mac.
 
-what's next
+what's next?
