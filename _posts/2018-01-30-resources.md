@@ -28,13 +28,19 @@ img: /img/resource_logo.png
 
 - [w3schools Color Picker](https://www.w3schools.com/colors/default.asp)
 
+---
+
 ## Computer Science
 
 - [Introduction to Computing](http://computingbook.org/)
 
+---
+
 ## CSS
 
 - [Stylesheets for syntax highlighting - Syntax.css](https://github.com/mojombo/tpw/blob/master/css/syntax.css)
+
+---
 
 ## Developer Tools
 
@@ -43,9 +49,13 @@ img: /img/resource_logo.png
 - [Internet Explorer 11](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/bg182636(v=vs.85))
 - [Safari DevTool](https://developer.apple.com/safari/tools/)
 
+---
+
 ## Emoji
 
 - [Emojipedia ](https://emojipedia.org/)
+
+---
 
 ## GitHub
 
@@ -53,9 +63,13 @@ img: /img/resource_logo.png
 - [Personal Site on GitHub](http://jmcglone.com/guides/github-pages/)
 - [Syntax Cheat Sheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/)
 
+---
+
 ## HTML
 
 - [A Simple Guide to HTML ](http://www.simplehtmlguide.com/)
+
+---
 
 ## Jekyll
 
