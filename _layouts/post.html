@@ -5,11 +5,7 @@ layout: default
 ---
 <h1>{{ page.title }}</h1>
 
-<h6>
-  Note Taken Date: {{ page.date | date: '%B %-d, %Y' }}
-  Number of Words: {{% assign num_words = page.content | strip_html | number_of_words %}}
-  Reading Time: {{% assign minutes = num_words | divided_by: 200 %}} Minutes
-</h6>
+<h6>Note Taken Date: {{ page.date | date: '%B %-d, %Y' }}</h6>
 
 <img class="pageimg" src="{{ page.img }}">
 
