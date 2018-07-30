@@ -2,9 +2,8 @@
 layout: default
 title: Notes
 ---
-<h1>✏️{{ page.title }}✏️</h1>
 
-<h2 class="latest">🔥 Latest Note 🔥</h2>
+<h1 class="latest">🔥 Latest Note 🔥</h1>
 
 <ul>
   {% assign count = 1 %}
@@ -24,12 +23,20 @@ title: Notes
   {% endfor %}
 </ul>
 
-{% for category in site.categories | sort: 'title' %}
-  <h2>{{ category[0] }}</h2>
-  <ul>
-    {% for post in category[1] %}
-      <h3><ol><a href="{{ post.url }}">{{ post.title }} --- <span>{{ post.date | date: '%B %-d, %Y' }}</span></a>
-			</ol></h3>
-    {% endfor %}
-  </ul>
-{% endfor %}
+<p></p>
+
+<div class="middle">
+
+  <h1>✏️{{ page.title }}✏️</h1>
+
+  {% for category in site.categories | sort: 'title' %}
+    <h2>{{ category[0] }}</h2>
+    <ul>
+      {% for post in category[1] %}
+        <h3><ol><a href="{{ post.url }}">{{ post.title }} --- <span>{{ post.date | date: '%B %-d, %Y' }}</span></a>
+  			</ol></h3>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+
+</div>

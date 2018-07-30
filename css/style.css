@@ -118,10 +118,6 @@ blockquote {
     filter: alpha(opacity=75); /* For IE8 and earlier */
 }
 
-.latest {
-    text-align: center;
-}
-
 .pageimg {
   width: 300px;
   height: 300px;
@@ -131,14 +127,18 @@ blockquote {
   width: 200px;
   height: 200px;
   float: right;
-  padding: 20px;
+  padding: 10px;
 }
 
 .clearfix {
     max-width: 800px;
     margin: auto;
     overflow: auto;
-    padding: 20px;
+    padding: 10px;
     border: 6px dotted #994d00;
     border-radius: 20px;
+}
+
+.middle {
+    text-align: center;
 }
