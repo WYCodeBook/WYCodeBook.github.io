@@ -143,3 +143,7 @@ blockquote {
 .latest {
     text-align: center;
 }
+
+.latestnote ul li {
+  list-style: none;
+}

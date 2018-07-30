@@ -15,24 +15,26 @@ title: WY's Code Book
 
   <p></p>
 
-  <h1 class="latest">🔥 Latest Note 🔥</h1>
+	<div class="latestnote">
+	  <h1 class="latest">🔥 Latest Note 🔥</h1>
 
-	<ul>
-		{% assign count = 1 %}
-			{% for post in site.posts %}
-					{% if post.url != page.url and count < 7 %}
-							<ol>
-								<div class="clearfix">
-									<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-									<h6>{{ post.date | date: '%B %-d, %Y'}}</h6>
-									<img class="postimg" src="{{ post.img }}">
-									<p>{{ post.excerpt | strip_html | truncatewords:20 }}</p>
-									<h6><a href="{{ post.url }}">>>Continue to Read More<<</a></h6>
-								</div>
-							</ol>
-					{% assign count = count | plus: 1 %}
-			{% endif %}
-		{% endfor %}
-	</ul>
+		<ul>
+			{% assign count = 1 %}
+				{% for post in site.posts %}
+						{% if post.url != page.url and count < 7 %}
+								<li>
+									<div class="clearfix">
+										<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+										<h6>{{ post.date | date: '%B %-d, %Y'}}</h6>
+										<img class="postimg" src="{{ post.img }}">
+										<p>{{ post.excerpt | strip_html | truncatewords:20 }}</p>
+										<h6><a href="{{ post.url }}">>>Continue to Read More<<</a></h6>
+									</div>
+								</li>
+						{% assign count = count | plus: 1 %}
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</div>
 
 </div><!-- /.blurb -->
