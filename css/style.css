@@ -124,6 +124,12 @@ blockquote {
   height: 300px;
 }
 
+.postimg {
+  width: 300px;
+  height: 300px;
+  float: right;
+}
+
 .clearfix {
     max-width: 800px;
     margin: auto;
