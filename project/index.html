@@ -6,5 +6,17 @@ title: Projects
 <h1>🛠️{{ page.title }}🛠️</h1>
 
 <ul><h5>
-  <li><a href="https://github.com/WYCodeBook?tab=repositories"> GitHub Repositories </a></li>
+  <li><a href="https://github.com/WYCodeBook/WY_Portfolio"> My Portfolio Project </a></li>
 </h5></ul>
+
+
+{% for category in site.categories | sort: 'title' %}
+
+  <ul>
+    {% for post in category == 'projects' %}
+      <li><a href="{{ post.url }}"><h3>{{ post.title }}<h3><p>{{ post.date | date: '%B %-d, %Y' }}<p></a><h6>{{ post.content}}</h6>
+			</li>
+    {% endfor %}
+  </ul>
+
+{% endfor %}
