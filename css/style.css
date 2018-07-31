@@ -36,7 +36,7 @@ a:hover {
 .header {
     line-height: normal;
     text-align: center;
-    margin: 30px auto;
+    margin: auto;
     padding: 60px;
     background-image: url(/img/daisybackground.jpg);
     background-size: cover;
