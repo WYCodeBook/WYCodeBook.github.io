@@ -10,6 +10,8 @@ img: /img/coding_logo.png
 
 Most content on a simple web page will appear in paragraphs or sections. HTML paragraphs are defined with the `<p>` tag.
 
+💥 `<p>` have it's default size depend on the browser. However, you can setup your own text size in CSS stylesheet.
+
 {% highlight html %}
   <p>Paragraph 1</p>
   <p>Paragraph 2</p>

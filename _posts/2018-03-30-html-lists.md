@@ -8,8 +8,6 @@ img: /img/coding_logo.png
 
 ---
 
-Lists are defined with the `<ul>` (unordered/bullet list) or the `<ol>` (ordered/numbered list) tag, followed by `<li>` tags (list items).
-
 ### Unordered HTML List
 
 An unordered list starts with the `<ul>` tag. Each list item starts with the `<li>` tag. The list items will be marked with bullets (small black circles) by default.
@@ -69,3 +67,13 @@ The `type` attribute of the `<ol>` tag, defines the type of the list item marker
 
 - [3wschools - Lists](https://www.w3schools.com/html/html_lists.asp)
 - [Simple Guide to HTML](http://www.simplehtmlguide.com/lists.php)
+
+💥 In order to remove numbers/bullets and indentation for a list, `list-style-type` must set to none, `margin-left` must set to 0px, and `padding-left` must set to 0px.
+
+{% highlight html %}
+  ul {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+{% endhighlight %}
