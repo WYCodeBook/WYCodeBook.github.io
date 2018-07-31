@@ -29,11 +29,11 @@ title: Notes
 <h1>✏️More {{ page.title }}✏️</h1>
 
 {% for category in site.categories | sort: 'title' %}
-  <h2>{{ category[0] }}</h2>
+  <h3>{{ category[0] }}</h3>
   <ul>
     {% for post in category[1] %}
-      <h3><li><a href="{{ post.url }}">{{ post.title }} --- <span>{{ post.date | date: '%B %-d, %Y' }}</span></a>
-			</li></h3>
+      <h5><li><a href="{{ post.url }}">{{ post.title }} --- <span>{{ post.date | date: '%B %-d, %Y' }}</span></a>
+			</li></h5>
     {% endfor %}
   </ul>
 {% endfor %}
