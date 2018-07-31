@@ -2,7 +2,7 @@
 
 layout: post
 title: "Basic JavaScript"
-date: 2018-07-28
+date: 2018-06-20
 categories: JavaScript
 img: /img/note_logo.png
 
@@ -16,4 +16,4 @@ JavaScript is a programming language. Programming languages are used to communic
 
 💥 Use `Control+Shift+J` to open the Console panel in Google chrome with a Window. Use `Command+Option+J` to open the Console panel in Google Chrome with a Mac.
 
-### 
+###

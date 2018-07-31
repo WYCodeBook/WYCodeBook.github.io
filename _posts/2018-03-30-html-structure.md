@@ -42,11 +42,11 @@ The `<link>` tag defines a link between a document and an external resource. The
 
 The `<body>` tags contain all the information and other visible content on the page. The `<body>` element contains all the contents of an HTML document, such as text, hyperlinks, images, tables, lists, etc.
 
-### The Basic HTML Structure
+### The Structure
 
 ![Basic HTML Structure from w3schools.com](/pic/htmlstructure.PNG)
 
-### Example: Basic HTML structure
+### Example: Simple Code
 
 {% highlight html %}
 
