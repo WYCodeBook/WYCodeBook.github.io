@@ -34,7 +34,7 @@ a:hover {
 }
 
 .header {
-    line-height: normal;
+    line-height: none;
     text-align: center;
     margin: auto;
     padding: 60px;
@@ -134,8 +134,8 @@ blockquote {
 }
 
 .postimg {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   float: right;
 }
 

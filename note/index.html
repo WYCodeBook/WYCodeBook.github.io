@@ -3,37 +3,17 @@ layout: default
 title: Notes
 ---
 
-<div class="latestnote">
-
-  <h1 class="latest">🔥 Latest Note 🔥</h1>
-
-  <ul>
-    {% assign count = 1 %}
-      {% for post in site.posts %}
-          {% if post.url != page.url and count < 2 %}
-              <li>
-                <div class="clearfix">
-                  <a href="{{ post.url }}"><img class="postimg" src="{{ post.img }}"><h2>{{ post.title }}</h2><p>{{ post.date | date: '%B %-d, %Y'}}</p></a>
-                  <h6>{{ post.excerpt | strip_html | truncatewords:30 }}</h6>
-                  <h6><a href="{{ post.url }}">>>Continue to Read More<<</a></h6>
-                </div>
-              </li>
-          {% assign count = count | plus: 1 %}
-      {% endif %}
-    {% endfor %}
-  </ul>
-</div>
-
-<p></p>
-
 <h1>✏️More {{ page.title }}✏️</h1>
 
 {% for category in site.categories | sort: 'title' %}
+
   <h3>{{ category[0] }}</h3>
+
   <ul>
     {% for post in category[1] %}
-      <h5><li><a href="{{ post.url }}">{{ post.title }} --- <span>{{ post.date | date: '%B %-d, %Y' }}</span></a>
-			</li></h5>
+      <h6><li><a href="{{ post.url }}">{{ post.title }} --- <span>{{ post.date | date: '%B %-d, %Y' }}</span></a>
+			</li></h6>
     {% endfor %}
   </ul>
+
 {% endfor %}

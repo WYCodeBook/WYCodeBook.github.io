@@ -35,6 +35,8 @@ There are two main parts to a link tag: the text a user can click, and the web a
   <a href="url">link text</a>
 {% endhighlight %}
 
+
+
 ### Image as a Link
 
 By placing an image tag between the `<a>` and `</a>` tags, you can turn an image into a link, and clicking on that image will then load the referenced page. `<a href="url"><img ...></a>`
@@ -53,6 +55,8 @@ By placing an image tag between the `<a>` and `</a>` tags, you can turn an image
   </a>
 {% endhighlight %}
 
+
+
 ### Email Link
 
 A special kind of link, the `mailto` notation link instructs the browser to compose and email to the specified address using the default email program. But it does not actually send any emails automatically.
@@ -67,6 +71,8 @@ You can also set a subject for the email by using
   <a href="mailto:xyz@sample.com?Subject=Links">email me</a>.
 {% endhighlight %}
 
+
+
 ### Link Titles
 
 The title attribute specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element.
@@ -74,6 +80,8 @@ The title attribute specifies extra information about an element. The informatio
 {% highlight html %}
   <a href="https://wycodebook.github.io" title="Go To WY's Code Book">WY's Code Book</a>
 {% endhighlight %}
+
+
 
 ### Create a Bookmark (Internal Linking)
 
