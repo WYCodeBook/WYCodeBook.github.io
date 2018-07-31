@@ -67,6 +67,7 @@ img: /img/resource_logo.png
 - [Syntax Cheat Sheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/)
 - [Markdown](http://packetlife.net/media/library/16/Markdown.pdf)
 - [Markdown Cheat Sheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+- [Markdown by Daring Fireball](https://daringfireball.net/projects/markdown/)
 
 ---
 
