@@ -45,13 +45,13 @@ a:hover {
 }
 
 h1, h3, h5, p {
-  line-height:150%;
+  line-height:100%;
   font-family: New Century Schoolbook, TeX Gyre Schola, serif;
   color: #0E1807;
 }
 
 h2, h4, h6, {
-  line-height:150%;
+  line-height:100%;
   font-family: Gill Sans, sans-serif;
   color: #0E1807;
 }
