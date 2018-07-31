@@ -8,7 +8,7 @@ img: /img/note_logo.png
 
 ---
 
-## What's JavaScript
+### What's JavaScript
 
 HTML and CSS are markup languages. Markup languages are used to describe and define elements within a document.
 
