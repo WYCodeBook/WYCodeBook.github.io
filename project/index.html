@@ -6,17 +6,20 @@ title: Projects
 <h1>🛠️{{ page.title }}🛠️</h1>
 
 <ul><h5>
-  <li><a href="https://github.com/WYCodeBook/WY_Portfolio"> My Portfolio Project </a></li>
+
+  <li>
+    <a href="https://github.com/WYCodeBook/WY_Portfolio"> My Portfolio </a>
+  </li>
+
+  <li>
+    <a href="https://github.com/WYCodeBook/GoogleFrontEnd-Phase1-PixelArtProject"> Pixel Art </a>
+  </li>
+
+  <li>
+    <a href="https://github.com/WYCodeBook/GoogleFrontEnd-Phase2-Lab1-Animal-Trading-Card-WY"> Animal Trading Card </a>
+
 </h5></ul>
 
+<h1> More Code Pieces... </h1>
 
-{% for category in site.categories | sort: 'title' %}
-
-  <ul>
-    {% for post in category == 'projects' %}
-      <li><a href="{{ post.url }}"><h3>{{ post.title }}<h3><p>{{ post.date | date: '%B %-d, %Y' }}<p></a><h6>{{ post.content}}</h6>
-			</li>
-    {% endfor %}
-  </ul>
-
-{% endfor %}
+<h5><a href="https://github.com/WYCodeBook"> GitHub Repositories</a></h5>
