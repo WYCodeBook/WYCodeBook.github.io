@@ -7,7 +7,7 @@ body {
 }
 
 .layer {
-    background-color: rgba(237, 218, 201, 0.80);
+    background-color: rgba(237, 218, 201, 0.75);
     background-position: center;
     padding: 30px;
     word-wrap: normal;
@@ -42,11 +42,6 @@ a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px;
-}
-
-.sitehead {
-  font-size: 80px;
-  color: #0E1807;
 }
 
 h1, h3, h5, p {
