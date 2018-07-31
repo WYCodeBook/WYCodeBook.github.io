@@ -27,7 +27,7 @@ img: /img/resource_logo.png
 ---
 
 
-## Color
+### Color
 
 - [w3schools Color Picker](https://www.w3schools.com/colors/default.asp)
 
