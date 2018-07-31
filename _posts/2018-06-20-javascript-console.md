@@ -16,7 +16,7 @@ img: /img/note_logo.png
   console.log("Hello World!");
 {% endhighlight %}
 
-Print: "hiya friend!"
+> Print: "hiya friend!"
 
 The message you’ve logged is "Hello World!". `Hello World!` is a string (a sequence of characters).
 
