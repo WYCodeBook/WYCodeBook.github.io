@@ -157,9 +157,3 @@ blockquote {
   margin-left: 0px;
   padding-left: 0px;
 } /* no number, no bullet, and no indentation for list */
-
-.TitleBanner {
-  background-size: cover;
-  background-position: center;
-  background-image: url(/img/ladybugdaisyframe.png); /* backup image */
-}
