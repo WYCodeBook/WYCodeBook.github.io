@@ -34,6 +34,7 @@ a:hover {
 }
 
 .header {
+    line-height: normal;
     text-align: center;
     margin: 30px auto;
     padding: 60px;
