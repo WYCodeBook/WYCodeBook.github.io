@@ -5,6 +5,7 @@ title: "Basic JavaScript"
 date: 2018-07-28
 categories: JavaScript
 img: /img/note_logo.png
+featured-img: /img/topbottomdaisyframe.jpg
 
 ---
 

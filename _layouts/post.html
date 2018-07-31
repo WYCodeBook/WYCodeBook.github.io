@@ -9,6 +9,10 @@ layout: default
 
 <img class="pageimg" src="{{ page.img }}">
 
+<div class="FeaturedImgBanner" {% if page.featured-img %} style="background-image: url('{{ page.featured-img }}');" {% endif %}>
+    <!-- Include your post title, byline, date, and other info inside the header here. -->
+</div>
+
 <p>
   <div class="post">
     {{ content }}
