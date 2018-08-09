@@ -161,12 +161,12 @@ blockquote {
 /* styling for banner */
 .banner {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: row wrap;
   background-color: DodgerBlue;
 }
 
 .banner div {
-  background-color: #f1f1f1;
+  background-color: {{#f1f1f1}};
   width: 300px;
   margin: 10px;
   text-align: center;
