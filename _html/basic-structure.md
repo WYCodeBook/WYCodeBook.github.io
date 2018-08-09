@@ -2,7 +2,7 @@
 
 layout: collection
 title: "Basic Structure"
-photo: /img/ladybugframe.png
+photo: /img/ladybugdaisyframe.png
 
 ---
 
