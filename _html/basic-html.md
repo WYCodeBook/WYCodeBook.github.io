@@ -2,7 +2,7 @@
 
 layout: collection
 title: "Basic HTML"
-img:
+picture:
 
 ---
 

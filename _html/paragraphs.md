@@ -2,7 +2,7 @@
 
 layout: collection
 title: "Paragraphs"
-img:
+picture:
 
 ---
 
