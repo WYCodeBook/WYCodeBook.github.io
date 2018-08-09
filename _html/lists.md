@@ -2,7 +2,7 @@
 
 layout: collection
 title: "Lists"
-photo:
+img:
 
 ---
 

@@ -2,7 +2,7 @@
 
 layout: collection
 title: "Links"
-photo:
+img:
 
 ---
 

@@ -128,12 +128,12 @@ blockquote {
     filter: alpha(opacity=75); /* For IE8 and earlier */
 }
 
-.pageimg {
+.pagepicture {
   width: 300px;
   height: 300px;
 }
 
-.postimg {
+.postpicture {
   width: 120px;
   height: 120px;
   float: right;

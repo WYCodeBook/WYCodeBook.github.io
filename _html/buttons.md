@@ -2,7 +2,7 @@
 
 layout: collection
 title: "Buttons"
-photo:
+img:
 
 ---
 

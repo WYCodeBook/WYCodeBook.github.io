@@ -1,8 +1,8 @@
 ---
 
 layout: collection
-title: "Basic Structure"
-photo:
+title: "Basic HTML"
+img:
 
 ---
 

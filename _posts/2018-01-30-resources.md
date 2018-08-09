@@ -3,7 +3,7 @@
 layout: resource
 title: "Resources"
 date: 2018-01-30
-img: /img/resource_logo.png
+picture: /img/resource_logo.png
 
 ---
 

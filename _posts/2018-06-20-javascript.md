@@ -4,7 +4,7 @@ layout: post
 title: "Basic JavaScript"
 date: 2018-06-20
 categories: JavaScript
-img: /img/note_logo.png
+picture: /img/note_logo.png
 
 ---
 
