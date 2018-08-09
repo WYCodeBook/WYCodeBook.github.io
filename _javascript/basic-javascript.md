@@ -1,7 +1,7 @@
 ---
 
 layout: collection
-title: "Console.log"
+title: "Basic JavaScript"
 picture:
 description: A summary of what's HTML and how HTML works
 ---
