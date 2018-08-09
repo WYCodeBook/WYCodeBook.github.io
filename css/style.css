@@ -123,7 +123,7 @@ blockquote {
     background-repeat: no-repeat;
     background-attachment: local;
     border-radius: 20px;
-    text-align: right;
+    text-align: center;
     opacity: 0.75;
     filter: alpha(opacity=75); /* For IE8 and earlier */
 }
