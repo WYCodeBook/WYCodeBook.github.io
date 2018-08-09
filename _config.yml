@@ -23,3 +23,9 @@ collections:
   javascript:
     output: true
     permalink: /javascript/:title
+  ruby:
+    output: true
+    permalink: /ruby/:title
+  algorithms:
+    output: true
+    permalink: /algorithms/:title

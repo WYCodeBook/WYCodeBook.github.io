@@ -9,6 +9,7 @@ title: Notes
   <a href="#Javascript"> 🔍 Javascript </a>
   <a href="#Jekyll"> 🔍 Jekyll </a>
   <a href="#Ruby"> 🔍 Ruby </a>
+  <a href="#Algorithms"> 🔍 Algorithms </a>
 </h6>
 
 <h3 align="center" id="HTML">✏️ HTML ✏️</h3>
@@ -66,6 +67,18 @@ title: Notes
       <a href="{{ ruby.url }}">
         <h5>{{ ruby.title }}</h5>
         <p>{{ ruby.description | strip_html }}</p>
+      </a>
+    </div>
+  {% endfor %}
+</div>
+
+<h3 align="center" id="Algorithms">✏️ Algorithms ✏️</h3>
+<div class="banner">
+  {% for algorithms in site.algorithms | sort: "title" %}
+    <div>
+      <a href="{{ algorithms.url }}">
+        <h5>{{ algorithms.title }}</h5>
+        <p>{{ algorithms.description | strip_html }}</p>
       </a>
     </div>
   {% endfor %}
