@@ -10,6 +10,10 @@ Fizz buzz is a group word game for children to teach them about division. Player
 
 💥 In computing, the modulo operation (%) finds the remainder after division of one number by another (sometimes called modulus). Given two positive numbers, a (the dividend) and n (the divisor), a modulo n (abbreviated as a mod n) is the remainder of the Euclidean division of a by n.
 
+### Examples to try...
+
+Within this example, the console will go through each numbers from 1 to 30, and replacing any number divisible by three with the word "fizz", and any number divisible by five with the word "buzz".
+
 {% highlight javascript %}
 function fizzBuzz(num){
   for (var i=1; i <= num; i++){
@@ -22,6 +26,3 @@ function fizzBuzz(num){
 
 fizzBuzz(30);
 {% endhighlight %}
-
-<p data-height="265" data-theme-id="0" data-slug-hash="odZyWd" data-default-tab="js,result" data-user="WYCodeBook" data-pen-title="Fizz Buzz -Modulus %" class="codepen">See the Pen <a href="https://codepen.io/WYCodeBook/pen/odZyWd/">Fizz Buzz -Modulus %</a> by WYCodeBook (<a href="https://codepen.io/WYCodeBook">@WYCodeBook</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
