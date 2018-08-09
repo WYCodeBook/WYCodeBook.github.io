@@ -21,7 +21,10 @@ picture: /img/resource_logo.png
 
 - [HTML](#html)
 
+- [Icons](#icons)
+
 - [Jekyll](#jekyll)
+
 
 
 ---
@@ -74,6 +77,12 @@ picture: /img/resource_logo.png
 ## HTML
 
 - [A Simple Guide to HTML ](http://www.simplehtmlguide.com/)
+
+---
+
+## Icons
+
+- [Kiss PNG](https://www.kisspng.com/)
 
 ---
 
