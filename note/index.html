@@ -19,19 +19,10 @@ title: Notes
 {% endfor %}
 
 
+
 {% for html in site.html | sort: "title" %}
-
-  <h3>{{ html[0] }}</h3>
-
-  <ul>
-
-      {% for html in site.html %}
-        <li>
-          <img src="{{ html.photo }}">
-          <h1><a href="{{ html.url }}">{{ html.title }}</a></h1>
-        </li>
-      {% endfor %}
-
-  </ul>
-
+  <li>
+    <img src="{{ html.photo }}">
+    <h1><a href="{{ html.url }}">{{ html.title }}</a></h1>
+  </li>
 {% endfor %}
