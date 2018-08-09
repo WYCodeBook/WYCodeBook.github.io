@@ -1,12 +1,11 @@
 ---
 
-layout: post
-title: "HTML Images"
-date: 2018-03-30
-categories: HTML
-img: /img/coding_logo.png
+layout: collection
+title: "Images"
+photo:
 
 ---
+
 
 Images are defined with the `<img>` tag.
 

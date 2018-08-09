@@ -1,12 +1,11 @@
 ---
 
-layout: post
-title: "HTML Headings"
-date: 2018-03-30
-categories: HTML
-img: /img/coding_logo.png
+layout: collection
+title: "Headings"
+photo: 
 
 ---
+
 
 Headings are defined with the `<h1>` to `<h6>` tags. `<h1>` defines the most important heading. `<h6>` defines the least important heading.
 

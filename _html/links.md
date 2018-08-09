@@ -1,12 +1,11 @@
 ---
 
-layout: post
-title: "HTML Links"
-date: 2018-03-30
-categories: HTML
-img: /img/coding_logo.png
+layout: collection
+title: "Links"
+photo:
 
 ---
+
 
 Links are necessary for users to jump from one page to another. HTML links are defined with the `<a>` tag.
 

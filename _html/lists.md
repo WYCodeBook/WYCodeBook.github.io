@@ -1,12 +1,11 @@
 ---
 
-layout: post
-title: "HTML Lists"
-date: 2018-03-30
-categories: HTML
-img: /img/coding_logo.png
+layout: collection
+title: "Lists"
+photo:
 
 ---
+
 
 ### Unordered HTML List
 

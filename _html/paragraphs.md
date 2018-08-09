@@ -1,12 +1,11 @@
 ---
 
-layout: post
-title: "HTML Paragraphs"
-date: 2018-03-30
-categories: HTML
-img: /img/coding_logo.png
+layout: collection
+title: "Paragraphs"
+photo:
 
 ---
+
 
 Most content on a simple web page will appear in paragraphs or sections. HTML paragraphs are defined with the `<p>` tag.
 
