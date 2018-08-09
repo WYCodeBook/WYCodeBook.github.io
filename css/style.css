@@ -166,14 +166,10 @@ blockquote {
 }
 
 .banner div {
-  background-color: #f1f1f1;
+  background-image: url(/img/pinknote.jpg);
   width: 300px;
+  height: 300px;
   margin: 10px;
   text-align: center;
   line-height: auto;
-}
-
-.banner img {
-  width: 280px;
-  margin: 10px;
 }
