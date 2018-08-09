@@ -1,8 +1,25 @@
 name: WY's Code Book
 url: http://wycodebook.github.io/
+
 markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+
 timezone: America/Los_Angeles
+
 excerpt_separator: "<!-- more -->"
+
+collections:
+  html:
+    output: true
+    permalink: /html/:title
+  css:
+    output: true
+    permalink: /css/:title
+  jekyll:
+    output: true
+    permalink: /jekyll/:title
+  javascript:
+    output: true
+    permalink: /javascript/:title
