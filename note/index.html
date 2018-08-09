@@ -23,10 +23,9 @@ title: Notes
 {% for html in site.html | sort: "title" %}
   <div class="banner">
       <div>
-        <img src="{{html.url}}">{{html.photo}}>
-        <a href="{{ html.url }}">{{ html.title }}</a></h3>
+        <img src="{{html.photo}}" alt="photo of {{html.title}}">
+        <a href="{{ html.url }}">{{ html.title }}</a>
         <a href="{{ html.url }}">>>Continue to Read More<<</a>
-
       </div>
   </div>
 {% endfor %}
