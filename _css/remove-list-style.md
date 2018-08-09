@@ -1,7 +1,7 @@
 ---
 
 layout: collection
-title: "Basic HTML"
+title: "Removing List Styles"
 picture:
 description: How to remove all the styling for lists?
 
@@ -18,5 +18,5 @@ ul {
   list-style-type: none;
   margin-left: 0px;
   padding-left: 0px;
-} 
+}
 {% endhighlight %}
