@@ -1,7 +1,7 @@
 ---
 
 layout: collection
-title: "HTML"
+title: "Basic HTML"
 photo: /img/ladybugdaisyframe.png
 
 ---
