@@ -25,16 +25,12 @@ title: Notes
 
   <ul>
 
-    {% for post in html[1] %}
-
       {% for html in site.html %}
         <li>
           <img src="{{ html.photo }}">
           <h1><a href="{{ html.url }}">{{ html.title }}</a></h1>
         </li>
       {% endfor %}
-
-    {% endfor %}
 
   </ul>
 
