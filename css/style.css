@@ -161,7 +161,8 @@ blockquote {
 /* styling for banner */
 .banner {
   display: flex;
-  flex-wrap: row wrap;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
 }
 
 .banner div {
