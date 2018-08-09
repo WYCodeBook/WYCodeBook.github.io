@@ -22,6 +22,6 @@ title: Notes
 
 {% for html in site.html | sort: "title" %}
   <div class="banner">
-      <div><a href="{{ html.url }}">{{ html.title }}</a></div>
+      <div><h3><a href="{{ html.url }}">{{ html.title }}</a></h3></div>
   </div>
 {% endfor %}
