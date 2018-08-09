@@ -3,7 +3,7 @@
 layout: collection
 title: "Images"
 picture:
-
+description: Add image in HTML
 ---
 
 

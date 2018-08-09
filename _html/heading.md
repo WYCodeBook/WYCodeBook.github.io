@@ -2,8 +2,8 @@
 
 layout: collection
 title: "Headings"
-picture: 
-
+picture:
+description: Summary of different heading sizes
 ---
 
 

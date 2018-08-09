@@ -3,8 +3,6 @@ layout: default
 title: Notes
 ---
 
-<h1 align="center">✏️{{ page.title }}✏️</h1>
-
 <h6>
   <a href="#HTML"> 🔍 HTML </a>
   <a href="#CSS"> 🔍 CSS </a>
@@ -13,50 +11,52 @@ title: Notes
   <a href="#Ruby"> 🔍 Ruby </a>
 </h6>
 
-<h3 align="center" id="HTML">HTML</h3>
+<h3 align="center" id="HTML">✏️ HTML ✏️</h3>
 <div class="banner">
   {% for html in site.html | sort: "title" %}
     <div>
       <h5><a href="{{ html.url }}">{{ html.title }}</a></h5>
-      <p>{{ html.excerpt | strip_html | truncatewords:20 }}</p>
+      <p>{{ html.description | strip_html }}</p>
     </div>
   {% endfor %}
 </div>
 
-<h3 align="center" id="CSS">CSS</h3>
+<h3 align="center" id="CSS">✏️ CSS ✏️</h3>
 <div class="banner">
   {% for css in site.css | sort: "title" %}
     <div>
       <h5><a href="{{ css.url }}">{{ css.title }}</a></h5>
-      <p>{{ css.excerpt | strip_html | truncatewords:20 }}</p>
+      <p>{{ css.description | strip_html | truncatewords:20 }}</p>
     </div>
   {% endfor %}
 </div>
 
-<h3 align="center" id="Javascript">Javascript</h3>
+<h3 align="center" id="Javascript">✏️ Javascript ✏️</h3>
 <div class="banner">
   {% for javascript in site.javascript | sort: "title" %}
     <div>
       <h5><a href="{{ javascript.url }}">{{ javascript.title }}</a></h5>
-      <p>{{ javascript.excerpt | strip_html | truncatewords:20 }}</p>
+      <p>{{ javascript.description | strip_html | truncatewords:20 }}</p>
     </div>
   {% endfor %}
 </div>
 
+<h3 align="center" id="Jekyll">✏️ Jekyll ✏️</h3>
 <div class="banner">
   {% for jekyll in site.jekyll | sort: "title" %}
     <div>
       <h5><a href="{{ jekyll.url }}">{{ jekyll.title }}</a></h5>
-      <p>{{ jekyll.excerpt | strip_html | truncatewords:20 }}</p>
+      <p>{{ jekyll.description | strip_html | truncatewords:20 }}</p>
     </div>
   {% endfor %}
 </div>
 
+<h3 align="center" id="Ruby">✏️ Ruby ✏️</h3>
 <div class="banner">
   {% for ruby in site.ruby | sort: "title" %}
     <div>
       <h5><a href="{{ ruby.url }}">{{ ruby.title }}</a></h5>
-      <p>{{ ruby.excerpt | strip_html | truncatewords:20 }}</p>
+      <p>{{ ruby.description | strip_html | truncatewords:20 }}</p>
     </div>
   {% endfor %}
 </div>

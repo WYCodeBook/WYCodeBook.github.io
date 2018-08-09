@@ -3,6 +3,7 @@
 layout: collection
 title: "Basic HTML"
 picture:
+description: A summary of what's HTML and how HTML works
 
 ---
 

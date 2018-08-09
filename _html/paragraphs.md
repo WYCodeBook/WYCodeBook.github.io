@@ -3,7 +3,7 @@
 layout: collection
 title: "Paragraphs"
 picture:
-
+description: Using paragraph tag
 ---
 
 

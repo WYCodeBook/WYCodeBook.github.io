@@ -3,7 +3,7 @@
 layout: collection
 title: "Links"
 picture:
-
+description: Linking sites, emails, image, and sections of the page
 ---
 
 

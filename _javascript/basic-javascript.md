@@ -1,12 +1,11 @@
 ---
 
-layout: post
-title: "Basic JavaScript"
-date: 2018-06-20
-categories: JavaScript
-picture: /img/note_logo.png
-
+layout: collection
+title: "Console.log"
+picture:
+description: A summary of what's HTML and how HTML works
 ---
+
 
 ### What's JavaScript
 

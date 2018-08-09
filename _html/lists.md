@@ -3,7 +3,7 @@
 layout: collection
 title: "Lists"
 picture:
-
+description: Adding lists in HTML
 ---
 
 
