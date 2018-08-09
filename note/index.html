@@ -15,8 +15,10 @@ title: Notes
 <div class="banner">
   {% for html in site.html | sort: "title" %}
     <div>
-      <h5><a href="{{ html.url }}">{{ html.title }}</a></h5>
-      <p>{{ html.description | strip_html }}</p>
+      <a href="{{ html.url }}">
+        <h5>{{ html.title }}</h5>
+        <p>{{ html.description | strip_html }}</p>
+      </a>
     </div>
   {% endfor %}
 </div>
