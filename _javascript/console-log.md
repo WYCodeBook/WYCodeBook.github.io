@@ -25,7 +25,7 @@ The message you’ve logged is "Hello World!". `Hello World!` is a string (a seq
   }
 {% endhighlight %}
 
-Console Prints:
+### Console Prints...
 0
 1
 2
