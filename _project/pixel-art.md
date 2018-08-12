@@ -1,7 +1,7 @@
 ---
 
 layout: project
-title: "Style An Image"
+title: "Pixel Art Project"
 
 ---
 
