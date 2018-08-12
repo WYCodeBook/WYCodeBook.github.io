@@ -39,12 +39,10 @@ title: Projects
 
 <h3 align="center" id="HTML">✏️ HTML ✏️</h3>
 <div class="banner">
-  {% for html in site.html | sort: "title" %}
+  {% for project in site.project | sort: "title" %}
     <div>
-      <a href="{{ html.url }}">
-        <h5>{{ html.title }}</h5>
-        <p>{{ html.content }}</p>
-      </a>
+        <h5>{{ project.title }}</h5>
+        <p>{{ project.content }}</p>
     </div>
   {% endfor %}
 </div>
