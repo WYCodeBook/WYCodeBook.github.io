@@ -24,11 +24,6 @@ title: Projects
     <a href="https://github.com/WYCodeBook/GoogleFrontEnd-Phase2-Lab1-Animal-Trading-Card-WY"> Animal Trading Card </a>
   </li>
 
-  <li>
-    Animal Trading Card
-    <a href="https://wycodebook.github.io/GoogleFrontEnd-Phase1-AnimalCardProject/"> The Product </a>
-    <a href="https://github.com/WYCodeBook/GoogleFrontEnd-Phase1-AnimalCardProject"> The Source Code </a>
-  </li>
 
 </h5></ul>
 
@@ -42,8 +37,9 @@ title: Projects
 <div class="banner">
   {% for project in site.project | sort: "title" %}
     <div>
+      <a href="{{ project.url }}">
         <h5>{{ project.title }}</h5>
-        <p>{{ project.content }}</p>
+      </a>
     </div>
   {% endfor %}
 </div>
