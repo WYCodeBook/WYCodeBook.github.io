@@ -33,3 +33,18 @@ title: Projects
 </h5></ul>
 
 <h5> More Code Pieces Avaliable at <a href="https://github.com/WYCodeBook"> GitHub Repositories</a>. </h5>
+
+
+
+
+<h3 align="center" id="HTML">✏️ HTML ✏️</h3>
+<div class="banner">
+  {% for html in site.html | sort: "title" %}
+    <div>
+      <a href="{{ html.url }}">
+        <h5>{{ html.title }}</h5>
+        <p>{{ html.content }}</p>
+      </a>
+    </div>
+  {% endfor %}
+</div>
