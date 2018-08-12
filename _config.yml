@@ -11,6 +11,12 @@ timezone: America/Los_Angeles
 excerpt_separator: "<!-- more -->"
 
 collections:
+  resource:
+    output: true
+    permalink: /resource/:title
+  project:
+    output: true
+    permalink: /project/:title
   html:
     output: true
     permalink: /html/:title

@@ -6,8 +6,8 @@ title: Resources
 
 <p>Updated on: {{ site.time | date: '%B %-d, %Y' }}</p>
 
-{% for post in site.posts %}
-  {% if post.title == 'Resources' %}
+{% for resource in site.resources %}
+  {% if resource.title == 'Resources' %}
     <h5>{{ post.content }}</h5>
   {% endif %}
 {% endfor %}
