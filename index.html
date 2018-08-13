@@ -13,26 +13,6 @@ title: WY's Code Book
 
 	</div>
 
-  <p></p>
-
-	<div class="latestnote">
-	  <h1 class="latest">🔥 Latest Note 🔥</h1>
-
-		<ul>
-			{% assign count = 1 %}
-				{% for post in site.posts %}
-						{% if post.url != page.url and count < 3 %}
-								<li>
-									<div class="clearfix">
-										<a href="{{ post.url }}"><img class="postpicture" src="{{ post.picture }}"><h3>{{ post.title }}</h3><p>{{ post.date | date: '%B %-d, %Y'}}</p></a>
-										<h6>{{ post.excerpt | strip_html | truncatewords:30 }}</h6>
-										<h6><a href="{{ post.url }}">>>Continue to Read More<<</a></h6>
-									</div>
-								</li>
-						{% assign count = count | plus: 1 %}
-				{% endif %}
-			{% endfor %}
-		</ul>
-	</div>
+	
 
 </div><!-- /.blurb -->
