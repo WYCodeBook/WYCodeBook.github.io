@@ -28,10 +28,8 @@ title: Projects
 <div class="banner">
   {% for project in site.project | sort: "title" %}
     <div>
-      <a href="{{ project.url }}">
         <h5>{{ project.title }}</h5>
         <p>{{project.content}}</p>
-      </a>
     </div>
   {% endfor %}
 </div>
