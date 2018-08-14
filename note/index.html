@@ -13,7 +13,7 @@ title: Notes
 </h6>
 
 <h3 align="center" id="HTML">✏️ HTML ✏️</h3>
-<div class="banner">
+<div class="noteban">
   {% for html in site.html | sort: "title" %}
     <div>
       <a href="{{ html.url }}">
@@ -25,7 +25,7 @@ title: Notes
 </div>
 
 <h3 align="center" id="CSS">✏️ CSS ✏️</h3>
-<div class="banner">
+<div class="noteban">
   {% for css in site.css | sort: "title" %}
     <div>
       <a href="{{ css.url }}">
@@ -37,7 +37,7 @@ title: Notes
 </div>
 
 <h3 align="center" id="Javascript">✏️ Javascript ✏️</h3>
-<div class="banner">
+<div class="noteban">
   {% for javascript in site.javascript | sort: "title" %}
     <div>
       <a href="{{ javascript.url }}">
@@ -49,7 +49,7 @@ title: Notes
 </div>
 
 <h3 align="center" id="Jekyll">✏️ Jekyll ✏️</h3>
-<div class="banner">
+<div class="noteban">
   {% for jekyll in site.jekyll | sort: "title" %}
     <div>
       <a href="{{ jekyll.url }}">
@@ -61,7 +61,7 @@ title: Notes
 </div>
 
 <h3 align="center" id="Ruby">✏️ Ruby ✏️</h3>
-<div class="banner">
+<div class="noteban">
   {% for ruby in site.ruby | sort: "title" %}
     <div>
       <a href="{{ ruby.url }}">
@@ -73,7 +73,7 @@ title: Notes
 </div>
 
 <h3 align="center" id="Algorithms">✏️ Algorithms ✏️</h3>
-<div class="banner">
+<div class="noteban">
   {% for algorithms in site.algorithms | sort: "title" %}
     <div>
       <a href="{{ algorithms.url }}">

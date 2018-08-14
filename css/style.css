@@ -158,20 +158,20 @@ blockquote {
   padding-left: 0px;
 } /* no number, no bullet, and no indentation for list */
 
-/* styling for banner */
-.banner {
+/* styling for note banner */
+.noteban {
   display: flex;
   flex-wrap: wrap;
   flex-flow: row wrap;
 }
 
-.banner div {
+.noteban div {
   background-image: url(/img/pencilnote.png);
-  background-size: 320px 320px;
+  background-size: 320px 350px;
   background-repeat: no-repeat;
   background-position: center;
   width: 260px;
-  height: 260px;
+  height: 290px;
   padding: 0px;
   margin: 10px;
   text-align: center;
