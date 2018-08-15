@@ -18,7 +18,7 @@ title: WY's Code Book
 		<h3 class="keybanner">Recent Projects</h3>
 		<div>
 			{% for project in site.project | limit: 3 %}
-					<h6><a href="{{project.url}}">🔍{{ project.title }}{{project.content}}</a></h6>
+					<h6><a href="{{project.url}}">🔍{{ project.title }}</a></h6>
 			{% endfor %}
 		</div>
 
@@ -37,6 +37,13 @@ title: WY's Code Book
 			<a href="/resource/#css"> 🔍 CSS </a>
 			<a href="/resource/#html"> 🔍 HTML </a>
 		</h6>
+
+
+	{% assign sorted = (site.collection_name | limit: 6) %}
+	{% for item in sorted %}
+	<div>{{ item.title }}</div>
+	{% endfor %}
+
 
 
 	</div>
