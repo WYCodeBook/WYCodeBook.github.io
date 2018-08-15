@@ -14,7 +14,6 @@ collections:
   resource:
     output: true
     permalink: /resource/:title
-    sort: ''
   project:
     output: true
     permalink: /project/:title

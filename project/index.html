@@ -6,7 +6,7 @@ title: Projects
 <h1 align="center">🛠️{{ page.title }}🛠️</h1>
 
 <div class="banner">
-  {% for project in site.project | sort: 'date' %}
+  {% for project in site.project %}
     <div>
         <h5>{{ project.title }}</h5>
         <p>{{project.content}}</p>
