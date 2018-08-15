@@ -83,3 +83,14 @@ title: Notes
     </div>
   {% endfor %}
 </div>
+
+<div class="banner">
+  {% for post in site.categories.Algorithms %}
+    <div>
+      <a href="{{ post.url }}">
+        <h5>{{ post.title }}</h5>
+        <p>{{ post.description | strip_html }}</p>
+      </a>
+    </div>
+  {% endfor %}
+</div>
