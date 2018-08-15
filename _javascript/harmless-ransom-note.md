@@ -3,7 +3,7 @@
 layout: collection
 title: "Harmless Ransom Note"
 picture:
-description: What do console.log do?
+description: Big O Notation
 ---
 
 
