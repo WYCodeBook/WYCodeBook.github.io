@@ -1,10 +1,12 @@
 ---
-
-layout: collection
+layout: post
 title: "Images"
-picture:
+date: "2018-06-15 00:09:28 -0700"
+categories: HTML
 description: Add image in HTML
 ---
+
+
 
 
 Images are defined with the `<img>` tag.

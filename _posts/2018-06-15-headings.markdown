@@ -1,8 +1,8 @@
 ---
-
-layout: collection
+layout: post
 title: "Headings"
-picture:
+date: "2018-06-15 00:08:34 -0700"
+categories: HTML
 description: Summary of different heading sizes
 ---
 

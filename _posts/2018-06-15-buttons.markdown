@@ -1,8 +1,8 @@
 ---
-
-layout: collection
+layout: post
 title: "Buttons"
-picture:
+date: "2018-06-15 00:07:34 -0700"
+categories: HTML
 description: Adding a button in HTML
 ---
 

@@ -1,10 +1,11 @@
 ---
-
-layout: collection
+layout: post
 title: "Paragraphs"
-picture:
+date: "2018-06-15 00:11:58 -0700"
+categories: HTML
 description: Using paragraph tag
 ---
+
 
 
 Most content on a simple web page will appear in paragraphs or sections. HTML paragraphs are defined with the `<p>` tag.

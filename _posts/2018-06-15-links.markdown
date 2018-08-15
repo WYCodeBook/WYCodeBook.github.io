@@ -1,10 +1,12 @@
 ---
-
-layout: collection
+layout: post
 title: "Links"
-picture:
+date: "2018-06-15 00:10:11 -0700"
+categories: HTML
 description: Linking sites, emails, image, and sections of the page
 ---
+
+
 
 
 Links are necessary for users to jump from one page to another. HTML links are defined with the `<a>` tag.
@@ -22,7 +24,7 @@ The `href` attribute specifies the destination address (the url) of the link. Th
 
 
 
-### Basic Link
+## Basic Link
 
 There are two main parts to a link tag: the text a user can click, and the web address they go to if they click it. The bit between the `<a>` and `</a>` tags is the link text, and is generally displayed in blue and underlined by web browsers. The `href="url"` part is the web address, where `url` can be set in several ways:
 
@@ -36,7 +38,7 @@ There are two main parts to a link tag: the text a user can click, and the web a
 
 
 
-### Image as a Link
+## Image as a Link
 
 By placing an image tag between the `<a>` and `</a>` tags, you can turn an image into a link, and clicking on that image will then load the referenced page. `<a href="url"><img ...></a>`
 
@@ -56,7 +58,7 @@ By placing an image tag between the `<a>` and `</a>` tags, you can turn an image
 
 
 
-### Email Link
+## Email Link
 
 A special kind of link, the `mailto` notation link instructs the browser to compose and email to the specified address using the default email program. But it does not actually send any emails automatically.
 
@@ -72,7 +74,7 @@ You can also set a subject for the email by using
 
 
 
-### Link Titles
+## Link Titles
 
 The title attribute specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element.
 
@@ -82,7 +84,7 @@ The title attribute specifies extra information about an element. The informatio
 
 
 
-### Create a Bookmark (Internal Linking)
+## Create a Bookmark (Internal Linking)
 
 HTML bookmarks are used to allow readers to jump to specific parts of a Web page.
 
