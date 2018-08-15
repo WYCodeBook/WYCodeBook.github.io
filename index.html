@@ -31,8 +31,7 @@ title: WY's Code Book
 		<div>
 			{% for project in site.project | sort: "date" | limit: 3 %}
 				<div>
-						<h5>{{ project.title }}</h5>
-						<p>{{project.content}}</p>
+					<a href="{{project.url}}">{{ project.title }}</a>
 				</div>
 			{% endfor %}
 		</div>
