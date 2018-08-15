@@ -166,12 +166,12 @@ blockquote {
 }
 
 .banner div {
-  background-image: url(/img/pencilnote.png);
-  background-size: 320px 350px;
+  background-image: url(/img/floralnote.png);
+  background-size: 360px 360px;
   background-repeat: no-repeat;
   background-position: center;
   width: 260px;
-  height: 290px;
+  height: 260px;
   padding: 0px;
   margin: 10px;
   text-align: center;
