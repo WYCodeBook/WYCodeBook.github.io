@@ -15,28 +15,27 @@ title: WY's Code Book
 
 	<div class="keyword">
 
-		<h2 class="keybanner"><a href="/note">Note's Keywords</a></h2>
+		<h3 class="keybanner"><a href="/note">Keywords In Notes</a></h3>
 
 		<h6>
 		  <a href="/note/#HTML"> 🔍 HTML </a>
 		  <a href="/note/#CSS"> 🔍 CSS </a>
 		  <a href="/note/#Javascript"> 🔍 Javascript </a>
-		  <a href="/note/#Jekyll"> 🔍 Jekyll </a>
-		  <a href="/note/#Ruby"> 🔍 Ruby </a>
-		  <a href="/note/#Algorithms"> 🔍 Algorithms </a>
 		</h6>
 
-		<h2 class="keybanner"><a href="/project">Latest Projects</a></h2>
-
+		<h3 class="keybanner"><a href="/project">Recent Projects</a></h3>
 		<div>
 			{% for project in site.project | limit: 3 %}
-
-					<h6><a href="{{project.url}}">🔍{{ project.title }}</a></h6>
-
+					<h6><a href="{{project.url}}">🔍{{ project.title }}{{project.content}}</a></h6>
 			{% endfor %}
 		</div>
 
-
+		<h3 class="keybanner"><a href="/resource">Keywords In Resources</a></h3>
+		<h6>
+			<a href="/resource/#computer-science"> 🔍 Computer Science </a>
+			<a href="/resource/#css"> 🔍 CSS </a>
+			<a href="/resource/#html"> 🔍 HTML </a>
+		</h6>
 
 
 	</div>
