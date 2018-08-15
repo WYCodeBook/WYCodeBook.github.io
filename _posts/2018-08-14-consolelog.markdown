@@ -1,15 +1,15 @@
 ---
-
-layout: collection
+layout: post
 title: "Console.log"
-picture:
+date: "2018-07-11 23:52:17 -0700"
+categories: JavaScript
 description: What do console.log do?
 ---
 
 
 `console.log` is used to display content to the JavaScript console.
 
-### Examples to try...
+## Examples to try...
 
 {% highlight js %}
   console.log("Hello World!");

@@ -1,9 +1,9 @@
 ---
-
-layout: collection
+layout: post
 title: "Basic JavaScript"
-picture:
-description: A summary of what's and how JavaScript works
+date: "2018-07-11 23:50:36 -0700"
+categories: JavaScript
+description: A summary of JavaScript
 ---
 
 ## What's JavaScript?

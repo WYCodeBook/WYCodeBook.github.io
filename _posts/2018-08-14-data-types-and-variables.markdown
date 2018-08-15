@@ -1,9 +1,9 @@
 ---
-
-layout: collection
+layout: post
 title: "Data Types and Variables"
-picture:
-description: Numbers and Variables
+date: "2018-08-14 23:53:41 -0700"
+categories: JavaScript
+description: Number /
 ---
 
 
@@ -15,7 +15,7 @@ Entering `3`
 
 Console will print: 3
 
-## Arithmetic operations
+#### Arithmetic operations
 
 You can also perform calculations with numbers pretty easily. Basically type out an expression the way you would type it in a calculator.
 
@@ -23,7 +23,7 @@ Entering `3 + 2.1`
 
 Console will print: 5.1
 
-## Comparing numbers
+#### Comparing numbers
 
 What about comparing numbers? Can you do that? Well of course you can!
 
@@ -46,3 +46,5 @@ Comparisons between numbers will either evaluate to true or false. Here are some
 ![Number Comparison](/pic/numbercomparison.PNG)
 
 💥 The values true and false have significant importance in JavaScript. These values are called Booleans and are another data type in JavaScript. Later in this lesson, you’ll learn more about why Booleans are so important in programming.
+
+## 

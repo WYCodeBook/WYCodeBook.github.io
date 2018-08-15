@@ -6,7 +6,7 @@ title: Notes
 <h6>
   <a href="#HTML"> 🔍 HTML </a>
   <a href="#CSS"> 🔍 CSS </a>
-  <a href="#Javascript"> 🔍 Javascript </a>
+  <a href="#JavaScript"> 🔍 JavaScript </a>
   <a href="#Jekyll"> 🔍 Jekyll </a>
   <a href="#Ruby"> 🔍 Ruby </a>
   <a href="#Algorithms"> 🔍 Algorithms </a>
@@ -36,13 +36,13 @@ title: Notes
   {% endfor %}
 </div>
 
-<h3 align="center" id="Javascript">✏️ Javascript ✏️</h3>
+<h3 align="center" id="Javascript">✏️ JavaScript ✏️</h3>
 <div class="banner">
-  {% for javascript in site.javascript | sort: "title" %}
+  {% for post in site.categories.JavaScript %}
     <div>
-      <a href="{{ javascript.url }}">
-        <h5>{{ javascript.title }}</h5>
-        <p>{{ javascript.description | strip_html }}</p>
+      <a href="{{ post.url }}">
+        <h5>{{ post.title }}</h5>
+        <p>{{ post.description | strip_html }}</p>
       </a>
     </div>
   {% endfor %}
@@ -50,11 +50,11 @@ title: Notes
 
 <h3 align="center" id="Jekyll">✏️ Jekyll ✏️</h3>
 <div class="banner">
-  {% for jekyll in site.jekyll | sort: "title" %}
+  {% for post in site.categories.Jekyll %}
     <div>
-      <a href="{{ jekyll.url }}">
-        <h5>{{ jekyll.title }}</h5>
-        <p>{{ jekyll.description | strip_html }}</p>
+      <a href="{{ post.url }}">
+        <h5>{{ post.title }}</h5>
+        <p>{{ post.description | strip_html }}</p>
       </a>
     </div>
   {% endfor %}
@@ -62,11 +62,11 @@ title: Notes
 
 <h3 align="center" id="Ruby">✏️ Ruby ✏️</h3>
 <div class="banner">
-  {% for ruby in site.ruby | sort: "title" %}
+  {% for post in site.categories.Ruby %}
     <div>
-      <a href="{{ ruby.url }}">
-        <h5>{{ ruby.title }}</h5>
-        <p>{{ ruby.description | strip_html }}</p>
+      <a href="{{ post.url }}">
+        <h5>{{ post.title }}</h5>
+        <p>{{ post.description | strip_html }}</p>
       </a>
     </div>
   {% endfor %}
