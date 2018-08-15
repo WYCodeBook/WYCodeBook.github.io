@@ -2,6 +2,7 @@
 
 layout: project
 title: "Pixel Art Project"
+date: 2018-04-11
 
 ---
 

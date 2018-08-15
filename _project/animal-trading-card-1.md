@@ -2,6 +2,7 @@
 
 layout: project
 title: "Animal Trading Card version 1"
+date: 2018-04-11
 
 ---
 

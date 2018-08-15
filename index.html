@@ -15,7 +15,7 @@ title: WY's Code Book
 
 	<div class="keyword">
 
-		<h2>✏️ Notes ✏️</h2>
+		<h2 class="keybanner"><a href="/note">Note's Keywords</a></h2>
 
 		<h6>
 		  <a href="/note/#HTML"> 🔍 HTML </a>
@@ -26,10 +26,20 @@ title: WY's Code Book
 		  <a href="/note/#Algorithms"> 🔍 Algorithms </a>
 		</h6>
 
-		<h2>🛠️ Projects 🛠️</h2>
+		<h2 class="keybanner"><a href="/project">Latest Projects</a></h2>
+
+		<div>
+			{% for project in site.project | sort: "date" | limit: 3 %}
+				<div>
+						<h5>{{ project.title }}</h5>
+						<p>{{project.content}}</p>
+				</div>
+			{% endfor %}
+		</div>
 
 
 
 
+	</div>
 
 </div><!-- /.blurb -->
