@@ -4,9 +4,10 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
-{% if page. picture %}
+<!--{% if page. picture %}
   <img class="pagepicture" src="{{ page.picture }}">
-{% endif %}
+{% endif %}-->
+<p>Date: {{ post.date | date: '%B %-d, %Y' }}</p>
 
 
 <h5>
