@@ -18,7 +18,7 @@ title: WY's Code Book
 		<h1 align="center">Recent Projects</h1>
 
 		<div class="banner">
-			{% for project in site.project limit: 6 sort:'date' %}
+			{% for project in site.project limit: 6 %}
 				<div>
 					<h5><a href="{{project.url}}">{{ project.title }}</a></h5>
 					<p>{{project.content}}</p>
