@@ -17,21 +17,3 @@ collections:
   project:
     output: true
     permalink: /project/:title
-  html:
-    output: true
-    permalink: /html/:title
-  css:
-    output: true
-    permalink: /css/:title
-  jekyll:
-    output: true
-    permalink: /jekyll/:title
-  javascript:
-    output: true
-    permalink: /javascript/:title
-  ruby:
-    output: true
-    permalink: /ruby/:title
-  algorithms:
-    output: true
-    permalink: /algorithms/:title
