@@ -177,3 +177,20 @@ blockquote {
   text-align: center;
   line-height: auto;
 }
+
+/* styling for keybanner */
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  background-image: url(/img/flowerban.png);
+  background-size: 600px 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 500px;
+  height: 160px;
+  padding: 10px;
+  margin: 6px;
+  text-align: center;
+  line-height: auto;
+}
