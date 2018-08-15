@@ -13,38 +13,18 @@ title: WY's Code Book
 
 	</div>
 
-	<div class="keyword">
+	<div>
 
-		<h3 class="keyban">Recent Projects</h3>
-		<div>
-			{% for project in site.project | limit: 3 %}
-					<h6><a href="{{project.url}}">🔍{{ project.title }}</a></h6>
+		<h1 align="center">Recent Projects</h1>
+
+		<div class="banner">
+			{% for project in site.project | limit: 6 %}
+				<div>
+					<h5>{{ project.title }}</h5>
+					<p>{{project.content}}</p>
+				</div>
 			{% endfor %}
 		</div>
-
-
-		<h3 class="keyban">Keywords In Notes</h3>
-		<h6>
-		  <a href="/note/#HTML"> 🔍 HTML </a>
-		  <a href="/note/#CSS"> 🔍 CSS </a>
-		  <a href="/note/#Javascript"> 🔍 Javascript </a>
-		</h6>
-
-
-		<h3 class="keyban">Keywords In Resources</h3>
-		<h6>
-			<a href="/resource/#computer-science"> 🔍 Computer Science </a>
-			<a href="/resource/#css"> 🔍 CSS </a>
-			<a href="/resource/#html"> 🔍 HTML </a>
-		</h6>
-
-
-	{% assign sorted = (site.collection_name | limit: 6) %}
-	{% for collection_name_item in sorted %}
-	<div>{{ item.title }}</div>
-	{% endfor %}
-
-
 
 	</div>
 
