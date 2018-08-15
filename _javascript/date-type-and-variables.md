@@ -1,0 +1,48 @@
+---
+
+layout: collection
+title: "Data Types and Variables"
+picture:
+description: Numbers and Variables
+---
+
+
+## Numbers
+
+Defining a number in JavaScript is actually pretty simple. The Number data type includes any positive or negative integer, as well as decimals. Entering a number into the console will return it right back to you.
+
+Entering `3`
+
+Console will print: 3
+
+## Arithmetic operations
+
+You can also perform calculations with numbers pretty easily. Basically type out an expression the way you would type it in a calculator.
+
+Entering `3 + 2.1`
+
+Console will print: 5.1
+
+## Comparing numbers
+
+What about comparing numbers? Can you do that? Well of course you can!
+
+Just like in mathematics, you can compare two numbers to see if one’s greater than, less than, or equal to the other.
+
+Entering `5 > 10`
+
+Console will print: false
+
+Entering `5 < 10`
+
+Console will print: true
+
+Entering `5 == 10`
+
+Console will print: false
+
+Comparisons between numbers will either evaluate to true or false. Here are some more examples, so you can try it out!
+
+![Number Comparison](/pic/numbercomparison.PNG)
+
+💥 The values true and false have significant importance in JavaScript. These values are called Booleans and are another data type in JavaScript. Later in this lesson, you’ll learn more about why Booleans are so important in programming.
