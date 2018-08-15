@@ -1,11 +1,11 @@
 ---
-
-layout: collection
-title: "Removing List Styles"
-picture:
+layout: post
+title: "Remove List Styles"
+date: "2018-07-30 23:58:08 -0700"
+categories: CSS
 description: How to remove all the styling for lists?
-
 ---
+
 
 In a rare situation, bullet points and numbers for a list may not look good in certain style; so here is a solution on how to remove those default styles for a list.
 
