@@ -179,7 +179,7 @@ blockquote {
 }
 
 /* styling for keybanner */
-.keybanner {
+.keyban {
   display: flex;
   flex-wrap: wrap;
   flex-flow: row wrap;
