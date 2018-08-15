@@ -67,4 +67,4 @@ harmlessRansomNote('this is a secret note for you from a secret admirer', 'puert
 
 {% endhighlight %}
 
-This code used Linear Time Complexity = O(n) + O(m) because there are two loops that are not nested together!
+💥 This code used Linear Time Complexity = O(n) + O(m) because there are two loops that are not nested together!
