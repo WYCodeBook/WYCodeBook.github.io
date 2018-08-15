@@ -30,9 +30,9 @@ title: WY's Code Book
 
 		<div>
 			{% for project in site.project | sort: "date" | limit: 3 %}
-				<div>
-					<a href="{{project.url}}">{{ project.title }}</a>
-				</div>
+
+					<h6><a href="{{project.url}}">🔍{{ project.title }}</a></h6>
+
 			{% endfor %}
 		</div>
 
