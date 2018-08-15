@@ -2,7 +2,7 @@
 
 layout: project
 title: "WYCodeBook Blog"
-date: 2018-07-30
+date: "2018-07-30"
 
 
 ---

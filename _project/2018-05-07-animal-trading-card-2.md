@@ -2,7 +2,7 @@
 
 layout: project
 title: "Animal Trading Card version 2"
-date: 2018-05-07
+date: "2018-05-07"
 
 ---
 
