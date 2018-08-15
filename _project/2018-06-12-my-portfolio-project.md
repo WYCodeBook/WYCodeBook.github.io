@@ -2,7 +2,7 @@
 
 layout: project
 title: "My Portfolio Project"
-date: 2018-06-12
+date: "2018-06-12 00:15:11 -0700"
 
 ---
 

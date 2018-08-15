@@ -2,7 +2,7 @@
 
 layout: project
 title: "Style An Image"
-date: 2018-03-30
+date: "2018-03-30 00:10:11 -0700"
 
 ---
 
