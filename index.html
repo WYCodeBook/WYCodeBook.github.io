@@ -18,12 +18,14 @@ title: WY's Code Book
 		<h1 align="center">Recent Projects</h1>
 
 		<div class="banner">
-			{% for project in site.project limit: 6 | reverse %}
-				<div>
-					<h5><a href="{{project.url}}">{{ project.title }}</a></h5>
-					<p>{{project.content}}</p>
-				</div>
-			{% endfor %}
+		  {% for post in site.categories.HTML | limit: 6 %}
+		    <div>
+		      <a href="{{ post.url }}">
+		        <h5>{{ post.title }}</h5>
+		        <p>{{ post.content }}</p>
+		      </a>
+		    </div>
+		  {% endfor %}
 		</div>
 
 	</div>

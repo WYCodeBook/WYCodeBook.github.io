@@ -6,10 +6,12 @@ title: Projects
 <h1 align="center">🛠️{{ page.title }}🛠️</h1>
 
 <div class="banner">
-  {% for project in site.project | reverse %}
+  {% for post in site.categories.HTML %}
     <div>
-        <h5>{{ project.title }}</h5>
-        <p>{{project.content}}</p>
+      <a href="{{ post.url }}">
+        <h5>{{ post.title }}</h5>
+        <p>{{ post.content }}</p>
+      </a>
     </div>
   {% endfor %}
 </div>

@@ -1,9 +1,8 @@
 ---
-
-layout: project
-title: "WYCodeBook Blog"
-date: "2018-07-30 00:16:11 -0700"
-
+layout: post
+title: "WY Code Book Blog"
+date: "2018-07-30 00:32:30 -0700"
+categories: Project
 ---
 
 [The Product](https://wycodebook.github.io/)
