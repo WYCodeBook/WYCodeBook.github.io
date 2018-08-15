@@ -1,7 +1,7 @@
 ---
 
 layout: project
-title: "Pixel Art Project"
+title: "Pixel Art Project Version 1"
 date: 2018-04-11
 
 ---
