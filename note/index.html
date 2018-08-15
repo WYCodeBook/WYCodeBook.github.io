@@ -14,11 +14,11 @@ title: Notes
 
 <h3 align="center" id="HTML">✏️ HTML ✏️</h3>
 <div class="banner">
-  {% for html in site.html | sort: "title" %}
+  {% for post in site.categories.HTML %}
     <div>
-      <a href="{{ html.url }}">
-        <h5>{{ html.title }}</h5>
-        <p>{{ html.description | strip_html }}</p>
+      <a href="{{ post.url }}">
+        <h5>{{ post.title }}</h5>
+        <p>{{ post.description | strip_html }}</p>
       </a>
     </div>
   {% endfor %}
@@ -26,11 +26,11 @@ title: Notes
 
 <h3 align="center" id="CSS">✏️ CSS ✏️</h3>
 <div class="banner">
-  {% for css in site.css | sort: "title" %}
+  {% for post in site.categories.CSS %}
     <div>
-      <a href="{{ css.url }}">
-        <h5>{{ css.title }}</h5>
-        <p>{{ css.description | strip_html }}</p>
+      <a href="{{ post.url }}">
+        <h5>{{ post.title }}</h5>
+        <p>{{ post.description | strip_html }}</p>
       </a>
     </div>
   {% endfor %}
