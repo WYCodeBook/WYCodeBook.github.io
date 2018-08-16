@@ -5,6 +5,8 @@ title: "Resources"
 
 ---
 
+- [ASCII](#ascii)
+
 - [Color](#color)
 
 - [Computer Science](#computer-science)
@@ -29,8 +31,13 @@ title: "Resources"
 
 ---
 
+## ASCII
 
-### Color
+- [ASCII Code](https://www.ascii-code.com/)
+
+---
+
+## Color
 
 - [w3schools Color Picker](https://www.w3schools.com/colors/default.asp)
 
@@ -89,6 +96,8 @@ title: "Resources"
 ## JavaScript
 
 - [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
+
+- [MDN Grammar and Types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types)
 
 ---
 
