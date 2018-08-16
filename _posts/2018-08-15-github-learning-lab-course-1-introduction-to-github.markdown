@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Course 1: Introduction to GitHub"
+title: "GitHub Learning Lab Course 1: Introduction to GitHub"
 date: "2018-08-15 22:25:14 -0700"
-categories: GitHub Learning Lab
+categories: GitHub
 description: The sidekick for getting started on GitHub
 ---
 

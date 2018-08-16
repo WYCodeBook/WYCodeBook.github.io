@@ -6,6 +6,7 @@ title: Notes
 <h6>
   <a href="#Algorithms"> 🔍 Algorithms </a>
   <a href="#CSS"> 🔍 CSS </a>
+  <a href="#GitHub"> GitHub </a>
   <a href="#HTML"> 🔍 HTML </a>
   <a href="#JavaScript"> 🔍 JavaScript </a>
   <a href="#Jekyll"> 🔍 Jekyll </a>
@@ -27,6 +28,18 @@ title: Notes
 <h3 align="center" id="CSS"> CSS </h3>
 <div class="banner">
   {% for post in site.categories.CSS %}
+    <div>
+      <a href="{{ post.url }}">
+        <h5>{{ post.title }}</h5>
+        <p>{{ post.description | strip_html }}</p>
+      </a>
+    </div>
+  {% endfor %}
+</div>
+
+<h3 align="center" id="GitHub"> CSS </h3>
+<div class="banner">
+  {% for post in site.categories.GitHub %}
     <div>
       <a href="{{ post.url }}">
         <h5>{{ post.title }}</h5>
