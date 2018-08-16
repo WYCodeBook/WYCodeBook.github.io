@@ -8,7 +8,7 @@ description: Different Strings in JavaScript
 
 Strings are a collection of characters enclosed inside double or single quotes. You can use strings to represent data like sentences, names, addresses, and more.
 
-It is correct to either use double " or single ' quotes with strings, as long as you're consistent.
+It is correct to either use double `"` or single `'` quotes with strings, as long as you're consistent.
 
 #### String Concatenation
 
@@ -18,4 +18,4 @@ Entering `"Hello," + " New York City"`
 
 Console will print: "Hello, New York City"
 
-💥 For consistency single-quotes (') are preferred over double-quotes ("). This is helpful when creating strings that include HTML: `const element = '<button class="btn">Click Me</button>';`
+💥 For consistency single-quotes `(')` are preferred over double-quotes `(")`. This is helpful when creating strings that include HTML: `const element = '<button class="btn">Click Me</button>';`
