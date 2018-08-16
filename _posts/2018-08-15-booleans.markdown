@@ -10,11 +10,11 @@ description: Different Boolean types
 
 Very often, in programming, you will need a data type that can only have one of two values, like
 
-YES / NO
+  YES / NO
 
-ON / OFF
+  ON / OFF
 
-TRUE / FALSE
+  TRUE / FALSE
 
 For this, JavaScript has a Boolean data type. It can only take the values `true` or `false`.
 
@@ -38,13 +38,13 @@ Console will print: true
 
 Everything With a "Value" is True. Everything Without a "Value" is False.
 
-- The Boolean value of 0 (zero) is false
-- The Boolean value of -0 (minus zero) is false
-- The Boolean value of "" (empty string) is false
-- The Boolean value of undefined is false
-- The Boolean value of null is false
-- The Boolean value of false is (you guessed it) false
-- The Boolean value of NaN is false
+  - The Boolean value of 0 (zero) is false
+  - The Boolean value of -0 (minus zero) is false
+  - The Boolean value of "" (empty string) is false
+  - The Boolean value of undefined is false
+  - The Boolean value of null is false
+  - The Boolean value of false is (you guessed it) false
+  - The Boolean value of NaN is false
 
 ## Booleans Can be Objects
 
@@ -66,4 +66,4 @@ When using the `==` operator, equal booleans are equal. When using the `===` ope
 
 #### 👓 Read more at:
 
-- [w3schools JavaScript Booleans](https://www.w3schools.com/js/js_booleans.asp)
+  - [w3schools JavaScript Booleans](https://www.w3schools.com/js/js_booleans.asp)

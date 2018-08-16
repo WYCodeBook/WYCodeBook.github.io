@@ -17,8 +17,8 @@ The `href` attribute specifies the destination address (the url) of the link. Th
 
 #### 👓 Read more about Links at:
 
-- [3wschools - Links](https://www.w3schools.com/html/html_links.asp)
-- [Simple Guide to HTML](http://www.simplehtmlguide.com/linking.php)
+  - [3wschools - Links](https://www.w3schools.com/html/html_links.asp)
+  - [Simple Guide to HTML](http://www.simplehtmlguide.com/linking.php)
 
 
 
@@ -26,9 +26,9 @@ The `href` attribute specifies the destination address (the url) of the link. Th
 
 There are two main parts to a link tag: the text a user can click, and the web address they go to if they click it. The bit between the `<a>` and `</a>` tags is the link text, and is generally displayed in blue and underlined by web browsers. The `href="url"` part is the web address, where `url` can be set in several ways:
 
-- href="example.html" - another page in the current directory
-- href="example/page.html" - a relative location
-- href="http://wycodebook.github.io" - a full address
+  - href="example.html" - another page in the current directory
+  - href="example/page.html" - a relative location
+  - href="http://wycodebook.github.io" - a full address
 
 {% highlight html %}
   <a href="url">link text</a>
@@ -100,7 +100,7 @@ Step 2: Add a link to the bookmark ("Jump to HTML Links"), from within the same 
 
 💥 By default, a link will appear like this (in all browsers):
 
-- An unvisited link is underlined and blue
-- A visited link is underlined and purple
-- An active link is underlined and red
-- You can change the default colors, by using CSS.
+  - An unvisited link is underlined and blue
+  - A visited link is underlined and purple
+  - An active link is underlined and red
+  - You can change the default colors, by using CSS.

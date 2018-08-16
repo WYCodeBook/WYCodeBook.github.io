@@ -20,4 +20,4 @@ Most content on a simple web page will appear in paragraphs or sections. HTML pa
 
 #### 👓 Read more about Paragraphs at:
 
-- [3wschools - Paragraphs](https://www.w3schools.com/html/html_paragraphs.asp)
+  - [3wschools - Paragraphs](https://www.w3schools.com/html/html_paragraphs.asp)

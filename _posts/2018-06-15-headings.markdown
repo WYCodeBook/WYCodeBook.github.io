@@ -22,4 +22,4 @@ Headings are defined with the `<h1>` to `<h6>` tags. `<h1>` defines the most imp
 
 #### 👓 Read more about Headings at:
 
-- [3wschools - Headings](https://www.w3schools.com/html/html_headings.asp)
+  - [3wschools - Headings](https://www.w3schools.com/html/html_headings.asp)

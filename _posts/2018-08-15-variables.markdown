@@ -78,4 +78,4 @@ Not using `camelCase` for your variables names is not going to necessarily break
 
 #### 👓 Read more at:
 
-- [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
+  - [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
