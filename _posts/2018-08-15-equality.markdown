@@ -1,0 +1,47 @@
+---
+layout: post
+title: "Equality"
+date: "2018-08-15 21:54:33 -0700"
+categories: JavaScript
+description: Comparing numbers and strings (Booleans)
+---
+
+## Implicit type coercion
+
+JavaScript is known as a loosely typed language.
+
+Basically, this means that when you’re writing JavaScript code, you do not need to specify data types. Instead, when your code is interpreted by the JavaScript engine it will automatically be converted into the "appropriate" data type. This is called implicit type coercion and you’ve already seen examples like this before when you tried to concatenate strings with numbers.
+
+💥 A strongly typed language is a programming language that is more likely to generate errors if data does not closely match an expected type. Because JavaScript is loosely typed, you don’t need to specify data types; however, this can lead to errors that are hard to diagnose due to implicit type coercion.
+
+Entering `"jelly" + 1`
+
+Console will print: jelly1
+
+In this example, JavaScript takes the string `"jelly"` and adds the number `1` to it resulting in the string `"jelly1"`. In other programming languages, this code probably would have returned an error, but in JavaScript the number 1 is converted into the string `"1"` and then is concatenated to the string `"jelly"`.
+
+It’s behavior like this which makes JavaScript unique from other programming languages, but it can lead to some quirky behavior when doing operations and comparisons on mixed data types.
+
+In the example below, JavaScript takes the string `"1"`, converts it to `true`, and compares it to the boolean `true`.
+
+Entering `"1" == true`
+
+Console will print: true
+
+When you use the `==` or `!=` operators, JavaScript first converts each value to the same type (if they’re not already the same type); this is why it's called "type coercion"! This is often not the behavior you want, and it’s actually considered bad practice to use the `==` and `!=` operators when comparing values for equality.
+
+## Strict equality
+
+Instead, in JavaScript it’s better to use strict equality to see if numbers, strings, or booleans, etc. are identical in type and value without doing the type conversion first. To perform a strict comparison, simply add an additional equals sign `=` to the end of the `==` and `!=` operators.
+
+Entering `"1" === 1`
+
+Console will print: false
+
+This returns false because the string `"1"` is not the same type and value as the number `1`.
+
+Entering `0 === false`
+
+Console will print: false
+
+This returns false because the number `0` is not the same type and value as the boolean `false`.
