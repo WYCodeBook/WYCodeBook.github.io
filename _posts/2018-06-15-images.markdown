@@ -39,7 +39,7 @@ The `alt` attribute provides an alternate text for an image, if the user for som
 
 - Use the CSS `float` property to let the image float to the right or to the left of a text by using `float:"right | left"`.
 
-👓 Read more about Links at:
+#### 👓 Read more about Links at:
 
 - [3wschools - Images](https://www.w3schools.com/html/html_images.asp)
 - [Simple Guide to HTML](http://www.simplehtmlguide.com/images.php)

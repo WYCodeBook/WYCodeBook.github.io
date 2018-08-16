@@ -18,6 +18,6 @@ Most content on a simple web page will appear in paragraphs or sections. HTML pa
   <p>Paragraph 3</p>
 {% endhighlight %}
 
-👓 Read more about Paragraphs at:
+#### 👓 Read more about Paragraphs at:
 
 - [3wschools - Paragraphs](https://www.w3schools.com/html/html_paragraphs.asp)
