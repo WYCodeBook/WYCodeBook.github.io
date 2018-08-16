@@ -37,8 +37,11 @@ Issue titles are like email subject lines. They tell your collaborators what the
 Issues are used to discuss ideas, enhancements, tasks, and bugs. They make collaboration easier by:
 
   - Providing everyone (even future team members) with the complete story in one place
+
   - Allowing you to cross-link to other issues and pull requests 📖
+
   - Creating a single, comprehensive record of how and why you made certain decisions
+
   - Allowing you to easily pull the right people and teams into a conversation with @-mentions
 
 ▶️ [Issue Video](https://www.youtube.com/watch?v=Zhj46r5D0nQ)
@@ -50,6 +53,7 @@ Once you've commented on an issue or pull request, you'll start receiving email 
 How to silence or unmute specific conversations:
 
   - Go to the issue or pull request
+
   - Under "Notifications", click the Unsubscribe button on the right to silence notifications or Subscribe to unmute them
 
 You'll see a short description that explains your current notification status.
@@ -57,22 +61,31 @@ You'll see a short description that explains your current notification status.
 How to customize notifications in Settings:
 
   1. Click your profile icon
+
   2. Click Settings
+
   3. Click Notifications from the menu on the left and adjust your notification preferences
 
 Repository notification options:
 
   - Watch: You'll receive a notification when a new issue, pull request or comment is posted, and when an issue is closed or a pull request is merged
+
   - Not watching: You'll no longer receive notifications unless you're @-mentioned
+
   - Ignore: You'll no longer receive any notifications from the repository
 
 How to review notifications for the repositories you're watching:
 
   1. Click your profile icon
+
   2. Click Settings
+
   3. Click Notification from the menu on the left
+
   4. Click on the repositories you’re watching link
+
   5. Select the Watching tab
+
   6. Click the Unwatch button to disable notifications, or Watch to enable them
 
 
@@ -107,8 +120,11 @@ In the first field, type a commit message. The commit message should briefly tel
 Rules to live by for commit messages:
 
   - Don’t end your commit message with a period.
+
   - Keep your commit messages to 50 characters or less. Add extra detail in the extended description window if necessary. This is located just below the subject line.
+
   - Use active voice. For example, "add" instead of "added" and "merge" instead of "merged".
+
   - Think of your commit as expressing intent to introduce a change.
 
 ## Open a pull request
@@ -128,8 +144,11 @@ On the right side of the issue screen, under the "Assignees" section, click the 
 2️⃣ GitHub Pages
 
   - Click on the Settings tab in this repository
+
   - Scroll down to the "GitHub Pages" section
+
   - From the "Source" drop down, select the master branch
+
   - Click Save
 
 💥 The sample [GitHub Page](https://wycodebook.github.io/github-slideshow/#/)
@@ -141,14 +160,19 @@ Click the Close issue button at the bottom of the issue
 4️⃣ Create a branch
 
   - Navigate to the Code tab
+
   - Click Branch: master in the drop-down
+
   - In the field, enter a name for your branch
+
   - Click Create branch: <name> or press the “Enter” key to create your branch
 
 5️⃣ Commit a file
 
   - While on the branch you just created, click Create new file on the "Code" tab.
+
   - In the file name field, type `_posts/0000-01-02-YOUR-USERNAME.md`
+
   - When you’re done naming the file, add the following content to your file:
 
       {% highlight html %}
@@ -160,32 +184,42 @@ Click the Close issue button at the bottom of the issue
       Use the left arrow to go back!
       {% endhighlight %}
 
-  - After adding the text, you can commit the change by entering a commit
-  message in the text-entry field below the file edit view.
+  - After adding the text, you can commit the change by entering a commit message in the text-entry field below the file edit view.
+
   - When you’ve entered a commit message, click Commit new file
 
 6️⃣ Open a pull request
 
   - On the Code tab, click New pull request
+
   - In the base: drop-down menu, make sure the master branch is selected
-  - In the compare: drop-down menu, select the branch you recently made your
-  commit on
+
+  - In the compare: drop-down menu, select the branch you recently made your commit on
+
   - When you’ve selected your branch, enter a title for your pull request, for example
-  Add username's file
+
+  - Add username's file
+
   - The next field helps you provide a description of the changes you made. Feel free to add a description of what you’ve accomplished so far. As a reminder, you have: created a branch, created a file and made a commit, and opened a pull request
+
   - Click Create pull request
 
 7️⃣ Respond to a review
 
   - Click the Files Changed tab in this pull request
+
   - Click on the pencil (✏) icon found on the right side of the screen
+
   - Replace line 5 with something new
+
   - Scroll to the bottom and click Commit Changes.
 
 8️⃣ Merge your pull request
 
   - Click Merge pull request
+
   - Click Confirm merge
+  
   - Once your branch has been merged, you don't need it anymore. Click Delete branch.
 
 ## Completed Course!
