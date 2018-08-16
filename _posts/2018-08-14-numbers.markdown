@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Data Types and Variables"
+title: "Numbers"
 date: "2018-08-14 23:53:41 -0700"
 categories: JavaScript
-description: Number /
+description: Different types of number in JavaScript
 ---
 
 
@@ -47,4 +47,4 @@ Comparisons between numbers will either evaluate to true or false. Here are some
 
 💥 The values true and false have significant importance in JavaScript. These values are called Booleans and are another data type in JavaScript. Later in this lesson, you’ll learn more about why Booleans are so important in programming.
 
-## 
+##
