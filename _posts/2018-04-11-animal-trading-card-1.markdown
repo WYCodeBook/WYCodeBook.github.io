@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: "Animal Trading Card 1"
 date: "2018-04-11 00:28:52 -0700"
 categories: Project

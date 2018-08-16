@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: "WY Code Book Blog"
 date: "2018-07-30 00:32:30 -0700"
 categories: Project

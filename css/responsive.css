@@ -29,7 +29,7 @@
         font-size: 26px;
     }
 
-    .post ul {
+    .post ul li {
       line-height:100%;
       font-family: Gill Sans, sans-serif;
       color: #0E1807;
