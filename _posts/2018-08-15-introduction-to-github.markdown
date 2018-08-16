@@ -47,26 +47,26 @@ Issues are used to discuss ideas, enhancements, tasks, and bugs. They make colla
 
 Once you've commented on an issue or pull request, you'll start receiving email notifications when there's activity in the thread.
 
-How to silence or unmute specific conversations
+How to silence or unmute specific conversations:
 
   - Go to the issue or pull request
   - Under "Notifications", click the Unsubscribe button on the right to silence notifications or Subscribe to unmute them
 
 You'll see a short description that explains your current notification status.
 
-How to customize notifications in Settings
+How to customize notifications in Settings:
 
     1. Click your profile icon
     2. Click Settings
     3. Click Notifications from the menu on the left and adjust your notification preferences
 
-Repository notification options
+Repository notification options:
 
   - Watch: You'll receive a notification when a new issue, pull request or comment is posted, and when an issue is closed or a pull request is merged
   - Not watching: You'll no longer receive notifications unless you're @-mentioned
   - Ignore: You'll no longer receive any notifications from the repository
 
-How to review notifications for the repositories you're watching
+How to review notifications for the repositories you're watching:
 
     1. Click your profile icon
     2. Click Settings
@@ -88,7 +88,7 @@ You just learned how to create a branch—the first step in the GitHub flow.
 
 Branches are an important part of the GitHub flow because they allow us to separate our work from the master branch. In other words, everyone's work is safe while you contribute.
 
-Tips for using branches
+Tips for using branches:
 
   - A single project can have hundreds of branches, each suggesting a new change to the master branch.
 
@@ -146,6 +146,7 @@ Click the Close issue button at the bottom of the issue
   - Click Create branch: <name> or press the “Enter” key to create your branch
 
 5️⃣ Commit a file
+
   - While on the branch you just created, click Create new file on the "Code" tab.
   - In the file name field, type `_posts/0000-01-02-YOUR-USERNAME.md`
   - When you’re done naming the file, add the following content to your file:
@@ -164,6 +165,7 @@ Click the Close issue button at the bottom of the issue
   - When you’ve entered a commit message, click Commit new file
 
 6️⃣ Open a pull request
+
   - On the Code tab, click New pull request
   - In the base: drop-down menu, make sure the master branch is selected
   - In the compare: drop-down menu, select the branch you recently made your
@@ -174,12 +176,14 @@ Click the Close issue button at the bottom of the issue
   - Click Create pull request
 
 7️⃣ Respond to a review
+
   - Click the Files Changed tab in this pull request
   - Click on the pencil (✏) icon found on the right side of the screen
   - Replace line 5 with something new
   - Scroll to the bottom and click Commit Changes.
 
 8️⃣ Merge your pull request
+
   - Click Merge pull request
   - Click Confirm merge
   - Once your branch has been merged, you don't need it anymore. Click Delete branch.
