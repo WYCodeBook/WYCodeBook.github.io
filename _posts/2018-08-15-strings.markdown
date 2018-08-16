@@ -91,8 +91,10 @@ Entering `"Up up\n\tdown down"`
 
 Console will print:
 
-`Up up
- down down`
+{% highlight %}
+Up up
+ down down
+{% endhighlight %}
 
 #### 👓 Read more at:
 
@@ -119,5 +121,4 @@ Entering `'Y' != 'y'`
 Console will print: true
 
 #### 👓 Read more at:
-
 - [ASCII Code](https://www.ascii-code.com/)
