@@ -16,4 +16,54 @@ ON / OFF
 
 TRUE / FALSE
 
-For this, JavaScript has a Boolean data type. It can only take the values true or false.
+For this, JavaScript has a Boolean data type. It can only take the values `true` or `false`.
+
+## The Boolean() Function
+
+You can use the `Boolean()` function to find out if an expression (or a variable) is true:
+
+Entering `Boolean(10 > 9) `
+
+Console will print: true
+
+Or Entering `10 > 9 ` or `(10 > 9)`
+
+Console will print: true
+
+## Comparisons and Conditions
+
+![Boolean Comparisons](/pic/booleancompare.PNG)
+
+💥 The Boolean value of an expression is the basis for all JavaScript comparisons and conditions.
+
+Everything With a "Value" is True. Everything Without a "Value" is False.
+
+- The Boolean value of 0 (zero) is false
+- The Boolean value of -0 (minus zero) is false
+- The Boolean value of "" (empty string) is false
+- The Boolean value of undefined is false
+- The Boolean value of null is false
+- The Boolean value of false is (you guessed it) false
+- The Boolean value of NaN is false
+
+## Booleans Can be Objects
+
+Normally JavaScript booleans are primitive values created from literals:
+
+Entering `var x = false;`
+
+Console will print: boolean
+
+But booleans can also be defined as objects with the keyword new:
+
+Entering `var y = new Boolean(false);`
+
+Console will print: object
+
+💥 Do not create Boolean objects. It slows down execution speed. The `new` keyword complicates the code. This can produce some unexpected results.
+
+When using the `==` operator, equal booleans are equal. When using the `===` operator, equal booleans are not equal, because the `===` operator expects equality in both type and value.
+
+#### 👓 Read more at:
+
+- [w3schools JavaScript Booleans](https://www.w3schools.com/js/js_booleans.asp)
