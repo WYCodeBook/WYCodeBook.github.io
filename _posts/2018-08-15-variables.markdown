@@ -40,11 +40,11 @@ Now, if you want to use "Hello" in a variety of sentences, you don't need to dup
 
 Entering `greeting + " World!";`
 
-Console will print: `Hello World!`
+Console will print: Hello World!
 
 Entering `greeting + " Mike!";`
 
-Console will print: `Hello Mike!`
+Console will print: Hello Mike!
 
 You can also change the start of the greeting by reassigning a new string value to the variable `greeting`.
 
@@ -56,11 +56,11 @@ greeting = "Hola";
 
 Entering `greeting + " World!";`
 
-Console will print: `Hola World!`
+Console will print: Hola World!
 
 Entering `greeting + " Mike!";`
 
-Console will print: `Hola Mike!`
+Console will print: Hola Mike!
 
 ## Naming conventions
 
@@ -76,6 +76,6 @@ var tip = 8; // uses lowercase if the variable name is one word
 
 Not using `camelCase` for your variables names is not going to necessarily break anything in JavaScript. But there are recommended style guides used in all programming languages that help keep code consistent, clean, and easy-to-read. This is especially important when working on larger projects that will be accessed by multiple developers.
 
-👓 Read more about Links at:
+#### 👓 Read more about Links at:
 
 - [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
