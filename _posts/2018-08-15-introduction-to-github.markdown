@@ -41,7 +41,7 @@ Issues are used to discuss ideas, enhancements, tasks, and bugs. They make colla
   - Creating a single, comprehensive record of how and why you made certain decisions
   - Allowing you to easily pull the right people and teams into a conversation with @-mentions
 
-[Issue Video](https://www.youtube.com/watch?v=Zhj46r5D0nQ)
+▶️ [Issue Video](https://www.youtube.com/watch?v=Zhj46r5D0nQ)
 
 ## Notifications
 
