@@ -16,7 +16,7 @@ Did you know you can even add strings together? In JavaScript, this is called co
 
 Entering `"Hello," + " New York City"`
 
-Console will print: `Hello, New York City`
+Console will print: Hello, New York City
 
 💥 For consistency single-quotes `(')` are preferred over double-quotes `(")`. This is helpful when creating strings that include HTML: `const element = '<button class="btn">Click Me</button>';`
 
