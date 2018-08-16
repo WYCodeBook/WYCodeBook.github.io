@@ -15,7 +15,7 @@ description: What do console.log do?
   console.log("Hello World!");
 {% endhighlight %}
 
-Print: "hiya friend!"
+Console will print: hiya friend!
 
 The message you’ve logged is "Hello World!". `Hello World!` is a string (a sequence of characters).
 

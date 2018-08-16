@@ -28,7 +28,7 @@ function fizzBuzz(num){
 fizzBuzz(30);
 {% endhighlight %}
 
-## Console Prints...
+## Console will print...
 
 1
 2

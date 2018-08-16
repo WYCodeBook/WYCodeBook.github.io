@@ -21,6 +21,8 @@ title: "Resources"
 
 - [Icons](#icons)
 
+- [JavaScript](#javascript)
+
 - [Jekyll](#jekyll)
 
 
@@ -81,6 +83,12 @@ title: "Resources"
 ## Icons
 
 - [Kiss PNG](https://www.kisspng.com/)
+
+---
+
+## JavaScript
+
+- [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
 
 ---
 

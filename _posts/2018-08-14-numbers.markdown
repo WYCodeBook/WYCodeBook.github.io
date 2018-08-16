@@ -13,7 +13,7 @@ Defining a number in JavaScript is actually pretty simple. The Number data type 
 
 Entering `3`
 
-Console will print: 3
+Console will print: `3`
 
 #### Arithmetic operations
 
@@ -21,7 +21,7 @@ You can also perform calculations with numbers pretty easily. Basically type out
 
 Entering `3 + 2.1`
 
-Console will print: 5.1
+Console will print: `5.1`
 
 #### Comparing numbers
 
@@ -31,20 +31,18 @@ Just like in mathematics, you can compare two numbers to see if one’s greater 
 
 Entering `5 > 10`
 
-Console will print: false
+Console will print: `false`
 
 Entering `5 < 10`
 
-Console will print: true
+Console will print: `true`
 
 Entering `5 == 10`
 
-Console will print: false
+Console will print: `false`
 
 Comparisons between numbers will either evaluate to true or false. Here are some more examples, so you can try it out!
 
 ![Number Comparison](/pic/numbercomparison.PNG)
 
 💥 The values true and false have significant importance in JavaScript. These values are called Booleans and are another data type in JavaScript. Later in this lesson, you’ll learn more about why Booleans are so important in programming.
-
-##
