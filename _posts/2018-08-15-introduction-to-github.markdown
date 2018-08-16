@@ -12,13 +12,13 @@ GitHub is a collaboration platform.
 
 GitHub is also a powerful version control tool.
 
-[What's GitHub Video](https://www.youtube.com/watch?v=w3jLJU7DT5E)
+▶️ [What's GitHub Video](https://www.youtube.com/watch?v=w3jLJU7DT5E)
 
 ## Repository
 
 GitHub repository is the container that hold everything related to the project. The code view is where you will find the files included in the repository.
 
-[GitHub Repository Video](https://www.youtube.com/watch?v=R8OAwrcMlRw)
+▶️ [GitHub Repository Video](https://www.youtube.com/watch?v=R8OAwrcMlRw)
 
 `README.md` is used to explain the project and point readers to helpful information within the project.
 
@@ -76,7 +76,7 @@ How to review notifications for the repositories you're watching
   6. Click the Unwatch button to disable notifications, or Watch to enable them
 
 
-[Notification Video](https://www.youtube.com/watch?v=ocQldxF7fMY)
+▶️ [Notification Video](https://www.youtube.com/watch?v=ocQldxF7fMY)
 
 ## GitHub Flow
 
@@ -96,7 +96,7 @@ Tips for using branches
 
 Creating a branch allows you to make modifications to your project without changing the deployed master branch.
 
-[GitHub Flow Video](https://www.youtube.com/watch?v=PBI2Rz-ZOxU)
+▶️ [GitHub Flow Video](https://www.youtube.com/watch?v=PBI2Rz-ZOxU)
 
 ## Committing a file
 
@@ -115,40 +115,41 @@ Rules to live by for commit messages:
 
 While issues encourage discussion with other contributors and collaborators on a project, pull requests help you share your changes, receive feedback on them, and iterate on them until they’re perfect!
 
-[Pull Request Video](https://www.youtube.com/watch?v=kJr-PIfLDl4&feature=youtu.be)
+▶️ [Pull Request Video](https://www.youtube.com/watch?v=kJr-PIfLDl4&feature=youtu.be)
 
 
 
 ## Lesson Activities
 
-1. Assign yourself
+1️⃣ Assign yourself
 
 On the right side of the issue screen, under the "Assignees" section, click the gear icon and select yourself
 
-2. GitHub Pages
+2️⃣ GitHub Pages
 
   - Click on the Settings tab in this repository
   - Scroll down to the "GitHub Pages" section
   - From the "Source" drop down, select the master branch
   - Click Save
 
-The sample [GitHub Page](https://wycodebook.github.io/github-slideshow/#/)
+💥 The sample [GitHub Page](https://wycodebook.github.io/github-slideshow/#/)
 
-3. Close an issue
+3️⃣ Close an issue
 
 Click the Close issue button at the bottom of the issue
 
-4. Create a branch
+4️⃣ Create a branch
 
   - Navigate to the Code tab
   - Click Branch: master in the drop-down
   - In the field, enter a name for your branch
   - Click Create branch: <name> or press the “Enter” key to create your branch
 
-5. Commit a file
+5️⃣ Commit a file
   - While on the branch you just created, click Create new file on the "Code" tab.
   - In the file name field, type `_posts/0000-01-02-YOUR-USERNAME.md`
   - When you’re done naming the file, add the following content to your file:
+
       {% highlight html %}
       ---
       layout: slide
@@ -157,11 +158,12 @@ Click the Close issue button at the bottom of the issue
       Your test
       Use the left arrow to go back!
       {% endhighlight %}
+
   - After adding the text, you can commit the change by entering a commit
   message in the text-entry field below the file edit view.
   - When you’ve entered a commit message, click Commit new file
 
-6. Open a pull request
+6️⃣ Open a pull request
   - On the Code tab, click New pull request
   - In the base: drop-down menu, make sure the master branch is selected
   - In the compare: drop-down menu, select the branch you recently made your
@@ -171,13 +173,13 @@ Click the Close issue button at the bottom of the issue
   - The next field helps you provide a description of the changes you made. Feel free to add a description of what you’ve accomplished so far. As a reminder, you have: created a branch, created a file and made a commit, and opened a pull request
   - Click Create pull request
 
-7. Respond to a review
+7️⃣ Respond to a review
   - Click the Files Changed tab in this pull request
   - Click on the pencil (✏) icon found on the right side of the screen
   - Replace line 5 with something new
   - Scroll to the bottom and click Commit Changes.
 
-8. Merge your pull request
+8️⃣ Merge your pull request
   - Click Merge pull request
   - Click Confirm merge
   - Once your branch has been merged, you don't need it anymore. Click Delete branch.
