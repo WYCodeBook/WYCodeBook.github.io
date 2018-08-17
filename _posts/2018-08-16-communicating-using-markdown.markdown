@@ -120,9 +120,9 @@ You can add an image of yourself or anything else you'd like to feature. You'll 
 
 Let's add an image. Don't forget to include descriptive text in the square brackets. This text is read aloud for people using screen readers. It's also shown at times when your , or in case your image doesn't display, such as when there's a poor connection.
 
-{% highlight md %}
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-{% endhighlight %}
+  {% highlight md %}
+  ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+  {% endhighlight %}
 
 #### Activity: Adding an image
   - As you did before, edit the file in this pull request.
@@ -153,3 +153,51 @@ Pull request to share the updates
 Click Merge pull request below.
 
 ## Step 8: Add a list
+
+Help people get to know you by adding a list containing a few of your favorite things. Don't know what to add? Why not add a list of your favorite books or places to eat.
+
+#### Activity: Create a list
+
+  - Edit the `_includes/04-lists.md` in this pull request.
+  - Create a markdown list in the file. It can be ordered or unordered.
+  - Commit your changes.
+
+## Step 9: Use emphasis
+
+Let's try something new. You can use bold and italic text in Markdown. There are a couple of ways to create emphasis.
+
+  {% highlight md %}
+
+  *This text will be italic*
+  _This will also be italic_
+
+  **This text will be bold**
+  __This will also be bold__
+
+  _You **can** combine them_
+
+  {% endhighlight %}
+
+#### Activity: Add some emphasis
+
+  - Edit the file `_includes/05-emphasis.md` in this pull request.
+
+  - Use the Preview tab and your ✨ new Markdown knowledge, add emphasis (like bold or italics) to your skills.
+
+  - Commit your changes.
+
+## Step 10: Merge lists and emphasis
+
+You can merge this pull request when you're ready.
+
+#### Activity: Merge the Pull Request
+
+Go ahead and click Merge pull request below.
+
+## The Product of This Course
+
+https://wycodebook.github.io/markdown-portfolio/
+
+## Completed Course!
+
+![GitHub Course 2 Completed](/pic/GHcourse2.PNG)
