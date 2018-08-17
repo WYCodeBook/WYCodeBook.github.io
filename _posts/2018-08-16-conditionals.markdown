@@ -237,7 +237,7 @@ For example, you can rewrite the example code above as:
 var isGoing = true;
 var color = isGoing ? "green" : "red";
 console.log(color);
-{% enghighlight %}
+{% endhighlight %}
 
 Console will print: "green"
 
