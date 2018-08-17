@@ -40,15 +40,13 @@ Watch out! The syntax for task lists is very specific. Be sure to include the sp
 
 #### Activity: Add a comment
 
-  - Add a comment to this issue, using Markdown to create a list of items to complete.
+  - Add a comment to this issue, using Markdown to create a list of items to complete.Your task can include any tasks you wish, or you can use this example:
 
-  Your task can include any tasks you wish, or you can use this example:
-
-    {% highlight html %}
-    - [ ] Turn on GitHub Pages
-    - [ ] Outline my portfolio
-    - [ ] Introduce myself to the world
-    {% endhighlight %}
+  {% highlight html %}
+  - [ ] Turn on GitHub Pages
+  - [ ] Outline my portfolio
+  - [ ] Introduce myself to the world
+  {% endhighlight %}
 
   - Use the Preview tab to check your markdown formatting
 
@@ -99,7 +97,13 @@ The toolbar isn't available everywhere. When you edit a file, you must type the 
   - Above your new content, click Preview changes.
 
   - At the bottom of the page, type a short, meaningful commit message that describes the change you made to the file.
-  
+
   - Click Commit changes.
 
 ## Step 4: Merge your headers
+
+Let's merge this pull request and move on with the course.
+
+#### Activity: Merge the Pull Request
+
+  - Click Merge pull request below.
