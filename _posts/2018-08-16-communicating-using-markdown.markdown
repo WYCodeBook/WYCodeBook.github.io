@@ -40,7 +40,9 @@ Watch out! The syntax for task lists is very specific. Be sure to include the sp
 
 #### Activity: Add a comment
 
-  - Add a comment to this issue, using Markdown to create a list of items to complete. Your task can include any tasks you wish, or you can use this example:
+  - Add a comment to this issue, using Markdown to create a list of items to complete.
+
+  Your task can include any tasks you wish, or you can use this example:
 
     {% highlight html %}
     - [ ] Turn on GitHub Pages
@@ -94,3 +96,5 @@ The toolbar isn't available everywhere. When you edit a file, you must type the 
   4. Above your new content, click Preview changes.
   5. At the bottom of the page, type a short, meaningful commit message that describes the change you made to the file.
   6. Click Commit changes.
+
+## Step 4: Merge your headers
