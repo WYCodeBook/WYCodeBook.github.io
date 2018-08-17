@@ -116,3 +116,102 @@ By combining two boolean values together with a logical operator, you create a l
 By using logical operators, you can create more complex conditionals like Julia’s weekend example.
 
 💥 Logical expressions are evaluated from left to right. Similar to mathematical expressions, logical expressions can also use parentheses to signify parts of the expression that should be evaluated first.
+
+## Logical AND and OR
+
+Before you advance any further in the lesson, here’s the truth tables for logical `AND` (` && `) and logical `OR` (` || `).
+
+#### && (AND)
+
+A	    |B     |A && B
+------|------|------
+true	|true	 |true
+true	|false |false
+false	|true	 |false
+false	|false |false
+
+#### || (OR)
+
+A	    |B     |A || B
+------|------|------
+true	|true	 |true
+true	|false |true
+false	|true	 |true
+false	|false |false
+
+Truth tables are used to represent the result of all the possible combinations of inputs in a logical expression. `A` represents the boolean value on the left-side of the expression and `B` represents the boolean value on the right-side of the expression.
+
+Truth tables can be helpful for visualizing the different outcomes from a logical expression. However, do you notice anything peculiar about the truth tables for logical AND and OR?
+
+#### Short-circuiting
+
+![Short Circuiting](/pic/shortcircuiting.PNG)
+
+In both tables, there are specific scenarios where regardless of the value of `B`, the value of `A` is enough to satisfy the condition.
+
+For example, if you look at `A AND B`, if `A` is false, then regardless of the value `B`, the total expression will always evaluate to `false` because both `A` and `B` must be `true` in order for the entire expression to be `true`.
+
+This behavior is called `short-circuiting` because it describes the event when later arguments in a logical expression are not considered because the first argument already satisfies the condition.
+
+## Truthy and Falsy
+
+Every value in JavaScript has an inherent boolean value. When that value is evaluated in the context of a boolean expression, the value will be transformed into that inherent boolean value.
+
+#### Falsy values
+
+A value is `falsy `if it converts to `false` when evaluated in a boolean context. For example, an empty String `""` is falsy because, `""` evaluates to `false`. You already know if...else statements, so let's use them to test the truthy-ness of `""`.
+
+{% highlight js %}
+if ("") {
+    console.log("the value is truthy");
+} else {
+    console.log("the value is falsy");
+}
+{% endhighlight %}
+
+Console will print: "the value is falsy"
+
+Here’s the list of all of the falsy values:
+
+  - the Boolean value false
+
+  - the null type
+
+  - the undefined type
+
+  - the number 0
+
+  - the empty string ""
+
+  - the odd value NaN (stands for "not a number", check out the NaN MDN article)
+
+That's right, there are only six falsy values in all of JavaScript!
+
+#### Truthy values
+
+A value is `truthy` if it converts to `true` when evaluated in a boolean context. For example, the number `1` is truthy because, `1` evaluates to `true`. Let's use an if...else statement again to test this out:
+
+{% highlight js %}
+
+if (1) {
+    console.log("the value is truthy");
+} else {
+    console.log("the value is falsy");
+}
+
+{% endhighlight %}
+
+Console will print: "the value is truthy"
+
+Here are some other examples of truthy values:
+
+{% highlight js %}
+true
+42
+"pizza"
+"0"
+"null"
+"undefined"
+{}
+[]
+{% endhighlight %}
