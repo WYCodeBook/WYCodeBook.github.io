@@ -142,7 +142,7 @@ You might link to a website, a repository, or even a line of code. To create a l
 #### Activity: Add a link
 
   - Edit the file `_includes/03-links.md`.
-  
+
   - Replace the filler text with a link to your GitHub profile (or anywhere else).
 
 ## Step 7: Merge your image and link
@@ -199,7 +199,7 @@ Go ahead and click Merge pull request below.
 
 ## The Product of This Course
 
-https://wycodebook.github.io/markdown-portfolio/
+[Check It Out Here](https://wycodebook.github.io/markdown-portfolio/)
 
 ## Completed Course!
 
