@@ -3,7 +3,7 @@ layout: post
 title: "Conditionals"
 date: "2018-08-16 20:26:13 -0700"
 categories: JavaScript
-description: If...Else | Else If | Logical Operators | Switch Statement | Falling-Through 
+description: If...Else | Else If | Logical Operators | Switch Statement | Falling-Through
 ---
 
 ## If...else statements
@@ -205,6 +205,7 @@ true
 Sometimes, you might find yourself with the following type of conditional.
 
 {% highlight js %}
+
 var isGoing = true;
 var color;
 
@@ -215,7 +216,8 @@ if (isGoing) {
 }
 
 console.log(color);
-{% enghighlight %}
+
+{% endhighlight %}
 
 Console will print: "green"
 
