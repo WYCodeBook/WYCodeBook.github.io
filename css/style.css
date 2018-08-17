@@ -149,16 +149,6 @@ blockquote {
     border-radius: 20px;
 }
 
-.latest {
-    text-align: center;
-}
-
-.latestnote ul {
-  list-style-type: none;
-  margin-left: 0px;
-  padding-left: 0px;
-} /* no number, no bullet, and no indentation for list */
-
 /* styling for banner */
 .banner {
   display: flex;

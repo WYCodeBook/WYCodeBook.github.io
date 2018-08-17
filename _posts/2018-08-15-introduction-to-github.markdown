@@ -60,11 +60,11 @@ You'll see a short description that explains your current notification status.
 
 How to customize notifications in Settings:
 
-  1. Click your profile icon
+  Step 1. Click your profile icon
 
-  2. Click Settings
+  Step 2. Click Settings
 
-  3. Click Notifications from the menu on the left and adjust your notification preferences
+  Step 3. Click Notifications from the menu on the left and adjust your notification preferences
 
 Repository notification options:
 
@@ -76,17 +76,17 @@ Repository notification options:
 
 How to review notifications for the repositories you're watching:
 
-  1. Click your profile icon
+  Step 1. Click your profile icon
 
-  2. Click Settings
+  Step 2. Click Settings
 
-  3. Click Notification from the menu on the left
+  Step 3. Click Notification from the menu on the left
 
-  4. Click on the repositories you’re watching link
+  Step 4. Click on the repositories you’re watching link
 
-  5. Select the Watching tab
+  Step 5. Select the Watching tab
 
-  6. Click the Unwatch button to disable notifications, or Watch to enable them
+  Step 6. Click the Unwatch button to disable notifications, or Watch to enable them
 
 
 ▶️ [Notification Video](https://www.youtube.com/watch?v=ocQldxF7fMY)
