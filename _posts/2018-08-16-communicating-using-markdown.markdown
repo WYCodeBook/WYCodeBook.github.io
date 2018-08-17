@@ -106,4 +106,20 @@ Let's merge this pull request and move on with the course.
 
 #### Activity: Merge the Pull Request
 
-  - Click Merge pull request below.
+  - Click Merge pull request.
+
+#### Activity: Delete your branch
+
+  - Go ahead and delete your branch 📖 in this pull request.
+
+## Step 5: Add an image
+
+You can add an image of yourself or anything else you'd like to feature. You'll also learn how to create descriptive text, or "alt text", for images, and how to create links.
+
+#### Images
+
+Let's add an image. Don't forget to include descriptive text in the square brackets. This text is read aloud for people using screen readers. It's also shown at times when your , or in case your image doesn't display, such as when there's a poor connection.
+
+{% highlight md %}
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+{% endhighlight %}
