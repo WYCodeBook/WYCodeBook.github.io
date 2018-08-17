@@ -90,11 +90,16 @@ The toolbar isn't available everywhere. When you edit a file, you must type the 
 
 #### Activity: Edit your file with headers
 
-  1. In this pull request, click the Files changed tab.
-  2. In the upper right corner of the file view, click the small pencil ✏️ icon for the file `titled _includes/01-name.md`.
-  3. On the Edit file tab, add a # before the content to make it an H1 Header. You can add more headers, using one to six # characters.
-  4. Above your new content, click Preview changes.
-  5. At the bottom of the page, type a short, meaningful commit message that describes the change you made to the file.
-  6. Click Commit changes.
+  - In this pull request, click the Files changed tab.
+
+  - In the upper right corner of the file view, click the small pencil ✏️ icon for the file `titled _includes/01-name.md`.
+
+  - On the Edit file tab, add a # before the content to make it an H1 Header. You can add more headers, using one to six # characters.
+
+  - Above your new content, click Preview changes.
+
+  - At the bottom of the page, type a short, meaningful commit message that describes the change you made to the file.
+  
+  - Click Commit changes.
 
 ## Step 4: Merge your headers
