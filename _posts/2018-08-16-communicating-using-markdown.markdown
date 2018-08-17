@@ -142,6 +142,7 @@ You might link to a website, a repository, or even a line of code. To create a l
 #### Activity: Add a link
 
   - Edit the file `_includes/03-links.md`.
+  
   - Replace the filler text with a link to your GitHub profile (or anywhere else).
 
 ## Step 7: Merge your image and link
@@ -159,7 +160,9 @@ Help people get to know you by adding a list containing a few of your favorite t
 #### Activity: Create a list
 
   - Edit the `_includes/04-lists.md` in this pull request.
+
   - Create a markdown list in the file. It can be ordered or unordered.
+
   - Commit your changes.
 
 ## Step 9: Use emphasis
