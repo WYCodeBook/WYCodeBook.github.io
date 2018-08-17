@@ -106,11 +106,11 @@ Let's merge this pull request and move on with the course.
 
 #### Activity: Merge the Pull Request
 
-  - Click Merge pull request.
+Click Merge pull request.
 
 #### Activity: Delete your branch
 
-  - Go ahead and delete your branch 📖 in this pull request.
+Go ahead and delete your branch 📖 in this pull request.
 
 ## Step 5: Add an image
 
@@ -123,3 +123,33 @@ Let's add an image. Don't forget to include descriptive text in the square brack
 {% highlight md %}
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 {% endhighlight %}
+
+#### Activity: Adding an image
+  - As you did before, edit the file in this pull request.
+
+  - In the file, replace `_includes/02-image.md` with the correct Markdown for your image of choice. Don't forget to include alt-text!
+
+  - Commit 📖 your changes.
+
+## Step 6: Add a profile link
+
+Next, you'll want to add links to your awesome portfolio projects. Links help create context when you’re communicating in issues and pull requests.
+
+You might link to a website, a repository, or even a line of code. To create a link, put the text you want to display in square brackets, and the URL in the following parentheses.
+
+`[GitHub](http://github.com)`
+
+#### Activity: Add a link
+
+  - Edit the file `_includes/03-links.md`.
+  - Replace the filler text with a link to your GitHub profile (or anywhere else).
+
+## Step 7: Merge your image and link
+
+Pull request to share the updates
+
+#### Activity: Merge the Pull Request
+
+Click Merge pull request below.
+
+## Step 8: Add a list
