@@ -120,9 +120,8 @@ You can add an image of yourself or anything else you'd like to feature. You'll 
 
 Let's add an image. Don't forget to include descriptive text in the square brackets. This text is read aloud for people using screen readers. It's also shown at times when your , or in case your image doesn't display, such as when there's a poor connection.
 
-  {% highlight md %}
-  ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-  {% endhighlight %}
+`![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)`
+
 
 #### Activity: Adding an image
   - As you did before, edit the file in this pull request.
