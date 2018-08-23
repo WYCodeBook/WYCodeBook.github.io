@@ -113,7 +113,7 @@ while (x<=20) {
 
 Write a loop that prints out the following song. Starting at 99, and ending at 1 bottle.
 
-`99 bottles of juice on the wall! 99 bottles of juice! Take one down, pass it around... 98 bottles of juice on the wall!
+99 bottles of juice on the wall! 99 bottles of juice! Take one down, pass it around... 98 bottles of juice on the wall!
 
 98 bottles of juice on the wall! 98 bottles of juice! Take one down, pass it around... 97 bottles of juice on the wall!
 
@@ -121,7 +121,7 @@ Write a loop that prints out the following song. Starting at 99, and ending at 1
 
 2 bottles of juice on the wall! 2 bottles of juice! Take one down, pass it around... 1 bottle of juice on the wall!
 
-1 bottle of juice on the wall! 1 bottle of juice! Take one down, pass it around... 0 bottles of juice on the wall!`
+1 bottle of juice on the wall! 1 bottle of juice! Take one down, pass it around... 0 bottles of juice on the wall!
 
 Some Notes:
 
@@ -204,7 +204,7 @@ x = x-1;
 
 Output should look like...
 
-`T-60 seconds
+T-60 seconds
 
 T-59 seconds
 
@@ -226,4 +226,4 @@ T-2 seconds
 
 T-1 seconds
 
-Solid rocket booster ignition and liftoff!`
+Solid rocket booster ignition and liftoff!
