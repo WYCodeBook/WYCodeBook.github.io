@@ -99,4 +99,4 @@ window.addEventListener('keydown', playSound) //when we hit a key on the keyboar
 
 {% endhighlight %}
 
-### [Day 1 Completed !!!](https://github.com/WYCodeBook/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit)
+### [The Completed Code](https://github.com/WYCodeBook/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit)
