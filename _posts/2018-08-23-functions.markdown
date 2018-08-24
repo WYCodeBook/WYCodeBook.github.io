@@ -211,3 +211,121 @@ function divideByTwo(num) {
 var sum = add(5, 7); // call the "add" function and store the returned value in the "sum" variable
 var average = divideByTwo(sum); // call the "divideByTwo" function and store the returned value in the "average" variable
 {% endhighlight %}
+
+## Scopes
+
+#### Global Scopes
+
+identifiers can be accessed everywhere within your program
+
+#### Function Scopes
+
+identifiers can be accessed everywhere inside the function it was defined in
+
+💥 The JavaScript language is constantly improving. One of these updates introduces a new type of scope, called Block scope. Check out our [ES6 course](https://www.udacity.com/course/es6-javascript-improved--ud356) to learn more!
+
+#### Scope Recap
+
+  - If an identifier is declared in global scope, it's available everywhere.
+
+  - If an identifier is declared in function scope, it's available in the function it was declared in (even in functions declared inside the function).
+
+  - When trying to access an identifier, the JavaScript Engine will first look in the current function. If it doesn't find anything, it will continue to the next outer function to see if it can find the identifier there. It will keep doing this until it reaches the global scope.
+
+  - Global identifiers are a bad idea. They can lead to bad variable names, conflicting variable names, and messy code.
+
+## Global Variables
+
+So you might be wondering:
+
+"Why wouldn't I always use global variables? Then, I would never need to use function arguments since ALL my functions would have access to EVERYTHING!"
+
+Well... Global variables might seem like a convenient idea at first, especially when you're writing small scripts and programs, but there are many reasons why you shouldn't use them unless you have to. For instance, global variables can conflict with other global variables of the same name. Once your programs get larger and larger, it'll get harder and harder to keep track and prevent this from happening.
+
+There are also other reasons you'll learn more about in more advanced courses. But for now, just work on minimizing the use of global variables as much as possible.
+
+## Hoisting
+
+Sometimes your JavaScript code will produce errors that may seem counterintuitive at first. Hoisting is another one of those topics that might be the cause of some of these tricky errors you're debugging.
+
+Before any function being executed, all function declarations are "hoisted" to the top of their current scope.
+
+  - JavaScript hoists function declarations and variable declarations to the top of the current scope.
+
+  - Variable assignments are not hoisted.
+
+  - Declare functions and variables at the top of your scripts, so the syntax and behavior are consistent with each other.
+
+## Function Expressions
+
+Storing function within a variables
+
+#### Function Declaration
+
+{% highlight js %}
+function catSays (max) {
+  //your code here
+};
+
+catSays();
+{% endhighlight %}
+
+#### Function Expression
+
+{% highlight js %}
+var catSays =
+  function (max) {
+    //your code here
+  };
+
+catSays();
+{% endhighlight %}
+
+
+Once you know how to declare a function, a whole new set of possibilities will open up to you.
+
+For instance, remember how you can store anything you want in a variable? Well, in JavaScript, you can also store functions in variables. When a function is stored inside a variable it's called a function expression.
+
+{% highlight js %}
+var catSays = function(max) {
+  var catMessage = "";
+  for (var i = 0; i < max; i++) {
+    catMessage += "meow ";
+  }
+  return catMessage;
+};
+{% endhighlight %}
+
+Notice how the `function` keyword no longer has a name.
+
+{% highlight js %}
+var catSays = function(max) {
+  // code here
+};
+{% endhighlight %}
+
+It's an `anonymous function`, a function with no name, and you've stored it in a variable called `catSays`.
+
+And, if you try accessing the value of the variable `catSays`, you'll even see the function returned back to you.
+
+`catSays;`
+
+Return:
+
+{% highlight js %}
+function(max) {
+  var catMessage = ""
+  for (var i = 0; i < max; i++) {
+    catMessage += "meow ";
+  }
+  return catMessage;
+}
+{% endhighlight %}
+
+#### Function expressions and hoisting
+
+Deciding when to use a function expression and when to use a function declaration can depend on a few things, and you will see some ways to use them in the next section. But, one thing you'll want to be careful of, is hoisting.
+
+All function declarations are hoisted and loaded before the script is actually run. Function expressions are not hoisted, since they involve variable assignment, and only variable declarations are hoisted. The function expression will not be loaded until the interpreter reaches it in the script.
+
+## Patterns with Function Expressions
