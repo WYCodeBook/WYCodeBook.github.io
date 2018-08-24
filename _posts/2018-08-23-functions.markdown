@@ -143,3 +143,71 @@ console.log(laugh(3));
 Console will print: `hahaha!`
 
 ## Return Values
+
+#### Console.log
+
+Use to `print` a value to the JavaScript console.
+
+#### Return
+
+Use to stop execution of a function and return a value back to the caller.
+
+💥 It’s important to understand that return and print are not the same thing. Printing a value to the JavaScript console only displays a value (that you can view for debugging purposes), but the value it displays can't really be used for anything more than that. For this reason, you should remember to only use `console.log` to test your code in the JavaScript console.
+
+Paste the following function declaration and function invocation into the JavaScript console to see the difference between logging (printing) and returning:
+
+{% highlight js %}
+function isThisWorking(input) {
+  console.log("Printing: isThisWorking was called and " + input + " was passed in as an argument.");
+  return "Returning: I am returning this string!";
+}
+
+isThisWorking(3);
+{% endhighlight %}
+
+Prints: `"Printing: isThisWorking was called and 3 was passed in as an argument"`
+
+Returns: `"Returning: I am returning this string!"`
+
+💥 If you don't explicitly define a return value, the function will return undefined by default.
+
+{% highlight js %}
+function isThisWorking(input) {
+  console.log("Printing: isThisWorking was called and " + input + " was passed in as an argument.");
+}
+
+isThisWorking(3);
+{% endhighlight %}
+
+Prints: `"Printing: isThisWorking was called and 3 was passed in as an argument"`
+
+Returns: `undefined`
+
+#### Undefined
+
+A function is always going to return some value back to the caller. If a return value is not specified, then the function will just return back `undefined`.
+
+## Using Return Values
+
+Returning a value from a function is great, but what's the use of a return value if you're not going to use the value to do something?
+
+A function's return value can be stored in a variable or reused throughout your program as a function argument. Here, we have a function that adds two numbers together, and another function that divides a number by 2. We can find the average of 5 and 7 by using the `add()` function to add a pair of numbers together, and then by passing the sum of the two numbers `add(5, 7)` into the function `divideByTwo()` as an argument.
+
+And finally, we can even store the final answer in a variable called `average` and use the variable to perform even more calculations in more places!
+
+{% highlight js %}
+// returns the sum of two numbers
+function add(x, y) {
+  return x + y;
+}
+
+
+// returns the value of a number divided by 2
+function divideByTwo(num) {
+  return num / 2;
+}
+
+
+var sum = add(5, 7); // call the "add" function and store the returned value in the "sum" variable
+var average = divideByTwo(sum); // call the "divideByTwo" function and store the returned value in the "average" variable
+{% endhighlight %}
