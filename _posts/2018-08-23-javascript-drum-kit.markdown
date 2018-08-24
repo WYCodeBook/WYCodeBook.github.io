@@ -77,24 +77,24 @@ using `e` representing event
 
 {% highlight js %}
 
-  function.playSound(e){
-    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
-    const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
+function removeTransition(e) {
+  if(e.propertyName != 'transform') return; //skip it if it's not a transform
+  event.target.classList.remove('playing'); //used to remove the add class
+}
 
-    if(!audio) return; //stop the function from running all together
+function playSound(e){
+  const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+  const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
 
-    audio.currentTime = 0; //rewind to the stop
-    audio.play();
+  if(!audio) return; //stop the function from running all together
 
-    key.classList.add('playing'); //adding a class to a pressed key
-  }
+  key.classList.add('playing'); //adding a class to a pressed key
+  audio.currentTime = 0; //rewind to the stop
+  audio.play();
+}
 
-  function removeTransition(e) {
-    if(e.propertyName != 'transform') return; //skip it if it's not a transform
-    event.target.classList.remove('playing'); //used to remove the add class
-  }
+const keys = Array.from(document.querySelectorAll('.key'));
+keys.forEach(key => key.addEventListener('transitionend', removeTransition)); //items.forEach() instead of just forEach, which means it's a property of an array.
+window.addEventListener('keydown', playSound) //when we hit a key on the keyboard, meaning `keydown`, we would like to run the `playSound` function.
 
-  const keys = document.querySelectorAll(`.key`);
-  keys.forEach(key => key.addEventListener('transitionend', removeTransition)); //items.forEach() instead of just forEach, which means it's a property of an array.
-  window.addEventListener('keydown', playSound) //when we hit a key on the keyboard, meaning `keydown`, we would like to run the `playSound` function.
 {% endhighlight %}
