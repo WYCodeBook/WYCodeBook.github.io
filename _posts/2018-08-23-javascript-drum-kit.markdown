@@ -12,8 +12,6 @@ It is very exciting to start this challenge! During the Setup-Video and Day-1 Vi
 
 Since it's the first day of the challenge... I will just follow step by step presented in the video and begin my learning challenge Day 1 🤩
 
-### Collective of notes from many people
-
 ##### window.addEventListener('keydown', playSound)
 
   - `playSound()` is a listener for `keydown` events registered using `window.addEventListener`.
