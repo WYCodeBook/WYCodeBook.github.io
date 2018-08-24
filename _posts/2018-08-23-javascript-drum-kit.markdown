@@ -40,7 +40,6 @@ In another word, this is what we want from `window.addEventListener('keydown', p
 
   - the whole `querySelector` expression has to be in back ticks `
 
-
   - `${}` is syntactic sugar for template literals, read more about Expression interpolation [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 
 💥 To figure out what key was pressed we simply look for the `keyCode` inside the event that was send to the function. You see every key has it’s own unique code. While this is different on some keyboards / inputs, they are mostly the same and you can use this little website Wes created called keycode.info to figure out the codes you need.
