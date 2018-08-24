@@ -5,26 +5,10 @@ title: Projects
 
 <h1 align="center">🛠️{{ page.title }}🛠️</h1>
 
-<h6>
-  <a href="#Projects"> 🔍 Projects </a>
-  <a href="#JavaScript30DaysChallenge"> 🔍 JavaScript 30 Days Coding Challenge </a>
-</h6>
 
 
-<h3 align="center" id="Projects"> Projects </h3>
 <div class="banner">
   {% for post in site.categories.Project %}
-    <div>
-        <h5>{{ post.title }}</h5>
-        <p>{{ post.content }}</p>
-    </div>
-  {% endfor %}
-</div>
-
-
-<h3 align="center" id="JavaScript30DaysChallenge"> JavaScript 30 Days Coding Challenge </h3>
-<div class="banner">
-  {% for post in site.categories.JavaScript30DaysChallenge %}
     <div>
         <h5>{{ post.title }}</h5>
         <p>{{ post.content }}</p>
