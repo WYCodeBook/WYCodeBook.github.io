@@ -98,3 +98,5 @@ keys.forEach(key => key.addEventListener('transitionend', removeTransition)); //
 window.addEventListener('keydown', playSound) //when we hit a key on the keyboard, meaning `keydown`, we would like to run the `playSound` function.
 
 {% endhighlight %}
+
+### [Day 1 Completed !!!](https://github.com/WYCodeBook/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit)
