@@ -228,7 +228,7 @@ T-1 seconds
 
 Solid rocket booster ignition and liftoff!
 
-## For Loop
+## For Loops
 
 The `for loop` explicitly forces you to define the start point, stop point, and each step of the loop. In fact, you'll get an `Uncaught SyntaxError: Unexpected token )` if you leave out any of the three required pieces.
 
@@ -249,8 +249,93 @@ for (var i = 0; i < 6; i = i + 1) {
 Console will print:
 
   Printing out i = 0
+
   Printing out i = 1
+
   Printing out i = 2
+
   Printing out i = 3
+
   Printing out i = 4
+
   Printing out i = 5
+
+![For Loops](/pic/forloops.PNG)
+
+## Nested Loops
+
+Paste this nested loop in your browser and take a look at what it prints out:
+
+{% highlight js %}
+for (var x = 0; x < 5; x = x + 1) {
+  for (var y = 0; y < 3; y = y + 1) {
+    console.log(x + "," + y);
+  }
+}
+{% endhighlight %}
+
+Console will print:
+
+0, 0
+
+0, 1
+
+0, 2
+
+1, 0
+
+1, 1
+
+1, 2
+
+2, 0
+
+2, 1
+
+2, 2
+
+3, 0
+
+3, 1
+
+3, 2
+
+4, 0
+
+4, 1
+
+4, 2
+
+Notice the order that the output is being displayed.
+
+For each value of `x` in the outer loop, the inner for loop executes completely. The outer loop starts with `x = 0`, and then the inner loop completes it's cycle with all values of `y`:
+
+`x = 0 and y = 0, 1, 2 // corresponds to (0, 0), (0, 1), and (0, 2)`
+
+Once the inner loop is done iterating over `y`, then the outer loop continues to the next value, `x = 1`, and the whole process begins again.
+
+`x = 0 and y = 0, 1, 2 // (0, 0) (0, 1) and (0, 2)`
+
+`x = 1 and y = 0, 1, 2 // (1, 0) (1, 1) and (1, 2)`
+
+`x = 2 and y = 0, 1, 2 // (2, 0) (2, 1) and (2, 2)`
+
+etc...
+
+![Nested Loops](/pic/nestedloops.PNG)
+
+## Increment and Decrement
+
+Here is a summary of operators:
+
+  x++ or ++x // same as x = x + 1
+
+  x-- or --x // same as x = x - 1
+
+  x += 3 // same as x = x + 3
+
+  x -= 6 // same as x = x - 6
+
+  x *= 2 // same as x = x * 2
+
+  x /= 5 // same as x = x / 5
