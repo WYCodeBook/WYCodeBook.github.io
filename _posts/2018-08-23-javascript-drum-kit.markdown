@@ -6,7 +6,7 @@ categories: JavaScript30DaysChallenge
 description: JavaScript coding challenge DAY 1
 ---
 
-### DAY 1
+### [DAY 1]((https://github.com/WYCodeBook/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit))
 
 It is very exciting to start this challenge! During the Setup-Video and Day-1 Video, Wes mentioned there are many ways people learn and practice codes with the challenge materials and there is no one-fitted-all way to learn.
 
