@@ -79,3 +79,67 @@ Console will print: `"Hello!"`
 #### Parameters vs. Arguments
 
 At first, it can be a bit tricky to know when something is either a parameter or an argument. The key difference is in where they show up in the code. A `parameter` is always going to be a variable name and appears in the function declaration. On the other hand, an `argument` is always going to be a value (i.e. any of the JavaScript data types - a number, a string, a boolean, etc.) and will always appear in the code when the function is called or invoked.
+
+## In a summary
+
+`Functions` package up code so you can easily use (and reuse) a block of code.
+
+`Parameters` are variables that are used to store the data that's passed into a function for the function to use.
+
+`Arguments` are the actual data that's passed into a function when it is invoked:
+
+{% highlight js %}
+// x and y are parameters in this function declaration
+function add(x, y) {
+  // function body
+  var sum = x + y;
+  return sum; // return statement
+}
+
+// 1 and 2 are passed into the function as arguments
+var sum = add(1, 2);
+{% endhighlight %}
+
+The `function body` is enclosed inside curly brackets:
+
+{% highlight js %}
+function add(x, y) {
+  // function body!
+}
+{% endhighlight %}
+
+`Return statements` explicitly make your function return a value:
+
+{% highlight js %}
+return sum;
+{% endhighlight %}
+
+You `invoke` or `call` a function to have it do something:
+
+{% highlight js %}
+add(1, 2);
+{% endhighlight %}
+
+Console will print: `3`
+
+## Function with Loop Example
+
+#### Directions:
+
+Write a function called `laugh()` that takes one parameter, `num` that represents the number of `"ha"s` to return.
+
+{% highlight js %}
+function laugh(num) {
+  var laugh = "";
+  for (var x = 0; x < num; x++) {
+    laugh += "ha";
+  }
+  return laugh + "!";
+}
+
+console.log(laugh(3));
+{% endhighlight %}
+
+Console will print: `hahaha!`
+
+## Return Values
