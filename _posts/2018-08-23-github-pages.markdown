@@ -14,7 +14,7 @@ In this course, you'll create a blog hosted on GitHub Pages and learn how to:
   - Use Jekyll, a static site generator
   - Customize Jekyll sites with a theme and content
 
-## Activity: Turn on GitHub Pages
+#### Activity: Turn on GitHub Pages
 
 The first step to publishing your blog to the web is to enable GitHub Pages on this repository 📖. When you enable GitHub Pages on a repository, GitHub takes the content that's on the master branch and publishes a website based on its contents.
 
