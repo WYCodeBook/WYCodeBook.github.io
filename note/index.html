@@ -9,6 +9,7 @@ title: Notes
   <a href="#GitHub"> 🔍 GitHub </a>
   <a href="#HTML"> 🔍 HTML </a>
   <a href="#JavaScript"> 🔍 JavaScript </a>
+  <a href="#JavaScript30DaysChallenge"> 🔍 JavaScript 30 Days Coding Challenge </a>
   <a href="#Jekyll"> 🔍 Jekyll </a>
   <a href="#Ruby"> 🔍 Ruby </a>
 </h6>
@@ -65,6 +66,18 @@ title: Notes
 <h3 align="center" id="JavaScript"> JavaScript </h3>
 <div class="banner">
   {% for post in site.categories.JavaScript %}
+    <div>
+      <a href="{{ post.url }}">
+        <h5>{{ post.title }}</h5>
+        <p>{{ post.description | strip_html }}</p>
+      </a>
+    </div>
+  {% endfor %}
+</div>
+
+<h3 align="center" id="JavaScript30DaysChallenge"> JavaScript 30 Days Coding Challenge </h3>
+<div class="banner">
+  {% for post in site.categories.JavaScript30DaysChallenge %}
     <div>
       <a href="{{ post.url }}">
         <h5>{{ post.title }}</h5>
