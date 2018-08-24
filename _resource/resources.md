@@ -100,6 +100,8 @@ title: "Resources"
 
 - [MDN Grammar and Types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types)
 
+- [Keycode for JavaScript](http://keycode.info/)
+
 ---
 
 ## Jekyll
