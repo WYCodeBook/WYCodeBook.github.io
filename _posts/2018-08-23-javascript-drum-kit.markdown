@@ -38,7 +38,8 @@ In another word, this is what we want from `window.addEventListener('keydown', p
 
   - `data-key` is set for mapping buttons and audios to get the `keyCodes` via `keydown` event.
 
-  - the whole `querySelector` expression has to be in back ticks `(``)`.
+  - the whole `querySelector` expression has to be in back ticks `
+
 
   - `${}` is syntactic sugar for template literals, read more about Expression interpolation [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 
@@ -69,11 +70,15 @@ These are used to prevent delay playing sounds as we keep selecting keys from th
 
   - `items.forEach()` instead of just `forEach`, which means it's a property of an array.
 
+##### event
+
+using `e` representing event
+
 ### Final Codes
 
 {% highlight js %}
 
-  function.playSound(event){
+  function.playSound(e){
     const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
     const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
 
@@ -85,7 +90,7 @@ These are used to prevent delay playing sounds as we keep selecting keys from th
     key.classList.add('playing'); //adding a class to a pressed key
   }
 
-  function removeTransition(event) {
+  function removeTransition(e) {
     if(e.propertyName != 'transform') return; //skip it if it's not a transform
     event.target.classList.remove('playing'); //used to remove the add class
   }
