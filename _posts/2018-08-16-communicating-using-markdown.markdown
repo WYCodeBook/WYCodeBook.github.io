@@ -6,6 +6,13 @@ categories: GitHub
 description: GitHub Learning Lab Course 2
 ---
 
+This course will walk you through creating and using headings more effectively, organizing thoughts in bulleted lists, and showing how much work you’ve completed with checklists. You can even use Markdown to add some depth to your work with the help of emoji, images, and links. See a word you don't understand? We've included an emoji 📖 next to some key terms. Click on it to see its definition.
+
+In this course, you’ll learn how to:
+
+- Use Markdown to add lists, images, and links in a comment or text file
+- Determine where and how to use Markdown in a GitHub repository
+
 ## What is Markdown?
 
 Markdown is a lightweight syntax for writing all types of communication on GitHub, as well as many other places on the web. You can format words as bold or italic, add images, and create lists. Mostly, Markdown is just regular text combined with a few non-alphabetic symbols, such as `#` or `*`. You can use Markdown with the formatting toolbar in issues 📖 and pull requests 📖, or you can learn the syntax and type it yourself.

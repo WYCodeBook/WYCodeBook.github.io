@@ -6,6 +6,14 @@ categories: [GitHub, Jekyll]
 description: GitHub Learning Lab Course 3
 ---
 
+In this course, you’ll learn how to:
+
+- Enable GitHub Pages
+- Choose a theme with Jekyll
+- Use YAML front matter
+- Customize your site
+- Create and edit blog posts
+
 ## Step 1: Enable GitHub Pages
 
 In this course, you'll create a blog hosted on GitHub Pages and learn how to:

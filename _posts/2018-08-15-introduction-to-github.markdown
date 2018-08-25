@@ -6,6 +6,14 @@ categories: GitHub
 description: GitHub Learning Lab Course 1
 ---
 
+In this course, you’ll learn how to:
+
+- Communicate in issues
+- Manage notifications
+- Create branches
+- Make commits
+- Introduce changes with pull requests
+
 ## What's GitHub?
 
 GitHub is a collaboration platform.
