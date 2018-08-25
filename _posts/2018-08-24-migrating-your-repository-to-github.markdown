@@ -10,10 +10,10 @@ This course helps you seamlessly migrate a project using GitHub's importer tool.
 
 In this course, you’ll learn how to:
 
-- Prepare your project for a successful migration
-- Handle any binary files currently stored in your project
-- Create important Git files like a `.gitignore`
-- Import your project to GitHub
+  - Prepare your project for a successful migration
+  - Handle any binary files currently stored in your project
+  - Create important Git files like a `.gitignore`
+  - Import your project to GitHub
 
 ## Step 1: Plan the migration
 
