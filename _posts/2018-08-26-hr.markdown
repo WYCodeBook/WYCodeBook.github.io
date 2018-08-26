@@ -47,3 +47,7 @@ Asterisks
 `___`
 
 Underscores
+
+#### 👓 Read more about Links at:
+
+  - [3wschools - <hr>](https://www.w3schools.com/tags/tag_hr.asp)
