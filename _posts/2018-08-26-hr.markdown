@@ -2,8 +2,12 @@
 layout: post
 title: "<hr>"
 date: "2018-08-26 13:17:47 -0700"
-categories: HTML
+categories: [HTML, CSS]
 description: HTML5: thematic break or HTML 4.01: horizontal rule
+---
+
+🔍 [Default CSS Settings](#default-css-settings) 🔍 [Markdown](#markdown)
+
 ---
 
 The `<hr>` tag defines a thematic break in an HTML page (e.g. a shift of topic).
