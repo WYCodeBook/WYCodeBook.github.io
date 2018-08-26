@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "Synatx : let and const"
+title: "Syntax"
 date: "2018-08-26 12:55:36 -0700"
 categories: JavaScript
-description: How to use let & const?
+description: Basic Syntax
 ---
 
-🔍 [let and const](#let-and-const) 🔍 [Rules for using let and const](#rules-for-using-let-and-const) 🔍 [Use cases](#use-cases) 🔍 [What about var?](#what-about-var-?)  
+🔍 [let and const](#let-and-const)
+
+---
 
 #### Hoisting
 
@@ -86,3 +88,45 @@ Since `const` is the strictest way to declare a variable, we suggest that you al
 Is there any reason to use `var` anymore? Not really.
 
 There are some arguments that can be made for using `var` in situations where you want to globally define variables, but this is often considered bad practice and should be avoided. From now on, we suggest ditching `var` in place of using `let` and `const`.
+
+## Prior to ES6...
+
+the old way to concatenate strings together was by using the string concatenation operator ( `+` ).
+
+{% highlight js %}
+const student = {
+  name: 'Richard Kalehoff',
+  guardian: 'Mr. Kalehoff'
+};
+
+const teacher = {
+  name: 'Mrs. Wilson',
+  room: 'N231'
+}
+
+let message = student.name + ' please see ' + teacher.name + ' in ' + teacher.room + ' to pick up your report card.';
+{% endhighlight %}
+
+Console will print: `Richard Kalehoff please see Mrs. Wilson in N231 to pick up your report card.`
+
+This works alright, but it gets more complicated when you need to build multi-line strings.
+
+{% highlight js %}
+let note = teacher.name + ',\n\n' +
+  'Please excuse ' + student.name + '.\n' +
+  'He is recovering from the flu.\n\n' +
+  'Thank you,\n' +
+  student.guardian;
+{% endhighlight %}
+
+Console will print:
+
+{% highlight html %}
+Mrs. Wilson,
+
+Please excuse Richard Kalehoff.
+He is recovering from the flu.
+
+Thank you,
+Mr. Kalehoff
+{% endhighlight %}
