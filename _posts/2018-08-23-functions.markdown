@@ -6,6 +6,10 @@ categories: JavaScript
 description: How to use functions?
 ---
 
+🔍 [Declaring Functions](#declaring-function) 🔍 [Function with Loop Example](#function-with-loop-example) 🔍 [Return Values](#return-values) 🔍 [Using Return Values](#using-return-values) 🔍 [Scopes](#scopes) 🔍 [Global Variables](#global-variables) 🔍 [Hoisting](#hoisting) 🔍 [Function Expressions](#function-expression) 🔍 [Patterns with Function Expressions](#patterns-with-function-expressions) 
+
+---
+
 ## Declaring Functions
 
 #### How to declare a function

@@ -6,7 +6,6 @@ categories: [HTML, CSS]
 description: HTML5 - thematic break, HTML 4.01 - horizontal rule
 ---
 
-
 🔍 [Default CSS Settings](#default-css-settings) 🔍 [Markdown](#markdown)
 
 ---
