@@ -6,7 +6,7 @@ categories: JavaScript
 description: Basic Syntax
 ---
 
-🔍 [let and const](#let-and-const) 🔍 [Template Literals](#template-literals)
+🔍 [let and const](#let-and-const) 🔍 [Template Literals](#template-literals) 🔍 [Destructuring](#destructuring) 🔍 [Object Literal Shorthand](#object-literal-shorthand)
 
 ---
 
@@ -173,4 +173,216 @@ He is recovering from the flu.
 
 Thank you,
 Mr. Kalehoff
+{% endhighlight %}
+
+💥 Embedded expressions inside template literals can do more than just reference variables. You can perform operations, call functions and use loops inside embedded expressions!
+
+## Destructuring
+
+In ES6, you can extract data from arrays and objects into distinct variables using `destructuring`.
+
+This probably sounds like something you’ve done before, for example, look at the two code snippets below that extract data using pre-ES6 techniques:
+
+{% highlight js %}
+const point = [10, 25, -34];
+
+const x = point[0];
+const y = point[1];
+const z = point[2];
+
+console.log(x, y, z);
+{% endhighlight %}
+
+Console will print: `10 25 -34`
+
+The example above shows extracting values from an array.
+
+{% highlight js %}
+const gemstone = {
+  type: 'quartz',
+  color: 'rose',
+  carat: 21.29
+};
+
+const type = gemstone.type;
+const color = gemstone.color;
+const carat = gemstone.carat;
+
+console.log(type, color, carat);
+{% endhighlight %}
+
+Console will print: `quartz rose 21.29`
+
+And this example shows extracting values from an object.
+
+Both are pretty straightforward, however, neither of these examples are actually using destructuring.
+
+#### So what exactly is destructuring?
+
+Destructuring borrows inspiration from languages like [Perl](https://en.wikipedia.org/wiki/Perl) and [Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29) by allowing you to specify the elements you want to extract from an array or object on the left side of an assignment. It sounds a little weird, but you can actually achieve the same result as before, but with much less code; and it's still easy to understand.
+
+Let’s take a look at both examples rewritten using destructuring.
+
+#### Destructuring values from an array
+
+{% highlight js %}
+const point = [10, 25, -34];
+
+const [x, y, z] = point;
+
+console.log(x, y, z);
+{% endhighlight %}
+
+Console will print the same: `10 25 -34`
+
+In this example, the brackets `[ ]` represent the array being destructured and `x`, `y`, and `z` represent the variables where you want to store the values from the array. Notice how you don’t have to specify the indexes for where to extract the values from because the indexes are implied.
+
+💥 You can also ignore values when destructuring arrays. For example, `const [x, , z] = point`; ignores the `y` coordinate and discards it.
+
+#### Destructuring values from an object
+
+{% highlight js %}
+const gemstone = {
+  type: 'quartz',
+  color: 'rose',
+  carat: 21.29
+};
+
+const {type, color, carat} = gemstone;
+
+console.log(type, color, carat);
+{% endhighlight %}
+
+Console will print the same: `quartz rose 21.29`
+
+In this example, the curly braces `{ }` represent the object being destructured and `type`, `color`, and `carat` represent the variables where you want to store the properties from the object. Notice how you don’t have to specify the property from where to extract the values. Because `gemstone` has a property named `type`, the value is automatically stored in the `type` variable. Similarly, `gemstone` has a `color` property, so the value of `color` automatically gets stored in the `color` variable. And it's the same with `carat`.
+
+💥 You can also specify the values you want to select when destructuring an object. For example, `let {color} = gemstone`; will only select the color property from the gemstone object.
+
+#### Quick example
+
+Direction:
+
+What do you expect to be returned from calling `getArea()`?
+
+{% highlight js %}
+const circle = {
+  radius: 10,
+  color: 'orange',
+  getArea: function() {
+    return Math.PI * this.radius * this.radius;
+  },
+  getCircumference: function() {
+    return 2 * Math.PI * this.radius;
+  }
+};
+
+let {radius, getArea, getCircumference} = circle;
+{% endhighlight %}
+
+Console will print: `NaN`
+
+Calling `getArea()` will return `NaN`. When you destructure the object and store the `getArea()` method into the `getArea` variable, it no longer has access to `this` in the `circle` object which results in an area that is `NaN`.
+
+Direction:
+
+Use array destructuring to pull out the three colors from the array of things and store them into the variables one, two, and three.
+
+{% highlight js %}
+const things = ['red', 'basketball', 'paperclip', 'green', 'computer', 'earth', 'udacity',
+'blue', 'dogs'];
+
+const [one,,,two,,,,three] = things;
+
+const colors = `List of Colors
+1. ${one}
+2. ${two}
+3. ${three}`;
+
+console.log(colors);
+{% endhighlight %}
+
+{% highlight html %}
+List of Colors
+1. red
+2. green
+3. blue
+{% endhighlight %}
+
+## Object Literal Shorthand
+
+A recurring trend in ES6 is to remove unnecessary repetition in your code. By removing unnecessary repetition, your code becomes easier to read and more concise. This trend continues with the introduction of new shorthand ways for initializing objects and adding methods to objects.
+
+Let’s see what those look like.
+
+#### Object literal shorthand
+
+You’ve probably written code where an object is being initialized using the same property names as the variable names being assigned to them.
+
+But just in case you haven’t, here’s an example.
+
+{% highlight js %}
+let type = 'quartz';
+let color = 'rose';
+let carat = 21.29;
+
+const gemstone = {
+  type: type,
+  color: color,
+  carat: carat
+};
+
+console.log(gemstone);
+{% endhighlight %}
+
+Console will print: `Object {type: "quartz", color: "rose", carat: 21.29}`
+
+Do you see the repetition? Doesn't `type: type`, `color: color`, and `carat:carat` seem redundant?
+
+The good news is that you can remove those duplicate variables names from object properties _if_ the properties have the same name as the variables being assigned to them.
+
+Check it out!
+
+{% highlight js %}
+let type = 'quartz';
+let color = 'rose';
+let carat = 21.29;
+
+const gemstone = { type, color, carat};
+
+console.log(gemstone);
+{% endhighlight %}
+
+Speaking of shorthand, there’s also a shorthand way to add methods to objects.
+
+To see how that looks, let’s start by adding a `calculateWorth()` method to our `gemstone` object. The `calculateWorth()` method will tell us how much our gemstone costs based on its `type`, `color`, and `carat`.
+
+{% highlight js %}
+let type = 'quartz';
+let color = 'rose';
+let carat = 21.29;
+
+const gemstone = {
+  type,
+  color,
+  carat,
+  calculateWorth: function() {
+    // will calculate worth of gemstone based on type, color, and carat
+  }
+};
+{% endhighlight %}
+
+In this example, an anonymous function is being assigned to the property `calculateWorth`, but is the function keyword really needed? In ES6, it’s not!
+
+#### Shorthand method names
+
+Since you only need to reference the gemstone’s `calculateWorth` property in order to call the function, having the function keyword is redundant, so it can be dropped.
+
+{% highlight js %}
+let gemstone = {
+  type,
+  color,
+  carat,
+  calculateWorth() { ... }
+};
 {% endhighlight %}
