@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<hr>"
+title: "Break Line"
 date: "2018-08-26 13:17:47 -0700"
 categories: [HTML, CSS]
 description: HTML5: thematic break or HTML 4.01: horizontal rule
