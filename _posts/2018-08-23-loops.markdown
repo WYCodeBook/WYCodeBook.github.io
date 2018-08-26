@@ -8,6 +8,8 @@ description: How to repeatedly executing a code? & FizzBuzz Example
 
 🔍 [While Loops](#while-loops) 🔍 [FizzBuzz example](#fizzbuzz-example) 🔍 [For Loops](#for-loops)
 
+---
+
 Loops will let you iterate over values and repeatedly run a block of code.
 
 ## While Loops
