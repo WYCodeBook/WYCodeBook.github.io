@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Synatx - let and const"
+title: "Synatx : let and const"
 date: "2018-08-26 12:55:36 -0700"
 categories: JavaScript
 description: How to use let & const?
