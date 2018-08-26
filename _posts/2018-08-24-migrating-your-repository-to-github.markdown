@@ -6,6 +6,10 @@ categories: GitHub
 description: GitHub Learning Lab Course 4
 ---
 
+🔍 [Step 1](#step-1) 🔍 [Step 2](#step-2) 🔍 [Step 3](#step-3) 🔍 [Step 4](#step-4)
+
+---
+
 This course helps you seamlessly migrate a project using GitHub's importer tool. Along the way, we will also discuss important steps for preparing and sharing your project.
 
 In this course, you’ll learn how to:
