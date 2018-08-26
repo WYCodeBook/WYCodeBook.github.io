@@ -6,7 +6,7 @@ categories: JavaScript
 description: Basic Syntax
 ---
 
-🔍 [let and const](#let-and-const)
+🔍 [let and const](#let-and-const) 🔍 [Template Literals](#template-literals)
 
 ---
 
@@ -129,4 +129,36 @@ He is recovering from the flu.
 
 Thank you,
 Mr. Kalehoff
+{% endhighlight %}
+
+However, that’s changed with the introduction of template literals (previously referred to as "template strings" in development releases of ES6).
+
+💥 As an alternative to using the string concatenation operator ( `+` ), you can use the String's `concat()` method, but both options are rather clunky for simulating true [string interpolation](https://en.wikipedia.org/wiki/String_interpolation).
+
+## Template Literals
+
+Template literals are essentially string literals that include embedded expressions.
+
+Denoted with backticks ( ) instead of single quotes ( `''` ) or double quotes ( `""` ), template literals can contain placeholders which are represented using `${expression}`. This makes it much easier to build strings.
+
+Here's the previous examples using template literals.
+
+{% highlight js %}
+let message = `${student.name} please see ${teacher.name} in ${teacher.room} to pick up your report card.`;
+{% endhighlight %}
+
+Console will print: `Richard Kalehoff please see Mrs. Wilson in N231 to pick up your report card.`
+
+By using template literals, you can drop the quotes along with the string concatenation operator. Also, you can reference the object's properties inside expressions.
+
+
+
+{% highlight js %}
+let note = `${teacher.name}.
+
+  Please excuse ${student.name}.
+  He is recovering from the flu.
+
+  Thank you,
+  ${student.guardian}`;
 {% endhighlight %}
