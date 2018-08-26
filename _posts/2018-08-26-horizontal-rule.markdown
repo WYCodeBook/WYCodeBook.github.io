@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Horixontal Rule"
+title: "Horizontal Rule"
 date: "2018-08-26 13:34:01 -0700"
 categories: HTML
 description: <hr>
