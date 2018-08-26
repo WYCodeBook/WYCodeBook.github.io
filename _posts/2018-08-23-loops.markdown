@@ -4,8 +4,9 @@ title: "Loops"
 date: "2018-08-23 16:16:27 -0700"
 categories: JavaScript
 description: How to repeatedly executing a code? & FizzBuzz Example
-subtitles: [While Loops](#while-loops)
 ---
+
+🔍 [While Loops](#while-loops) 🔍 [FizzBuzz example](#fizzbuzz-example) 🔍 [For Loops](#for-loops)
 
 Loops will let you iterate over values and repeatedly run a block of code.
 
