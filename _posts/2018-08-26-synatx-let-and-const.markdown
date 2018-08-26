@@ -6,6 +6,8 @@ categories: JavaScript
 description: How to use let & const?
 ---
 
+🔍 [let and const](#let-and-const) 🔍 [Rules for using let and const](#rules-for-using-let-and-const) 🔍 [Use cases](#use-cases) 🔍 [What about var?](#what-about-var-?)  
+
 #### Hoisting
 
 Hoisting is a result of how JavaScript is interpreted by your browser. Essentially, before any JavaScript code is executed, all variables are "hoisted", which means they're raised to the top of the function scope. So at run-time, the `getClothing()` function actually looks more like this…
