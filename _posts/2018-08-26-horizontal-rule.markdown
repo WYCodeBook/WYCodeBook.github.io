@@ -3,7 +3,7 @@ layout: post
 title: "Horizontal Rule"
 date: "2018-08-26 13:34:01 -0700"
 categories: HTML
-description: <hr>
+description: HTML5 - thematic break, HTML 4.01 - horizontal rule
 ---
 
 
