@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Synatx"
+date: "2018-08-26 12:55:36 -0700"
+categories: JavaScript
+description: Basic Syntax
+---
+
+## Let and Const
+
+To understand why `let` and `const` were added, it’s probably best to look at an example of when using `var` can get us into trouble.
