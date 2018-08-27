@@ -6,7 +6,7 @@ categories: JavaScript
 description: Basic Syntax + some loops + arrays
 ---
 
-🔍 [let and const](#let-and-const) 🔍 [Template Literals](#template-literals) 🔍 [Destructuring](#destructuring) 🔍 [Object Literal Shorthand](#object-literal-shorthand) 🔍 [Iteration](#iteration) 🔍 [spread operator](#spread-operator)
+🔍 [let and const](#let-and-const) 🔍 [Template Literals](#template-literals) 🔍 [Destructuring](#destructuring) 🔍 [Object Literal Shorthand](#object-literal-shorthand) 🔍 [Iteration](#iteration) 🔍 [in loop](#in-loop) 🔍 [of loop](#of-loop) 🔍 [spread operator](#spread-operator)
 
 ---
 
