@@ -6,7 +6,7 @@ categories: JavaScript
 description: Basic Syntax + some loops + arrays
 ---
 
-🔍 [let and const](#let-and-const) 🔍 [Template Literals](#template-literals) 🔍 [Destructuring](#destructuring) 🔍 [Object Literal Shorthand](#object-literal-shorthand) 🔍 [Iteration](#iteration) 🔍 [Spread... Operator](#spread...-operator)
+🔍 [let and const](#let-and-const) 🔍 [Template Literals](#template-literals) 🔍 [Destructuring](#destructuring) 🔍 [Object Literal Shorthand](#object-literal-shorthand) 🔍 [Iteration](#iteration) 🔍 [spread operator](#spread-operator)
 
 ---
 
@@ -623,3 +623,7 @@ for (const day of days) {
 {% endhighlight %}
 
 ## Spread... Operator
+
+The spread operator, written with three consecutive dots ( ... ), is new in ES6 and gives you the ability to expand, or spread, [iterable objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators#Iterators) into multiple elements.
+
+Let’s take a look at a few examples to see how it works.
