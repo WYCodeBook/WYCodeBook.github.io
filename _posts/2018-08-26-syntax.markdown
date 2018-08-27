@@ -3,10 +3,10 @@ layout: post
 title: "Syntax"
 date: "2018-08-26 12:55:36 -0700"
 categories: JavaScript
-description: Basic Syntax + some loops + arrays
+description: Basic Syntax + for...in / for...of loops 
 ---
 
-🔍 [let and const](#let-and-const) 🔍 [Template Literals](#template-literals) 🔍 [Destructuring](#destructuring) 🔍 [Object Literal Shorthand](#object-literal-shorthand) 🔍 [Iteration](#iteration) 🔍 [in loop](#in-loop) 🔍 [of loop](#of-loop) 🔍 [spread operator](#spread-operator)
+🔍 [let and const](#let-and-const) 🔍 [Template Literals](#template-literals) 🔍 [Destructuring](#destructuring) 🔍 [Object Literal Shorthand](#object-literal-shorthand) 🔍 [Iteration - loop family](#iteration) 🔍 [Spread Operator](#spread-operator)
 
 ---
 
