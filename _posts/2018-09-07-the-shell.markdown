@@ -89,3 +89,126 @@ Ever get lost in the terminal and unsure which folder/directory you are working 
 💥 The single `.` dot represents the current directory.
 
 💥 The tilda `~` represents my home directory. No matter which directory you are `cd` into, the `~` will show you the home directory.
+
+## Parameters and options
+
+In `LS -L`, the `-L` is an option to `LS`. You can also use it along with the name of a directory, such as `LS -L Documents/`. The `-L` will print out the longer more detailed listing of files.
+
+Shell let's you match a filenames with a pattern. Let say you want to list all the PDF documents in your documents directory... you will enter `LS -L Documents/*.pdf`. The Shell will turn the `*` into a list of all of the files whose name match that pattern.
+
+If you wanted to list all the files whose names start with the a specific word, such as `candy`. You will enter `LS -L candy*`.
+
+## Organizing your files
+
+`mkdir` stands for make directory
+
+To create the books directory within the documents directory... `mkdir Documents/Books`
+
+`mv` stands for move / to move the file
+
+To move one individual file into the directory... `mv 'the start location' the end location`. Let say there is a book in the documents directory, a `.epub` file named `the fairy.epub`, and you want to move it into the Books directory we just created. You will enter `mv 'Documents/the fairy.epub' Documents/Books`
+
+To move all files with the same pattern into the directory... Let say we want to move all book files (`.epub`) from Documents directory into the Books directory we just created. You will enter `mv Documents/*.epub Documents/Books`
+
+## Downloading
+
+`curl` (as in see URL or See a webpage) is the Shell command to download a file from the web.
+
+`curl -L 'http://google.com'` with this dash big L `-L` option, means follow redirects and then we will see the source code to the actual google.com homepage.
+
+CURL can be useful to download a file from the url. `curl -o google.html -L 'http://google.com'`  with dash little o `-o` option, followed by the file name we want to save it under, the Shell will create a file with the name and download the source codes into that file.
+
+## Viewing files
+
+`cat` can be use to read files and output the file contents. `cat` represents catenate or concatenate which means to run several things together. It will show all the contents within the file we asked Shell to run.
+
+`less` which shows us smaller amount of the file at once. specifically, it will only show one screenful of the file at once. you will need to press space to scroll down or arrow keys to scroll through the file. Use `B` to go back and `/` to search within the file. When you are done in `less` you can press `Q` to quick.
+
+## Removing things
+
+`rm` is use to remove a file
+
+💥 In GUI, your removed files usually will move into a trash-can or recycling-bin and you can always pull it back when you change your mind. But the `rm` command will remove the file right away with no take-back. In a case if you afraid you will remove something valuable, you can use option `-i` (as interactive) to prompt you to confirm when removing the file.
+
+`rmdir` is use to remove a directory
+
+## Searching and pipes
+
+`grep` is use to search a text file for lines with particular contents... `grep` `the word you want to search` `the file name`. This will read through the file can prints out the line contain that specific word you want to search.
+
+`grep` `the word you want to search` `the file name` `| less` so Shell can print out the lines contain that specific word you want to search one screenful at a time
+
+You can also search a specific word from a webpage without saying the file in the computer. `curl` `-L 'https://google.com'` `| grep` `the word you want to search`
+
+💥 The name "grep" stands for "global regular expression print". This means that grep can be used to see if the input it receives matches a specified pattern.
+
+`wc` is use when we want to know how many times that specific word we want to search appeared in the file or webpage. With dash little l option `-l`, it will tell the `wc` to count the lines.
+
+We can also do `grep` `-c` `the word you want to search` grep with dash little c to do a quick count of the word.
+
+## Shell and environment variables
+
+Shell Variables - the lines and columns variable we tried earlier with dollar signs `$` was an example of internal variables for the Shell itself
+
+Environment Variables - shared with programs that you run from within the Shell.
+
+💥 `LOGNAME` is an environment variable that contains the username of the account you're logged in as.
+
+💥 `Path` variable is an important variable that will tell your system where your program files are, so when you type a command it can find the file to run it.
+
+Adding a directory to your Path so that program in it can be found... to add the new directory to the end of your path, `path=$path:/new/dir/here`, but this only last until you close the Shell.
+
+
+## Startup files
+
+The Shell in every terminal you open will run commands in a file called `.bash_profile` (Mac and Window).
+
+Everything you put into the `.bash_profile` will be saved and can be use and see again when opening a new Shell
+
+💥 For Linux, `.bash_profile` only run in for some Shell sessions, specifically log-in Shells; non-log-in Shells run in a file called `.bashrc`. The way to go around this inconsistency is to put a statement into your `.bash_profile` that says if there is file called `.bahsrc`, run that file.
+
+{$ highlight html $}
+if [-f ~/.bashrc]; then
+  source ~/.bashrc
+fi
+{$ endhighlight $}
+
+## Controlling the shell prompt
+
+Bash has four prompts that can be customized:
+
+`PS1` is the primary prompt which is displayed before each command, thus it is the one most people customize.
+
+`PS2` is the secondary prompt displayed when a command needs more input (e.g. a multi-line command).
+
+`PS3` is not very commonly used. It is the prompt displayed for Bash's select built-in which displays interactive menus. Unlike the other prompts, it does not expand Bash escape sequences. Usually you would customize it in the script where the select is used rather than in your .bashrc.
+
+`PS4` is also not commonly used. It is displayed when debugging bash scripts to indicate levels of indirection. The first character is repeated to indicate deeper levels.
+
+All of the prompts are customized by setting the corresponding variable to the desired string (usually in `~/.bashrc`), for example
+
+`export PS2='> '`
+
+👓 [Bashrc Generator](http://bashrcgenerator.com/)
+
+## Aliases
+
+Aliases is the way to make long Shell command short.
+
+Example:
+
+`alias ll='ls -la'`
+
+so every time when you type in with the short command the Shell will run the same as the long command.
+
+💥 alias effect only last till the terminal is close! If you want the alias effect to last forever, you will need to manually put that into your .bash_profile
+
+## More Resources
+
+👓 [The Bash Academy](https://www.bash.academy/)
+
+👓 [Bash Beginners Guide](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/)
+
+👓 [Bash Programming HOWTO](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
+
+👓 [Regexr — Learn Regular Expressions](https://regexr.com/)
