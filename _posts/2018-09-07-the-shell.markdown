@@ -52,40 +52,40 @@ Shell Prompt normally is the first message on the terminal. It usually display i
 
 The `echo` command is how we get the Shell to print messages. Just like `console.log` in JavaScript.
 
-💥 The exclamation mark ` ! ` have a special meaning in Shell. If you enter `!!` or more into Shell, it will print with weird endless section of words.
+💥 The exclamation mark `!` have a special meaning in Shell. If you enter `!!` or more into Shell, it will print with weird endless section of words.
 
 💥 If you ever typing something into the Shell and it seems to be treating what you saying in a weird way, all you need to do is to put single quotes around it.
 
 ## The dollar symbol $
 
-The dollar symbol ` $ ` in front of a word indicates that it is a Shell variable.
+The dollar symbol `$` in front of a word indicates that it is a Shell variable.
 
 With that said, the command `echo $COLUMNS X $LINES` prints out the size of your terminal.
 
 ## Navigating Directories
 
-To list the contents of a directory in a Shell, we can use the command ` LS `.
+To list the contents of a directory in a Shell, we can use the command `LS`.
 
-` LS ` is a super shortened version of the word list.
+`LS` is a super shortened version of the word list.
 
-When you started a Shell, it usually starts out looking at your home directory. By entering ` LS ` itself, it will only print the contents of the current directory.
+When you started a Shell, it usually starts out looking at your home directory. By entering `LS` itself, it will only print the contents of the current directory.
 
-In order to list the another directory or a specific directory... you can enter ` LS ` with that folder/directory's name. For example, to list the contents of the downloads folder, you will enter ` LS Downloads`.
+In order to list the another directory or a specific directory... you can enter `LS` with that folder/directory's name. For example, to list the contents of the downloads folder, you will enter `LS Downloads`.
 
-To change what directory the Shell is looking at... you will need to use ` cd ` (Change Directory). After you ` cd ` into a particular directory, ` LS ` by itself will show the contents of that directory.
+To change what directory the Shell is looking at... you will need to use `cd` (Change Directory). After you ` cd ` into a particular directory, `LS` by itself will show the contents of that directory.
 
-💥 If you want to go back a directory, you can do that with directory name ` .. ` dot dot.
+💥 If you want to go back a directory, you can do that with directory name `..` dot dot.
 
-💥 The ` ; ` semicolon will allow you to write two commands on the same line.
+💥 The `;` semicolon will allow you to write two commands on the same line.
 
 ## Current working directory
 
-Ever get lost in the terminal and unsure which folder/directory you are working on? Use ` pwd ` (print working directory) to print whatever the directory the Shell is currently looking at.
+Ever get lost in the terminal and unsure which folder/directory you are working on? Use `pwd` (print working directory) to print whatever the directory the Shell is currently looking at.
 
 💥 The UNIX system uses the forward slash to separate the names of directories.
 
 💥 The string, composed of several directory names, that separate by slashes is called the Path.
 
-💥 The single ` . ` dot represents the current directory.
+💥 The single `.` dot represents the current directory.
 
-💥 The tilda ` ~ ` represents my home directory. No matter which directory you are `cd` into, the `~` will show you the home directory.
+💥 The tilda `~` represents my home directory. No matter which directory you are `cd` into, the `~` will show you the home directory.
