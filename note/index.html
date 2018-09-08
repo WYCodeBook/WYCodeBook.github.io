@@ -6,12 +6,13 @@ title: Notes
 <h6>
   <a href="#Algorithms"> 🔍 Algorithms </a>
   <a href="#CSS"> 🔍 CSS </a>
-  <a href="#GitHub"> 🔍 GitHub </a>
+  <a href="#GitHub"> 🔍 Git/GitHub </a>
   <a href="#HTML"> 🔍 HTML </a>
   <a href="#JavaScript"> 🔍 JavaScript </a>
   <a href="#JavaScript30DaysChallenge"> 🔍 JavaScript 30 Days Coding Challenge </a>
   <a href="#Jekyll"> 🔍 Jekyll </a>
   <a href="#Ruby"> 🔍 Ruby </a>
+  <a href="#Shell"> 🔍 Shell </a>
 </h6>
 
 <h3 align="center" id="Algorithms"> Algorithms </h3>
@@ -38,7 +39,7 @@ title: Notes
   {% endfor %}
 </div>
 
-<h3 align="center" id="GitHub"> GitHub </h3>
+<h3 align="center" id="GitHub"> Git/GitHub </h3>
 <div class="banner">
   {% for post in site.categories.GitHub %}
     <div>
@@ -102,6 +103,18 @@ title: Notes
 <h3 align="center" id="Ruby"> Ruby </h3>
 <div class="banner">
   {% for post in site.categories.Ruby %}
+    <div>
+      <a href="{{ post.url }}">
+        <h5>{{ post.title }}</h5>
+        <p>{{ post.description | strip_html }}</p>
+      </a>
+    </div>
+  {% endfor %}
+</div>
+
+<h3 align="center" id="Shell"> Shell </h3>
+<div class="banner">
+  {% for post in site.categories.Shell %}
     <div>
       <a href="{{ post.url }}">
         <h5>{{ post.title }}</h5>
