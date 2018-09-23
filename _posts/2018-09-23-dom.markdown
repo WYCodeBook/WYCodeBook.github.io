@@ -1,0 +1,58 @@
+---
+layout: post
+title: "DOM"
+date: "2018-09-23 13:37:59 -0700"
+categories: [DOM, JavaScript, HTML, CSS]
+description: Summary about DOM
+---
+
+### Document Object Model - otherwise known as the DOM
+
+When you request a website, no matter what backend language is powering that website, it will respond with HTML. The browser receives a stream of HTML. The bytes are run through a complicated (but fully documented) parsing process that determines the different characters (e.g. the start tag character `<`, an attribute like `href`, a closing angle bracket like `>`). After parsing has occurred, a process called tokenization. Tokenization takes one character at a time and builds up tokens. The tokens are:
+
+  - DOCTYPE
+  - start tag
+  - end tag
+  - comment
+  - character
+  - end-of-file
+
+Let's take a break for a second. At this state, the browser has received the bytes that've been sent by a server. The browser has converted the bytes to tags and has read through the tags to create a list of tokens.
+
+This list of tokens then goes through the tree construction stage. The output of this stage is a tree-like structure - this is the DOM!
+
+So the DOM is a model (representation) of the relationships and attributes of the HTML document that was received. Remember that DOM stands for "Document Object Model".
+
+### The DOM is standardized by the W3C. There are a number of specifications that make up the DOM, here are few:
+
+  - Core Specification
+  - Events Specification
+  - Style Specification
+  - Validation Specification
+  - Load and Save Specification
+
+To see the full list of DOM specs, check out the standard at: https://www.w3.org/standards/techs/dom#w3c_all
+
+### .getElementById()
+
+This is used to gain access to specific elements using their ID attribute.
+
+`document.getElementById('content');`
+
+Running this code cause the document object to search through its entire tree-like structure for the element that has an ID of "content"
+
+### .getElementsByClassName()
+
+Similarly to `.getElementById()`, if we ran the code above in the console, we wouldn't get anything, because we did not tell it the class to search for! Also just like `.getElementById()`, `.getElementsByClassName()` is expecting that we call it with a string of the class we want it to search for/return:
+
+`document.getElementsByClassName('brand-color');`
+
+Running this code cause the document object to search through its entire tree-like structure for the element that has a class name of "brand-color"
+
+### .getElementsByTagName()
+
+Similar to the `.getElementById()` and `.getElementsByClassName()`... `.getElementsByTagName()` is expecting that we call it with a string of the tag name we want to search for/return:
+
+`document.getElementsByTagName('p');`
+
+Running this code cause the document object to search through its entire tree-like structure for the element that has a tag name of "p"
