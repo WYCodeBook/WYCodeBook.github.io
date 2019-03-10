@@ -81,6 +81,39 @@ nav {
     text-align: center;
     font-family: Didot, serif;
 }
+
+
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+
+
 footer {
     border-top: ridge;
     border-bottom: ridge;
@@ -128,7 +161,7 @@ code {
   background-position: center;
   border: 2px solid #808080;
   width: 260px;
-  height: 260px;
+  height: 180px;
   padding: 10px;
   margin: 6px;
   text-align: center;
