@@ -78,15 +78,15 @@ p {
 }
 
 nav {
-    border-top: 2px ridge #993333;
-    border-bottom: 2px ridge #993333;
+    border-top: 1px ridge #993333;
+    border-bottom: 1px ridge #993333;
     font-size: 20px;
     text-align: center;
     font-family: Gill Sans, sans-serif;
 }
 footer {
-    border-top: 2px ridge #993333;
-    border-bottom: 2px ridge #993333;
+    border-top: 1px ridge #993333;
+    border-bottom: 1px ridge #993333;
     font-size: 16px;
     text-align: center;
     font-family: Gill Sans, sans-serif;
