@@ -44,27 +44,27 @@ h2, h4, h6, {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 38px;
 }
 
 h2 {
-    font-size: 45px;
+    font-size: 34px;
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 32px;
 }
 
 h4 {
-  font-size: 35px;
+  font-size: 28px;
 }
 
 h5 {
-  font-size: 30px;
+  font-size: 26px;
 }
 
 h6 {
-    font-size: 25px;
+    font-size: 22px;
 }
 
 p {
