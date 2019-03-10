@@ -7,7 +7,7 @@
     border: 2px solid #0E1807; /* Remove borders */
     outline: none; /* Remove outline */
     background-color: #f9ecec; /* Set a background color */
-    color: #ebe0e0; /* Text color */
+    color: #993333; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 10px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
@@ -15,6 +15,6 @@
 }
 
 #myBtn:hover {
-    background-color: #ebe0e0; /* Background on hover */
-    color: #994d00; /* Text color */
+    background-color: #f9ecec; /* Background on hover */
+    color: #270c0c; /* Text color */
 }
