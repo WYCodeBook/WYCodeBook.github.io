@@ -86,10 +86,12 @@ nav {
     font-family: Gill Sans, sans-serif;
 }
 footer {
+    border-top: ridge;
+    border-bottom: ridge;
     font-size: 16px;
     text-align: center;
     font-family: Gill Sans, sans-serif;
-    padding: 20px;
+    padding: 10px;
 }
 
 
