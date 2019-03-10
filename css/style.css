@@ -79,8 +79,8 @@ p {
 }
 
 nav {
-    border-top: 1px ridge #993333;
-    border-bottom: 1px ridge #993333;
+    border-top: ridge;
+    border-bottom: ridge;
     font-size: 20px;
     text-align: center;
     font-family: Gill Sans, sans-serif;
