@@ -130,6 +130,7 @@ code {
   background-color: #f2f2f2;
   background-position: center;
   border: 2px solid #808080;
+  border-radius: 6px;
   width: 260px;
   height: 180px;
   padding: 10px;
