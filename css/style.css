@@ -15,7 +15,6 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-
     text-shadow: 0px 0px 2px #993333;
 }
 a:hover {
@@ -32,7 +31,7 @@ a:hover {
 
 h1, h3, h5, p {
   line-height:100%;
-  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  font-family: Apple Chancery, cursive;
   color: #270c0c;
 }
 
