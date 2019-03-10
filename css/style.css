@@ -16,11 +16,11 @@ nav ul li, footer ul li {
 a {
     text-decoration: none;
     color: #0E1807;
-    text-shadow: 0px 0px 2px #994d00;
+    text-shadow: 0px 0px 2px #993333;
 }
 a:hover {
     text-decoration: underline;
-    text-shadow: 0px 0px 4px #994d00;
+    text-shadow: 0px 0px 3px #993333;
 }
 
 .header {
@@ -33,13 +33,13 @@ a:hover {
 h1, h3, h5, p {
   line-height:100%;
   font-family: New Century Schoolbook, TeX Gyre Schola, serif;
-  color: #0E1807;
+  color: #270c0c;
 }
 
 h2, h4, h6, {
   line-height:100%;
   font-family: Gill Sans, sans-serif;
-  color: #0E1807;
+  color: #4e1818;
 }
 
 h1 {
