@@ -1,6 +1,6 @@
 body {
     margin: 30px, auto;
-    background-color: rgb(245,245,245);
+    background-color: rgb(242, 242, 242);
 }
 
 nav ul, footer ul {
@@ -33,13 +33,13 @@ a:hover {
 h1, h3, h5, p {
   line-height:100%;
   font-family: Apple Chancery, cursive;
-  color: #270c0c;
+  color: #1a1a1a;
 }
 
 h2, h4, h6, {
   line-height:100%;
   font-family: Gill Sans, sans-serif;
-  color: #4e1818;
+  color: #333333;
 }
 
 h1 {

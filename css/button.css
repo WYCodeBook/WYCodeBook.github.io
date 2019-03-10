@@ -4,18 +4,17 @@
     bottom: 30px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
-    border: 2px solid #993333; /* Borders */
+    border: 2px solid #333333; /* Borders */
     outline: none; /* Remove outline */
-    background-color: #f9ecec; /* Set a background color */
-    color: #993333; /* Text color */
+    background-color: #f2f2f2; /* Set a background color */
+    color: #333333; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 10px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 22px; /* Increase font size */
+    padding: 6px; /* Some padding */
+    border-radius: 6px; /* Rounded corners */
+    font-size: 16px; /* Increase font size */
 }
 
 #myBtn:hover {
-    background-color: #f9ecec; /* Background on hover */
-    color: #270c0c; /* Text color */
-    border: 2px solid #270c0c; /* Borders */
+    color: #1a1a1a; /* Text color */
+    border: 2px solid #1a1a1a; /* Borders */
 }
