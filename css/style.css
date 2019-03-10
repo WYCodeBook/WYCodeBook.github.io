@@ -15,11 +15,11 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    text-shadow: 0px 0px 2px #993333;
+    text-shadow: 0px 0px 1px #993333;
 }
 a:hover {
     text-decoration: underline;
-    text-shadow: 0px 0px 3px #993333;
+    text-shadow: 0px 0px 2px #993333;
 }
 
 .header {
