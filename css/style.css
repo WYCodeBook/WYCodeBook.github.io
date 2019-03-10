@@ -79,6 +79,8 @@ p {
 }
 
 nav {
+    border-top: ridge;
+    border-bottom: ridge;
     font-size: 20px;
     text-align: center;
     font-family: Gill Sans, sans-serif;
