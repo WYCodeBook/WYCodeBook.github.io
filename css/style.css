@@ -67,7 +67,6 @@ h6 {
     font-size: 22px;
 }
 
-
 .post ul li ol {
   line-height:100%;
   font-family: Didot, serif;
@@ -91,25 +90,10 @@ footer {
     padding: 10px;
 }
 
-
 code {
   background-color: #f2f2f2;
   border-radius: 8px;
   font-size: 20px;
-}
-
-blockquote {
-    display: block;
-    margin: 30px auto;
-    padding: 60px;
-    background-image: url(/img/ladybugdaisyframe2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: local;
-    border-radius: 20px;
-    text-align: center;
-    opacity: 0.75;
-    filter: alpha(opacity=75); /* For IE8 and earlier */
 }
 
 .pagepicture {
@@ -140,9 +124,7 @@ blockquote {
 }
 
 .banner div {
-  background-image: url(/img/pencilnote.png);
-  background-size: 320px 320px;
-  background-repeat: no-repeat;
+  background-color: #f2f2f2;
   background-position: center;
   width: 260px;
   height: 260px;
