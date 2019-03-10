@@ -14,3 +14,12 @@ layout: default
     {{ content }}
   </div>
 </h3>
+
+<div class="banner">
+  {% for post in site.categories.Project}
+    <div>
+        <h5>{{ post.title }}</h5>
+        <h6>{{ post.content }}</h6>
+    </div>
+  {% endfor %}
+</div>
