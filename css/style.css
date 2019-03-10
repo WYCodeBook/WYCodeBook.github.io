@@ -1,14 +1,6 @@
 body {
     margin: 30px, auto;
-    background-color: rgb(255, 204, 204);
-}
-
-.layer {
-    background-color: rgba(237, 218, 201, 0.75);
-    background-position: center;
-    padding: 30px;
-    word-wrap: normal;
-    border-radius: 20px;
+    background-color: rgb(242, 217, 217);
 }
 
 nav ul, footer ul {
@@ -35,7 +27,7 @@ a:hover {
     line-height: none;
     text-align: center;
     margin: auto;
-    padding: 60px;
+    padding: 20px;
 }
 
 h1, h3, h5, p {
