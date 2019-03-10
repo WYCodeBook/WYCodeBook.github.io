@@ -9,6 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="/css/responsive.css"> <!-- needed for text responsive -->
 		<link rel="stylesheet" type="text/css" href="/css/syntax.css"> <!-- needed for syntax highlight -->
 		<link rel="stylesheet" type="text/css" href="/css/button.css"> <!-- needed for back to the top button -->
+		<link rel="stylesheet" type="text/css" href="/css/nav.css"> <!-- needed for the nav -->
 	</head>
 
 	<body>
@@ -23,17 +24,19 @@
 		<nav>
     	<ul>
 				<li><a href="/">About</a></li>
-				<div class="subnav">
-					<class="subnavbtn">Notes<i class="fa fa-caret-down"></i>
-					<div class="subnav-content">
-						<a href="/note">Company</a>
-						<a href="#team">Team</a>
-						<a href="#careers">Careers</a>
-					</div>
+				<li class="dropdown">
+					<button onclick="myFunction()" class="dropbtn">Notes</button>
+					<div id="myDropdown" class="dropdown-content">
+						<a href="/note">note 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+					</li>
 				</div>
     		<li><a href="/project">Projects</a></li>
 				<li><a href="/resource">Resources</a></li>
     	</ul>
+			<!-- To Top Button -->
+			<script src="/js/nav.js"></script>
 		</nav>
 
 			<!-- To Top Button -->
