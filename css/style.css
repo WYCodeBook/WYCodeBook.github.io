@@ -1,9 +1,7 @@
 body {
     margin: 30px, auto;
-    background: url(/img/daisyvintagebackground.jpg);
-    background-attachment: fixed;
+    background-color: rgb(255, 204, 204);
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .layer {
