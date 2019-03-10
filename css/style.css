@@ -36,10 +36,6 @@ a:hover {
     text-align: center;
     margin: auto;
     padding: 60px;
-    background-image: url(/img/daisyvintagebackground2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 20px;
 }
 
 h1, h3, h5, p {
