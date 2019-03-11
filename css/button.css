@@ -9,7 +9,7 @@
     background-color: #f2f2f2; /* Set a background color */
     color: #808080; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 6px; /* Some padding */
+    padding: 8px; /* Some padding */
     border-radius: 6px; /* Rounded corners */
     font-size: 26px; /* Increase font size */
 }
