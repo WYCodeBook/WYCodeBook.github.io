@@ -137,10 +137,10 @@ code {
   background-position: center;
   border: 2px solid #808080;
   border-radius: 6px;
-  width: 260px;
-  height: 180px;
-  padding: 10px;
-  margin: 6px;
+  width: 200px;
+  height: 120px;
+  padding: 6px;
+  margin: 2px;
   text-align: center;
   line-height: auto;
 }
