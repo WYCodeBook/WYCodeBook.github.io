@@ -17,6 +17,11 @@ nav ul li, footer ul li {
 
 nav ul li {
   padding: 10px;
+  color: #4d4d4d;
+  font-style: italic;
+  font-weight: bold;
+  font-family: Didot, serif;
+  font-size: 22px;
 }
 
 a {
