@@ -15,12 +15,14 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #808080;
+    color: #4d4d4d;
+    font-style: italic;
     text-shadow: 0px 0px 2px #333333;
 }
 a:hover {
     text-decoration: underline;
-    color: #808080;
+    color: #4d4d4d;
+    font-style: italic;
     text-shadow: 0px 0px 2px #1a1a1a;
 }
 
