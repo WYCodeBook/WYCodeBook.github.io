@@ -1,0 +1,16 @@
+---
+layout: default
+title: Notes
+---
+
+<h3 align="center" id="Algorithms"> Algorithms </h3>
+<div class="banner">
+  {% for post in site.categories.Algorithms %}
+    <div>
+      <a href="{{ post.url }}">
+        <h5>{{ post.title }}</h5>
+        <p>{{ post.description | strip_html }}</p>
+      </a>
+    </div>
+  {% endfor %}
+</div>
