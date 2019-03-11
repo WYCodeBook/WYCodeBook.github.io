@@ -132,6 +132,7 @@ code {
   display: flex;
   flex-wrap: wrap;
   flex-flow: row wrap;
+  text-align: center;
 }
 
 .banner div {
