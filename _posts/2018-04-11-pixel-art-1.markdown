@@ -5,6 +5,6 @@ date: "2018-04-11 00:30:12 -0700"
 categories: Project
 ---
 
-[The Product](https://wycodebook.github.io/GoogleFrontEnd-Phase1-PixelArtProject/)
+[The Product](https://curious-yu.github.io/GoogleFrontEnd-Phase1-PixelArtProject/)
 
-[The Source Codes](https://github.com/WYCodeBook/GoogleFrontEnd-Phase1-PixelArtProject)
+[The Source Codes](https://github.com/Curious-Yu/GoogleFrontEnd-Phase1-PixelArtProject)
