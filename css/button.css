@@ -4,7 +4,7 @@
     bottom: 30px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
-    border: 2px solid #808080; /* Borders */
+    border: 3px solid #808080; /* Borders */
     outline: none; /* Remove outline */
     background-color: #f2f2f2; /* Set a background color */
     color: #808080; /* Text color */
