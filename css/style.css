@@ -16,8 +16,9 @@ nav ul li, footer ul li {
 }
 
 nav ul li {
-  padding: 20px;
+  padding: 10px;
   border: 2px solid #808080;
+  border-radius: 6px;
 }
 
 a {
