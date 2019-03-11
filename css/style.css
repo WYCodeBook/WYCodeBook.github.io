@@ -136,10 +136,13 @@ code {
   background-color: #f2f2f2;
   border: 2px solid #808080;
   border-radius: 6px;
-  width: 180px;
-  height: 100px;
-  padding: 0px;
-  margin: 10px;
+  color: #4d4d4d;
+  padding: 10px 20px;
   text-align: center;
-  line-height: auto;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  font-family: Didot, serif;
+  margin: 2px 2px;
+  cursor: pointer;
 }
