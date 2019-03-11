@@ -6,7 +6,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 22px;
+  font-size: 26px;
   font-style: italic;
   font-family: Didot, serif;
   margin: 2px 2px;
@@ -22,7 +22,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 22px;
+  font-size: 26px;
   font-style: italic;
   font-family: Didot, serif;
   margin: 2px 2px;
@@ -33,7 +33,7 @@
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
   background-color: #f2f2f2;
-  border: 2px solid white;
+  border: 3px solid white;
 }
 
 .button:hover, .button:focus {
