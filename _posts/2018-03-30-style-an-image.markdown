@@ -2,7 +2,7 @@
 layout: project
 title: "Style An Image"
 date: "2018-03-30 00:27:38 -0700"
-categories: Project
+categories: [Project, Google/Udacity Front End Nanodegree]
 ---
 
 [The Product](https://curious-yu.github.io/GoogleFrontEnd-Phase1-StyleAImage/)
