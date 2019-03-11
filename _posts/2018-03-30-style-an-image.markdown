@@ -5,6 +5,6 @@ date: "2018-03-30 00:27:38 -0700"
 categories: Project
 ---
 
-[The Product](https://wycodebook.github.io/GoogleFrontEnd-Phase1-StyleAImage/)
+[The Product](https://curious-yu.github.io/GoogleFrontEnd-Phase1-StyleAImage/)
 
-[The Source Codes](https://github.com/WYCodeBook/GoogleFrontEnd-Phase1-StyleAImage)
+[The Source Codes](https://github.com/Curious-Yu/GoogleFrontEnd-Phase1-StyleAImage)
