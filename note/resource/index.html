@@ -2,3 +2,15 @@
 layout: default
 title: Notes
 ---
+
+<h3 align="center" id="Resource"> Resource </h3>
+<div class="banner">
+  {% for post in site.categories.Resource %}
+    <div>
+      <a href="{{ post.url }}">
+        <h5>{{ post.title }}</h5>
+        <p>{{ post.description | strip_html }}</p>
+      </a>
+    </div>
+  {% endfor %}
+</div>

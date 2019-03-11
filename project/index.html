@@ -3,14 +3,13 @@ layout: default
 title: Projects
 ---
 
-<h2 align="center">{{ page.title }}</h2>
-
-
+<h3 align="center" id="Project"> Project </h3>
 <div class="banner">
   {% for post in site.categories.Project %}
     <div>
+      <a href="{{ post.url }}">
         <h5>{{ post.title }}</h5>
-        <p>{{ post.content }}</p>
+      </a>
     </div>
   {% endfor %}
 </div>
