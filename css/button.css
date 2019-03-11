@@ -11,7 +11,7 @@
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 6px; /* Some padding */
     border-radius: 6px; /* Rounded corners */
-    font-size: 20px; /* Increase font size */
+    font-size: 26px; /* Increase font size */
 }
 
 #myBtn:hover {
