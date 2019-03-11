@@ -1,5 +1,5 @@
 .button {
-  background-color: none;
+  background-color: white;
   border: none;
   color: #4d4d4d;
   padding: 10px 20px;
@@ -15,7 +15,7 @@
 
 /* Dropdown Button */
 .dropbtn {
-  background-color: none;
+  background-color: white;
   border: none;
   color: #4d4d4d;
   padding: 10px 20px;
