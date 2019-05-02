@@ -5,11 +5,7 @@ body {
 
 .bg-image {
   background-image: url("background1.jpg");
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
 }
 
 nav ul, footer ul {
