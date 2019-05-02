@@ -1,12 +1,16 @@
 body {
     margin: 30px, auto;
-    background-image: url("background1.jpg");
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #f2f2f2;
   }
+
+.bg-image {
+  background-image: url("background1.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 nav ul, footer ul {
     padding: 0px;
