@@ -9,7 +9,7 @@ body {
 .bg-color {
   background-color: rgb(242, 242, 242, 0.80);
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size: 100% 100%;
 }
 
