@@ -2,17 +2,17 @@
 layout: default
 ---
 
-<h2>{{ page.title }}</h2>
+<h1>{{ page.title }}</h1>
 
 <!--{% if page. picture %}
   <img class="pagepicture" src="{{ page.picture }}">
 {% endif %}-->
 
 <p>Date: {{ page.date | date: '%B %-d, %Y' }}</p>
+
 <hr>
 
-<h6>
-  <div class="post">
+
+<div class="post">
     {{ content }}
-  </div>
-</h6>
+</div>
