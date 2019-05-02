@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "output-category-list"
+title: "Output Category List"
 date: "2019-05-02 16:48:07 -0700"
 categories: [Resource, Jekyll]
 ---
