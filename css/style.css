@@ -1,14 +1,11 @@
 body {
     margin:auto;
-
+    background: url("img/background1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
-.bg-img {
-  background: url("img/background1.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 nav ul, footer ul {
     padding: 0px;
