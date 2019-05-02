@@ -6,6 +6,12 @@ body {
     background-size: cover;
   }
 
+.bg-color {
+  background-color: rgb(242, 242, 242, 0.50);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 nav ul, footer ul {
     padding: 0px;
