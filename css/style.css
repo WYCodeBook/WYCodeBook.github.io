@@ -3,14 +3,14 @@ body {
     background-image: url("/img/background1.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
   }
 
 .bg-color {
-  background-color: rgb(242, 242, 242, 0.50);
+  background-color: rgb(242, 242, 242, 0.80);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 
 nav ul, footer ul {
