@@ -1,8 +1,14 @@
 body {
-    margin: auto;
+    margin:auto;
     background-color: #f2f2f2;
   }
 
+.bg-img {
+  background-image: url("background1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 nav ul, footer ul {
     padding: 0px;
