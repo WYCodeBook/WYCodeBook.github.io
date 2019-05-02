@@ -15,7 +15,7 @@ title: Projects
 
 
 
-<h1 id="Note"> Notes </h1>
+<h1 align="center" id="Note"> Notes </h1>
 
 <h3>
   <ul class="tag-box inline">
@@ -34,8 +34,8 @@ title: Projects
 </h3>
 
 {% for tag in site.categories %}
-  <h2 id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h2>
-  <h4>
+  <h4 id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h4>
+  <h6>
     <ul class="post-list">
       {% assign pages_list = tag[1] %}
       {% for post in pages_list %}
@@ -48,5 +48,5 @@ title: Projects
       {% assign pages_list = nil %}
       {% assign group = nil %}
     </ul>
-  </h4>
+  </h6>
 {% endfor %}
