@@ -101,8 +101,8 @@ Note: When you use XML, the term Uniform Resource Identifier (URI) is preferred 
 HTML5:
 
 - HTML5 is the latest version of HTML under development by the W3C.
-- Introduces the <video> element, which is designed to eliminate the need to install third-party plug-ins (such as those for Adobe Flash or Microsoft Silverlight).
-- Adds the <audio> element, which allows pages to seamlessly add audio files for events such as podcasts.
+- Introduces the '<video>' element, which is designed to eliminate the need to install third-party plug-ins (such as those for Adobe Flash or Microsoft Silverlight).
+- Adds the '<audio>' element, which allows pages to seamlessly add audio files for events such as podcasts.
 - Establishes ways to enable drag-and-drop capability for Webpages without using third-party add-ons.
 - Gives developers more native tools such as download progress indicators, image captioning options and form validation tools to use on a page.
 - Provides developers with a native option for offline storage, and enables applications to run as expected even without network connectivity.
