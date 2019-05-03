@@ -2,7 +2,7 @@
 layout: post
 title: "Web Development Foundations C779 - 1.Markup Language and Site Development Essentials"
 date: "2019-05-02 19:54:40 -0700"
-categories: [WGU, HTML, CSS, JavaScript]
+categories: WGU
 ---
 
 Markup Language:
@@ -44,3 +44,23 @@ Graphical User Interface (GUI):
 - Commands are displayed on the graphical user interface as they will appear in a browser, thus the programs are often called WYSIWYG (What You See Is What You Get) editors.
 - Some developers feel that using a GUI editor application saves time. Others feel that GUI editors create confused HTML code and do not provide true flexibility.
 - Popular GUI HTML editors include Adobe Dreamweaver, Microsoft Expression Web, Mozilla SeaMonkey and Google Web Designer.
+
+History of Markup Languages:
+
+Standard Generalized Markup Language (SGML): A metalanguage used to create other languages, including HTML and XHTML.
+
+- originally created by IBM and was standardized in 1986 by the International Organization for Standardization (ISO)
+- a powerful markup language that describes documents by organizing concepts separately from their visual presentation.
+- purpose was to describe only the information within a document, not the formatting of it.
+- SGML essentially requires that you create, or define, your own document language rules. This set of language rules is called the Document Type Definition (DTD).
+- Document Type Definition (DTD): A set of rules contained in a simple text file that defines the structure, syntax and vocabulary as it relates to tags and attributes for a corresponding document.
+
+Hypertext Markup Language (HTML):
+
+- Tim Berners-Lee of MIT invented Hypertext Markup Language (HTML) with colleagues from CERN (the European Particle Physics Laboratory) as a means of distributing non-linear text, called hypertext, to multiple points across the Internet.
+- In HTML, one document links to another via pointers called hyperlinks.
+- Hyperlinks are embedded instructions within a text file that call another location in the file or a separate file when the link is accessed, usually by a click of a mouse.
+- HTML does not allow you to define a DTD and has fewer language elements than SGML.
+- The latest version of HTML, called HTML5, is not based on SGML and DTD is no longer required.
+
+HTML 3.2 vs. HTML 4.01
