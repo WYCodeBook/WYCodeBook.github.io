@@ -27,7 +27,7 @@ title: Notes
 
 
 {% for tag in site.categories | sort: categories %}
-  <h4 id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h4>
+  <h5 id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h5>
   <p>
     <ul class="post-list">
       {% assign pages_list = tag[1] %}
