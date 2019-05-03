@@ -122,8 +122,9 @@ code {
 }
 
 .table-menu {
-  border: 6px solid #f2f2f2;
+  border: 6px solid #808080;
   border-radius: 6px;
+  padding: 10px;
 }
 
 .pagepicture {
