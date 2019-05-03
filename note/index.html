@@ -34,7 +34,7 @@ title: Notes
       {% for post in pages_list %}
         {% if post.title != null %}
         {% if group == null or group == post.group %}
-        <li><h6><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</h6> <p><<<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time>>></p></a></li>
+        <li><h6><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</h6> <<<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time>>></a></li>
         {% endif %}
         {% endif %}
       {% endfor %}
