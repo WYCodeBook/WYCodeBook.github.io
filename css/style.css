@@ -97,6 +97,14 @@ h6 {
   font-size: 22px;
 }
 
+hr {
+  display: ridge;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-style: inset;
+  border-width: 2px;
+} 
+
 nav {
     border-top: ridge;
     border-bottom: ridge;
@@ -121,11 +129,6 @@ code {
   font-size: 20px;
 }
 
-.table-menu {
-  border: 6px solid #808080;
-  border-radius: 6px;
-  padding: 30px;
-}
 
 .pagepicture {
   width: 300px;
