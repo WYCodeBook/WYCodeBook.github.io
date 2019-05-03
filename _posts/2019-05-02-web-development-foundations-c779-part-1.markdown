@@ -232,3 +232,10 @@ Determining the audience and message
 - Suppliers — If you are planning for large sales as a result of your Web effort, make sure that your product suppliers are ready for this. Otherwise, you could damage the company's reputation by making promises that cannot be kept. Even though a Web authoring team works mostly on creating markup pages, your Website's ability to communicate with the public means that such business concerns are essential for the overall success of the project.
 
 - Shareholders— If your organization is publicly owned, you may need to obtain input from shareholders about the look and feel of the site.
+
+Validating design issues
+
+- Message — Deliver a coherent message for each page. Information that is not relevant or otherwise distracts readers from a well-conceived central idea should be placed on another page or eliminated.
+- Fonts — If specifying fonts, make sure that you use common ones so that browsers do not have difficulty rendering them. Use proper sizes; small fonts are difficult to read.
+- Images — Make sure that all images used on a page contribute to either the page's navigability or its message.
+- Color — Take time to consider color combinations so that your pages are as attractive and readable as possible.
