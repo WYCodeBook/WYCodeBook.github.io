@@ -28,7 +28,7 @@ title: Notes
 
 {% for tag in site.categories | sort: categories %}
   <h5 id="{{ tag[0] }}">{{ tag[0] }}</h5>
-  <p>
+  <h6>
     <ul class="post-list">
       {% assign pages_list = tag[1] %}
       {% for post in pages_list %}
@@ -41,5 +41,5 @@ title: Notes
       {% assign pages_list = nil %}
       {% assign group = nil %}
     </ul>
-  </p>
+  </h6>
 {% endfor %}

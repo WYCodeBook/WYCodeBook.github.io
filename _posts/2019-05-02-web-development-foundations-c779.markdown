@@ -35,3 +35,12 @@ Text Editor and Markup Language:
 - You do not need to use a special editor application to create HTML. You can use a simple text editor.
 - You should save it with the .htm or .html file name extension. Many operating systems and Web browsers are configured with Multipurpose Internet Mail Extensions (MIME) to automatically process files with these extensions.
 - Multipurpose Internet Mail Extensions (MIME): A protocol that enables operating systems to map file name extensions to corresponding applications. Also used by applications to automatically process files downloaded from the Internet.
+
+Graphical User Interface (GUI):
+
+- A program that provides visual navigation with menus and screen icons, and performs automated functions when users click command buttons.
+- Graphical user interface (GUI) markup editor applications place markup instructions into files for you; you do not need to know HTML to use GUI editors.
+- Many GUI HTML editors still do not produce valid HTML.
+- Commands are displayed on the graphical user interface as they will appear in a browser, thus the programs are often called WYSIWYG (What You See Is What You Get) editors.
+- Some developers feel that using a GUI editor application saves time. Others feel that GUI editors create confused HTML code and do not provide true flexibility.
+- Popular GUI HTML editors include Adobe Dreamweaver, Microsoft Expression Web, Mozilla SeaMonkey and Google Web Designer.
