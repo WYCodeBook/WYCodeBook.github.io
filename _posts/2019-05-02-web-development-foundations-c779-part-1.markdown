@@ -239,3 +239,93 @@ Validating design issues
 - Fonts — If specifying fonts, make sure that you use common ones so that browsers do not have difficulty rendering them. Use proper sizes; small fonts are difficult to read.
 - Images — Make sure that all images used on a page contribute to either the page's navigability or its message.
 - Color — Take time to consider color combinations so that your pages are as attractive and readable as possible.
+
+Consider the following when validating design issues:
+
+- Organizational design standards — You have already learned about the importance of branding standards. As you help develop Webpages, make sure that you are following developed rules and advice from your department and others. Such standards help support decisions concerning your organization's branding and marketing standards.
+
+- Ethnic diversity — You may be asked to tailor messages to particular cultures and ethnicities. Project management will ensure that such needs are considered and recommended during planning meetings. It is your responsibility as a designer to create pages that implement all recommendations.
+
+- Language choice — Some organizations will need to use only one language for their sites, such as English. Others may need to create multiple sites in various languages to accommodate an international audience. Still others may offer an immediate choice of one or two languages because the government of the country in which they reside demands such accommodations, for example.
+
+- Common color schemes — Preferences for color combinations differ from one culture to the next. Remain sensitive to and informed about such preferences.
+
+- Messages that appeal to customers — You may need to alter your message about a particular product or activity if you present it to another culture. Consider the expectations and preferences of specific cultures so that your message is as clear and appealing as possible.
+
+Obtaining relevant input from stakeholders:
+
+- Stakeholder (stakeholders are relevant organization employees or contributors) input
+- Company site requirements and collaboration
+- Site development teamwork
+- You and your team will develop an initial storyboard into a completed Website. The storyboard also provides a site map to help visitors quickly find resources on your site.
+
+Documenting and communicating the plan:
+
+- In addition to creating a site storyboard, you must also document decisions made in all meetings. All plans must be distributed and approved. Any decisions involving changes in dates and allocations of funds may require further approval from the organization.
+
+Communicating the Website plan: As you communicate the Website plan, you will make oral and written presentations. Following are some typical strategies to consider.
+
+- Oral presentations and presentation aids: Presentation tools help you convey information, and also prove that you have properly prepared for a meeting and are not wasting your audience's time.
+
+- Leading discussions: Project managers generally lead and moderate meetings related to a Web development project.
+
+Considering technical and non-technical concerns:
+
+- Regularly asking if anyone has questions — This strategy helps some team members speak up. However, less outgoing individuals who have questions may still hold back.
+
+- Asking team members to summarize their understanding of decisions — Although this strategy puts some people on the spot, this is preferable to having team members remain confused about the project's direction.
+
+- Asking a third party to deliver a summary of progress — This third party can attend your meeting and ask questions of team members. By listening to responses, you can gauge overall team participation and understanding.
+
+- Writing regular updates about the project — Make sure that in your updates you translate technical requirements into non-technical language, and vice versa.
+
+Developing the site:
+
+- Creating markup code — You will develop pages that fulfill all design standards.
+
+- Testing functionality — Make sure that the site performs well technically before it is published to the Web. This involves testing the site in multiple browsers, for example.
+
+- Approving the site — All stakeholders will need to approve your team's work. Make sure that all parties have seen the site before publication, and make sure that you have documented this fact.
+
+- Publishing the site — The site must be properly placed on a Web server. You may also participate in decisions such as whether you will configure your own Web server or use a Web server configured by another provider.
+
+Testing pages in multiple Web browsers: If you are preparing a site for public use, it is advisable to write your HTML code using the most widely supported standards.
+
+Remember that Web browsers are not the only user agents that render HTML pages. Additional user agents include:
+
+- Smartphones.
+- Tablets.
+- Gaming consoles.
+- Other devices that read markup language.
+
+Managing the site
+
+- Create new content
+- Update dead links
+- Remove old sites
+- Remove unused pages
+- Ensure connectivity
+- Report access troubles
+- Process feedback from customers and stakeholders
+
+Obtaining feedback
+
+- Direct contact with customers
+- Feedback from upper management
+- Feedback from sales and marketing
+- Trolls can employ various tactics, including sending annoying email messages, submitting Web forms full of negative or unrelated comments, or writing blogs or articles that disparage your site.
+
+Ways to obtain quality feedback
+
+- Providing Web forms on the site that ask for customer input
+- Conducting surveys in person
+- Conducting surveys via email or text
+
+Intellectual property: Intellectual property is a unique product or idea created by an individual or organization, and that generally has commercial value. When creating a Website, you must consider legal issues related to ideas, products and images that are widely available. You cannot "borrow" information from other Websites.
+
+Copyright scope, reach and time limits: No copyright or trademark is permanent. Legal registrations must be renewed, so if you have trademarked or copyrighted a particular portion of your Website, then you must manage this intellectual property. Research the laws for your own country to avoid surprises.
+
+Outsourcing: When working with remote teams and even other companies, you must consider the following:
+
+- Non-Disclosure Agreement (NDA) — An NDA is a legally binding contract signed by both parties stating that they will not reveal any trade secrets or intellectual property owned by the other.
+- Legal consultation — When signing NDAs and other documents is necessary, you should first retain legal counsel. Otherwise, you may make commitments that you cannot fulfill. Any contract breach can make your company liable for a lawsuit.
