@@ -1,8 +1,8 @@
 body {
     margin:auto;
-    background-image: url("/img/flowerban.png");
+    background-image: url("/img/petals.jpg");
     background-position: center;
-    background-repeat: repeat-y;
+    background-repeat: none;
     background-size: 100%;
   }
 
