@@ -1,9 +1,10 @@
 body {
     margin:auto;
     background-image: url("/img/petals.jpg");
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-size: cover;
   }
 
 .bg-color {
