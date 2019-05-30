@@ -30,7 +30,7 @@ title: Notes
   <h4 id="{{ tag[0] }}">{{ tag[0] }}</h4>
   <h6>
     <ul class="post-list">
-      {% assign pages_list = tag[1] | sort: tag.title %}
+      {% assign pages_list = tag[1] %}
       {% for post in pages_list %}
         {% if post.title != null %}
         {% if group == null or group == post.group %}
