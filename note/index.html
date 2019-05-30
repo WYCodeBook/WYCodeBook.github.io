@@ -27,7 +27,7 @@ title: Notes
 
 
 {% for tag in site.categories | sort: categories %}
-  <h4 id="{{ tag[0] }}">{{ tag[0] }}</h4>
+  <h4 id="{{ tag[0] }}">{{ tag[0].title }}</h4>
   <h6>
     <ul class="post-list">
       {% assign pages_list = tag[1] %}
