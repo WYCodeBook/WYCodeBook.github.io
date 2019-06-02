@@ -137,9 +137,8 @@ code {
 
 
 .pagepicture {
-  width: 300px;
-  height: 300px;
-  
+  width: 60%;
+  align: center;
 }
 
 .postpicture {
