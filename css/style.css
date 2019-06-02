@@ -23,11 +23,10 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 30px;
-    color: #333333;
+    color: #101010;
 }
 
 nav ul li {
-  color: #4d4d4d;
   font-style: italic;
   font-family: Didot, serif;
   cursor: pointer;
@@ -35,12 +34,12 @@ nav ul li {
 
 a {
     text-decoration: none;
-    color: #4d4d4d;
+    color: #202020;
     font-style: italic;
 }
 a:hover {
     text-decoration: underline;
-    color: #4d4d4d;
+    color: #202020;
     font-style: italic;
 }
 
@@ -97,7 +96,7 @@ h6 {
 .post ul li ol {
   line-height:100%;
   font-family: Didot, serif;
-  color: #1a1a1a;
+  color: #101010;
   font-size: 22px;
 }
 
