@@ -23,7 +23,7 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 30px;
-    color: #202020;
+    color: #303030;
 }
 
 nav ul li {
@@ -34,12 +34,12 @@ nav ul li {
 
 a {
     text-decoration: none;
-    color: #202020;
+    color: #303030;
     font-style: italic;
 }
 a:hover {
     text-decoration: underline;
-    color: #202020;
+    color: #303030;
     font-style: italic;
 }
 
