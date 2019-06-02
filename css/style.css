@@ -1,21 +1,23 @@
-body {
-    margin:auto;
-    background-image: url("/img/realyou.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100%
-  }
+body, html {
+  height: 100%
+}
 
-.bg-color {
-  margin: 10px;
-  background-color: rgb(242, 242, 242, 0.80);
+.header {
+  /* The image used */
+  background-image: url("/img/realyou.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
   background-position: center;
-  height:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 nav {
+  background-color: rgb(242, 242, 242, 0.80);
   position: fixed;
   top: 0;
   width: 100%;
@@ -52,12 +54,7 @@ a:hover {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-.header {
-    line-height: none;
-    text-align: center;
-    margin: auto;
-    padding: 20px;
-}
+
 
 h1, h2, h3, h4, h5, h6, p {
   line-height:100%;
