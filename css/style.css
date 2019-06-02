@@ -19,6 +19,9 @@ body, html {
   text-align: center;
   font-size: 360%;
   padding: 20%;
+
+  /*starting position*/
+  top: 10%;
 }
 
 .header-message {
@@ -29,7 +32,7 @@ body, html {
 nav {
   background-color: rgb(242, 242, 242, 0.80);
   position: fixed;
-  top: -1;
+  top: 0;
   width: 100%;
 }
 
