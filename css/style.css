@@ -72,27 +72,31 @@ h2, h4, h6, {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 260%;
 }
 
 h2 {
-    font-size: 34px;
+    font-size: 240%;
 }
 
 h3 {
-    font-size: 32px;
+    font-size: 220%;
 }
 
 h4 {
-  font-size: 30px;
+  font-size: 200%;
 }
 
 h5 {
-  font-size: 28px;
+  font-size: 180%;
 }
 
 h6 {
-    font-size: 26px;
+  font-size: 160%;
+}
+
+p {
+  font-size: 140%;
 }
 
 .container {
