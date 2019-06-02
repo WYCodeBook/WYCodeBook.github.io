@@ -1,6 +1,10 @@
 /*responsive for 400px */
 @media screen and (max-width:450px) {
 
+  body, html {
+    width: 100%;
+  }
+
   .header {
     /* Full height */
     width: 100%;
