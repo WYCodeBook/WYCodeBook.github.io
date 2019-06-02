@@ -14,6 +14,9 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  /*text style */
+  text-align: center;
 }
 
 nav {
