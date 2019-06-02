@@ -1,7 +1,8 @@
 ---
 layout: project
-title: "Curious-Yu Portfolio Site"
+title: "Portfolio Site"
 date: "2018-07-30 00:32:30 -0700"
+picture: "/pic/portfoliosite.PNG"
 categories: Projects
 ---
 
