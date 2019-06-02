@@ -23,4 +23,4 @@ Here are few popular text editors:
 - Notepad++ — http://notepad-plus.sourceforge.net (Windows only).
 - Sublime Text — https://www.sublimetext.com (Windows, Mac or Linux).
 - Vim — www.vim.org (Windows, Mac or Linux).
-- Atom = https://atom.io/ (Windows).
+- Atom — https://atom.io/ (Windows).
