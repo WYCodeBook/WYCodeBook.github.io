@@ -24,11 +24,11 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 30px;
     color: #303030;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 nav ul li {
   font-style: italic;
-  font-family: Didot, serif;
   cursor: pointer;
 }
 
@@ -36,11 +36,13 @@ a {
     text-decoration: none;
     color: #303030;
     font-style: italic;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 a:hover {
     text-decoration: underline;
     color: #303030;
     font-style: italic;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 .header {
@@ -52,14 +54,14 @@ a:hover {
 
 h1, h3, h5, p {
   line-height:100%;
-  font-family: Didot, serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #101010;
 }
 
 h2, h4, h6, {
   line-height:100%;
-  font-family: Didot, serif;
-  color: #101010;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #202020;
 }
 
 h1 {
@@ -95,7 +97,7 @@ h6 {
 
 .post ul li ol {
   line-height:100%;
-  font-family: Didot, serif;
+  font-family: font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #101010;
   font-size: 22px;
 }
@@ -114,7 +116,7 @@ nav {
     border-bottom: ridge;
     border-color: white;
     text-align: center;
-    font-family: Didot, serif;
+    font-family: font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 footer {
@@ -123,7 +125,7 @@ footer {
     border-color: white;
     font-size: 20px;
     text-align: center;
-    font-family: Didot, serif;
+    font-family: font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     padding: 10px;
 }
 
@@ -172,7 +174,7 @@ code {
   text-decoration: none;
   display: inline-block;
   font-size: 26px;
-  font-family: Didot, serif;
+  font-family: font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   margin: 6px 6px;
   cursor: pointer;
 }
