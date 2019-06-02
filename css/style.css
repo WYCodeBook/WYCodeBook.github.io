@@ -24,6 +24,9 @@ body, html {
 .header-message {
   background-color: rgb(242, 242, 242, 0.80);
   padding: 2%;
+  border-top: ridge;
+  border-bottom: ridge;
+  border-color: white;
 }
 
 nav {
@@ -31,6 +34,21 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
+  border-top: ridge;
+  border-bottom: ridge;
+  border-color: white;
+  text-align: center;
+  font-family: font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+footer {
+  border-top: ridge;
+  border-bottom: ridge;
+  border-color: white;
+  font-size: 120%;
+  text-align: center;
+  font-family: font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  padding: 10px;
 }
 
 nav ul, footer ul {
@@ -135,23 +153,7 @@ hr {
   color: #808080;
 }
 
-nav {
-    border-top: ridge;
-    border-bottom: ridge;
-    border-color: white;
-    text-align: center;
-    font-family: font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
 
-footer {
-    border-top: ridge;
-    border-bottom: ridge;
-    border-color: white;
-    font-size: 20px;
-    text-align: center;
-    font-family: font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    padding: 10px;
-}
 
 code {
   background-color: #f2f2f2;
