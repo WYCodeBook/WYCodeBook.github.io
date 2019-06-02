@@ -2,7 +2,8 @@
 layout: post
 title: "Communicating using Markdown"
 date: "2018-08-16 17:25:40 -0700"
-categories: GitHub
+categories: Notes
+tags: GitHub
 description: GitHub Learning Lab Course 2
 ---
 

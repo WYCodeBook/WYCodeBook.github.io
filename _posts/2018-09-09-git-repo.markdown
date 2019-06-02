@@ -2,7 +2,8 @@
 layout: post
 title: "Git Repo"
 date: "2018-09-09 14:21:30 -0700"
-categories: GitHub
+categories: Notes
+tags: GitHub
 description: Helpful commands
 ---
 

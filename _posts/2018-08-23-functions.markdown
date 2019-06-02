@@ -2,7 +2,8 @@
 layout: post
 title: "Functions"
 date: "2018-08-23 20:36:04 -0700"
-categories: JavaScript
+categories: Notes
+tags: JavaScript
 description: How to use functions?
 ---
 

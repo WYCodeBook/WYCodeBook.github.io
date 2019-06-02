@@ -2,7 +2,8 @@
 layout: post
 title: "Arrays"
 date: "2018-09-03 03:42:29 -0700"
-categories: JavaScript
+categories: Notes
+tags: JavaScript
 description: Basic Arrays + Array Index + Array Loops
 ---
 

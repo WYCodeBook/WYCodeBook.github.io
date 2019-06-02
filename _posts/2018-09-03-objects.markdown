@@ -2,7 +2,8 @@
 layout: post
 title: "Objects"
 date: "2018-09-03 05:15:04 -0700"
-categories: JavaScript
+categories: Notes
+tags: JavaScript
 description: Basic Object + Object Literals
 ---
 

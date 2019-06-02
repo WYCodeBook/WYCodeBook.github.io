@@ -2,7 +2,8 @@
 layout: post
 title: "Strings"
 date: "2018-08-15 17:22:11 -0700"
-categories: JavaScript
+categories: Notes
+tags: JavaScript
 description: Different Strings in JavaScript
 ---
 

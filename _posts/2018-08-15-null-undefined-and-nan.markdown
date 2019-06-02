@@ -2,7 +2,8 @@
 layout: post
 title: "Null, Undefined, and NaN"
 date: "2018-08-15 21:44:11 -0700"
-categories: JavaScript
+categories: Notes
+tags: JavaScript
 description: Definitions
 ---
 

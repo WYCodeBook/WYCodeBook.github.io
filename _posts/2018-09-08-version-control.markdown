@@ -2,7 +2,8 @@
 layout: post
 title: "Version Control"
 date: "2018-09-08 17:08:50 -0700"
-categories: GitHub
+categories: Notes
+tags: GitHub
 description: Why do we need version control?
 ---
 

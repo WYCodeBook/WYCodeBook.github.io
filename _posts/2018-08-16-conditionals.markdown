@@ -2,7 +2,8 @@
 layout: post
 title: "Conditionals"
 date: "2018-08-16 20:26:13 -0700"
-categories: JavaScript
+categories: Notes
+tags: JavaScript
 description: If...Else | Else If | Logical Operators | Switch Statement | Falling-Through
 ---
 

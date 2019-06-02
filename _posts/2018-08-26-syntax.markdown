@@ -2,7 +2,8 @@
 layout: post
 title: "Syntax"
 date: "2018-08-26 12:55:36 -0700"
-categories: JavaScript
+categories: Notes
+tags: JavaScript
 description: Basic Syntax + for...in / for...of loops
 ---
 

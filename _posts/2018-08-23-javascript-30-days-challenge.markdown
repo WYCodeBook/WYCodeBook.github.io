@@ -2,7 +2,8 @@
 layout: post
 title: "JavaScript 30 Days Challenge"
 date: "2018-08-23 17:56:16 -0700"
-categories: JavaScript30DaysChallenge
+categories: Notes
+tags: JavaScript30DaysChallenge
 description: This is a 30 days JavaScript coding challenge from https://javascript30.com/ by Wes Bos
 ---
 
@@ -20,4 +21,4 @@ These tutorials rely heavily upon browser APIs, most of which involve interactio
 
 #### [Course Stream](https://courses.wesbos.com)
 
-## Challenge Started 08/23/2018 
+## Challenge Started 08/23/2018

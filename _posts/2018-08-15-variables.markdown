@@ -2,7 +2,8 @@
 layout: post
 title: "Variables"
 date: "2018-08-15 20:28:33 -0700"
-categories: JavaScript
+categories: Notes
+tags: JavaScript
 description: Different Variables in JavaScript
 ---
 

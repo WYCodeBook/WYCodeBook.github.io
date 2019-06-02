@@ -2,7 +2,8 @@
 layout: post
 title: "Content with JS"
 date: "2018-09-23 14:34:27 -0700"
-categories: [DOM, JavaScript, HTML, CSS]
+categories: Notes
+tags: [DOM, JavaScript, HTML, CSS]
 description: The Basic - Writing Content with JavaScript
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Wireframing Software"
 date: "2019-05-02 22:17:15 -0700"
-categories: Resource
+categories: Resources
 ---
 
 Wireframing software can include:

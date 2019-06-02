@@ -2,7 +2,8 @@
 layout: post
 title: "GitHub Pages"
 date: "2018-08-23 17:17:30 -0700"
-categories: [GitHub, Jekyll]
+categories: Notes
+tags: [GitHub, Jekyll]
 description: GitHub Learning Lab Course 3
 ---
 

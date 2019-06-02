@@ -2,7 +2,8 @@
 layout: post
 title: "Browser Events"
 date: "2018-09-23 21:17:06 -0700"
-categories: [DOM, JavaScript, HTML, CSS]
+categories: Notes
+tags: [DOM, JavaScript, HTML, CSS]
 description: DOM manipulating JavaScript code in respond to actions
 ---
 
