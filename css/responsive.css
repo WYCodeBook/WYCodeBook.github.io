@@ -1,2 +1,7 @@
 /*responsive for 400px */
 @media screen and (max-width:450px) {
+
+  .header {
+    /* Full height */
+    width: 100%;
+  }
