@@ -1,10 +1,10 @@
 body {
     margin:auto;
     background-image: url("/img/realyou.jpg");
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover 100%;
+    background-size: cover;
     height: 100%
   }
 
@@ -12,7 +12,7 @@ body {
   margin: 10px;
   background-color: rgb(242, 242, 242, 0.80);
   background-position: center;
-  background-size: 100% 100%;
+  height:100%;
 }
 
 nav {
