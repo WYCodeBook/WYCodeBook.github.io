@@ -70,37 +70,37 @@ h1 {
 }
 
 h2 {
-  font-size: 180%;
+  font-size: 190%;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #303030;
 }
 
 h3 {
-  font-size: 160%;
+  font-size: 180%;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #101010;
 }
 
 h4 {
-  font-size: 140%;
+  font-size: 170%;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #303030;
 }
 
 h5 {
-  font-size: 120%;
+  font-size: 160%;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #101010;
 }
 
 h6 {
-  font-size: 100%;
+  font-size: 150%;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #303030;
 }
 
 p {
-  font-size: 80%;
+  font-size: 140%;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #101010;
 }
