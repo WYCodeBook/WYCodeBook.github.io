@@ -6,7 +6,7 @@ title: Resources
 <h1 id="Resources"> ⚙️ Resources ⚙️ </h1>
 
 <h4><ul>
-  {% assign sorted_post = site.categories.Resources | sort: "post.title" %}
+  {% assign sorted_post = site.categories.Resources | sort: "title" %}
   {% for post in sorted_post %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
