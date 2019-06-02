@@ -19,7 +19,10 @@ body, html {
   text-align: center;
   font-size: 360%;
   padding: 20%;
+}
 
+.header-message {
+  background-color: rgb(242, 242, 242, 0.80);
 }
 
 nav {
