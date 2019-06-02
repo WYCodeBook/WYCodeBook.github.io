@@ -2,7 +2,8 @@
 layout: post
 title: "Web Development Foundations C779 - 1.Markup Language and Site Development Essentials"
 date: "2019-05-02 19:54:40 -0700"
-categories: WGU
+categories: Notes
+tags: WGU
 ---
 
 Markup Language:
