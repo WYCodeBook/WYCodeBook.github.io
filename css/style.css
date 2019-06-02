@@ -59,44 +59,50 @@ a:hover {
     padding: 20px;
 }
 
-h1, h3, h5, p {
+h1, h2, h3, h4, h5, h6, p {
   line-height:100%;
+}
+
+h1 {
+  font-size: 260%;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #101010;
 }
 
-h2, h4, h6, {
-  line-height:100%;
+h2 {
+  font-size: 240%;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #303030;
 }
 
-h1 {
-    font-size: 260%;
-}
-
-h2 {
-    font-size: 240%;
-}
-
 h3 {
-    font-size: 220%;
+  font-size: 220%;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #101010;
 }
 
 h4 {
   font-size: 200%;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #303030;
 }
 
 h5 {
   font-size: 180%;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #101010;
 }
 
 h6 {
   font-size: 160%;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #303030;
 }
 
 p {
   font-size: 140%;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #101010;
 }
 
 .container {
