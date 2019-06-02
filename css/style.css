@@ -64,43 +64,43 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 h1 {
-  font-size: 260%;
+  font-size: 60px;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #101010;
 }
 
 h2 {
-  font-size: 240%;
+  font-size: 58px;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #303030;
 }
 
 h3 {
-  font-size: 220%;
+  font-size: 56px;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #101010;
 }
 
 h4 {
-  font-size: 200%;
+  font-size: 54px;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #303030;
 }
 
 h5 {
-  font-size: 180%;
+  font-size: 52px;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #101010;
 }
 
 h6 {
-  font-size: 160%;
+  font-size: 50px;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #303030;
 }
 
 p {
-  font-size: 140%;
+  font-size: 48px;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #101010;
 }
