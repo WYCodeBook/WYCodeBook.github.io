@@ -4,11 +4,11 @@ title: Notes
 ---
 
 
-<h1 align="center" id="Note"> Notes by Categories </h1>
+<h1 align="center" id="Note"> Notes by Tags </h1>
 
 <h3>
   <ul class="tag-box inline">
-  {% assign tags_list = site.categories | sort: tag.title %}
+  {% assign tags_list = site.tags | sort: tag.title %}
     {% if tags_list.first[0] == null %}
       {% for tag in tags_list %}
         <li><a href="#{{ tag }}">{{ tag }}  (<span>{{ site.tags[tag].size }}</span>)</a></li>
@@ -25,7 +25,7 @@ title: Notes
 
 <hr>
 
-{% assign sorted_tags = site.categories | sort: tag.title %}
+{% assign sorted_tags = site.tags | sort: tag.title %}
 {% for tag in sorted_tags %}
   <h4 id="{{ tag[0] }}">{{ tag[0] }}</h4>
   <h6>
