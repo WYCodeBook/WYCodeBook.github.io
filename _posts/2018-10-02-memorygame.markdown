@@ -2,7 +2,7 @@
 layout: project
 title: "FEND Project: Memory Game"
 date: "2018-10-02 21:33:39 -0700"
-picture: "memorygame.PNG"
+picture: "/pic/memorygame.PNG"
 categories: Projects
 ---
 
