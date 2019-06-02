@@ -5,6 +5,7 @@ body, html {
 .header {
   /* The image used */
   background-image: url("/img/realyou.jpg");
+  position: relative
 
   /* Full height */
   height: 100%;
@@ -29,7 +30,7 @@ body, html {
 nav {
   background-color: rgb(242, 242, 242, 0.80);
   position: fixed;
-  top: -10%;
+  top: 0;
   width: 100%;
 }
 
