@@ -8,7 +8,7 @@ title: Resources
 <h4><ul>
   {% for post in site.categories.Resources | sort: post.title  %}
     <li>
-      <h4><a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul></h4>
