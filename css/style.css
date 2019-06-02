@@ -5,7 +5,8 @@ body, html {
 .header {
   /* The image used */
   background-image: url("/img/realyou.jpg");
-  position: relative
+  position: top;
+  top: 10%;
 
   /* Full height */
   height: 100%;
