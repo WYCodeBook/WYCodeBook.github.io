@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: resource
 title: "Wireframing Software"
 date: "2019-05-02 22:17:15 -0700"
 categories: Resources

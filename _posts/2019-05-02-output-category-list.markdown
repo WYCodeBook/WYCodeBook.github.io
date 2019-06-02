@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: resource
 title: "Output Category List"
 date: "2019-05-02 16:48:07 -0700"
 categories: Resources

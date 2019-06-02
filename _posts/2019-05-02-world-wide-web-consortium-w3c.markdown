@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: resource
 title: "World Wide Web Consortium (W3C)"
 date: "2019-05-02 20:28:07 -0700"
 categories: Resources

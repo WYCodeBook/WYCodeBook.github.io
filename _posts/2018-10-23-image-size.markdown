@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: resource
 title: "Image Size"
 date: "2018-10-23 22:14:44 -0700"
 categories: Resources

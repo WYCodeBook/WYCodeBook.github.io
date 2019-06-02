@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: resource
 title: "Text Editors"
 date: "2019-05-02 20:48:35 -0700"
 categories: Resources
