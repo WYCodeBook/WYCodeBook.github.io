@@ -139,6 +139,8 @@ code {
 .pagepicture {
   width: 90%;
   text-align: center;
+  border: 2px solid #808080;
+  border-radius: 6px;
 }
 
 .postpicture {
