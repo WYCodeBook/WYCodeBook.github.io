@@ -2,12 +2,13 @@
 layout: default
 title: Resources
 ---
+
 <h2> {{ page.title }} </h2>
 
-<p>Updated on: {{ site.time | date: '%B %-d, %Y' }}</p>
-
-{% for resource in site.resource %}
-  {% if resource.title == 'Resources' %}
-    <h5>{{ resource.content }}</h5>
-  {% endif %}
-{% endfor %}
+<ul>
+  {% for post in site.categories.Resources %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
