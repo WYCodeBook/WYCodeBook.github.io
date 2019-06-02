@@ -2,7 +2,8 @@
 layout: post
 title: "Basic JavaScript"
 date: "2018-07-11 23:50:36 -0700"
-categories: JavaScript
+categories: Notes
+tags: JavaScript
 description: A summary of JavaScript
 ---
 

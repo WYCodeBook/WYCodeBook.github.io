@@ -2,7 +2,8 @@
 layout: post
 title: "Paragraphs"
 date: "2018-06-15 00:11:58 -0700"
-categories: HTML
+categories: Notes
+tags: HTML
 description: Using paragraph tag
 ---
 

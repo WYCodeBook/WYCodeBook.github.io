@@ -2,7 +2,8 @@
 layout: post
 title: "Booleans"
 date: "2018-08-15 20:43:10 -0700"
-categories: JavaScript
+categories: Notes
+tags: JavaScript
 description: Different Boolean types
 ---
 

@@ -2,7 +2,8 @@
 layout: post
 title: "Buttons"
 date: "2018-06-15 00:07:34 -0700"
-categories: HTML
+categories: Notes
+tags: HTML
 description: Adding a button in HTML
 ---
 

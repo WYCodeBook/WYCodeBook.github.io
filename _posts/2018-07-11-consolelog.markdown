@@ -2,7 +2,8 @@
 layout: post
 title: "Console.log"
 date: "2018-07-11 23:52:17 -0700"
-categories: JavaScript
+categories: Notes
+tags: JavaScript
 description: What do console.log do?
 ---
 

@@ -2,7 +2,8 @@
 layout: post
 title: "Headings"
 date: "2018-06-15 00:08:34 -0700"
-categories: HTML
+categories: Notes
+tags: HTML
 description: Summary of different heading sizes
 ---
 

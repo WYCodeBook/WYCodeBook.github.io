@@ -2,7 +2,7 @@
 layout: project
 title: "Curious-Yu Portfolio Site"
 date: "2018-07-30 00:32:30 -0700"
-categories: Project
+categories: Projects
 ---
 
 [The Product](https://Curious-Yu.github.io/)

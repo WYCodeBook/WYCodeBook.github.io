@@ -2,7 +2,8 @@
 layout: post
 title: "Fizz Buzz"
 date: "2018-07-10 23:43:52 -0700"
-categories: [Algorithms, JavaScript]
+categories: Notes
+tags: [Algorithms, JavaScript]
 description: Modulo Operation
 ---
 

@@ -2,7 +2,8 @@
 layout: post
 title: "Basic HTML"
 date: "2018-06-15 00:05:39 -0700"
-categories: HTML
+categories: Notes
+tags: HTML
 description: A summary of what's and how HTML works
 ---
 

@@ -2,7 +2,8 @@
 layout: post
 title: "Harmless Ransom Note"
 date: "2018-07-11 23:33:36 -0700"
-categories: [Algorithms, JavaScript]
+categories: Notes
+tags: [Algorithms, JavaScript]
 description: Big O Notation
 ---
 

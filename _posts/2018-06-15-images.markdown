@@ -2,7 +2,8 @@
 layout: post
 title: "Images"
 date: "2018-06-15 00:09:28 -0700"
-categories: HTML
+categories: Notes
+tags: HTML
 description: Add image in HTML
 ---
 

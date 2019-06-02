@@ -2,7 +2,8 @@
 layout: post
 title: "Numbers"
 date: "2018-08-14 23:53:41 -0700"
-categories: JavaScript
+categories: Notes
+tags: JavaScript
 description: Different types of number in JavaScript
 ---
 

@@ -2,7 +2,8 @@
 layout: post
 title: "Comment"
 date: "2018-08-15 17:16:00 -0700"
-categories: JavaScript
+categories: Notes
+tags: JavaScript
 description: Using comment in JavaScript
 ---
 

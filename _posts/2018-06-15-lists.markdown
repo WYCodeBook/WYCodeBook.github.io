@@ -2,7 +2,8 @@
 layout: post
 title: "Lists"
 date: "2018-06-15 00:11:12 -0700"
-categories: HTML
+categories: Notes
+tags: HTML
 description: Adding lists in HTML
 ---
 

@@ -2,7 +2,8 @@
 layout: post
 title: "Links"
 date: "2018-06-15 00:10:11 -0700"
-categories: HTML
+categories: Notes
+tags: HTML
 description: Linking sites, emails, image, and sections of the page
 ---
 
