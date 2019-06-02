@@ -23,12 +23,13 @@ body, html {
 
 .header-message {
   background-color: rgb(242, 242, 242, 0.80);
+  padding: 6%;
 }
 
 nav {
   background-color: rgb(242, 242, 242, 0.80);
   position: fixed;
-  top: 0;
+  top: -1;
   width: 100%;
 }
 
