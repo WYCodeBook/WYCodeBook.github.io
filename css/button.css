@@ -18,4 +18,5 @@
     color: #101010; /* Text color */
     background-color: rgb(230, 220, 200);
     border: 3px solid #101010; /* Borders */
+    border-radius: 3px;
 }
