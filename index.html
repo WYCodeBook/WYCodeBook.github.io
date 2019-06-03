@@ -52,8 +52,6 @@ title: WY's Code Book
 
 		<h1 align="center"> Notes </h1>
 
-		<h1 id="Note"> 📝 Notes 📝</h1>
-
 		<h6>
 		  <ul class="tag-box inline">
 		  {% assign tags_list = site.tags | sort: tag.title %}
@@ -74,8 +72,8 @@ title: WY's Code Book
 
 		{% assign sorted_tags = site.tags | sort: tag.title %}
 		{% for tag in sorted_tags %}
-		  <p id="{{ tag[0] }}">{{ tag[0] }}</p>
-
+		  <h6 id="{{ tag[0] }}">{{ tag[0] }}</h6>
+			<p>
 		    <ul class="post-list">
 		      {% assign pages_list = tag[1] %}
 		      {% for post in pages_list %}
@@ -88,7 +86,7 @@ title: WY's Code Book
 		      {% assign pages_list = nil %}
 		      {% assign group = nil %}
 		    </ul>
-
+				</p>
 		{% endfor %}
 
 	</div>
