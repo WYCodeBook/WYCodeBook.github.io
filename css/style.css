@@ -134,6 +134,11 @@ p {
   padding: 10%;
 }
 
+.resources {
+  background-color: rgb(230, 220, 200, 0.80);
+  padding: 10%;
+}
+
 .post ul li ol {
   line-height:100%;
   font-family: font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
