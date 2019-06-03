@@ -61,7 +61,7 @@ title: WY's Code Book
 		      {% endfor %}
 		    {% else %}
 		      {% for tag in tags_list %}
-		        <li><a href="#{{ tag[0] }}">{{ tag[0] }} (<span>{{ tag[1].size }}</span>)</a></li>
+		        <a href="#{{ tag[0] }}">{{ tag[0] }} (<span>{{ tag[1].size }}</span>)</a>
 		      {% endfor %}
 		    {% endif %}
 		  {% assign tags_list = nil %}
