@@ -35,6 +35,7 @@ nav {
   border-bottom: ridge;
   border-color: white;
   text-align: center;
+  justify-content: center;
   font-family: font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
