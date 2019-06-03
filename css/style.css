@@ -165,9 +165,6 @@ p {
   -webkit-column-gap: 10px;
      -moz-column-gap: 10px;
           column-gap: 10px;
-  -webkit-column-rule: 1px dotted #ddd;
-     -moz-column-rule: 1px dotted #ddd;
-          column-rule: 1px dotted #ddd;
 }
 
 .post ul li ol {
