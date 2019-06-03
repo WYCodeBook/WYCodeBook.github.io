@@ -145,15 +145,16 @@ p {
 .projects {
   background-color: rgb(230, 220, 200, 0.80);
   padding: 2%;
-  border: ridge;
-  border-color: white;
 }
 
 .resources {
+  background-color: rgb(255, 255, 255, 0.80);
+  padding: 2%;
+}
+
+.notes {
   background-color: rgb(230, 220, 200, 0.80);
   padding: 2%;
-  border: ridge;
-  border-color: white;
 }
 
 .post ul li ol {
