@@ -55,11 +55,11 @@ title: WY's Code Book
 	<h1 align="center"> Notes </h1>
 
 	<div class="banner">
-		<div class="tag-box inline">
+		<ul class="tag-box inline">
 		{% assign tags_list = site.tags | sort: tag.title %}
 			{% if tags_list.first[0] == null %}
 				{% for tag in tags_list %}
-					<a href="#{{ tag }}">{{ tag }}  (<span>{{ site.tags[tag].size }}</span>)</a>
+					<div><a href="#{{ tag }}">{{ tag }}  (<span>{{ site.tags[tag].size }}</span>)</a></div>
 				{% endfor %}
 			{% else %}
 				{% for tag in tags_list %}
@@ -67,7 +67,7 @@ title: WY's Code Book
 				{% endfor %}
 			{% endif %}
 		{% assign tags_list = nil %}
-		</div>
+		</ul>
 	</div>
 
 	<hr>
