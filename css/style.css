@@ -139,7 +139,7 @@ p {
 
   /*text style */
   text-align: center;
-  padding: 10%;
+  padding: 6%;
 }
 
 .projects {
@@ -151,7 +151,9 @@ p {
 
 .resources {
   background-color: rgb(230, 220, 200, 0.80);
-  padding: 10%;
+  padding: 2%;
+  border: ridge;
+  border-color: white;
 }
 
 .post ul li ol {
