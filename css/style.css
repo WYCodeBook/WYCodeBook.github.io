@@ -26,14 +26,10 @@ body, html {
 }
 
 nav {
-  background-color: rgb(230, 220, 200, 0.80);
   position: fixed;
   right: 0;
   top: 20%;
   width: 60;
-  border-left: ridge;
-  border-right: ridge;
-  border-color: white;
   text-align: center;
   justify-content: center;
   font-family: font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
