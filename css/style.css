@@ -210,8 +210,6 @@ code {
 }
 
 .banner div {
-  width: 260px;
-  text-align: center;
   background-color: rgb(230, 220, 200, 0.90);
   border: 2px solid #808080;
   border-radius: 6px;
@@ -224,11 +222,4 @@ code {
   font-family: font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   margin: 6px 6px;
   cursor: pointer;
-}
-
-.banner-picture {
-  width: 200px;
-  height: 160px;
-  text-align: center;
-  border-radius: 6px;
 }
