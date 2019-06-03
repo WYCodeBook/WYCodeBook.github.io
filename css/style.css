@@ -54,13 +54,11 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 10px;
     color: #505050;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 nav ul li {
   font-style: italic;
   cursor: pointer;
-  transform: rotate(-90deg);
 }
 
 a {
