@@ -38,6 +38,8 @@ nav {
 }
 
 footer {
+  position: fixed;
+  bottom:0;
   background-color: rgb(230, 220, 200);
   border-top: ridge;
   border-bottom: ridge;
