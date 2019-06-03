@@ -31,8 +31,8 @@ nav {
   right: 0;
   top: 50%;
   width: 60;
-  border-top: ridge;
-  border-bottom: ridge;
+  border-left: ridge;
+  border-right: ridge;
   border-color: white;
   text-align: center;
   justify-content: center;
