@@ -1,4 +1,4 @@
-/*responsive for 400px */
+/*responsive for 450px */
 @media screen and (max-width:450px) {
 
   .header {
@@ -14,3 +14,4 @@
   #myBtn {
     font-size: 200%; /* Increase font size */
   }
+}
