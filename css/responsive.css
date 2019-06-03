@@ -5,13 +5,3 @@
     /* Full height */
     width: 100%;
   }
-
-  .button {
-    font-size: 200%;
-    margin: 10px;
-  }
-
-  #myBtn {
-    font-size: 200%; /* Increase font size */
-  }
-}
