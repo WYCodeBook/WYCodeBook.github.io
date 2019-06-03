@@ -26,7 +26,6 @@ body, html {
 }
 
 nav {
-  transform: rotate(-90deg);
   position: fixed;
   right: 0;
   top: 20%;
@@ -62,6 +61,7 @@ nav ul li, footer ul li {
 nav ul li {
   font-style: italic;
   cursor: pointer;
+  transform: rotate(-90deg);
 }
 
 a {
