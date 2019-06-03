@@ -159,9 +159,15 @@ p {
 }
 
 .note-list {
-  -webkit-column-width: 400px;
-     -moz-column-width: 400px;
-          column-width: 400px;
+  -webkit-columns: 2 450px;
+     -moz-columns: 2 450px;
+          columns: 2 450px;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+  -webkit-column-rule: 1px dotted #ddd;
+     -moz-column-rule: 1px dotted #ddd;
+          column-rule: 1px dotted #ddd;
 }
 
 .post ul li ol {
