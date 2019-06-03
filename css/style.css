@@ -28,7 +28,7 @@ body, html {
 }
 
 nav {
-  background-color: rgb(242, 242, 242);
+  background-color: rgb(242, 242, 242, 0.90);
   position: fixed;
   top: 0;
   width: 100%;
