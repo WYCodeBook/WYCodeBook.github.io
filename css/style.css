@@ -122,6 +122,7 @@ p {
 }
 
 .container {
+  background-color: rgb(242, 242, 242, 0.80);
   margin: 6% 12%;
 }
 
