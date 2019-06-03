@@ -6,7 +6,7 @@
     z-index: 99; /* Make sure it does not overlap */
     border: 3px solid #808080; /* Borders */
     outline: none; /* Remove outline */
-    background-color: #f2f2f2; /* Set a background color */
+    background-color: rgb(230, 220, 200, 0.90); /* Set a background color */
     color: #808080; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 8px; /* Some padding */

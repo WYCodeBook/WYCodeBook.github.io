@@ -19,14 +19,14 @@ body, html {
 }
 
 .header-message {
-  background-color: rgb(242, 242, 242, 0.80);
+  background-color: rgb(230, 220, 200, 0.80);
   padding: 2%;
   border: ridge;
   border-color: white;
 }
 
 nav {
-  background-color: rgb(242, 242, 242, 0.90);
+  background-color: rgb(230, 220, 200, 0.90);
   position: fixed;
   top: 0;
   width: 100%;
@@ -38,7 +38,7 @@ nav {
 }
 
 footer {
-  background-color: rgb(242, 242, 242, 0.90);
+  background-color: rgb(230, 220, 200, 0.90);
   border-top: ridge;
   border-bottom: ridge;
   border-color: white;
@@ -126,12 +126,12 @@ p {
 }
 
 .about {
-  background-color: rgb(242, 242, 242, 0.80);
+  background-color: rgb(230, 220, 200, 0.80);
   padding: 10%;
 }
 
 .projects {
-  background-color: rgb(red, 0.80);
+  background-image: url("/img/realyou.jpg");
   padding: 10%;
 }
 
