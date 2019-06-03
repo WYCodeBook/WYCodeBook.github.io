@@ -122,7 +122,16 @@ p {
 }
 
 .container {
+
+}
+
+.about {
   background-color: rgb(242, 242, 242, 0.80);
+  padding: 10%;
+}
+
+.projects {
+  background-color: rgb(red, 0.80);
   padding: 10%;
 }
 
