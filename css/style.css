@@ -225,7 +225,8 @@ code {
 }
 
 .banner-picture {
-  width: auto;
+  width: 200px;
+  height: 160px;
   padding: 2%;
   text-align: center;
   border: 2px solid #808080;
