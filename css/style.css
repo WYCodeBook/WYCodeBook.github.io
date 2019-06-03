@@ -40,6 +40,7 @@ nav {
 }
 
 footer {
+  background-color: rgb(242, 242, 242, 0.90);
   border-top: ridge;
   border-bottom: ridge;
   border-color: white;
@@ -123,10 +124,7 @@ p {
 }
 
 .container {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  margin-left: 160px;
-  margin-right: 160px;
+  margin: 6%px 12%;
 }
 
 .post ul li ol {
