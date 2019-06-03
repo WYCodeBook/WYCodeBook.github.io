@@ -12,6 +12,8 @@
     padding: 8px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
     font-size: 180%; /* Increase font size */
+    font-weight: bold;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 #myBtn:hover {

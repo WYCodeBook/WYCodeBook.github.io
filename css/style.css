@@ -31,7 +31,7 @@ nav {
   top: 0;
   text-align: center;
   justify-content: center;
-  font-family: font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 footer {
@@ -41,7 +41,7 @@ footer {
   border-color: white;
   font-size: 120%;
   text-align: center;
-  font-family: font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 nav ul, footer ul {
@@ -163,7 +163,7 @@ p {
 
 .post ul li ol {
   line-height:100%;
-  font-family: font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #101010;
 }
 
@@ -225,7 +225,7 @@ code {
   text-decoration: none;
   display: inline-block;
   font-size: 140%;
-  font-family: font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   margin: 6px 6px;
   cursor: pointer;
 }
