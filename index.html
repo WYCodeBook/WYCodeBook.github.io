@@ -48,50 +48,50 @@ title: WY's Code Book
 
 	</div>
 
-	<div class="notes" id="notes">
+</div>
 
-		<h1 align="center"> Notes </h1>
+<div class="notes" id="notes">
 
-		<h6>
-		  <ul class="tag-box inline">
-		  {% assign tags_list = site.tags | sort: tag.title %}
-		    {% if tags_list.first[0] == null %}
-		      {% for tag in tags_list %}
-		        <a href="#{{ tag }}">{{ tag }}  (<span>{{ site.tags[tag].size }}</span>)</a>
-		      {% endfor %}
-		    {% else %}
-		      {% for tag in tags_list %}
-		        <a href="#{{ tag[0] }}">{{ tag[0] }} (<span>{{ tag[1].size }}</span>)</a>
-		      {% endfor %}
-		    {% endif %}
-		  {% assign tags_list = nil %}
-		  </ul>
-		</h6>
+	<h1 align="center"> Notes </h1>
 
-		<hr>
+	<h6>
+		<ul class="tag-box inline">
+		{% assign tags_list = site.tags | sort: tag.title %}
+			{% if tags_list.first[0] == null %}
+				{% for tag in tags_list %}
+					<a href="#{{ tag }}">{{ tag }}  (<span>{{ site.tags[tag].size }}</span>)</a>
+				{% endfor %}
+			{% else %}
+				{% for tag in tags_list %}
+					<a href="#{{ tag[0] }}">{{ tag[0] }} (<span>{{ tag[1].size }}</span>)</a>
+				{% endfor %}
+			{% endif %}
+		{% assign tags_list = nil %}
+		</ul>
+	</h6>
 
-		<div  class="note-list">
+	<hr>
 
-			{% assign sorted_tags = site.tags | sort: tag.title %}
-			{% for tag in sorted_tags %}
-			  <h3 id="{{ tag[0] }}">{{ tag[0] }}</h3>
-				<p>
-			    <ul>
-			      {% assign pages_list = tag[1] %}
-			      {% for post in pages_list %}
-			        {% if post.title != null %}
-			        {% if group == null or group == post.group %}
-			        <p><a href="{{ site.url }}{{ post.url }}">{{ post.title }} --- <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></a></p>
-			        {% endif %}
-			        {% endif %}
-			      {% endfor %}
-			      {% assign pages_list = nil %}
-			      {% assign group = nil %}
-			    </ul>
-					</p>
-			{% endfor %}
+	<div  class="note-list">
 
-		</div>
+		{% assign sorted_tags = site.tags | sort: tag.title %}
+		{% for tag in sorted_tags %}
+			<h3 id="{{ tag[0] }}">{{ tag[0] }}</h3>
+			<p>
+				<ul>
+					{% assign pages_list = tag[1] %}
+					{% for post in pages_list %}
+						{% if post.title != null %}
+						{% if group == null or group == post.group %}
+						<p><a href="{{ site.url }}{{ post.url }}">{{ post.title }} --- <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></a></p>
+						{% endif %}
+						{% endif %}
+					{% endfor %}
+					{% assign pages_list = nil %}
+					{% assign group = nil %}
+				</ul>
+				</p>
+		{% endfor %}
 
 	</div>
 
