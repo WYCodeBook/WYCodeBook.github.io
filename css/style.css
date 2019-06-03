@@ -157,6 +157,12 @@ p {
   padding: 2%;
 }
 
+.note-list {
+  -webkit-columns: 2 200px;
+   -moz-columns: 2 200px;
+        columns: 2 200px;
+}
+
 .post ul li ol {
   line-height:100%;
   font-family: font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;

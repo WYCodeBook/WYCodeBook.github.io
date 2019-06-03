@@ -74,7 +74,7 @@ title: WY's Code Book
 		{% for tag in sorted_tags %}
 		  <h6 id="{{ tag[0] }}">{{ tag[0] }}</h6>
 			<p>
-		    <ul class="post-list">
+		    <ul class="note-list">
 		      {% assign pages_list = tag[1] %}
 		      {% for post in pages_list %}
 		        {% if post.title != null %}
