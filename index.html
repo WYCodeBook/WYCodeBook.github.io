@@ -72,13 +72,11 @@ title: WY's Code Book
 
 	<hr>
 
-	<div  class="note-list">
-
 		{% assign sorted_tags = site.tags | sort: tag.title %}
 		{% for tag in sorted_tags %}
 			<h3 id="{{ tag[0] }}">{{ tag[0] }}</h3>
 			<p>
-				<ul>
+				<ul class="note-list">
 					{% assign pages_list = tag[1] %}
 					{% for post in pages_list %}
 						{% if post.title != null %}
@@ -92,7 +90,5 @@ title: WY's Code Book
 				</ul>
 				</p>
 		{% endfor %}
-
-	</div>
 
 </div>
