@@ -75,7 +75,7 @@ title: WY's Code Book
 			{% assign sorted_tags = site.tags | sort: tag.title %}
 			{% for tag in sorted_tags %}
 			  <h3 id="{{ tag[0] }}">{{ tag[0] }}</h3>
-				<h6>
+				<p>
 			    <ul>
 			      {% assign pages_list = tag[1] %}
 			      {% for post in pages_list %}
@@ -88,7 +88,7 @@ title: WY's Code Book
 			      {% assign pages_list = nil %}
 			      {% assign group = nil %}
 			    </ul>
-					</h6>
+					</p>
 			{% endfor %}
 
 		</div>
