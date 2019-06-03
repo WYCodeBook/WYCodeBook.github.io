@@ -158,9 +158,9 @@ p {
 }
 
 .note-list {
-  -webkit-columns: 2 200px;
-   -moz-columns: 2 200px;
-        columns: 2 200px;
+  -webkit-columns: 2 450px;
+   -moz-columns: 2 450px;
+        columns: 2 450px;
 }
 
 .post ul li ol {
