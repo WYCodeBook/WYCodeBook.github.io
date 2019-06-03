@@ -206,10 +206,10 @@ code {
   flex-wrap: wrap;
   flex-flow: row wrap;
   text-align: center;
+  justify-content: center;
 }
 
 .banner div {
-  justify-content: center;
   background-color: rgb(230, 220, 200, 0.90);
   border: 2px solid #808080;
   border-radius: 6px;
