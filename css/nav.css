@@ -17,6 +17,6 @@
 
 .button:hover, .button:focus {
   background-color: rgb(230, 220, 200);
-  border: 3px solid white;
+  border: 3px solid #101010;
   border-radius: 3px;
 }
