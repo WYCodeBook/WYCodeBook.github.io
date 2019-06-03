@@ -28,8 +28,9 @@ body, html {
 nav {
   background-color: rgb(230, 220, 200);
   position: fixed;
-  top: 0;
-  width: 100%;
+  right: 0;
+  top: 50%;
+  width: 60;
   border-top: ridge;
   border-bottom: ridge;
   border-color: white;
@@ -120,9 +121,6 @@ p {
   color: #101010;
 }
 
-.container {
-
-}
 
 .about {
   background-color: rgb(230, 220, 200);
