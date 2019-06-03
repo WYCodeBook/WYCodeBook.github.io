@@ -26,7 +26,7 @@ body, html {
 }
 
 nav {
-  background-color: rgb(230, 220, 200, 0.90);
+  background-color: rgb(230, 220, 200);
   position: fixed;
   top: 0;
   width: 100%;
@@ -38,7 +38,7 @@ nav {
 }
 
 footer {
-  background-color: rgb(230, 220, 200, 0.90);
+  background-color: rgb(230, 220, 200);
   border-top: ridge;
   border-bottom: ridge;
   border-color: white;
@@ -125,7 +125,7 @@ p {
 }
 
 .about {
-  background-color: rgb(230, 220, 200, 0.80);
+  background-color: rgb(230, 220, 200);
   padding: 10%;
 }
 
