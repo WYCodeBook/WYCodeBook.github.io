@@ -1,5 +1,5 @@
 body, html {
-  height:90%;
+  height:100%;
   width:100%;
 }
 
@@ -38,9 +38,6 @@ nav {
 }
 
 footer {
-  position: fixed;
-  bottom:0;
-  width:100%;
   background-color: rgb(230, 220, 200);
   border-top: ridge;
   border-bottom: ridge;
