@@ -2,6 +2,16 @@
 layout: default
 title: Curious-Yu
 ---
+
+<!-- header -->
+<div class="header">
+	<div class="header-message">
+		<div>Hello, I'm Wen Yu!</div>
+		<div>Developer. Nutritionist. Explorer.</div>
+	</div>
+</div>
+
+<!-- about tab -->
 <div class="about" id="about">
 
 	<h1 align="center"> About </h1>
@@ -14,6 +24,7 @@ title: Curious-Yu
 
 </div>
 
+
 <div class="othertabs">
 
 	<div class="projects" id="projects">
@@ -21,7 +32,7 @@ title: Curious-Yu
 		<h1 align="center"> Projects </h1>
 
 		<div class="banner">
-		  {% for post in site.categories.Projects limit:6 %}
+		  {% for post in site.categories.Projects %}
 		    <div>
 		      <a href="{{ post.url }}">{{ post.title }}</a>
 		    </div>
@@ -52,6 +63,7 @@ title: Curious-Yu
 
 </div>
 
+<!-- note tab -->
 <div class="notes" id="notes">
 
 	<h1 align="center"> Notes </h1>
