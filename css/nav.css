@@ -1,7 +1,7 @@
 .button {
   background-color: white;
   border: none;
-  border-radius: 6px;
+  border-radius: 10px;
   color: #505050;
   padding: 6px 12px;
   text-align: center;
@@ -16,7 +16,7 @@
 
 
 .button:hover, .button:focus {
-  background-color: #f2f2f2;
+  background-color: rgb(230, 220, 200, 0.90);
   border: 3px solid white;
-  border-radius: 6px;
+  border-radius: 3px;
 }
