@@ -3,11 +3,11 @@
   border: none;
   border-radius: 10px;
   color: #505050;
-  padding: 6px 12px;
+  padding: 3px 6px;
   text-align: center;
   text-decoration: none;
   display: block;
-  font-size: 120%;
+  font-size: 130%;
   font-weight: bold;
   font-family: Didot, serif;
   margin: 2px 2px;
@@ -16,7 +16,7 @@
 
 
 .button:hover, .button:focus {
-  background-color: rgb(230, 220, 200, 0.90);
+  background-color: rgb(230, 220, 200);
   border: 3px solid white;
   border-radius: 3px;
 }
