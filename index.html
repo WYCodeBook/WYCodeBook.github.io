@@ -12,14 +12,14 @@ title: WY's Code Book
 
 </div>
 
-<div class="projects" id="projects">
+<div class="othertabs">
 
-	<div class="projects-message">
+	<div class="projects" id="projects">
 
 		<h1 align="center"> Projects </h1>
 
 		<div class="banner">
-		  {% for post in site.categories.Projects limit:2 %}
+		  {% for post in site.categories.Projects limit:6 %}
 		    <div>
 		      <a href="{{ post.url }}">{{ post.title }}</a>
 		    </div>
@@ -27,20 +27,24 @@ title: WY's Code Book
 		</div>
 	</div>
 
-</div>
+	<div class="more">
+		<a href="/project">More Projects</a>
+	</div>
 
-<div class="resources" id="resources">
+	<div class="resources" id="resources">
 
-	<h1 align="center"> Resources </h1>
+		<h1 align="center"> Resources </h1>
 
-	<div class="banner">
+		<div class="banner">
 
-		{% assign sorted_post = site.categories.Resources | sort: "title" %}
-		{% for post in sorted_post %}
-			<div>
-				<a href="{{ post.url }}">{{ post.title }}</a>
-			</div>
-		{% endfor %}
+			{% assign sorted_post = site.categories.Resources | sort: "title" %}
+			{% for post in sorted_post %}
+				<div>
+					<a href="{{ post.url }}">{{ post.title }}</a>
+				</div>
+			{% endfor %}
+		</div>
+
 	</div>
 
 </div>

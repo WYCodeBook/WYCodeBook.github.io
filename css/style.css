@@ -129,12 +129,12 @@ p {
   padding: 10%;
 }
 
-.projects {
+.othertabs {
   background-image: url("/img/code0101.jpg");
 
   /* Create the parallax scrolling effect */
-  background-attachment: scroll;
-  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-repeat: repeat;
   background-size: 100%;
 
   /*text style */
