@@ -176,8 +176,9 @@ u {
   background-repeat: repeat;
   background-size: 100%;
 
-  /*text style */
+  /*for the sub-div*/
   padding: 8%;
+  margin: 2%;
 }
 
 .posttitle {
