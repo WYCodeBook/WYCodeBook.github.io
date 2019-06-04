@@ -128,7 +128,7 @@ u {
 
 .about {
   background-color: rgb(230, 220, 200);
-  padding: 12%;
+  padding: 6%;
 }
 
 .othertabs {
@@ -141,7 +141,7 @@ u {
 
   /*text style */
   text-align: center;
-  padding: 8%;
+  padding: 6%;
 }
 
 .projects {
@@ -156,7 +156,7 @@ u {
 
 .notes {
   background-color: rgb(230, 220, 200, 0.80);
-  padding: 12%;
+  padding: 6%;
 }
 
 .note-list {
