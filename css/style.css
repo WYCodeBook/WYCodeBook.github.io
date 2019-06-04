@@ -119,6 +119,12 @@ p {
   color: #101010;
 }
 
+u {
+  text-decoration-color: #101010;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+
 
 .about {
   background-color: rgb(230, 220, 200);
