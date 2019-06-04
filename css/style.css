@@ -176,19 +176,19 @@ u {
   background-repeat: repeat;
   background-size: 100%;
 
-  padding: 6%;
+  padding: 3%;
 }
 
 .posttitle {
   background-color: rgb(230, 220, 200, 0.80);
-  padding: 2%;
-  margin: 6%;
+  padding: 3%;
+  margin: 3%;
 }
 
 .post {
   background-color: rgb(255, 255, 255, 0.80);
-  padding: 2%;
-  margin: 6%;
+  padding: 3%;
+  margin: 3%;
 }
 
 .post ul, .post ol {
