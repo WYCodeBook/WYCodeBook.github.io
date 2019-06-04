@@ -10,7 +10,7 @@ body, html {
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   height: 100%;
-  background-position: center;
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
