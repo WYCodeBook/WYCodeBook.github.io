@@ -191,7 +191,7 @@ u {
   padding: 2%;
 }
 
-.post ul {
+.post ul, .post ol {
   font-size: 120%;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #101010;
