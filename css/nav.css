@@ -19,3 +19,11 @@
   border: 3px solid #101010;
   border-radius: 3px;
 }
+
+@media screen and (max-width:450px) {
+
+  .button {
+    font-size: 220%;
+  }
+  
+}
