@@ -10,7 +10,7 @@ body, html {
   background-attachment: fixed;
   background-position: center top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100vh;
   position: relative;
   height:100%;
 
