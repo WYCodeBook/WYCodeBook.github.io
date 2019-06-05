@@ -36,6 +36,8 @@ nav {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 footer {
