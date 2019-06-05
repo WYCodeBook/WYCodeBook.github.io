@@ -5,7 +5,7 @@ body, html {
 
 .header {
   /* The image used */
-  background-image: url("/img/header3.jpg");
+  background-image: url("/img/header2.jpg");
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -17,8 +17,8 @@ body, html {
 
   /*text style */
   text-align: center;
-  font-size: 220%;
-  padding: 40vh 10vw;
+  font-size: 260%;
+  padding: 40vh 20vw;
 }
 
 .header-message {
