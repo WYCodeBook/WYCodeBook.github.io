@@ -6,7 +6,7 @@
   padding: 5px 10px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: flex;
   font-size: 180%;
   font-weight: bold;
   margin: 8px;
@@ -25,5 +25,5 @@
   .button {
     font-size: 220%;
   }
-  
+
 }

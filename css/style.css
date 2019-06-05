@@ -53,7 +53,7 @@ nav ul, footer ul {
 }
 
 nav ul li, footer ul li {
-    display: inline;
+    display: flex;
     margin-right: 10px;
     color: #505050;
 }
