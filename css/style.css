@@ -13,12 +13,11 @@ body, html {
   background-size: 100%;
   position: relative;
   height:100vh;
-  width: 100%;
 
   /*text style */
   text-align: center;
   font-size: 220%;
-  padding: 20% 16%;
+  padding: 60vh 20vw;
 }
 
 .header-message {
