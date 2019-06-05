@@ -8,16 +8,16 @@ body, html {
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: center top;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   position: relative;
-  height:100vh;
+  height:100%;
 
   /*text style */
   text-align: center;
-  font-size: 220%;
-  padding: 60vh 20vw;
+  font-size: 260%;
+  padding: 50vh 20vw;
 }
 
 .header-message {
