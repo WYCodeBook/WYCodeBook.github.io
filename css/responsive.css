@@ -1,9 +1,9 @@
 /*responsive for 450px */
-@media screen and (max-width:450px) {
+@media screen and (min-width:450px) {
 
   .header {
     /* The image used */
-    background-image: url("/img/header3.jpg");
+    background-image: url("/img/header2.jpg");
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
