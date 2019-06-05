@@ -17,7 +17,7 @@ body, html {
   /*text style */
   text-align: center;
   font-size: 260%;
-  padding: 50vh 20vw;
+  padding: 40vh 20vw;
 }
 
 .header-message {
@@ -137,7 +137,7 @@ u {
   background-attachment: fixed;
   background-repeat: repeat;
   background-size: 100%;
-  height:100vh;
+  height:100%;
   margin: auto;
 
   /*text style */
