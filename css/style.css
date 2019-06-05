@@ -44,7 +44,7 @@ footer {
   border-top: ridge;
   border-bottom: ridge;
   border-color: white;
-  font-size: 120%;
+  font-size: 3vw;
   text-align: center;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
@@ -196,7 +196,7 @@ u {
 }
 
 .post ul, .post ol {
-  font-size: 120%;
+  font-size: 3vw;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #101010;
 }
@@ -214,7 +214,7 @@ hr {
 code {
   background-color: #f2f2f2;
   border-radius: 8px;
-  font-size: 120%;
+  font-size: 3vw;
 }
 
 
@@ -258,7 +258,7 @@ code {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 140%;
+  font-size: 4vw;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   margin: 6px 6px;
   cursor: pointer;
