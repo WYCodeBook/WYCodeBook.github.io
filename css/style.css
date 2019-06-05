@@ -4,7 +4,7 @@ body, html {
 
 .header {
   /* The image used */
-  background-image: url("/img/code0102.jpg");
+  background-image: url("/img/header2.jpg");
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
