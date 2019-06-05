@@ -1,6 +1,5 @@
 body, html {
   height:100%;
-  width:100%;
 }
 
 .header {
@@ -9,11 +8,11 @@ body, html {
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  height: 100%;
   background-position: center top;
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
+  height:100vh;
 
   /*text style */
   text-align: center;
@@ -138,8 +137,7 @@ u {
   background-attachment: fixed;
   background-repeat: repeat;
   background-size: 100%;
-
-  height: 100%;
+  height:100vh;
 
   /*text style */
   text-align: center;
