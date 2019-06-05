@@ -4,7 +4,7 @@ body, html {
 
 .header {
   /* The image used */
-  background-image: url("/img/realyou.jpg");
+  background-image: url("/img/header1.jpg");
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -12,7 +12,8 @@ body, html {
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
-  height:100%;
+  height:100vh;
+  width: 100%;
 
   /*text style */
   text-align: center;
