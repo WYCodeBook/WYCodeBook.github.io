@@ -1,21 +1,2 @@
 /*responsive for 450px */
 @media screen and (max-width:450px) {
-
-  .header {
-    /* The image used */
-    background-image: url("/img/header3.jpg");
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height:100%;
-
-    /*text style */
-    text-align: center;
-    font-size: 220%;
-    padding: 40vh 10vw;
-  }
-}
