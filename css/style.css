@@ -80,43 +80,43 @@ a:hover {
 }
 
 h1 {
-  font-size: 6vw;
+  font-size: 5vw;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #101010;
 }
 
 h2 {
-  font-size: 6vw;
+  font-size: 5vw;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #707070;
 }
 
 h3 {
-  font-size: 5vw;
+  font-size: 4vw;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #101010;
 }
 
 h4 {
-  font-size: 5vw;
+  font-size: 4vw;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #707070;
 }
 
 h5 {
-  font-size: 4vw;
+  font-size: 3vw;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #101010;
 }
 
 h6 {
-  font-size: 4vw;
+  font-size: 3vw;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #707070;
 }
 
 p {
-  font-size: 3vw;
+  font-size: 2vw;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #101010;
 }
