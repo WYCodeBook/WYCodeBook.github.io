@@ -23,7 +23,6 @@ body, html {
 
 .header-message {
   background-color: rgb(230, 220, 200, 0.80);
-  padding: 2%;
   border: ridge;
   border-color: white;
 }
