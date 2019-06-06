@@ -1,262 +1,46 @@
-body, html {
-  height:100%;
-  width: 100%;
-  margin:0;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
 }
 
 .header {
-  /* The image used */
-  background-image: url("/img/header0.jpg");
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  max-height: 100vh;
-
-  /*text style */
   text-align: center;
-  padding: 20vh;
+  padding: 32px;
 }
 
-.header-message {
-  background-color: rgb(230, 220, 200, 0.80);
-  border: ridge;
-  border-color: white;
-  width: 100%;
-}
-
-nav {
-  position: fixed;
-  right: 0;
-  top: 0;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-footer {
-  background-color: rgb(230, 220, 200);
-  border-top: ridge;
-  border-bottom: ridge;
-  border-color: white;
-  text-align: center;
-}
-
-nav ul, footer ul {
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-
-nav ul li, footer ul li {
-    display: flex;
-    margin-right: 10px;
-    color: #505050;
-}
-
-nav ul li {
-  font-style: italic;
-  cursor: pointer;
-}
-
-a {
-    text-decoration: none;
-    color: #505050;
-    font-style: italic;
-}
-a:hover {
-    text-decoration: underline;
-    color: #505050;
-    font-style: italic;
-}
-
-/*post font style*/
-h1 {
-  font-size: 5vw;
-  font-family: "Copperplate", "Copperplate Gothic Light", fantasy;
-  color: #101010;
-}
-
-h2 {
-  font-size: 4vw;
-  font-family: "Copperplate", "Copperplate Gothic Light", fantasy;
-  color: #707070;
-}
-
-
-h3 {
-  font-size: 4vw;
-  font-family: "Copperplate", "Copperplate Gothic Light", fantasy;
-  color: #101010;
-}
-
-h4 {
-  font-size: 4vw;
-  font-family: "Copperplate", "Copperplate Gothic Light", fantasy;
-  color: #707070;
-}
-
-/*nav and other font style*/
-h5 {
-  font-size: 4vw;
-  font-family: "Copperplate", "Copperplate Gothic Light", fantasy;
-  color: #101010;
-}
-
-h6 {
-  font-size: 4vw;
-  font-family: "Copperplate", "Copperplate Gothic Light", fantasy;
-  color: #707070;
-}
-
-p {
-  font-size: 3vw;
-  font-family: "Palatino", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
-}
-
-u {
-  text-decoration-color: #101010;
-  text-decoration-line: underline;
-  text-decoration-style: double;
-}
-
-
-.about {
-  background-color: rgb(230, 220, 200);
-  padding: 6%;
-}
-
-.othertabs {
-  background-image: url("/img/code0101.jpg");
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-repeat: repeat;
-  background-size: 100%;
-  height:100%;
-  margin: auto;
-
-  /*text style */
-  text-align: center;
-  padding: 6vh;
-}
-
-.projects {
-  background-color: rgb(230, 220, 200, 0.80);
-  padding: 2%;
-}
-
-.resources {
-  background-color: rgb(255, 255, 255, 0.80);
-  padding: 2%;
-}
-
-.notes {
-  background-color: rgb(230, 220, 200, 0.80);
-  padding: 6%;
-}
-
-.note-list {
-  -webkit-columns: 2 450px;
-     -moz-columns: 2 450px;
-          columns: 2 450px;
-  -webkit-column-gap: 10px;
-     -moz-column-gap: 10px;
-          column-gap: 10px;
-}
-
-.posttabs {
-  background-image: url("/img/oldbooks.jpg");
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-repeat: repeat;
-  background-size: 100%;
-
-  padding: 3%;
-}
-
-.posttitle {
-  background-color: rgb(230, 220, 200, 0.90);
-  padding: 3%;
-  margin: 3%;
-}
-
-.post {
-  background-color: rgb(230, 220, 200, 0.90);
-  padding: 3%;
-  margin: 3%;
-}
-
-.post ul, .post ol {
-  font-size: 3vw;
-  font-family: "Copperplate", "Copperplate Gothic Light", fantasy;
-  color: #101010;
-}
-
-hr {
-  display: ridge;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  border-style: inset;
-  border-width: 3px;
-  color: #808080;
-}
-
-
-code {
-  background-color: #f2f2f2;
-  border-radius: 8px;
-  font-size: 3vw;
-}
-
-
-.pagepicture {
-  width: 90%;
-  text-align: center;
-  border: 2px solid #808080;
-  border-radius: 6px;
-}
-
-.postpicture {
-  width: 120px;
-  height: 120px;
-  float: right;
-}
-
-.clearfix {
-    max-width: 800px;
-    margin: auto;
-    overflow: auto;
-    padding: 10px;
-    border: 6px dotted #994d00;
-    border-radius: 20px;
-}
-
-/* styling for banner */
-.banner {
+.container {
   display: flex;
   flex-wrap: wrap;
-  flex-flow: row wrap;
-  text-align: center;
-  justify-content: center;
+  padding: 0 4px;
 }
 
-.banner div {
-  background-color: rgb(230, 220, 200, 0.90);
-  border: 2px solid #808080;
-  border-radius: 6px;
-  color: #4d4d4d;
-  padding: 10px 20px;
+.column1 {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  vertical-align: middle;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 6px 6px;
-  cursor: pointer;
 }
+
+.column2 {
+  flex: 75%;
+  max-width: 75%;
+  padding: 0 4px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .column1 {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .column2 {
+    flex: 100%;
+    max-width: 100%;
+  }

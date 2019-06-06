@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 	<head>
 		<title>Curious-Yu</title>
 		<meta charset="UTF-8">
@@ -14,20 +13,36 @@
 		<link rel="stylesheet" type="text/css" href="/css/nav.css"> <!-- needed for the nav -->
 	</head>
 
-  <body>
+	<body>
 
-    <div class="header">
-    	<div class="header-message">
-    		<h1>Wen Yu</h1>
-    		<p>Developer. Nutritionist. Explorer.</p>
-    		<p>>> Scroll Down to Learn More <<</p>
-    	</div>
-    </div>
+		<!-- navigation -->
+		<nav>
+				<div><button class="button" title="Home"><a href="/">Home</a></button></div>
+				<div><button class="button" title="About"><a href="/#about">About</a></button></div>
+				<div><button class="button" title="Projects"><a href="/#projects">Projects</a></button></div>
+				<div><button class="button" title="Resources"><a href="/#resources">Resources</a></button></div>
+				<div><button class="button" title="Notes"><a href="/#notes">Notes</a></button></div>
+		</nav>
 
-    <div class="container">
-      {{ content }}
-    </div>
+		<!-- To Top Button -->
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
-  </body>
+		<!-- Content -->
 
+
+		{{ content }}
+
+
+
+		<!-- To Top Button -->
+		<script src="/js/button.js"></script>
+
+		<!-- Footer -->
+		<footer>
+    	<ul>
+				<li>&copy; Copyright 2019</li>
+			</ul>
+		</footer>
+
+	</body>
 </html>
