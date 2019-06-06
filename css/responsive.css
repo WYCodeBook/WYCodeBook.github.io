@@ -3,9 +3,9 @@
 
   .header {
 
-
-    height: 80%;
-    padding-block-start: 50%;
+    background-attachment: scroll;
+    max-height: 100vh;
+    padding: 50vh 10vh;
   }
 
 }
