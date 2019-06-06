@@ -14,8 +14,10 @@ body {
 }
 
 .header-message {
-  padding-block: 30%;
+  padding-block: 20%;
 }
+
+
 
 .container {
   display: flex;
@@ -50,4 +52,8 @@ body {
   .column2 {
     flex: 100%;
     max-width: 100%;
+  }
+
+  .header-message {
+    padding-block: 30%;
   }
