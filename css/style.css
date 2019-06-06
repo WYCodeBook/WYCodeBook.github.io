@@ -14,11 +14,11 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: 80%;
+  height: 100%;
 
   /*text style */
   text-align: center;
-  padding-block-start: 30%;
+  padding-block-start: 30vh;
   padding-left: 20%;
   padding-right: 20%;
 }
