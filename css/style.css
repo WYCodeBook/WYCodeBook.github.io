@@ -1,5 +1,6 @@
 body, html {
   height:100%;
+  width: 100%;
   margin:0;
 }
 
@@ -35,7 +36,6 @@ nav {
   top: 0;
   text-align: center;
   justify-content: center;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -47,9 +47,7 @@ footer {
   border-top: ridge;
   border-bottom: ridge;
   border-color: white;
-  font-size: 3vw;
   text-align: center;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 nav ul, footer ul {
@@ -73,54 +71,55 @@ a {
     text-decoration: none;
     color: #505050;
     font-style: italic;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 a:hover {
     text-decoration: underline;
     color: #505050;
     font-style: italic;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
+/*post font style*/
 h1 {
   font-size: 5vw;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: "Copperplate", "Copperplate Gothic Light", fantasy;
   color: #101010;
 }
 
 h2 {
-  font-size: 5vw;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 4vw;
+  font-family: "Copperplate", "Copperplate Gothic Light", fantasy;
   color: #707070;
 }
 
+/*page font style*/
 h3 {
-  font-size: 4vw;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 5vw;
+  font-family: "Palatino", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
   color: #101010;
 }
 
 h4 {
   font-size: 4vw;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: "Palatino", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
   color: #707070;
 }
 
+/*nav and other font style*/
 h5 {
-  font-size: 3vw;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 5vw;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Geneva", "Verdana", sans-serif;
   color: #101010;
 }
 
 h6 {
-  font-size: 3vw;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 4vw;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Geneva", "Verdana", sans-serif;
   color: #707070;
 }
 
 p {
-  font-size: 2vw;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 3vw;
+  font-family: "Copperplate", "Copperplate Gothic Light", fantasy;
   color: #101010;
 }
 
@@ -200,7 +199,7 @@ u {
 
 .post ul, .post ol {
   font-size: 3vw;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: "Copperplate", "Copperplate Gothic Light", fantasy;
   color: #101010;
 }
 
@@ -261,8 +260,6 @@ code {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 4vw;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   margin: 6px 6px;
   cursor: pointer;
 }
