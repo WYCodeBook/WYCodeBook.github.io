@@ -18,6 +18,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
+  height: 100vh;
 }
 
 .column1 {
