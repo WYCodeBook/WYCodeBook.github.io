@@ -18,13 +18,14 @@ body, html {
 
   /*text style */
   text-align: center;
-  padding: 20vh 50vh;
+  padding: 20vh;
 }
 
 .header-message {
   background-color: rgb(230, 220, 200, 0.80);
   border: ridge;
   border-color: white;
+  width: 100%;
 }
 
 nav {
