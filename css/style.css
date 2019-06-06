@@ -11,7 +11,10 @@ body {
   text-align: center;
   padding: 32px;
   height: 100vh;
-  vertical-align: middle;
+}
+
+.header-message {
+  padding-block-start: 30%;
 }
 
 .container {
@@ -20,6 +23,7 @@ body {
   padding: 0 4px;
   height: 100vh;
 }
+
 
 .column1 {
   flex: 25%;
