@@ -13,7 +13,7 @@
     border-radius: 10px; /* Rounded corners */
     font-size: 2vw; /* Increase font size */
     font-weight: bold;
-    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Geneva", "Verdana", sans-serif;
+    font-family: "Palatino", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
 }
 
 #myBtn:hover {

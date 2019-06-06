@@ -91,36 +91,35 @@ h2 {
   color: #707070;
 }
 
-/*page font style*/
+
 h3 {
-  font-size: 5vw;
-  font-family: "Palatino", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
+  font-size: 4vw;
+  font-family: "Copperplate", "Copperplate Gothic Light", fantasy;
   color: #101010;
 }
 
 h4 {
   font-size: 4vw;
-  font-family: "Palatino", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
+  font-family: "Copperplate", "Copperplate Gothic Light", fantasy;
   color: #707070;
 }
 
 /*nav and other font style*/
 h5 {
-  font-size: 5vw;
-  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Geneva", "Verdana", sans-serif;
+  font-size: 4vw;
+  font-family: "Copperplate", "Copperplate Gothic Light", fantasy;
   color: #101010;
 }
 
 h6 {
   font-size: 4vw;
-  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Geneva", "Verdana", sans-serif;
+  font-family: "Copperplate", "Copperplate Gothic Light", fantasy;
   color: #707070;
 }
 
 p {
   font-size: 3vw;
-  font-family: "Copperplate", "Copperplate Gothic Light", fantasy;
-  color: #101010;
+  font-family: "Palatino", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
 }
 
 u {
