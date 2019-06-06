@@ -1,5 +1,6 @@
 body, html {
   height:100%;
+  margin:0;
 }
 
 .header {
@@ -12,13 +13,13 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: 60vh;
+  height: 80%;
 
   /*text style */
   text-align: center;
-  padding-block-start: 40vh;
-  padding-left: 10vh;
-  padding-right: 10vh;
+  padding-block-start: 30%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .header-message {
