@@ -1,2 +1,9 @@
 /*responsive for 450px */
 @media screen and (max-width:450px) {
+
+  .header {
+
+    background-attachment: scroll;
+  }
+
+}
