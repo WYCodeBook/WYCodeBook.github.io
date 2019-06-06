@@ -11,6 +11,7 @@ body {
   text-align: center;
   padding: 32px;
   height: 100vh;
+  vertical-align: middle;
 }
 
 .container {
