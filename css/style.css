@@ -40,7 +40,7 @@ body, html {
 }
 
 .about {
-  border: ridge;
+  border: outset;
   border-color: white;
   padding: 5%;
 }
@@ -54,13 +54,13 @@ body, html {
 }
 
 .projects {
-  border: ridge;
+  border: outset;
   border-color: white;
   padding: 5%;
 }
 
 .resources {
-  border: ridge;
+  border: outset;
   border-color: white;
   padding: 5%;
 }
