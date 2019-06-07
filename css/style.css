@@ -25,16 +25,16 @@ body, html {
 
 
 .column1 {
-  flex: 25%;
-  max-width: 25%;
+  flex: 30%;
+  max-width: 35%;
   padding: 0 4px;
   vertical-align: middle;
   text-align: center;
 }
 
 .column2 {
-  flex: 75%;
-  max-width: 75%;
+  flex: 60%;
+  max-width: 65%;
   padding: 0 4px;
   vertical-align: middle;
   text-align: center;
@@ -42,12 +42,12 @@ body, html {
 
 @media (max-width: 600px) {
   .column1 {
-    flex: 100%;
+    flex: 90%;
     max-width: 100%;
   }
 
   .column2 {
-    flex: 100%;
+    flex: 90%;
     max-width: 100%;
   }
 
