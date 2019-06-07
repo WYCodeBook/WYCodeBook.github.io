@@ -26,6 +26,12 @@ body, html {
   display: flex;
   flex-wrap: wrap;
   height: 100vh;
+
+  background-image: url("/img/code0102.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
