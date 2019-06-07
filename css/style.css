@@ -83,6 +83,10 @@ body, html {
 
 hr {
   align: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
   border-style: outset;
   border-width: 3px;
