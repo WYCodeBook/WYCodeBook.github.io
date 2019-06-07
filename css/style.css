@@ -37,12 +37,6 @@ body, html {
   text-align: center;
 }
 
-.about {
-  border: outset;
-  border-color: white;
-  padding: 5%;
-}
-
 .column2 {
   flex: 60%;
   max-width: 60%;
@@ -50,17 +44,12 @@ body, html {
   text-align: center;
 }
 
-.projects {
+.about, .contact, .projects, .resources {
   border: outset;
   border-color: white;
   padding: 5%;
 }
 
-.resources {
-  border: outset;
-  border-color: white;
-  padding: 5%;
-}
 
 @media (max-width: 600px) {
 
