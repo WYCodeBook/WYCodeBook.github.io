@@ -8,6 +8,12 @@ body, html {
   text-align: center;
   padding: 32px;
   height: 100vh;
+
+  background-image: url("/img/header0.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header-message {
