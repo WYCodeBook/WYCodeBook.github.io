@@ -19,23 +19,22 @@ body, html {
 .container {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
   height: 100vh;
 }
 
 
 .column1 {
-  flex: 30%;
-  max-width: 35%;
-  padding: 0 4px;
+  flex: 25%;
+  max-width: 25%;
+  padding: 5%;
   vertical-align: middle;
   text-align: center;
 }
 
 .column2 {
-  flex: 60%;
-  max-width: 65%;
-  padding: 0 4px;
+  flex: 55%;
+  max-width: 55%;
+  padding: 5%;
   vertical-align: middle;
   text-align: center;
 }
@@ -43,12 +42,14 @@ body, html {
 @media (max-width: 600px) {
   .column1 {
     flex: 90%;
-    max-width: 100%;
+    max-width: 90%;
+    padding: 5%;
   }
 
   .column2 {
     flex: 90%;
-    max-width: 100%;
+    max-width: 90%;
+    padding: 5%;
   }
 
   .header-message {
