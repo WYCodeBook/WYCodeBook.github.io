@@ -43,6 +43,10 @@ body, html {
   text-align: center;
 }
 
+.about {
+  background-color: rgb(230, 220, 200, 0.90);
+}
+
 .column2 {
   flex: 55%;
   max-width: 55%;
