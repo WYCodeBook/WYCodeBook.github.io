@@ -17,7 +17,7 @@ body, html {
 }
 
 .header-message {
-  margin: 20% 30%;
+  margin: 20vw 30vh;
   border: outset;
   border-color: white;
   padding: 6%;
@@ -59,7 +59,7 @@ body, html {
 @media (max-width: 600px) {
 
   .header-message {
-    margin: 50% 10%;
+    margin: 30vh 10vw;
   }
 
   .container {
