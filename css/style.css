@@ -27,13 +27,13 @@ body, html {
   flex-wrap: wrap;
   height: 100vh;
   background-color: rgb(230, 220, 200, 0.90);
+  align-content: space-between;
 }
 
 
 .column1 {
-  flex: 25%;
-  max-width: 25%;
-  padding: 5%;
+  flex: 30%;
+  max-width: 30%;
   vertical-align: middle;
   text-align: center;
 
@@ -46,8 +46,8 @@ body, html {
 }
 
 .column2 {
-  flex: 55%;
-  max-width: 55%;
+  flex: 60%;
+  max-width: 60%;
   padding: 5%;
   vertical-align: middle;
   text-align: center;
