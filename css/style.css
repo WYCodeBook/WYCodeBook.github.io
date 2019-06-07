@@ -10,6 +10,7 @@ body, html {
   height: 100vh;
   vertical-align: middle;
   align-items: center;
+  margin: auto 20vw;
 
   background-image: url("/img/header0.jpg");
   background-attachment: fixed;
@@ -28,7 +29,6 @@ body, html {
   max-width: 100%;
   text-align: center;
 }
-
 
 
 .container {
@@ -64,7 +64,7 @@ body, html {
 @media (max-width: 600px) {
 
   .header-message {
-    margin: 30vh 10vw;
+    margin: auto 20vw;
   }
 
   .container {
