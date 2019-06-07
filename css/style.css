@@ -34,7 +34,7 @@ body, html {
 .container {
   display: flex;
   flex-wrap: wrap;
-  height: 100vh;
+  height: 100%;
   background-color: rgb(230, 220, 200, 0.90);
 }
 
@@ -89,6 +89,7 @@ hr {
   margin-right: auto;
   width: 50%;
   border-style: outset;
+  border-color: white;
   border-width: 3px;
 }
 
@@ -97,10 +98,6 @@ hr {
 
   .header-message {
     margin: auto 20vw;
-  }
-
-  .container {
-    height: 100%;
   }
 
   .column1 {
