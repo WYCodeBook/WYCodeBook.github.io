@@ -81,6 +81,13 @@ body, html {
   border-width: 6px;
 }
 
+hr {
+  align: center;
+  width: 50%;
+  border-style: outset;
+  border-width: 3px;
+}
+
 
 @media (max-width: 600px) {
 
