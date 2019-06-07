@@ -53,6 +53,18 @@ body, html {
   text-align: center;
 }
 
+.projects {
+  border: ridge;
+  border-color: white;
+  padding: 5%;
+}
+
+.resources {
+  border: ridge;
+  border-color: white;
+  padding: 5%;
+}
+
 @media (max-width: 600px) {
   .column1 {
     flex: 90%;
