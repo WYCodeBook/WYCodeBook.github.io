@@ -26,12 +26,7 @@ body, html {
   display: flex;
   flex-wrap: wrap;
   height: 100vh;
-
-  background-image: url("/img/header1.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: rgb(230, 220, 200, 0.90);
 }
 
 
@@ -41,10 +36,13 @@ body, html {
   padding: 5%;
   vertical-align: middle;
   text-align: center;
+
 }
 
 .about {
-  background-color: rgb(230, 220, 200, 0.90);
+  border: ridge;
+  border-color: white;
+
 }
 
 .column2 {
