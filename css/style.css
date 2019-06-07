@@ -33,8 +33,8 @@ body, html {
 
 
 .column1 {
-  flex: 30%;
-  max-width: 30%;
+  flex: 40%;
+  max-width: 40%;
   vertical-align: middle;
   text-align: center;
 
