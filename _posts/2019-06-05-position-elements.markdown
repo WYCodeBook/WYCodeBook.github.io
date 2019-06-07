@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: resource
 title: "Position Elements"
 date: "2019-06-05 23:14:38 -0700"
 categories: Resources
