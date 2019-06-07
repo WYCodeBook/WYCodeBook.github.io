@@ -80,3 +80,7 @@ body, html {
     padding-left: 10%;
     padding-right: 10%;
   }
+
+.container {
+    height: 100%;
+}
