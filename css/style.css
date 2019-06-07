@@ -27,7 +27,6 @@ body, html {
   flex-wrap: wrap;
   height: 100vh;
   background-color: rgb(230, 220, 200, 0.90);
-  line-height: 100vh;
 }
 
 
@@ -36,7 +35,7 @@ body, html {
   max-width: 40%;
   vertical-align: middle;
   text-align: center;
-
+  line-height: 100vh;
 }
 
 .about {
@@ -50,6 +49,7 @@ body, html {
   max-width: 60%;
   vertical-align: middle;
   text-align: center;
+  line-height: 100vh;
 }
 
 .projects {
