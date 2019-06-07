@@ -35,7 +35,6 @@ body, html {
   max-width: 40%;
   vertical-align: middle;
   text-align: center;
-  line-height: 100vh;
 }
 
 .about {
@@ -49,7 +48,6 @@ body, html {
   max-width: 60%;
   vertical-align: middle;
   text-align: center;
-  line-height: 100vh;
 }
 
 .projects {
