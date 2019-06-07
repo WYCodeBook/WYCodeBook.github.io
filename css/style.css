@@ -1,10 +1,7 @@
-* {
-  box-sizing: border-box;
-}
 
-body {
+body, html {
   margin: 0;
-  font-family: Arial;
+  font-family: "Copperplate", "Copperplate Gothic Light", fantasy;
 }
 
 .header {
@@ -14,7 +11,7 @@ body {
 }
 
 .header-message {
-  padding-block: 20%;
+  padding: 20% 30%;
 }
 
 
@@ -55,5 +52,5 @@ body {
   }
 
   .header-message {
-    padding-block: 30%;
+    padding-block: 30% 10%;
   }
