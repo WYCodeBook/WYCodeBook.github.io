@@ -63,17 +63,6 @@ body, html {
 }
 
 @media (max-width: 600px) {
-  .column1 {
-    flex: 90%;
-    max-width: 90%;
-    padding: 5%;
-  }
-
-  .column2 {
-    flex: 90%;
-    max-width: 90%;
-    padding: 5%;
-  }
 
   .header-message {
     padding-top: 30%;
@@ -81,6 +70,17 @@ body, html {
     padding-right: 10%;
   }
 
-.container {
-    height: 100%;
+  .container {
+      height: 100%;
+  }
+
+  .column1 {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .column2 {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
