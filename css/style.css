@@ -5,9 +5,9 @@ body, html {
 }
 
 .header {
-  text-align: center;
-  padding: 10vh 10vw;
-  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
 
   background-image: url("/img/header0.jpg");
   background-attachment: fixed;
@@ -17,10 +17,14 @@ body, html {
 }
 
 .header-message {
-  margin: 20vw 30vh;
   border: outset;
   border-color: white;
   border-width: 6px;
+
+  flex: 30%;
+  max-width: 100%;
+  vertical-align: middle;
+  text-align: center;
 }
 
 
