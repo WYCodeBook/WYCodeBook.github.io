@@ -43,6 +43,20 @@ body, html {
   flex: 40%;
   max-width: 40%;
   vertical-align: middle;
+}
+
+.about {
+  border: outset;
+  border-color: white;
+  padding: 6%;
+  border-width: 6px;
+}
+
+.contact {
+  border: outset;
+  border-color: white;
+  padding: 6%;
+  border-width: 6px;
   text-align: center;
 }
 
@@ -53,7 +67,14 @@ body, html {
   text-align: center;
 }
 
-.about, .contact, .projects, .resources {
+.projects {
+  border: outset;
+  border-color: white;
+  padding: 6%;
+  border-width: 6px;
+}
+
+.resources {
   border: outset;
   border-color: white;
   padding: 6%;
