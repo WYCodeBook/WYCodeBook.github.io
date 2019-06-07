@@ -42,7 +42,7 @@ body, html {
 .about {
   border: ridge;
   border-color: white;
-
+  padding: 5%;
 }
 
 .column2 {
