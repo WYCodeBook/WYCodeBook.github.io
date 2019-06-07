@@ -6,8 +6,8 @@ body, html {
 
 .header {
   text-align: center;
-  padding: 10%;
-  height: 100%;
+  padding: 10vh 10vw;
+  height: 80vh;
 
   background-image: url("/img/header0.jpg");
   background-attachment: fixed;
