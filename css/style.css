@@ -10,7 +10,6 @@ body, html {
   height: 100vh;
   vertical-align: middle;
   align-items: center;
-  margin: auto 20vw;
 
   background-image: url("/img/header0.jpg");
   background-attachment: fixed;
@@ -25,9 +24,10 @@ body, html {
   border-color: white;
   border-width: 6px;
 
-  flex: 30%;
+  flex: 100%;
   max-width: 100%;
   text-align: center;
+  margin: auto 20vw;
 }
 
 
