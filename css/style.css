@@ -7,7 +7,7 @@ body, html {
 .header {
   text-align: center;
   padding: 10%;
-  height: 100vh;
+  height: 100%;
 
   background-image: url("/img/header0.jpg");
   background-attachment: fixed;
@@ -59,9 +59,7 @@ body, html {
 @media (max-width: 600px) {
 
   .header-message {
-    margin-top: 30%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 50% 10%;
   }
 
   .container {
