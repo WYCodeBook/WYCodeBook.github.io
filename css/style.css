@@ -6,7 +6,7 @@ body, html {
 
 .header {
   text-align: center;
-  padding: 32px;
+  padding: 10%;
   height: 100vh;
 
   background-image: url("/img/header0.jpg");
