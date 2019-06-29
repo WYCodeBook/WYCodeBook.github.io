@@ -48,6 +48,9 @@
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
 }
 
 .active, .dot:hover {
