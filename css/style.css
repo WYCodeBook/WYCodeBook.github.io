@@ -2,9 +2,11 @@
 
 /* Slideshow container */
 .slideshow-container {
+  display: flex;
+  flex-wrap: wrap;
   height: 100vh;
-  position: relative;
-  margin: auto;
+  vertical-align: middle;
+  align-items: center;
 }
 
 /* Hide the images by default */
