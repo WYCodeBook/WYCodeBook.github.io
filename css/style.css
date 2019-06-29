@@ -2,20 +2,19 @@
 
 /* Slideshow container */
 .slideshow-container {
-  display: flex;
-  flex-wrap: wrap;
+  /* Sizing */
+  width: 100vw;
   height: 100vh;
-  vertical-align: middle;
+
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 /* Hide the images by default */
 .mySlides {
   display: none;
-  attachment: fixed;
-  position: center;
-  repeat: no-repeat;
-  size: cover;
 }
 
 /* Next & previous buttons */
