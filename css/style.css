@@ -12,6 +12,10 @@
 /* Hide the images by default */
 .mySlides {
   display: none;
+  attachment: fixed;
+  position: center;
+  repeat: no-repeat;
+  size: cover;
 }
 
 /* Next & previous buttons */
