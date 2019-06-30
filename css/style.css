@@ -5,6 +5,8 @@ body, html {
   color: #090000;
 }
 
+
+
 .home {
   display: flex;
   flex-wrap: wrap;
@@ -125,6 +127,6 @@ body, html {
 
 @media (max-width: 600px) {
   .home {
-    background-image: url("/img/bg2.png");
+    background-image: url("/img/bg1.png");
   }
 }
