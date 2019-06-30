@@ -62,6 +62,8 @@ body, html {
 }
 
 .about-content {
+  display: flex;
+  flex-wrap: wrap;
   top: 10%;
 }
 
