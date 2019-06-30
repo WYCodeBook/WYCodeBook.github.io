@@ -69,3 +69,57 @@ body, html {
   text-align: center;
   margin: auto 20vw;
 }
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  width:100vw;
+  vertical-align: middle;
+  align-items: center;
+
+  background-image: url("/img/header3.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.projects-content {
+  border: outset;
+  border-color: white;
+  border-width: 6px;
+
+  flex: 100%;
+  max-width: 100%;
+  text-align: center;
+  margin: auto 20vw;
+}
+
+.resources {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  width:100vw;
+  vertical-align: middle;
+  align-items: center;
+
+  background-image: url("/img/header2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.resources-content {
+  border: outset;
+  border-color: white;
+  border-width: 6px;
+
+  flex: 100%;
+  max-width: 100%;
+  text-align: center;
+  margin: auto 20vw;
+}
