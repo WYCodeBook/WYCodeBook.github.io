@@ -3,6 +3,7 @@ body, html {
   font-family: "Copperplate", "Copperplate Gothic Light", fantasy;
   overflow: hidden; /*disabled the scrolling function of overflows*/
   color: #090000;
+  background-color: #fff4d4;
 }
 
 
@@ -15,7 +16,6 @@ body, html {
   vertical-align: middle;
   align-items: center;
 
-  background-color: #fff4d4;
   background-image: url("/img/bg0.png");
   background-attachment: fixed;
   background-position: center;
