@@ -32,7 +32,6 @@ body, html {
 }
 
 .nav {
-  background-image: url("/img/header2.jpg");
   top: 0;
   position: fixed;
 }
