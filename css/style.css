@@ -53,39 +53,35 @@ body, html {
   flex-wrap: wrap;
   height: 100vh;
   width:100vw;
-  position:relative;
+  vertical-align: middle;
+  align-items: center;
+  position: relative;
 
   background-image: url("/img/bg2.png");
   background-attachment: fixed;
-  background-position: center;
   background-repeat: repeat;
 }
 
 .about-content {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 10%;
+  border: none;
+
+  text-align: center;
 }
 
 
 .about1 {
-  flex: 30%;
-  max-width: 30%;
+  flex: 50%;
+  max-width: 50%;
   text-align: center;
 }
 
 
 .about2 {
-  flex: 40%;
-  max-width: 40%;
+  flex: 50%;
+  max-width: 50%;
   text-align: center;
 }
 
-.about3 {
-  flex: 30%;
-  max-width: 30%;
-  text-align: center;
-}
 
 /*projects page*/
 
@@ -168,5 +164,9 @@ body, html {
     flex: 100%;
     max-width: 100%;
     text-align: center;
+  }
+
+  body,html {
+    overflow: auto;
   }
 }
