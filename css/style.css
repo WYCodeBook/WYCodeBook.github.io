@@ -52,10 +52,6 @@ body, html {
   display: flex;
   flex-wrap: wrap;
   height: 100vh;
-  width:100vw;
-  vertical-align: middle;
-  align-items: center;
-  position: relative;
 
   background-image: url("/img/bg2.png");
   background-attachment: fixed;
@@ -64,7 +60,6 @@ body, html {
 
 .about-content {
   border: none;
-
   text-align: center;
 }
 
