@@ -19,3 +19,9 @@
   border: 3px solid #101010;
   border-radius: 3px;
 }
+
+@media (max-width: 600px) {
+  .button {
+    font-size: 6vw;
+  }
+}
