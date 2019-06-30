@@ -1,15 +1,15 @@
 .button {
   background-color: white;
   border: none;
-  border-radius: 50%;
+  border-radius: 10px;
   color: #505050;
-  padding: 10px;
+  padding: 6px 8px;
   text-align: center;
   text-decoration: none;
-  font-size: 3vw;
+  font-size: 2vw;
   font-family: "Palatino", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
   font-weight: bold;
-  margin: 10px;
+  margin: 6px;
   cursor: pointer;
 }
 
@@ -17,7 +17,7 @@
 .button:hover, .button:focus {
   background-color: rgb(230, 220, 200);
   border: 3px solid #101010;
-  border-radius: 10%;
+  border-radius: 3px;
 }
 
 @media (max-width: 600px) {
