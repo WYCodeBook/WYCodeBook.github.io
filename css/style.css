@@ -64,7 +64,7 @@ body, html {
 .about-content {
   display: flex;
   flex-wrap: wrap;
-  top: 10%;
+  margin-top: 10%;
 }
 
 
