@@ -12,6 +12,7 @@ body, html {
   vertical-align: middle;
   align-items: center;
 
+  background-color: #fff4d4;
   background-image: url("/img/bg0.png");
   background-attachment: fixed;
   background-position: center;
@@ -22,7 +23,6 @@ body, html {
 
 .home-content {
   border: none;
-  background-color: #e0ebe8;
 
   flex: 100%;
   max-width: 100%;
