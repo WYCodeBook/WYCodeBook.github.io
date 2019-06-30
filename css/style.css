@@ -48,7 +48,7 @@ body, html {
 
 /*about page*/
 
-.about {
+.about-content {
   display: flex;
   flex-wrap: wrap;
   height: 100vh;
@@ -60,14 +60,6 @@ body, html {
   background-repeat: repeat;
 }
 
-.about-content {
-  border:none;
-
-  flex: 100%;
-  max-width: 100%;
-  text-align: center;
-  margin: auto 20vw;
-}
 
 .about1 {
   flex: 30%;
