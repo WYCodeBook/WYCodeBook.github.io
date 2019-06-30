@@ -148,4 +148,23 @@ body, html {
   .home {
     background-image: url("/img/bg1.png");
   }
+
+  .about1 {
+    flex: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+
+
+  .about2 {
+    flex: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .about3 {
+    flex: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
 }
