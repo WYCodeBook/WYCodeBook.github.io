@@ -3,6 +3,11 @@ body, html {
   font-family: "Copperplate", "Copperplate Gothic Light", fantasy;
 }
 
+.scrollbody {
+  overflow: auto;
+  white-space: nowrap;
+}
+
 .home {
   display: flex;
   flex-wrap: wrap;
