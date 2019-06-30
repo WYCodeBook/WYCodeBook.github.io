@@ -32,19 +32,16 @@ body, html {
 }
 
 .nav {
-  display: flex;
-  flex-wrap: wrap;
-  width:100vw;
-  align-items: center;
-  position: absolute;
+  text-align: center;
+  position: fixed;
   top: 0;
 }
 
 .nav-content {
-  flex: 100%;
-  max-width: 100%;
+  display: inline-block;
   text-align: center;
   margin: auto 20vw;
+  padding: 2vw;
 }
 
 .about {
