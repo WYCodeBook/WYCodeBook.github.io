@@ -1,0 +1,56 @@
+---
+layout: default
+title: Curious-Yu
+---
+
+<div class="header">
+  <div class="header-message">
+    <h1>Wen Yu</h1>
+    <p>Learning to be a Font-End Developer</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="column1">
+    <div class="about" id="about">
+    	<h1 align="center"> About </h1>
+      <h3><i class="fas fa-user"></i> Wen Yu </h3>
+      <h3><i class="fa fa-briefcase"></i> Developer. Nutritionist. Explorer.</h3>
+      <h3><i class="fas fa-home"></i> California, United States</h3>
+      <p>Californian. Alumna of <a href="https://www.ucdavis.edu/">University of California, Davis</a>, <a href="https://www.nycc.edu/">New York Chiropratic College</a>, <a href="https://www.udacity.com/">Udacity</a>, and soon-to-be <a href="https://www.wgu.edu/">Western Governor University</a>.</p>
+    	<p>Intrigued by traveling, fabulous foods, healthy exercises, arts, photograpy, and conversations.</p>
+    	<p>Seeking to become a software developer to create better tools to provide support to people's life.</p>
+    </div>
+    <div class="contact" id="contact">
+      <h1 align="center"> Contact </h1>
+      <h1>
+        <a href="mailto:wyu10amy@hotmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/Curious-Yu"><i class="fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/wen-yu/"><i class="fa fa-linkedin-square"></i></a>
+      </h1>
+    </div>
+  </div>
+  <div class="column2">
+  	<div class="projects" id="projects">
+  		<h1 align="center"> Projects </h1>
+  		<div class="banner">
+  		  {% for post in site.categories.Projects %}
+  		    <div>
+  		      <a href="{{ post.url }}">{{ post.title }}</a>
+  		    </div>
+  		  {% endfor %}
+  		</div>
+  	</div>
+  	<div class="resources" id="resources">
+  		<h1 align="center"> Resources </h1>
+  		<div class="banner">
+  			{% assign sorted_post = site.categories.Resources | sort: "title" %}
+  			{% for post in sorted_post %}
+  				<div>
+  					<a href="{{ post.url }}">{{ post.title }}</a>
+  				</div>
+  			{% endfor %}
+  		</div>
+  	</div>
+  </div>
+</div>
