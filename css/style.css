@@ -4,14 +4,9 @@ body, html {
 }
 
 .scrollbody {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-y: auto;
+
 }
 
-.page {
-    flex: 0 0 auto;
-}
 
 .home {
   display: flex;
