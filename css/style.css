@@ -2,6 +2,7 @@ body, html {
   margin: 0;
   font-family: "Copperplate", "Copperplate Gothic Light", fantasy;
   overflow: hidden; /*disabled the scrolling function of overflows*/
+  color: #090000;
 }
 
 .home {
