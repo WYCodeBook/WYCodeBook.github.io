@@ -6,6 +6,8 @@ body, html {
   background-color: #fff4d4;
 }
 
+/*homepage*/
+
 .home {
   display: flex;
   flex-wrap: wrap;
@@ -30,6 +32,8 @@ body, html {
   text-align: center;
 }
 
+/*nav bar*/
+
 .nav {
   top: 0;
   position: fixed;
@@ -42,30 +46,51 @@ body, html {
   padding: 2vw;
 }
 
+/*about page*/
+
 .about {
   display: flex;
   flex-wrap: wrap;
-  height: 100vh;
-  width:100vw;
+  height: 100%;
 
-  background-image: url("/img/header2.jpg");
+  background-image: url("/img/bg2.png");
   background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
+  background-repeat: repeat;
 }
 
 .about-content {
-  border: outset;
-  border-color: white;
-  border-width: 6px;
+  border:none;
 
   flex: 100%;
   max-width: 100%;
   text-align: center;
   margin: auto 20vw;
 }
+
+.about1 {
+  flex: 30%;
+  max-width: 30%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+.about2 {
+  flex: 40%;
+  max-width: 40%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.about3 {
+  flex: 30%;
+  max-width: 30%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/*projects page*/
 
 .projects {
   display: flex;
@@ -120,6 +145,8 @@ body, html {
   text-align: center;
   margin: auto 20vw;
 }
+
+
 
 
 @media (max-width: 600px) {
