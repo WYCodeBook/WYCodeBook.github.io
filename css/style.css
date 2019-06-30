@@ -6,12 +6,8 @@ body, html {
 .scrollbody {
   display: flex;
   flex-wrap: nowrap;
-  overflow-x: auto;
+  overflow-x: scroll;
   overflow-y: hidden;
-
-  &::-webkit-scrollbar {
-    display: none;
-  }
 }
 
 .page {
