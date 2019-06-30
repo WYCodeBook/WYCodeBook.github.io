@@ -60,10 +60,10 @@ body, html {
 
 .about-content {
   border: none;
-  vertical-align: middle;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
+  margin-top:10%;
 }
 
 
@@ -71,6 +71,7 @@ body, html {
   flex: 50%;
   max-width: 50%;
   text-align: center;
+  padding:5%
 }
 
 
@@ -78,6 +79,7 @@ body, html {
   flex: 50%;
   max-width: 50%;
   text-align: center;
+  padding:5%
 }
 
 
