@@ -53,20 +53,16 @@ body, html {
   flex-wrap: wrap;
   height: 100vh;
   width:100vw;
-  vertical-align: middle;
   position:relative;
-}
-
-.about-content {
-  display: flex;
-  flex-wrap: wrap;
-  height: 100vh;
-  width:100vw;
 
   background-image: url("/img/bg2.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: repeat;
+}
+
+.about-content {
+  top: 10%;
 }
 
 
