@@ -21,9 +21,8 @@ body, html {
 }
 
 .home-content {
-  border: outset;
-  border-color: white;
-  border-width: 6px;
+  border: none;
+  background-color: #e0ebe8;
 
   flex: 100%;
   max-width: 100%;
@@ -120,4 +119,11 @@ body, html {
   max-width: 100%;
   text-align: center;
   margin: auto 20vw;
+}
+
+
+@media (max-width: 600px) {
+  .home {
+    background-image: url("/img/bg2.png");
+  }
 }
