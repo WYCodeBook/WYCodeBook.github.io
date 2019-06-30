@@ -32,14 +32,15 @@ body, html {
 }
 
 .nav {
+  display: flex;
+  flex-wrap: wrap;
+  width:100vw;
   align-items: center;
-  text-align: center;
-  position: fixed;
   top: 0;
 }
 
 .nav-content li {
-  display: inline-block;
+  flex: 25%;
   text-align: center;
   margin: auto;
   padding: 2vw;
