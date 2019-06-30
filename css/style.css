@@ -6,8 +6,7 @@ body, html {
 .scrollbody {
   display: flex;
   flex-wrap: nowrap;
-  overflow-x: scroll;
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 
 .page {
