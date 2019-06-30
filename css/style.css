@@ -40,7 +40,7 @@ body, html {
 .nav-content li {
   display: inline-block;
   text-align: center;
-  margin: auto 20vw;
+  margin: auto;
   padding: 2vw;
 }
 
