@@ -60,7 +60,10 @@ body, html {
 
 .about-content {
   border: none;
+  vertical-align: middle;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 
