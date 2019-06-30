@@ -68,18 +68,18 @@ body, html {
 
 
 .about1 {
-  flex: 68%;
-  max-width: 68%;
+  flex: 54%;
+  max-width: 54%;
   text-align: center;
-  padding-inline:1%;
+  padding-inline:3%;
 }
 
 
 .about2 {
-  flex: 28%;
-  max-width: 28%;
+  flex: 34%;
+  max-width: 34%;
   text-align: center;
-  padding-inline:1%;
+  padding-inline:3%;
 }
 
 
@@ -147,12 +147,20 @@ body, html {
     background-image: url("/img/bg1.png");
   }
 
-  .about1 .about2 {
+  .about1 {
     flex: 96%;
     max-width: 96%;
     text-align: center;
     padding-inline:2%;
   }
+
+  .about1 {
+    flex: 96%;
+    max-width: 96%;
+    text-align: center;
+    padding-inline:2%;
+  }
+
 
 
   body,html {
