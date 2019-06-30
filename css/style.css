@@ -1,13 +1,8 @@
 body, html {
   margin: 0;
   font-family: "Copperplate", "Copperplate Gothic Light", fantasy;
-  overflow: hidden;
+  overflow: hidden; /*disabled the scrolling function of overflows*/
 }
-
-.scrollbody {
-
-}
-
 
 .home {
   display: flex;
@@ -39,24 +34,13 @@ body, html {
 .nav {
   display: flex;
   flex-wrap: wrap;
-  height: 100vh;
   width:100vw;
-  vertical-align: middle;
   align-items: center;
-
-  background-image: url("/img/header1.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
+  position: absolute;
+  top: 0;
 }
 
 .nav-content {
-  border: outset;
-  border-color: white;
-  border-width: 6px;
-
   flex: 100%;
   max-width: 100%;
   text-align: center;
