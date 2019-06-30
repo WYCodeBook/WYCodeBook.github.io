@@ -147,6 +147,10 @@ body, html {
     background-image: url("/img/bg1.png");
   }
 
+  .about {
+    height:100%;
+  }
+  
   .about1 {
     flex: 96%;
     max-width: 96%;
@@ -160,8 +164,6 @@ body, html {
     text-align: center;
     padding-inline:2%;
   }
-
-
 
   body,html {
     overflow: auto;
