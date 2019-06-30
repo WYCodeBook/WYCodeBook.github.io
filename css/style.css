@@ -68,16 +68,16 @@ body, html {
 
 
 .about1 {
-  flex: 48%;
-  max-width: 48%;
+  flex: 58%;
+  max-width: 58%;
   text-align: center;
   padding-inline:1%;
 }
 
 
 .about2 {
-  flex: 48%;
-  max-width: 48%;
+  flex: 38%;
+  max-width: 38%;
   text-align: center;
   padding-inline:1%;
 }
