@@ -147,24 +147,13 @@ body, html {
     background-image: url("/img/bg1.png");
   }
 
-  .about1 {
-    flex: 100%;
-    max-width: 100%;
+  .about1 .about2 {
+    flex: 96%;
+    max-width: 96%;
     text-align: center;
+    padding-inline:2%;
   }
 
-
-  .about2 {
-    flex: 100%;
-    max-width: 100%;
-    text-align: center;
-  }
-
-  .about3 {
-    flex: 100%;
-    max-width: 100%;
-    text-align: center;
-  }
 
   body,html {
     overflow: auto;
