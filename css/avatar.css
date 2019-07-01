@@ -1,0 +1,11 @@
+.avatar {
+  background-color: #fff4d4;
+  border: none;
+  border-radius: 50%;
+  color: #090000;
+  padding: 6px;
+  margin: none;
+  cursor: pointer;
+  height: 60px;
+  width: 60px;
+}
