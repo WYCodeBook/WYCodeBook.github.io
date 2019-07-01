@@ -37,7 +37,6 @@ body, html {
 .nav {
   background-color: none;
   top: 0;
-  right: 0;
   position: fixed;
 }
 
