@@ -145,12 +145,13 @@ body, html {
 @media (max-width: 600px) {
   .home {
     background-image: url("/img/bg1.png");
+    background-size: auto;
   }
 
   .about {
     height:100%;
   }
-  
+
   .about1 {
     flex: 96%;
     max-width: 96%;
