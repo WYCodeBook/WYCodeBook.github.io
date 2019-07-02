@@ -8,6 +8,8 @@
 }
 
 .banner {
+  border: 6px solid #090000;
+  border-radius: 6px;
   background-color: #ecf0f1;
   min-width: 160px;
   margin: 6px;
