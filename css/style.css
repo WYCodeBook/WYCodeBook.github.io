@@ -44,15 +44,14 @@ hr {
   margin: 0;
   background-color: none;
   top: 0;
+  right: 0;
   position: fixed;
-  width: 100vw;
-  text-align: center;
 }
 
 .nav li {
-  display: inline-block;
+  display: block;
   text-align: center;
-  margin: auto;
+  margin: 0;
   padding: 2vw;
 }
 

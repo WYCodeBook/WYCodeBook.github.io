@@ -1,19 +1,25 @@
+@media (min-width: 600px) {
+  .nav {
+    margin: 0;
+    background-color: none;
+    top: 0;
+    position: fixed;
+    width: 100vw;
+    text-align: center;
+  }
+
+  .nav li {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    padding: 2vw;
+  }
+}
+
 @media (max-width: 600px) {
   .home {
     background-image: url("/img/bg1.png");
     background-size: auto;
-  }
-
-  .nav {
-    width: noset;
-    right: 0;
-  }
-
-  .nav li {
-    display: block;
-    text-align: center;
-    margin: auto;
-    padding: 2vw;
   }
 
   .about {
