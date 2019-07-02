@@ -45,15 +45,16 @@ hr {
   margin: 0;
   background-color: none;
   top: 0;
-  right: 0;
   position: fixed;
+  width: 100vw;
+  text-align: center;
 }
 
 .nav li {
-  display: block;
+  display: inline-block;
   text-align: center;
-  margin: 0;
-  padding: 2vw;
+  margin: auto;
+  padding: 1.5vw;
 }
 
 /*about page*/
