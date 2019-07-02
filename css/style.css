@@ -143,11 +143,16 @@ hr {
   margin: auto;
 }
 
+.project1header {
+  margin: 0;
+}
+
 .project1header li {
   display: inline-block;
   text-align: center;
   margin: auto;
   padding: 1.5vw;
+  vertical-align: middle;
 }
 
 
