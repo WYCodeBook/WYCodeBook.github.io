@@ -4,6 +4,7 @@
   width: auto;
   height: auto;
   overflow-x: auto;
+  margin: 6%;
 }
 .scrollbanner::-webkit-scrollbar {
   display: none;
