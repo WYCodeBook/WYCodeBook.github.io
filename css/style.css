@@ -8,8 +8,9 @@ body, html {
 hr {
   border: 1px dashed #090000;
   width: 60%;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
-
 
 
 /*homepage*/

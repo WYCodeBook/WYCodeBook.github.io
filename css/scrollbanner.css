@@ -6,9 +6,7 @@
   overflow-x: auto;
   margin: 6%;
 }
-.scrollbanner::-webkit-scrollbar {
-  display: none;
-}
+
 .banner {
   background-color: #ecf0f1;
   min-width: 160px;
