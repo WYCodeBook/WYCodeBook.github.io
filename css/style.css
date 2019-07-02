@@ -15,7 +15,6 @@ body, html {
   vertical-align: middle;
   align-items: center;
 
-  background-color: #fff4d4;
   background-image: url("/img/bg0.png");
   background-attachment: fixed;
   background-position: center;
@@ -54,7 +53,6 @@ body, html {
   flex-wrap: wrap;
   height: 100vh;
 
-  background-color: white;
   background-image: url("/img/bg2.png");
   background-attachment: fixed;
   background-position: center;
