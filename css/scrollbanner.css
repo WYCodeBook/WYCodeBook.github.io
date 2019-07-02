@@ -1,5 +1,6 @@
 /*using this for scrolling banners*/
 .scrollbanner {
+  border: 3px solid #090000;
   display: flex;
   width: auto;
   height: auto;
@@ -8,7 +9,7 @@
 }
 
 .banner {
-  border: 6px solid #090000;
+  border: 3px solid #090000;
   border-radius: 6px;
   background-color: #ecf0f1;
   min-width: 160px;
