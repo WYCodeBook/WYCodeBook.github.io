@@ -5,6 +5,12 @@ body, html {
   color: #090000;
 }
 
+hr {
+  border: 3px solid green;
+  border-radius: 5px;
+  width: 80%;
+}
+
 /*homepage*/
 
 .home {
