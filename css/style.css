@@ -143,8 +143,8 @@ hr {
   margin: auto;
 }
 
-.projectavatar1 {
-  float: left;
+.project1header {
+  display: inline-block;
 }
 
 
