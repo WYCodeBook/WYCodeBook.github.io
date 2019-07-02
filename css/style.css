@@ -136,8 +136,9 @@ hr {
   border-color: white;
   border-width: 6px;
 
-  flex: 60%;
-  max-width: 60%;
+  background-color: rgba(255, 244, 212, 0.6);
+  flex: 80%;
+  max-width: 80%;
   text-align: center;
   margin: auto;
 }
