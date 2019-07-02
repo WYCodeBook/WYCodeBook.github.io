@@ -135,12 +135,15 @@ hr {
   border-color: white;
   border-width: 6px;
 
-  flex: 100%;
-  max-width: 100%;
+  flex: 60%;
+  max-width: 60%;
   text-align: center;
-  margin: auto 20vw;
+  margin: auto;
 }
 
+
+
+/*resources page*/
 .resources {
   display: flex;
   flex-wrap: wrap;
