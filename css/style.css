@@ -41,7 +41,8 @@ hr {
 .nav {
   background-color: none;
   top: 0;
-  position: fixed;
+  position: re;
+
 }
 
 .nav-content li {
