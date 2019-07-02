@@ -1,4 +1,12 @@
 @media (min-width: 600px) {
+  .home h1 {
+    font-size: 60px;
+  }
+
+  .home h3 {
+    font-size: 30px;
+  }
+
   .nav {
     margin: 0;
     background-color: none;
