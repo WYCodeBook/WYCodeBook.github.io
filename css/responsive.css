@@ -11,7 +11,7 @@
 @media (max-width: 600px) {
   .home {
     background-image: url("/img/bg1.png");
-    background-size: cover;
+    background-size: 100vh;
   }
 
   .about {
