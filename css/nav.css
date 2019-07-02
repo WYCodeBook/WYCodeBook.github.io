@@ -5,7 +5,7 @@
   padding: 6px 8px;
   text-align: center;
   text-decoration: none;
-  font-size: 2vw;
+  font-size: 20px;
   font-weight: bold;
   margin: 6px;
   cursor: pointer;
@@ -17,10 +17,4 @@
   border: none;
   border-radius: 6px;
   box-shadow: inset 0 0 0 3px #090000;
-}
-
-@media (max-width: 600px) {
-  .navbutton {
-    font-size: 5vw;
-  }
 }
