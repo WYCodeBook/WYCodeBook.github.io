@@ -41,6 +41,7 @@ hr {
 /*nav bar*/
 
 .nav {
+  margin: 0;
   background-color: none;
   top: 0;
   position: fixed;
