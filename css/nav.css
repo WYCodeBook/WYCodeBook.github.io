@@ -1,4 +1,4 @@
-.button {
+.navbutton {
   background-color: none;
   border: none;
   color: #090000;
@@ -12,7 +12,7 @@
 }
 
 
-.button:hover, .button:focus {
+.navbutton:hover, .navbutton:focus {
   background-color: rgba(255, 244, 212, 0);
   border: none;
   border-radius: 6px;
@@ -20,7 +20,7 @@
 }
 
 @media (max-width: 600px) {
-  .button {
+  .navbutton {
     font-size: 5vw;
   }
 }
