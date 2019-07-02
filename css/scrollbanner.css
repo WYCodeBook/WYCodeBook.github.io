@@ -1,8 +1,8 @@
 /*using this for scrolling banners*/
 .scrollbanner {
   display: flex;
-  min-width: 100%;
-  min-height: 200px;
+  width: auto;
+  height: auto;
   overflow-x: auto;
 }
 .scrollbanner::-webkit-scrollbar {
@@ -11,7 +11,7 @@
 .banner {
   background-color: #ecf0f1;
   min-width: 200px;
-  margin: 5px;
-  padding: 5px;
+  margin: 6px;
+  padding: 6px;
   color: #34495e
 }
