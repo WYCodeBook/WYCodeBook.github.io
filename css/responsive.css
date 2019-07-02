@@ -6,6 +6,7 @@
 
   .nav-content li {
     display: block;
+    right: 0;
   }
 
   .about {
