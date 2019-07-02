@@ -4,11 +4,12 @@
     background-size: auto;
   }
 
-  .nav-content li {
-    display: block;
-    right: 0;
-    height: 100vh;
-    width: auto;
+  .nav {
+    background-color: none;
+    top: 0;
+    position: fixed;
+    width: noset;
+    text-align: center;
   }
 
   .about {
