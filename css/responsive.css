@@ -4,6 +4,10 @@
     background-size: auto;
   }
 
+  .nav-content li {
+    display: block;
+  }
+
   .about {
     height:100%;
   }

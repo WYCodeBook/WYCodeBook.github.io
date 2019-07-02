@@ -10,6 +10,8 @@ hr {
   width: 60%;
 }
 
+
+
 /*homepage*/
 
 .home {
@@ -41,8 +43,7 @@ hr {
 .nav {
   background-color: none;
   top: 0;
-  position: re;
-
+  position: fixed;
 }
 
 .nav-content li {
