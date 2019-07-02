@@ -5,11 +5,15 @@
   }
 
   .nav {
-    background-color: none;
-    top: 0;
-    position: fixed;
     width: noset;
+    right: 0;
+  }
+
+  .nav li {
+    display: block;
     text-align: center;
+    margin: auto;
+    padding: 2vw;
   }
 
   .about {
