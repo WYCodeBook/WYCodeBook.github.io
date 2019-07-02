@@ -11,6 +11,7 @@
 @media (max-width: 600px) {
   .home {
     background-image: url("/img/bg1.png");
+    background-size: auto;
   }
 
   .about {
