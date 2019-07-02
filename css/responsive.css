@@ -7,6 +7,8 @@
   .nav-content li {
     display: block;
     right: 0;
+    height: 100vh;
+    width: auto;
   }
 
   .about {
