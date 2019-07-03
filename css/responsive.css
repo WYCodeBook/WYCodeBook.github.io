@@ -42,11 +42,13 @@
 /*about*/
   .about {
     background-image: none;
+    margin-top: 10%;
   }
 
 /*projects*/
   .projects {
     background-image: none;
+    margin-top: 10%;
   }
   .project1header {
     text-align: center;
@@ -55,5 +57,6 @@
 /*resources*/
   .resources {
     background-image: none;
+    margin-top: 10%;
   }
 }
