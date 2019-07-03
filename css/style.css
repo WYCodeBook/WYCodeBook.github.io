@@ -189,3 +189,18 @@ hr {
   padding: 1.5vw;
   vertical-align: middle;
 }
+
+.notes2header {
+  margin-left: 6%;
+  margin-right: 6%;
+  padding:0;
+  text-align: right;
+}
+
+.notes2header li {
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  padding: 1.5vw;
+  vertical-align: middle;
+}
