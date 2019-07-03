@@ -1,4 +1,4 @@
-.totop {
+#totop {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     bottom: 30px; /* Place the button at the bottom of the page */
@@ -15,7 +15,7 @@
     margin: 6px;
 }
 
-.top:hover {
+#top:hover {
   background-color: rgba(255, 244, 212, 0);
   border: none;
   border-radius: 6px;
