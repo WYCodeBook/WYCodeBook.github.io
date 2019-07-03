@@ -63,6 +63,7 @@
     width: auto;
     height: 200px;
     overflow-x: none;
+    overflow-y: scroll;
     margin: auto;
     scrollbar-color: #090000 #656052;
   }
