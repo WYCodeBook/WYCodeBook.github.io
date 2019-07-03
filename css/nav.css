@@ -27,6 +27,6 @@
   background-color: rgba(255, 244, 212, 0);
   border: none;
   border-radius: 6px;
-  box-shadow: 0 6px #570000;
-  transform: translateY(6px);
+  box-shadow: 0 3px #570000;
+  transform: translateY(3px);
 }
