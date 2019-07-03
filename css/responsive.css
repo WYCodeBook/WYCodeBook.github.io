@@ -34,8 +34,11 @@
 
   .home {
     background-image: none;
+  }
+  .home-content {
     background-color: rgba(236,245,253, 0.6);
   }
+
   .about {
     background-image: none;
   }
