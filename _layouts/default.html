@@ -13,7 +13,7 @@
 		<link rel="stylesheet" type="text/css" href="/css/responsive.css"> <!-- needed for a responsive site -->
 		<link rel="stylesheet" type="text/css" href="/css/avatar.css"> <!-- needed for the avatar -->
 		<link rel="stylesheet" type="text/css" href="/css/syntax.css"> <!-- needed for syntax highlight -->
-		<link rel="stylesheet" type="text/css" href="/css/button.css"> <!-- needed for back to the top button -->
+		<link rel="stylesheet" type="text/css" href="/css/totop.css"> <!-- needed for back to the top button -->
 		<link rel="stylesheet" type="text/css" href="/css/nav.css"> <!-- needed for the nav -->
 		<link rel="stylesheet" type="text/css" href="/css/scrollbanner.css"> <!-- needed for scrolling banners -->
 	</head>
@@ -30,6 +30,10 @@
 		</ul>
 
     {{ content }}
+
+		<button onclick="topFunction()" class="totop" title="Go to the top"><i class="fas fa-chevron-circle-up"></i></button>
+
+		<script src="totop.js"></script>
 
   </body>
 

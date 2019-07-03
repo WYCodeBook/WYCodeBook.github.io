@@ -1,0 +1,23 @@
+.totop {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 30px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    outline: none; /* Remove outline */
+    background-color: rgba(255, 244, 212, 0); /* Set a background color */
+    border: none;
+    color: #090000; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 6px 8px; /* Some padding */
+    font-size: 20px;
+    font-weight: bold;
+    margin: 6px;
+}
+
+.top:hover {
+  background-color: rgba(255, 244, 212, 0);
+  border: none;
+  border-radius: 6px;
+  box-shadow: inset 0 0 0 3px #090000;
+}
