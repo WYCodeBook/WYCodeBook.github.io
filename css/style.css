@@ -137,7 +137,7 @@ hr {
 
 
 /*resources page*/
-.resources {
+.notes {
   display: flex;
   flex-wrap: wrap;
   height: 100vh;
@@ -153,7 +153,7 @@ hr {
 
 }
 
-.resources-content {
+.notes-content {
   border: outset;
   border-color: white;
   border-width: 6px;
