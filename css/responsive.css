@@ -28,7 +28,16 @@
         background-size: cover;
   }
 
-  .home .about .projects .resources {
+  .home {
+    background-image: none;
+  }
+  .about {
+    background-image: none;
+  }
+  .projects {
+    background-image: none;
+  }
+  .resources {
     background-image: none;
   }
 
