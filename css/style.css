@@ -1,6 +1,6 @@
 body, html {
   margin: 0;
-  font-family: "Copperplate", "Copperplate Gothic Light", fantasy;
+  font-family: "American Typewriter", "Georgia", "Times New Roman", serif;
   overflow: hidden; /*disabled the scrolling function of overflows*/
   color: #090000;
 }
