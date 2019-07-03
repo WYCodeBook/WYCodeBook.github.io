@@ -89,27 +89,10 @@ hr {
 }
 
 .about-content {
-  border: none;
+  flex: 80%;
+  max-width: 80%;
   text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  margin-top:10%;
-}
-
-
-.about1 {
-  flex: 54%;
-  max-width: 54%;
-  text-align: center;
-  padding-inline:3%;
-}
-
-
-.about2 {
-  flex: 34%;
-  max-width: 34%;
-  text-align: center;
-  padding-inline:3%;
+  margin: auto;
 }
 
 
