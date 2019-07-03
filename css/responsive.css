@@ -28,6 +28,10 @@
         background-size: cover;
   }
 
+  .nav {
+    background-color: rgba(236,245,253, 0.6);
+  }
+
   .home {
     background-image: none;
   }
