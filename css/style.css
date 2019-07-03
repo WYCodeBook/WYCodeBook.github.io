@@ -165,16 +165,11 @@ hr {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .notes-content {
-  border: outset;
-  border-color: white;
-  border-width: 6px;
-
-  flex: 100%;
-  max-width: 100%;
+  flex: 80%;
+  max-width: 80%;
   text-align: center;
-  margin: auto 20vw;
+  margin: auto;
 }
