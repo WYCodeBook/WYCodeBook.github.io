@@ -20,3 +20,17 @@
   padding: 6px;
   color: #34495e
 }
+
+
+@media (max-width: 600px) {
+  .scrollbanner {
+    border: 3px solid #EDF3FE;
+    display: block;
+    width: auto;
+    height: 200px;
+    overflow-x: none;
+    overflow-y: scroll;
+    margin: auto;
+    scrollbar-color: #090000 #656052;
+  }
+}

@@ -12,6 +12,24 @@ hr {
   margin-bottom: 1%;
 }
 
+/*nav bar*/
+
+.nav {
+  margin: 0;
+  padding: 0;
+  background-color: none;
+  top: 0;
+  position: fixed;
+  width: 100vw;
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  padding: 1.5vw;
+}
 
 /*homepage*/
 
@@ -28,7 +46,6 @@ hr {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .home-content {
@@ -54,24 +71,6 @@ hr {
   to { width: 100% }
 }
 
-/*nav bar*/
-
-.nav {
-  margin: 0;
-  padding: 0;
-  background-color: none;
-  top: 0;
-  position: fixed;
-  width: 100vw;
-  text-align: center;
-}
-
-.nav li {
-  display: inline-block;
-  text-align: center;
-  margin: auto;
-  padding: 1.5vw;
-}
 
 /*about page*/
 

@@ -13,7 +13,7 @@
     overflow: auto;
   }
 
-  .home::after{
+  body::after{
         content:"";
         position:fixed; /* stretch a fixed position to the whole screen */
         top:0;
@@ -28,46 +28,31 @@
         background-size: cover;
   }
 
+/*nav*/
   .nav {
     background-color: rgba(237,243,254,0.7);
   }
 
+/*homepage*/
   .home {
     background-image: none;
   }
 
+/*about*/
   .about {
     background-image: none;
   }
 
+/*projects*/
   .projects {
     background-image: none;
   }
-
-  .resources {
-    background-image: none;
-  }
-
-/*homepage*/
-
-/*about*/
-
-/*projects*/
   .project1header {
     text-align: center;
   }
 
-  .scrollbanner {
-    border: 3px solid #EDF3FE;
-    display: block;
-    width: auto;
-    height: 200px;
-    overflow-x: none;
-    overflow-y: scroll;
-    margin: auto;
-    scrollbar-color: #090000 #656052;
-  }
-
 /*resources*/
-
+  .resources {
+    background-image: none;
+  }
 }
