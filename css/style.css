@@ -174,3 +174,18 @@ hr {
   text-align: center;
   margin: auto;
 }
+
+.notes1header {
+  margin-left: 6%;
+  margin-right: 6%;
+  padding:0;
+  text-align: left;
+}
+
+.notes1header li {
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  padding: 1.5vw;
+  vertical-align: middle;
+}
