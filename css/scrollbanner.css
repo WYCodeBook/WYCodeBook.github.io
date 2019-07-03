@@ -5,9 +5,8 @@
   width: auto;
   height: auto;
   overflow-x: auto;
-  margin-left: 6%;
-  margin-right: 6%;
-  margin-bottom: 6%;
+  margin-left: 3%;
+  margin-right: 3%;
   scrollbar-color: #090000 #656052;
 }
 
@@ -17,7 +16,6 @@
   background-color: rgba(255, 244, 212, 0);
   min-width: 200px;
   margin: 3px;
-  padding: 3px;
   color: #34495e
 }
 
