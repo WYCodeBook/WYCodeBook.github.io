@@ -39,38 +39,31 @@
   .about {
     background-image: none;
   }
+
   .projects {
     background-image: none;
   }
+
   .resources {
     background-image: none;
   }
 
 /*homepage*/
 
-
 /*about*/
-  .about {
-    height:100%;
-  }
-
-  .about1 {
-    flex: 96%;
-    max-width: 96%;
-    text-align: center;
-    padding-inline:2%;
-  }
-
-  .about2 {
-    flex: 96%;
-    max-width: 96%;
-    text-align: center;
-    padding-inline:2%;
-  }
 
 /*projects*/
   .project1header {
     text-align: center;
+  }
+
+  .scrollbanner {
+    display: block;
+    width: auto;
+    height: 200px;
+    overflow-x: none;
+    margin: auto;
+    scrollbar-color: #090000 #656052;
   }
 
 /*resources*/
