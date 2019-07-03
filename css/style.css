@@ -12,6 +12,26 @@ hr {
   margin-bottom: 1%;
 }
 
+a:link {
+  color: #570000;
+}
+
+/* visited link */
+a:visited {
+  color: #570000;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+/* selected link */
+a:active {
+  color: #ff5757;
+}
+
 /*nav bar*/
 
 .nav {
