@@ -24,7 +24,7 @@
 
 @media (max-width: 600px) {
   .scrollbanner {
-    border: 3px solid #EDF3FE;
+    border: 3px solid #cccccc;
     display: block;
     width: auto;
     height: 200px;
