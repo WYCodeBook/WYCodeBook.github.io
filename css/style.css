@@ -84,7 +84,6 @@ hr {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .about-content {
@@ -114,10 +113,6 @@ hr {
 }
 
 .projects-content {
-  border: outset;
-  border-color: white;
-  border-width: 6px;
-
   flex: 80%;
   max-width: 80%;
   text-align: center;
