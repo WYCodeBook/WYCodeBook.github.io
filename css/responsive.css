@@ -58,6 +58,7 @@
   }
 
   .scrollbanner {
+    border: 3px solid #EDF3FE;
     display: block;
     width: auto;
     height: 200px;
