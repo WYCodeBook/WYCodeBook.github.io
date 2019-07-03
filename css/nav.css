@@ -9,8 +9,8 @@
   font-weight: bold;
   margin: 6px;
   cursor: pointer;
-  -webkit-transition-duration: 0.5s; /* Safari */
-  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.3s; /* Safari */
+  transition-duration: 0.3s;
 }
 
 
