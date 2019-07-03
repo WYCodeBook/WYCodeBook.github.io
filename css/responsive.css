@@ -53,10 +53,27 @@
     height: 100%;
   }
 
+  .project1header {
+    text-align: center;
+  }
+
+  .project2header{
+    text-align: center;
+  }
+
 /*resources*/
   .notes {
     background-image: none;
     margin-top: 20%;
     height: 100%;
   }
+
+  .notes1header {
+    text-align: center;
+  }
+
+  .notes2header {
+    text-align: center;
+  }
+
 }
