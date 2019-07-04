@@ -93,28 +93,6 @@ a:active {
 }
 
 
-/*about page*/
-
-.about {
-  display: flex;
-  flex-wrap: wrap;
-  height: 100vh;
-  width: 100vw;
-
-  background-image: url("/img/bg2.png");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.about-content {
-  flex: 80%;
-  max-width: 80%;
-  text-align: center;
-  margin: auto;
-}
-
 
 /*projects page*/
 
