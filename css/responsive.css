@@ -59,4 +59,11 @@
     height: 100%;
   }
 
+/*post*/
+  .post {
+    background-image: none;
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+
 }
