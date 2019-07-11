@@ -78,6 +78,6 @@ a:active {
 .projectpicture {
   height: auto;
   width: 80vw;
-  border: 3px ridge #cccccc;
+  border: 6px ridge #cccccc;
   border-radius: 6px;
 }
