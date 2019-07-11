@@ -76,7 +76,6 @@ a:active {
 }
 
 .projectpicture {
-  height: 600px;
-  width: auto;
-  margin: 6%;
+  height: auto;
+  width: 80%;
 }
