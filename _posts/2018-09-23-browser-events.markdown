@@ -7,7 +7,7 @@ tags: [DOM, JavaScript, HTML, CSS]
 description: DOM manipulating JavaScript code in respond to actions
 ---
 
-### Seeing An Event
+## Seeing An Event
 
 There is a hidden world of events going on right now on this very page! It's really hard to actually see into this hidden world, though. So how can we know that events really are being announced? If they are being announced, how come they're not easy for us to see?
 
@@ -25,7 +25,7 @@ Chrome browser does offer an `unmonitorEvents()` function that will turn off the
 
 One last little bit of info on `monitorEvents` is that this is for development/testing purposes only. It's not supposed to be used for production code.
 
-### EvenTarget
+## EvenTarget
 
 is an interface implemented by objects that can receive events and may have listeners for them.
 
@@ -43,7 +43,7 @@ If you take a look at the `EventTarget` Interface, you'll notice that it doesn't
 
 `.dispatchEvent()`
 
-### Adding An Event Listener
+## Adding An Event Listener
 
 Using the `.addEventListener()` method will let us listen for events and respond to them! I just said "listen for events". There are several ways to "phrase" this, so I want to give some examples:
 
@@ -86,7 +86,7 @@ Let's break down the snippet above:
 
 👓 List of events: https://developer.mozilla.org/en-US/docs/Web/Events
 
-### Removing An Event Listener
+## Removing An Event Listener
 
 To remove an event listener, we use the `.removeEventListener()` method.
 

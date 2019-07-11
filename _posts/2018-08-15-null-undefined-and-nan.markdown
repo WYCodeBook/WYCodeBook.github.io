@@ -7,13 +7,13 @@ tags: JavaScript
 description: Definitions
 ---
 
-### Null
+## Null
 
 `null` refers to the "value of nothing"
 
 A variable can be explicitly set to a value of `null`.
 
-### Undefined
+## Undefined
 
 `undefined` refers to the "absence of value". `undefined` is not even a value of nothing.
 
@@ -27,7 +27,7 @@ console.log(x);
 
 The above example will printed as `undefined` because the variable x exists, but it does not have a value. `undefined` will return to you when you didn't assign a value to something (which refers to as variable in this example)
 
-### NaN
+## NaN
 
 NaN stands for "Not-A-Number" and it's often returned indicating an error with number operations.
 

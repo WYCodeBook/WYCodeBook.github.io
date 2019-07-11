@@ -7,13 +7,13 @@ tags: JavaScript30DaysChallenge
 description: JavaScript coding challenge DAY 1
 ---
 
-### [DAY 1]((https://github.com/WYCodeBook/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit))
+## [DAY 1]((https://github.com/WYCodeBook/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit))
 
 It is very exciting to start this challenge! During the Setup-Video and Day-1 Video, Wes mentioned there are many ways people learn and practice codes with the challenge materials and there is no one-fitted-all way to learn.
 
 Since it's the first day of the challenge... I will just follow step by step presented in the video and begin my learning challenge Day 1 🤩
 
-##### window.addEventListener('keydown', playSound)
+#### window.addEventListener('keydown', playSound)
 
   - `playSound()` is a listener for `keydown` events registered using `window.addEventListener`.
 
@@ -27,9 +27,9 @@ Since it's the first day of the challenge... I will just follow step by step pre
 
 In another word, this is what we want from `window.addEventListener('keydown', playSound)`... when we hit a key on the keyboard, meaning `keydown`, we would like to run the `playSound` function.
 
-##### const audio = document.querySelector('audio[data-key="${e.keyCode}"]');
+#### const audio = document.querySelector('audio[data-key="${e.keyCode}"]');
 
-##### const key = document.querySelector('div[data-key="${e.keyCode}"]');
+#### const key = document.querySelector('div[data-key="${e.keyCode}"]');
 
   - `keyCode` property is the KEY to connect our buttons(`<div>`s) and sounds(`<audio>`s).
 
@@ -45,34 +45,34 @@ In another word, this is what we want from `window.addEventListener('keydown', p
 
 👓 [Keycode for JavaScript](http://keycode.info/)
 
-##### if(!audio) return;
+#### if(!audio) return;
 
 This is used to stop the function from running when the selected key from the keyboard is not matching any of the listed keys and audios.
 
-##### audio.currentTime = 0;
+#### audio.currentTime = 0;
 
-##### audio.play();
+#### audio.play();
 
 These are used to prevent delay playing sounds as we keep selecting keys from the keyboard.
 
-##### key.classList.add('playing');
+#### key.classList.add('playing');
 
   - use `item.classList.add('className')` to add class when key pressed. (same as `element.addClass('className')` in jQuery)
 
-##### if(e.propertyName != 'transform') return;
-##### event.target.classList.remove('playing');
+#### if(e.propertyName != 'transform') return;
+#### event.target.classList.remove('playing');
 
   - to remove the add class we can just do `.remove` but not until we have checked for `transitionend` with another `eventListener`.
 
-##### keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+#### keys.forEach(key => key.addEventListener('transitionend', removeTransition));
 
   - `items.forEach()` instead of just `forEach`, which means it's a property of an array.
 
-##### event
+#### event
 
 using `e` representing event
 
-### Final Codes
+## Final Codes
 
 {% highlight js %}
 
@@ -98,4 +98,4 @@ window.addEventListener('keydown', playSound) //when we hit a key on the keyboar
 
 {% endhighlight %}
 
-### [The Completed Code](https://github.com/WYCodeBook/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit)
+## [The Completed Code](https://github.com/WYCodeBook/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit)
