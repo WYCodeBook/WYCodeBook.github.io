@@ -1,8 +1,9 @@
 ---
-layout: resource
+layout: post
 title: "Text Editors"
 date: "2019-05-02 20:48:35 -0700"
-categories: Resources
+tags: [Text Editor]
+categories: Notes
 ---
 
 A text editor lets you open a file as a text document, something that can be useful for a number of reasons:

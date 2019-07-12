@@ -1,8 +1,9 @@
 ---
-layout: resource
+layout: post
 title: "Wireframing Software"
 date: "2019-05-02 22:17:15 -0700"
-categories: Resources
+tags: Wireframe
+categories: Notes
 ---
 
 The website wireframe connects the underlying conceptual structure, or information architecture, to the surface, or visual design of the website.
