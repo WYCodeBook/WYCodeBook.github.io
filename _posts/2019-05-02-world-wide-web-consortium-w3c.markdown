@@ -1,8 +1,9 @@
 ---
-layout: resource
+layout: post
 title: "World Wide Web Consortium (W3C)"
 date: "2019-05-02 20:28:07 -0700"
-categories: Resources
+tags: W3C
+categories: Notes
 ---
 
 [(W3C)](https://www.w3.org/) - The World Wide Web Consortium (W3C) is an international community that develops open standards to ensure the long-term growth of the Web.
