@@ -3,7 +3,7 @@ layout: post
 title: Notes
 ---
 
-<h3>
+<h2>
   <ul class="tag-box inline">
   {% assign tags_list = site.tags | sort: tag.title %}
     {% if tags_list.first[0] == null %}
@@ -17,14 +17,14 @@ title: Notes
     {% endif %}
   {% assign tags_list = nil %}
   </ul>
-</h3>
+</h2>
 
 <hr>
 
 {% assign sorted_tags = site.tags | sort: tag.title %}
 {% for tag in sorted_tags %}
-  <h3 id="{{ tag[0] }}">{{ tag[0] }}</h3>
-  <h5>
+  <h2 id="{{ tag[0] }}">{{ tag[0] }}</h2>
+  <h4>
     <ul class="post-list">
       {% assign pages_list = tag[1] %}
       {% for post in pages_list %}
@@ -37,5 +37,5 @@ title: Notes
       {% assign pages_list = nil %}
       {% assign group = nil %}
     </ul>
-  </h5>
+  </h4>
 {% endfor %}
