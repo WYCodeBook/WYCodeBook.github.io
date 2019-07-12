@@ -8,11 +8,11 @@ title: Notes
   {% assign tags_list = site.tags | sort: tag.title %}
     {% if tags_list.first[0] == null %}
       {% for tag in tags_list %}
-        <li><a href="#{{ tag }}">{{ tag }}  (<span>{{ site.tags[tag].size }}</span>)</a></li>
+        <a href="#{{ tag }}">{{ tag }}  (<span>{{ site.tags[tag].size }}</span>)</a>
       {% endfor %}
     {% else %}
       {% for tag in tags_list %}
-        <li><a href="#{{ tag[0] }}">{{ tag[0] }} (<span>{{ tag[1].size }}</span>)</a></li>
+        <a href="#{{ tag[0] }}">{{ tag[0] }} (<span>{{ tag[1].size }}</span>)</a>
       {% endfor %}
     {% endif %}
   {% assign tags_list = nil %}
