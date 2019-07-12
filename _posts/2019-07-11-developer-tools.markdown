@@ -2,7 +2,7 @@
 layout: post
 title: "Developer Tools"
 date: "2019-07-11 16:09:01 -0700"
-tags: Developer Tools
+tags: [Developer Tools]
 categories: Notes
 ---
 
