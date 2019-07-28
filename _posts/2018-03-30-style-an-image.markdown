@@ -6,6 +6,8 @@ picture: "/pic/styleimage.PNG"
 categories: Projects
 ---
 
+<iframe src="https://curious-yu.github.io/GoogleFrontEnd-Phase1-StyleAImage/" style="height:200px;width:300px"></iframe>
+
 [The Product](https://curious-yu.github.io/GoogleFrontEnd-Phase1-StyleAImage/)
 
 [The Source Codes](https://github.com/Curious-Yu/GoogleFrontEnd-Phase1-StyleAImage)
