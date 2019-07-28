@@ -77,8 +77,8 @@ a:active {
 
 .theproject iframe {
   display:block;
-  height: 30vh;
-  width: 60vw;
+  height: 30%;
+  width: 60%;
   padding: 3px;
   border: 3px ridge #cccccc;
   border-radius: 6px;
