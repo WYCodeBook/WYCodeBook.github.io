@@ -40,19 +40,6 @@ title: Curious-Yu
         {% endfor %}
       </div>
     </div>
-    <div class="projects2">
-      <ul class="project2header">
-        <li><h3>Solving Problems</h3></li>
-        <li><i class="fas fa-pencil-ruler" style="font-size:30px;color:#090000"></i></li>
-      </ul>
-      <div class="scrollbanner">
-        {% for post in site.categories.Problems %}
-          <div class="banner">
-            <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
   </div>
 </div>
 
@@ -69,19 +56,6 @@ title: Curious-Yu
       </ul>
       <div class="scrollbanner">
         {% for post in site.categories.Notes %}
-          <div class="banner">
-            <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
-    <div class="notes2">
-      <ul class="notes2header">
-        <li><h3>Quotes</h3></li>
-        <li><i class="fas fa-book-reader" style="font-size:30px;color:#090000"></i></li>
-      </ul>
-      <div class="scrollbanner">
-        {% for post in site.categories.Quotes | limit:10  %}
           <div class="banner">
             <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
           </div>
