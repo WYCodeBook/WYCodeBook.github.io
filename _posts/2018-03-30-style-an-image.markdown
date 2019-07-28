@@ -7,7 +7,7 @@ categories: Projects
 ---
 
 {% raw %}
-<iframe align="middle" style="border: 3px ridge #cccccc" width="50%" height="auto" src="https://curious-yu.github.io/GoogleFrontEnd-Phase1-StyleAImage/"></iframe>
+<iframe align="middle" style="border: 3px ridge #cccccc" width="50%" height="30%" src="https://curious-yu.github.io/GoogleFrontEnd-Phase1-StyleAImage/"></iframe>
 {% endraw %}
 
 [The Product](https://curious-yu.github.io/GoogleFrontEnd-Phase1-StyleAImage/)
