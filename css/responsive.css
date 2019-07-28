@@ -66,4 +66,9 @@
     margin-bottom: 20%;
   }
 
+/*syntax highlight*/
+  .highlight {
+    font-size: 12px;
+  }
+
 }
