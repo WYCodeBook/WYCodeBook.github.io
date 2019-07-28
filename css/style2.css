@@ -75,15 +75,7 @@ a:active {
   margin-right: 10%;
 }
 
-.projectpicture {
-  height: auto;
-  width: 80vw;
-  padding: 3px;
-  border: 3px ridge #cccccc;
-  border-radius: 6px;
-}
-
-iframe {
+.theproject iframe {
   display:block;
   height: 30vh;
   width: 60vw;
