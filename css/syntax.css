@@ -1,4 +1,4 @@
-.highlight  { background: white; overflow: scroll; font-size: 3vw; border-style: ridge; border-radius: 8px; width: 70%; margin: auto; font-family: "Palatino", "Palatino Linotype", "Book Antiqua", "Georgia", serif;}
+.highlight  { background: white; overflow: scroll; font-size: 26px; border-style: ridge; border-radius: 8px; width: 70%; margin: auto; font-family: "Palatino", "Palatino Linotype", "Book Antiqua", "Georgia", serif;}
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */
