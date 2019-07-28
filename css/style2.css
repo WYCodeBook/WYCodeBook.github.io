@@ -82,3 +82,12 @@ a:active {
   border: 3px ridge #cccccc;
   border-radius: 6px;
 }
+
+iframe {
+  display:block;
+  height: 30vh;
+  width: 60vw;
+  padding: 3px;
+  border: 3px ridge #cccccc;
+  border-radius: 6px;
+}
