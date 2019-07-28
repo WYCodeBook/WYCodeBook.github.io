@@ -11,6 +11,8 @@ You're given strings J representing the types of stones that are jewels, and S r
 
 The letters in J are guaranteed distinct, and all characters in J and S are letters. Letters are case sensitive, so "a" is considered a different type of stone from "A".
 
+[Leetcode - Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)
+
 #### Example 1:
 
 Input: J = "aA", S = "aAAbbbb"
@@ -30,7 +32,7 @@ Output: 0
  * @param {string} J
  * @param {string} S
  * @return {number}
- */
+ **/
 var numJewelsInStones = function(J, S) {
     var count = 0;
     for (var i=0; i<J.length; i++){
