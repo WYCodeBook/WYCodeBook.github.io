@@ -6,9 +6,6 @@ categories: Projects
 product: https://curious-yu.github.io/GoogleFrontEnd-Phase1-StyleAImage/
 ---
 
-{% raw %}
-<iframe marginwidth="0" marginheight="0" width="600" height="300" style="border: 3px ridge #cccccc;text-align:center" src="https://curious-yu.github.io/GoogleFrontEnd-Phase1-StyleAImage/"></iframe>
-{% endraw %}
 
 [The Product](https://curious-yu.github.io/GoogleFrontEnd-Phase1-StyleAImage/)
 
