@@ -78,7 +78,7 @@ a:active {
 }
 
 .projectcontent iframe {
-  width:80%;
+  width:80vw;
   height: 60%;
   border: 3px ridge #cccccc;
 }
