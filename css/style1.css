@@ -64,8 +64,8 @@ a:active {
   background-image: url("/img/bg2.png");
   background-attachment: fixed;
   background-position: center;
-  background-repeat: repeat;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .postcontent {
