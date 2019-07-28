@@ -1,7 +1,7 @@
 ---
 layout: resource
 title: "JavaScript Number Maxing Out"
-date: "2019-06-09 19:34:02 -0700"
+date: "2019-06-27 19:34:02 -0700"
 tags: JavaScript
 categories: Notes
 ---
