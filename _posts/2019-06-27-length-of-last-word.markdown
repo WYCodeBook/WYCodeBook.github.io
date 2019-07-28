@@ -16,6 +16,7 @@ Note: A word is defined as a character sequence consists of non-space characters
 #### Example:
 
 Input: "Hello World"
+
 Output: 5
 
 ## Solution:
