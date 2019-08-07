@@ -1,5 +1,5 @@
 ---
-layout: resource
+layout: post
 title: "JavaScript Number Maxing Out"
 date: "2019-06-27 19:34:02 -0700"
 tags: JavaScript
