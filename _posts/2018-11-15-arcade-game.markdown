@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: projects
 title: "Arcade Game"
 date: "2018-11-15 22:06:58 -0700"
 categories: Projects
