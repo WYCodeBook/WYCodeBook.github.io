@@ -7,17 +7,19 @@ categories: Problems
 
 ##Problem:
 
-Let say there are two arrays, 'a' and 'b'. We go through the 'array a' from left to right and go through the 'array b' from right to left... and concatenate each index of the array into 'ab'. And we compare the 'ab' to a 'constant k', then total up the number of 'ab' that's less than the 'constant k'.
+Let say there are two arrays, `a` and `b`. We go through the `array a` from left to right and go through the `array b` from right to left... and concatenate each index of the array into `ab`. And we compare the 'ab' to a `constant k`, then total up the number of `ab` that's less than the `constant k`.
 
 ##Example:
 
 a = [4,5,6,7,8]
+
 b = [1,2,3,4,5]
+
 k = 60
 
 ab = [45, 54, 63, 72, 81]
 
-There should be a total count of two 'ab' from the concatenated arrays, because 45 and 54 is smaller than 'k=60'.
+There should be a total count of two `ab` from the concatenated arrays, because 45 and 54 is smaller than `k=60`.
 
 ##Solution:
 
