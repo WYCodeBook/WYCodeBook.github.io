@@ -7,6 +7,8 @@ categories: Problems
 
 ## Problem:
 
+(From CodeSignal)
+
 Let say there are two arrays, `a` and `b`. We go through the `array a` from left to right and go through the `array b` from right to left... and concatenate each index of the array into `ab`. And we compare the 'ab' to a `constant k`, then total up the number of `ab` that's less than the `constant k`.
 
 ## Example:
