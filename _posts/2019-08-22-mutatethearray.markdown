@@ -35,24 +35,35 @@ Input: a:[1, 3, 5, 6, 4, 20]
 
 Output: false
 
+## Example 3:
+
+Input: a = [1, 3, 5, 6, 40, 2]
+
+Output: false
+
 ## Solution:
 
 {% highlight js %}
 (function main() {
-    const a = [1, 3, 5, 6, 4, 2];
+    const a = [1, 3, 5, 6, 40, 2];
     let b = [];
     let i = 0;
     let j = a.length;
 
     for (i=0; i<j; i++){
-        b[0] = a[0];
-        b[1] = a[j-1];
-        b[2] = a[1];
-        b[3] = a[j-2];
+        if (i == 0){
+            b[0] = a[0];
+        }
+        else if (i % 2 == 0){
+            b[i] = a[i/2]
+        }
+        else {
+            b[i] = a[j-((i+1)/2)]
+        }
     }
     for (i=0; i<b.length; i++){
         if (b[i]>b[i+1]){
-            console.log("false");
+            console.log("false: "+ b);
             return b;
         }
     }
