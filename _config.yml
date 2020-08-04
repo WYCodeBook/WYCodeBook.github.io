@@ -15,5 +15,5 @@ collections:
     output: true
     permalink: /resource/:title
 
-  practice:
+  practices:
     output: true
