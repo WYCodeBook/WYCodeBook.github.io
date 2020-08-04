@@ -14,3 +14,6 @@ collections:
   resource:
     output: true
     permalink: /resource/:title
+
+  practice:
+    output: true
