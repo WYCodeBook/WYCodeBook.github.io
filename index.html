@@ -35,7 +35,7 @@ title: Curious-Yu
       <div class="scrollbanner">
         {% for project in site.projects %}
           <div class="banner">
-            <h5><a href="{{ projects.url }}">{{ projects.title }}</a></h5>
+            <h5><a href="{{ projects.url }}">{{ project.title }}</a></h5>
           </div>
         {% endfor %}
       </div>
@@ -48,7 +48,7 @@ title: Curious-Yu
       <div class="scrollbanner">
         {% for problem in site.problems %}
           <div class="banner">
-            <h5><a href="{{ problems.url }}">{{ problems.title }}</a></h5>
+            <h5><a href="{{ problems.url }}">{{ problem.title }}</a></h5>
           </div>
         {% endfor %}
       </div>
