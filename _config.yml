@@ -15,5 +15,14 @@ collections:
     output: true
     permalink: /resource/:title
 
-  practices:
+  problems:
+    output: true
+
+  projects:
+    output: true
+
+  certificates:
+    output: true
+
+  templates:
     output: true
