@@ -41,8 +41,13 @@ a:hover, a:active {
 /*mobile ready*/
 @media (max-width: 800px) {
   .parallax {
-    background-image: url("/img/bg3.png");
+    background-image: url("/img/bg2.png");
+    min-height: 100vh;
   }
+  .block {
+    min-height: 100vh;
+  }
+
 }
 
 
