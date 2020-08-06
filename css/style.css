@@ -137,12 +137,12 @@ a:hover, a:active {
   background: radial-gradient(ellipse farthest-side at top center, color, transparent);
 
   &:before {
-    content: ""
-    display: block
-    position: absolute
-    top: 0px
-    right: 0
-    left: 0
-    height: 3px
-    background: linear-gradient(left, transparent, color2, color2, transparent)}
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    left: 0;
+    height: 3px;
+    background: linear-gradient(left, transparent, color2, color2, transparent);}
   }
