@@ -128,3 +128,21 @@ a:hover, a:active {
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }
+
+/* div-line */
+.div-line {
+  height: 20px
+  position: relative
+  width: 100%
+  background: radial-gradient(ellipse farthest-side at top center, color, transparent)
+
+  &:before
+    content: ""
+    display: block
+    position: absolute
+    top: 0px
+    right: 0
+    left: 0
+    height: 3px
+    background: linear-gradient(left, transparent, color2, color2, transparent)
+  }
