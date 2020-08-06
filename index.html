@@ -21,7 +21,6 @@ title: Curious-Yu
   </div>
 </div>
 
-
 <!--Resume-->
 <div class="block" id="resume">
   <div class="text">
@@ -30,10 +29,18 @@ title: Curious-Yu
   </div>
 </div>
 
-<div class="parallax" id="topic2">
+<!--Projects-->
+<div class="parallax" id="projects">
   <div class="text">
-    <h1>Topic 2</h1>
+    <h1>Projects</h1>
     <p>Body paragraph of topic 2</p>
+    <div class="scrollbanner">
+      {% for project in site.projects %}
+        <div class="banner">
+          <h5><a href="{{ project.url }}">{{ project.title }}</a></h5>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </div>
 
