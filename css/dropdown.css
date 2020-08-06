@@ -1,3 +1,10 @@
+.dropdown {
+  position: fixed;
+  display: inline-block;
+  top: 0;
+  right: 0;
+}
+
 .dropbtn {
   background-color: #4CAF50;
   color: white;
@@ -5,12 +12,8 @@
   font-size: 16px;
   border: none;
   psotion: fixed;
-}
-
-.dropdown {
-  position: fixed;
-  display: inline-block;
-  top: 10vh;
+  height: 100px;
+  width: 100px;
 }
 
 .dropdown-content {

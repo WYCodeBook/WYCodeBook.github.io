@@ -29,10 +29,12 @@ body, html {
   position: fixed;
   display: inline-block;
   top: 0;
+  left: 0;
 }
 
 .logo-icon {
   height: 100px;
+  width: 100px;
 }
 
 .title {
