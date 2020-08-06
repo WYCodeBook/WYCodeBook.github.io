@@ -18,6 +18,6 @@
 /*mobile ready*/
 @media (max-width: 800px) {
   .flexbox > div {
-  width: 200px;
+  width: 270px;
   }
 }
