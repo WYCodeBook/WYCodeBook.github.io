@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "Cracking the Coding Interview by Gayle Laakmann McDowell"
+title: "Cracking the Coding Interview"
 date: "2019-08-20 20:25:16 -0700"
 tags: [JavaScript, Books, Interview Questions]
 categories: Notes
 ---
+
+#### by Gayle Laakmann McDowell
 
 ## What's Inside?
 
