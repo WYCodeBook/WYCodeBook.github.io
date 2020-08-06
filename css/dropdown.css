@@ -1,3 +1,23 @@
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: none;
+}
+
+.flexbox > div {
+  background-color: none;
+  width: 12%;
+  margin: 10px;
+  text-align: center;
+  line-height: none;
+}
+
+
+
+
 .dropdown {
   position: fixed;
   display: inline-block;
@@ -5,16 +25,7 @@
   right: 0;
 }
 
-.dropbtn {
-  background-color: rgb(241, 238, 231, 0);
-  color: rgb(109, 80, 131);
-  font-size: 50px;
-  font-weight: bold;
-  border: none;
-  psotion: fixed;
-  height: 130px;
-  width: 130px;
-}
+
 
 .dropdown-content {
   display: none;
