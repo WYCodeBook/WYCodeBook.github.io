@@ -9,9 +9,15 @@
 
 .flexbox > div {
   background-color: none;
-  width: 450px;
+  width: 500px;
   margin: 10px;
   text-align: center;
   line-height: 75px;
-  font-size: 30px;
+}
+
+/*mobile ready*/
+@media (max-width: 800px) {
+  .flexbox > div {
+  width: 300px;
+  }
 }
