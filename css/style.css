@@ -137,20 +137,20 @@ a:hover, a:active {
   justify-content: center;
   align-items: center;
 
-  &::before,
-  &::after {
+.div-line::before,
+.div-line::after {
     content: '';
     display: block;
     height: 0.09em;
     min-width: 30vw;
   }
 
-  &::before {
+.div-line::before {
     background: linear-gradient(to right, rgba(240,240,240,0), #fff);
     margin-right: 4vh;
   }
 
-  &::after {
+.div-line::after {
     background: linear-gradient(to left, rgba(240,240,240,0), #fff);
     margin-left: 4vh;
   }
