@@ -53,7 +53,7 @@ title: Curious-Yu
     <div>
       <h1 title="Projects">Projects</h1>
       <div>
-        {% for project in site.projects %}
+        {% for project in site.projects limit:10 %}
           <div class="banner">
             <h5><a href="{{ project.url }}">{{ project.title }}</a></h5>
           </div>
@@ -72,7 +72,7 @@ title: Curious-Yu
       <h1>Solved Problems</h1>
       <p>solving practice problems using coding languages</p>
       <div>
-        {% for problem in site.problems %}
+        {% for problem in site.problems limit:10 %}
           <div class="banner">
             <h5><a href="{{ problem.url }}">{{ problem.title }}</a></h5>
           </div>
@@ -91,7 +91,7 @@ title: Curious-Yu
       <h1>Resources</h1>
       <p>notes taken and useful materials for coding</p>
       <div class="scrollbanner">
-        {% for post in site.posts %}
+        {% for post in site.posts limit:10 %}
           <div class="banner">
             <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
           </div>
