@@ -39,6 +39,10 @@
   color: rgb(241, 238, 231);
 }
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {
+  background-color: rgb(109, 80, 131);
+}
