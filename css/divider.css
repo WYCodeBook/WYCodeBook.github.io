@@ -18,5 +18,5 @@
   height:100px;
   position:absolute;
   left:0px;
-  background: linear-gradient(to left bottom, #fff 49%, #823A9C 50%);
+  background: linear-gradient(to left bottom, #fff 49%, rgb(241, 238, 231) 50%);
 }
