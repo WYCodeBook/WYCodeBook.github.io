@@ -38,6 +38,14 @@ a:hover, a:active {
   position: relative;
 }
 
+/*mobile ready*/
+@media (max-width: 800px) {
+  .parallax {
+    background-image: url("/img/bg3.png");
+  }
+}
+
+
 .block {
   background-color: rgb(241, 238, 231);
   height: 100%;
