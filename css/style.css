@@ -1,189 +1,66 @@
 body, html {
-  margin: 0;
-  font-family: "American Typewriter", "Georgia", "Times New Roman", serif;
-  overflow: hidden; /*disabled the scrolling function of overflows*/
-  color: #090000;
-}
-
-hr {
-  border: 1px dashed #090000;
-  width: 50%;
-  margin-top: 1%;
-  margin-bottom: 1%;
-}
-
-a:link {
-  color: #570000;
-}
-
-/* visited link */
-a:visited {
-  color: #570000;
-}
-
-/* mouse over link */
-a:hover {
-  color: #ff5757;
-  text-decoration-line: underline;
-  text-decoration-style: wavy;
-}
-
-/* selected link */
-a:active {
-  color: #ff5757;
-}
-
-/*nav bar*/
-
-.nav {
+  height: 100%;
   margin: 0;
   padding: 0;
-  background-color: none;
-  top: 0;
-  position: fixed;
-  width: 100vw;
-  text-align: center;
 }
 
-.nav li {
-  display: inline-block;
-  text-align: center;
-  margin: auto;
-  padding: 1.5vw;
-}
-
-/*homepage*/
-
-.home {
-  display: flex;
-  flex-wrap: wrap;
-  height: 100vh;
-  width:100vw;
-  vertical-align: middle;
-  align-items: center;
-
+.parallax {
+  /* The image used */
   background-image: url("/img/bg1.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
-.home-content {
-  border: none;
+.block {
+  background-color: rgb(95, 67, 120);
+  height: 100%;
+  position: relative;
+}
 
-  flex: 100%;
-  max-width: 100%;
+.logo {
+  position: fixed;
+  display: inline-block;
+  top: 0;
+}
+
+.logo-icon {
+  height: 100px;
+}
+
+.title {
   text-align: center;
-}
-
-.home h3 {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 30px auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: 2px; /* Adjust as needed */
-  animation: typing 6s steps(30, end);
-  animation-iteration-count: infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-
-
-/*projects page*/
-
-.projects {
-  display: flex;
-  flex-wrap: wrap;
-  height: 100vh;
-  width:100vw;
-  vertical-align: middle;
   align-items: center;
-
-  background-image: url("/img/bg3.png");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
-.projects-content {
-  flex: 80%;
-  max-width: 80%;
-  text-align: center;
+  display: block;
+  padding: 10px;
   margin: auto;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
-.project1header {
-  margin-left: 6%;
-  margin-right: 6%;
-  padding:0;
-  text-align: left;
-}
-
-.project1header li {
-  display: inline-block;
+.text {
   text-align: center;
-  margin: auto;
-  padding: 1.5vw;
-  vertical-align: middle;
-}
-
-.project2header {
-  margin-left: 6%;
-  margin-right: 6%;
-  padding:0;
-  text-align: right;
-}
-
-.project2header li {
-  display: inline-block;
-  text-align: center;
-  margin: auto;
-  padding: 1.5vw;
-  vertical-align: middle;
-}
-
-
-/*resources page*/
-.notes {
-  display: flex;
-  flex-wrap: wrap;
-  height: 100vh;
-  width:100vw;
-  vertical-align: middle;
   align-items: center;
+  width: 70%;
+  padding: 2%;
+  border: 5px solid gray;
 
-  background-image: url("/img/bg4.png");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.notes-content {
-  flex: 80%;
-  max-width: 80%;
-  text-align: center;
   margin: auto;
-}
 
-.notes1header {
-  margin-left: 6%;
-  margin-right: 6%;
-  padding:0;
-  text-align: left;
-}
-
-.notes1header li {
-  display: inline-block;
-  text-align: center;
-  margin: auto;
-  padding: 1.5vw;
-  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
