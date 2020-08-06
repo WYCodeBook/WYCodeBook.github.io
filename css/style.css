@@ -25,7 +25,7 @@ a:hover, a:active {
 
 .parallax {
   /* The image used */
-  background-color: rgb(241, 238, 231);;
+  background-color: none;
 
   /* Full height */
   height: 100%;
@@ -58,7 +58,7 @@ a:hover, a:active {
 .title {
   text-align: center;
   align-items: center;
-  display: block;
+  display: flex;
   padding: 10px;
   margin: auto;
 
