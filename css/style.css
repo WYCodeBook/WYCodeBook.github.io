@@ -29,7 +29,7 @@ body, html {
   position: fixed;
   display: inline-block;
   top: 0;
-  right: 0;
+  left: 0;
 }
 
 .logo-icon {
