@@ -44,10 +44,18 @@ title: Curious-Yu
   </div>
 </div>
 
-<div class="block" id="topic3">
+<!--Problems-->
+<div class="block" id="solved-problems">
   <div class="text">
-    <h1>Topic 3</h1>
+    <h1>Solved Problems</h1>
     <p>Body paragraph of topic 3</p>
+    <div class="scrollbanner">
+      {% for problem in site.problems %}
+        <div class="banner">
+          <h5><a href="{{ problem.url }}">{{ problem.title }}</a></h5>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </div>
 
