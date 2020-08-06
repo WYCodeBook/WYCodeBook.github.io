@@ -27,18 +27,18 @@ title: Curious-Yu
   </div>
 </div>
 
-<!--Resume-->
+<!--Contact-->
 <div class="divider-right"></div>
 <div class="blockwhite" id="contact">
   <div class="text flexbox">
     <div class="div-img"><img src="/img/contact.png" alt="WY contact" class="div-img-icon" title="Contact"></div>
     <div>
       <h1>Contact</h1>
-      <p>
+      <h3>
         <a href="mailto:wyu10amy@hotmail.com" title="Send Email"><i class="fas fa-envelope"></i></a>
         <a href="https://github.com/Curious-Yu" title="Link to GitHub"><i class="fa fa-github"></i></a>
         <a href="https://www.linkedin.com/in/wen-yu/" title="Link to Linkedin"><i class="fa fa-linkedin-square"></i></a>
-      </p>
+      </h3>
     </div>
   </div>
 </div>
@@ -55,7 +55,7 @@ title: Curious-Yu
       <div>
         {% for project in site.projects limit:6 %}
           <div class="banner">
-            <a href="{{ project.url }}">{{ project.title }}</a>
+            <p><a href="{{ project.url }}">{{ project.title }}</a><p>
           </div>
         {% endfor %}
       </div>
@@ -74,7 +74,7 @@ title: Curious-Yu
       <div>
         {% for problem in site.problems limit:6 %}
           <div class="banner">
-            <a href="{{ problem.url }}">{{ problem.title }}</a>
+            <p><a href="{{ problem.url }}">{{ problem.title }}</a><p>
           </div>
         {% endfor %}
       </div>
@@ -93,7 +93,7 @@ title: Curious-Yu
       <div class="scrollbanner">
         {% for post in site.posts limit:6 %}
           <div class="banner">
-            <a href="{{ post.url }}">{{ post.title }}</a>
+            <p><a href="{{ post.url }}">{{ post.title }}</a><p>
           </div>
         {% endfor %}
       </div>
