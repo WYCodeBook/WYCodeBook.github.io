@@ -23,6 +23,7 @@
 @media (max-width: 800px) {
   .navbar {
     top: 0;
+    bottom: auto;
   }
   .navbar > div {
     margin: 5px;
