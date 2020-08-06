@@ -33,7 +33,7 @@ title: Curious-Yu
 <div class="parallax" id="projects">
   <div class="text">
     <h1>Projects</h1>
-    <p>Body paragraph of topic 2</p>
+    <p>projects created</p>
     <div class="scrollbanner">
       {% for project in site.projects %}
         <div class="banner">
@@ -48,7 +48,7 @@ title: Curious-Yu
 <div class="block" id="solved-problems">
   <div class="text">
     <h1>Solved Problems</h1>
-    <p>Body paragraph of topic 3</p>
+    <p>solving practice problems using coding languages</p>
     <div class="scrollbanner">
       {% for problem in site.problems %}
         <div class="banner">
@@ -70,10 +70,6 @@ title: Curious-Yu
           <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
         </div>
       {% endfor %}
-    </div>
-    <div class="horizontal-scroll-wrapper squares">
-      {% for post in site.posts %}
-      <div><a href="{{ post.url }}">{{ post.title }}</a></div>
     </div>
   </div>
 </div>
