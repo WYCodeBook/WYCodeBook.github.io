@@ -9,7 +9,7 @@
   bottom: 0;
 }
 
-.flexbox > div {
+.navbar > div {
   background-color: none;
   width: 12%;
   margin: 10px;
