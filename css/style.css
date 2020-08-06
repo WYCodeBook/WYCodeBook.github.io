@@ -126,7 +126,7 @@ a:hover, a:active {
   transform: translate(-50%, -50%);
 }
 
-/* divider line */
+/* title divider line */
 .div-line {
   font-family: "Share Tech Mono", monospace;
   color: #fff;
