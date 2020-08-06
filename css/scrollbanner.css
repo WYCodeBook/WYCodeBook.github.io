@@ -1,12 +1,13 @@
 /*using this for scrolling banners*/
 .scrollbanner {
-  background-color: rgba(255, 244, 212, 0);
+  background-color: rgba(0,0,0,0);
   display: flex;
   width: auto;
   height: auto;
   overflow-x: auto;
   margin-left: 3%;
   margin-right: 3%;
+  border: 2px solid rgba(0,0,0,0.2);
 }
 
 .banner {
@@ -23,7 +24,7 @@
 /*mobile ready*/
 @media (max-width: 800px) {
   .scrollbanner {
-    border: 3px solid #cccccc;
+    border: 2px solid #cccccc;
     display: block;
     width: auto;
     height: 300px;
