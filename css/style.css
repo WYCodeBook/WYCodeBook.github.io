@@ -24,7 +24,7 @@ a:hover, a:active {
 
 .parallax {
   /* The the background */
-  background-color: none;
+  background-image: url("/img/bg4.png");
 
   /* Full height */
   height: 100%;
@@ -37,12 +37,6 @@ a:hover, a:active {
   position: relative;
 }
 
-
-.block {
-  background-color: rgb(241, 238, 231);
-  height: 100%;
-  position: relative;
-}
 
 .blockyellow {
   background-color: rgb(241, 238, 231);
