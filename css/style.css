@@ -25,7 +25,7 @@ a:hover, a:active {
 
 .parallax {
   /* The image used */
-  background-image: url("/img/starnight.png");
+  background-color: rgb(241, 238, 231);;
 
   /* Full height */
   height: 100%;
