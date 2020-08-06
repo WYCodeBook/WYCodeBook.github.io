@@ -12,12 +12,12 @@
   width: 500px;
   margin: 10px;
   text-align: center;
-  line-height: 50px;
+  line-height: 30px;
 }
 
 /*mobile ready*/
 @media (max-width: 800px) {
   .flexbox > div {
-  width: 300px;
+  width: 200px;
   }
 }
