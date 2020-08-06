@@ -86,14 +86,17 @@ title: Curious-Yu
 <div class="divider-left"></div>
 <div class="blockwhite" id="resources">
   <div class="text flexbox">
-    <h1>Resources</h1>
-    <p>notes taken and useful materials for coding</p>
-    <div class="scrollbanner">
-      {% for post in site.posts %}
-        <div class="banner">
-          <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
-        </div>
-      {% endfor %}
+    <div class="div-img"><img src="/img/resource.png" alt="WY resource" class="div-img-icon" title="Resources"></div>
+    <div>
+      <h1>Resources</h1>
+      <p>notes taken and useful materials for coding</p>
+      <div class="scrollbanner">
+        {% for post in site.posts %}
+          <div class="banner">
+            <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
+          </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>
