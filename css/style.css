@@ -27,7 +27,7 @@ a:hover, a:active {
 /* homepage */
 .blocktitle {
   /* The the background */
-  background-image: url("/img/bg6.png");
+  background-color: rgb(255, 255, 255);
 
   /* Full height */
   height: 100%;
