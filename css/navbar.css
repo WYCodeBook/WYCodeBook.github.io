@@ -22,10 +22,10 @@
 /*mobile ready*/
 @media (max-width: 800px) {
   .navbar {
-    display: inline-block;
-    width:auto;
-    height: 100vh;
     top: 0;
-    left:0;
+  }
+  .navbar > div {
+    margin: 5px;
+    padding: 5px;
   }
 }
