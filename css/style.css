@@ -68,7 +68,7 @@ body, html {
 /*scrollbar style*/
 /* width */
 .text > ::-webkit-scrollbar {
-  width: 6px;
+  width: 3px;
 }
 
 /* Track */
