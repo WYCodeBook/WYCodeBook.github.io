@@ -59,10 +59,18 @@ title: Curious-Yu
   </div>
 </div>
 
-<div class="parallax" id="topic4">
+<!--Resources-->
+<div class="parallax" id="resources">
   <div class="text">
-    <h1>Topic 4</h1>
-    <p>Body paragraph of topic 4</p>
+    <h1>Resources</h1>
+    <p>notes taken and useful materials for coding</p>
+    <div class="scrollbanner">
+      {% for post in site.posts %}
+        <div class="banner">
+          <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </div>
 
