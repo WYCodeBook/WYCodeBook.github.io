@@ -1,0 +1,20 @@
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  width:100vw;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: none;
+  position: fixed;
+  bottom: 0;
+}
+
+.navbar > div {
+  background-color: none;
+  width: auto;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  line-height: none;
+}
