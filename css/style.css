@@ -38,18 +38,6 @@ a:hover, a:active {
   position: relative;
 }
 
-/*mobile ready*/
-@media (max-width: 800px) {
-  .parallax {
-    background-image: url("/img/bg2.png");
-    min-height: 100vh;
-  }
-  .block {
-    min-height: 100vh;
-  }
-
-}
-
 
 .block {
   background-color: rgb(241, 238, 231);
