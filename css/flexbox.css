@@ -1,10 +1,10 @@
 .flexbox {
   display: flex;
   flex-wrap: wrap;
-  height: 200px;
+  height: auto;
   align-items: center;
   justify-content: center;
-  background-color: DodgerBlue;
+  background-color: none;
 }
 
 .flexbox > div {
