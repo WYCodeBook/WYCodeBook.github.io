@@ -6,7 +6,7 @@
 }
 
 .dropbtn {
-  background-color: rgb(241, 238, 231 0);
+  background-color: rgb(241, 238, 231, 0);
   color: rgb(109, 80, 131);
   padding: 16px;
   font-size: 30px;
@@ -33,7 +33,10 @@
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+  background-color: rgb(109, 80, 131);
+  color: rgb(241, 238, 231);
+}
 
 .dropdown:hover .dropdown-content {display: block;}
 
