@@ -49,14 +49,16 @@ title: Curious-Yu
 <div class="divider-left"></div>
 <div class="blockwhite" id="projects">
   <div class="text flexbox">
-    <h1 title="Projects">Projects</h1>
-    <p>projects created</p>
-    <div class="scrollbanner">
-      {% for project in site.projects %}
-        <div class="banner">
-          <h5><a href="{{ project.url }}">{{ project.title }}</a></h5>
-        </div>
-      {% endfor %}
+    <div class="div-img"><img src="/img/project.png" alt="WY project" class="div-img-icon" title="Projects"></div>
+    <div>
+      <h1 title="Projects">Projects</h1>
+      <div>
+        {% for project in site.projects %}
+          <div class="banner">
+            <h5><a href="{{ project.url }}">{{ project.title }}</a></h5>
+          </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>
@@ -65,14 +67,17 @@ title: Curious-Yu
 <div class="divider-right"></div>
 <div class="blockyellow" id="solved-problems">
   <div class="text flexbox">
-    <h1>Solved Problems</h1>
-    <p>solving practice problems using coding languages</p>
-    <div class="scrollbanner">
-      {% for problem in site.problems %}
-        <div class="banner">
-          <h5><a href="{{ problem.url }}">{{ problem.title }}</a></h5>
-        </div>
-      {% endfor %}
+    <div class="div-img"><img src="/img/project.png" alt="WY project" class="div-img-icon" title="Projects"></div>
+    <div>
+      <h1>Solved Problems</h1>
+      <p>solving practice problems using coding languages</p>
+      <div>
+        {% for problem in site.problems %}
+          <div class="banner">
+            <h5><a href="{{ problem.url }}">{{ problem.title }}</a></h5>
+          </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>
