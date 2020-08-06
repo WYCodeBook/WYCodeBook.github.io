@@ -5,6 +5,7 @@ body, html {
 }
 
 h1, h2, h3, h4, h5, h6, p {
+  font-family: "Share Tech Mono", monospace;
   color: rgb(109, 80, 131);
 }
 
@@ -22,7 +23,7 @@ a:hover, a:active {
 }
 
 .parallax {
-  /* The image used */
+  /* The the background */
   background-color: none;
 
   /* Full height */
