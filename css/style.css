@@ -53,6 +53,14 @@ a:hover, a:active {
   width: 100%;
 }
 
+/*mobile ready*/
+@media (max-width: 800px) {
+  .logo-icon {
+    height: 80%;
+    width: 80%;
+  }
+}
+
 .title {
   text-align: center;
   align-items: center;
