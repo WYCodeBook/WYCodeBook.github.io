@@ -44,6 +44,7 @@
 }
 
 .dropdown:hover .dropbtn {
+  background-color: rgb(241, 238, 231);
   color: rgb(109, 80, 131);
-  text-shadow: 2px 2px rgba(0,0,0,0.2);
+  text-shadow: 3px 3px rgba(0,0,0,0.2);
 }
