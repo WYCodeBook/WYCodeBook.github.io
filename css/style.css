@@ -125,33 +125,3 @@ a:hover, a:active {
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }
-
-/* title divider line */
-.div-line {
-  font-family: "Share Tech Mono", monospace;
-  color: #fff;
-  font-size: 6vh;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, .45);
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-.div-line::before,
-.div-line::after {
-    content: '';
-    display: block;
-    height: 0.09em;
-    min-width: 30vw;
-  }
-
-.div-line::before {
-    background: linear-gradient(to right, rgba(240,240,240,0), #fff);
-    margin-right: 4vh;
-  }
-
-.div-line::after {
-    background: linear-gradient(to left, rgba(240,240,240,0), #fff);
-    margin-left: 4vh;
-  }
-}
