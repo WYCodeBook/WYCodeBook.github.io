@@ -4,6 +4,10 @@ body, html {
   padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  color: rgb(109, 80, 131);
+}
+
 .parallax {
   /* The image used */
   background-image: url("/img/bg1.png");
