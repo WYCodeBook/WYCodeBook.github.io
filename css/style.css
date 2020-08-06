@@ -4,6 +4,8 @@ body, html {
   padding: 0;
 }
 
+
+/* font style */
 h1, h2, h3, h4, h5, h6, p {
   font-family: "Share Tech Mono", monospace;
   color: rgb(109, 80, 131);
@@ -12,7 +14,6 @@ h1, h2, h3, h4, h5, h6, p {
 a:link, a:visited{
   color: rgb(109, 80, 131);
   background-color: none;
-
   font-weight: bold;
 }
 
@@ -22,7 +23,9 @@ a:hover, a:active {
   text-decoration: underline;
 }
 
-.parallax {
+/* the body layout */
+/* homepage */
+.blocktitle {
   /* The the background */
   background-image: url("/img/bg6.png");
 
@@ -37,25 +40,7 @@ a:hover, a:active {
   position: relative;
 }
 
-
-.blockyellow {
-  background-color: rgb(241, 238, 231);
-  width:60%;
-  padding:10% 20% 10% 20%;
-  height: 100%;
-  position: relative;
-}
-
-.blockwhite {
-  background-color: rgb(255, 255, 255);
-  width:60%;
-  padding:10% 20% 10% 20%;
-  height: 100%;
-  position: relative;
-}
-
-
-
+/* homepage logo style */
 .logo {
   /*position: fixed;*/
   display: inline-block;
@@ -88,11 +73,47 @@ a:hover, a:active {
   transform: translate(-50%, -50%);
 }
 
+/* sections of the body */
+.blockyellow {
+  background-color: rgb(241, 238, 231);
+  width:60%;
+  padding:10% 20% 10% 20%;
+  height: 100%;
+  position: relative;
+}
+
+.blockwhite {
+  background-color: rgb(255, 255, 255);
+  width:60%;
+  padding:10% 20% 10% 20%;
+  height: 100%;
+  position: relative;
+}
+
+/* homepage logo style */
+.div-img {
+  /*position: fixed;*/
+  display: inline-block;
+}
+
+.div-img-icon {
+  height: 100%;
+  width: 100%;
+}
+
+/*mobile ready*/
+@media (max-width: 800px) {
+  .div-img-icon {
+    height: 80%;
+    width: 80%;
+  }
+}
+
 .text {
   text-align: center;
   align-items: center;
-  width: 70%;
-  padding: 2%;
+  display: flex;
+  padding: 10px;
   /*border: 5px solid gray;*/
 
   margin: auto;
