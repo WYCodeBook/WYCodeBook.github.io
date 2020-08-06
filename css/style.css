@@ -131,12 +131,12 @@ a:hover, a:active {
 
 /* div-line */
 .div-line {
-  height: 20px
-  position: relative
-  width: 100%
-  background: radial-gradient(ellipse farthest-side at top center, color, transparent)
+  height: 20px;
+  position: relative;
+  width: 100%;
+  background: radial-gradient(ellipse farthest-side at top center, color, transparent);
 
-  &:before
+  &:before {
     content: ""
     display: block
     position: absolute
@@ -144,5 +144,5 @@ a:hover, a:active {
     right: 0
     left: 0
     height: 3px
-    background: linear-gradient(left, transparent, color2, color2, transparent)
+    background: linear-gradient(left, transparent, color2, color2, transparent)}
   }
