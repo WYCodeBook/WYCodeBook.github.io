@@ -6,8 +6,11 @@ body, html {
 
 
 /* font style */
+
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
 h1, h2, h3, h4, h5, h6, p {
-  font-family: "Share Tech Mono", monospace;
+  font-family: 'Play', sans-serif;
   color: rgb(109, 80, 131);
 }
 
