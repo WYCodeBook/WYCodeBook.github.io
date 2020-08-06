@@ -1,4 +1,4 @@
-.flex-container {
+.flexbox {
   display: flex;
   flex-wrap: wrap;
   height: 200px;
@@ -7,7 +7,7 @@
   background-color: DodgerBlue;
 }
 
-.flex-container > div {
+.flexbox > div {
   background-color: #f1f1f1;
   width: 500px;
   margin: 10px;
