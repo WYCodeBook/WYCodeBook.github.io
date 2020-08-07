@@ -25,6 +25,11 @@ a:hover, a:active {
   font-weight: bold;
 }
 
+a::after {
+  font-family: "FontAwesome";
+  content: "\f105";
+}
+
 /* the body layout */
 /* homepage */
 .blocktitle {
