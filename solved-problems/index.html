@@ -1,0 +1,17 @@
+---
+layout: default
+title: solved-problems
+---
+
+<div class="pagetitle">
+  <h1>Solved Problems</h1>
+  <img src="/img/problem2.png" alt="solved-problems" title="solved-problems">
+</div>
+
+<div class="pagebody">
+    {% for problem in site.problems %}
+      <div>
+        <a href="{{ problem.url }}">{{ problem.title }}<hr></a>
+      </div>
+    {% endfor %}
+</div>

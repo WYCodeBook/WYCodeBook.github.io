@@ -55,12 +55,14 @@ title: Curious-Yu
       <h1 title="Projects">Projects</h1>
       <hr>
       <div>
-        {% for project in site.projects limit:6 %}
+        {% for project in site.projects limit:3 %}
           <div class="banner">
-            <p><a href="{{ project.url }}">{{ project.title }}</a><p>
+            <p><a href="{{ project.url }}">{{ project.title }}</a> > <p>
           </div>
         {% endfor %}
       </div>
+      <hr>
+      <h6><a href="/projects" title="more projects">More ></a><h6>
     </div>
   </div>
 </div>
@@ -75,12 +77,14 @@ title: Curious-Yu
       <hr>
       <p>solving practice problems using coding languages</p>
       <div>
-        {% for problem in site.problems limit:6 %}
+        {% for problem in site.problems limit:3 %}
           <div class="banner">
             <p><a href="{{ problem.url }}">{{ problem.title }}</a><p>
           </div>
         {% endfor %}
       </div>
+      <hr>
+      <h6><a href="/solved-problems" title="more solved problems">More ></a><h6>
     </div>
   </div>
 </div>
@@ -95,12 +99,14 @@ title: Curious-Yu
       <hr>
       <p>notes taken and useful materials for coding</p>
       <div class="scrollbanner">
-        {% for post in site.posts limit:6 %}
+        {% for post in site.posts limit:3 %}
           <div class="banner">
             <p><a href="{{ post.url }}">{{ post.title }} > </a><p>
           </div>
         {% endfor %}
       </div>
+      <hr>
+      <h6><a href="/resources" title="more resources">More ></a><h6>
     </div>
   </div>
 </div>
