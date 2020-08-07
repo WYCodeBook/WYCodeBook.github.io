@@ -26,8 +26,7 @@ a:hover, a:active {
 }
 
 a::after {
-  font-family: "FontAwesome";
-  content: "\f105";
+  content: ">";
 }
 
 /* the body layout */
@@ -159,7 +158,10 @@ hr {
   width: 100vw;
   padding: 10% 0%;
   height:80%;
-  font-size:10vw;
+}
+
+.pagetitle > h1 {
+  font-size: 10vw;
 }
 
 .pagetitle > img {
