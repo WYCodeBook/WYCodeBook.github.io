@@ -2,7 +2,6 @@
 layout: projects
 title: "Portfolio Project"
 date: "2018-06-12 00:31:57 -0700"
-categories: Projects
 product: https://curious-yu.github.io/WY_Portfolio/
 ---
 

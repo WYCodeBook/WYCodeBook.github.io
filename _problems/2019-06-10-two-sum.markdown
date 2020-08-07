@@ -2,7 +2,6 @@
 layout: post
 title: "Two Sum"
 date: "2019-06-10 22:46:14 -0700"
-categories: Problems
 ---
 
 ## Problem:

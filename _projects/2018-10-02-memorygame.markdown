@@ -2,7 +2,6 @@
 layout: projects
 title: "FEND Project: Memory Game"
 date: "2018-10-02 21:33:39 -0700"
-categories: Projects
 product: https://curious-yu.github.io/fend-project-memory-game/
 ---
 

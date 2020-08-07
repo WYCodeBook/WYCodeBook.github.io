@@ -2,7 +2,6 @@
 layout: post
 title: "alternatingSort"
 date: "2019-08-22 02:17:50 -0700"
-categories: Problems
 ---
 
 ## Problem:

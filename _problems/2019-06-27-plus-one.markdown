@@ -2,7 +2,6 @@
 layout: post
 title: "Plus One"
 date: "2019-06-27 22:52:04 -0700"
-categories: Problems
 ---
 
 ## Problem:
