@@ -173,6 +173,7 @@ hr {
 @media (max-width: 800px) {
   .pagetitle {
     padding: 25% 0%;
+    width: 100vw;
   }
   .pagetitle > h1 {
     font-size: auto;
@@ -228,6 +229,7 @@ hr {
 @media (max-width: 800px) {
   .posttitle {
     padding: 25% 0%;
+    width: 100vw;
   }
   .posttitle > h1 {
     font-size: auto;
@@ -250,7 +252,6 @@ hr {
 @media (max-width: 800px) {
   .postbody > div {
     background-color: none;
-    width: 100%;
     margin: 10%;
     text-align: left;
   }
