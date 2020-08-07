@@ -131,9 +131,9 @@ a:hover, a:active {
 
 /* div-line */
 hr {
-  height:60px;
-  width: 60%;
+  height:10px;
+  width: 20%;
   border:none;
   border-radius: 6px;
-  background:linear-gradient(rgb(241, 238, 231, 0.3), rgb(241, 238, 231), rgb(109, 80, 131), rgb(241, 238, 231), rgb(241, 238, 231, 0.3));
+  background:linear-gradient(rgb(241, 238, 231, 0), rgb(109, 80, 131, 0.5), rgb(109, 80, 131), rgb(109, 80, 131, 0.5), rgb(241, 238, 231, 0));
 }
