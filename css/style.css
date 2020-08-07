@@ -150,11 +150,20 @@ hr {
 /* individual pages */
 .pagetitle {
   text-align: center;
+  background-color: rgb(241, 238, 231);
   width: 100vw;
+  padding: 10% 0%;
+  height:80%;
 }
 
 .pagetitle > img {
   width: 60%;
-  top:0;
-  left:0;
+}
+
+/*mobile ready*/
+@media (max-width: 800px) {
+  .pagetitle {
+    padding: 15% 0%;
+    height:60%;
+  }
 }
