@@ -191,6 +191,10 @@ hr {
   text-align: center;
 }
 
+.pagebody a::after {
+  content: " > ";
+}
+
 /*mobile ready*/
 @media (max-width: 800px) {
   .pagebody > div {
