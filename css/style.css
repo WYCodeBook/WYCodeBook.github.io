@@ -150,10 +150,11 @@ hr {
 /* individual pages */
 .pagetitle {
   text-align: center;
-  align-items: center;
-  column-count: 2;
+  width: 100vw;
 }
 
 .pagetitle > img {
   width: 60%;
+  top:0;
+  left:0;
 }
