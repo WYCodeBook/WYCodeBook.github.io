@@ -237,20 +237,21 @@ hr {
 .postbody {
   background-color: none;
   margin:10%;
-  text-align: center;
+  text-align: right;
   align-items: center;
 }
 
 .postbody a::after {
-  content: " > ";
+  font-family: FontAwesome;
+  content: "  \f101";
 }
 
 /*mobile ready*/
 @media (max-width: 800px) {
-  .pagebody > div {
+  .postbody > div {
     background-color: none;
     width: 100%;
     margin: 10%;
-    text-align: center;
+    text-align: right;
   }
 }
