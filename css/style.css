@@ -230,3 +230,24 @@ hr {
     font-size: auto;
   }
 }
+
+.postbody {
+  background-color: none;
+  margin:10%;
+  text-align: center;
+  align-items: center;
+}
+
+.postbody a::after {
+  content: " > ";
+}
+
+/*mobile ready*/
+@media (max-width: 800px) {
+  .pagebody > div {
+    background-color: none;
+    width: 100%;
+    margin: 10%;
+    text-align: center;
+  }
+}
