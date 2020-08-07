@@ -25,10 +25,6 @@ a:hover, a:active {
   font-weight: bold;
 }
 
-a::after {
-  content: ">";
-}
-
 /* the body layout */
 /* homepage */
 .blocktitle {
@@ -140,6 +136,10 @@ a::after {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
+}
+
+.test a::after {
+  content: ">";
 }
 
 /* div-line */
