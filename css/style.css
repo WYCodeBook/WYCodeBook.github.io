@@ -130,19 +130,10 @@ a:hover, a:active {
 }
 
 /* div-line */
-.div-line {
-  height: 20px;
-  position: relative;
-  width: 100%;
-  background: radial-gradient(ellipse farthest-side at top center, color, transparent);
-
-  &:before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0px;
-    right: 0;
-    left: 0;
-    height: 3px;
-    background: linear-gradient(left, transparent, color2, color2, transparent);}
-  }
+hr {
+  height:60px;
+  width: 60%;
+  border:none;
+  border-radius: 6px;
+  background:linear-gradient(grey, white);
+}
