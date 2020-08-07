@@ -135,5 +135,5 @@ hr {
   width: 60%;
   border:none;
   border-radius: 6px;
-  background:linear-gradient(grey, white);
+  background:linear-gradient(rgb(241, 238, 231, 0.3), rgb(241, 238, 231), rgb(109, 80, 131), rgb(241, 238, 231), rgb(241, 238, 231, 0.3));
 }
