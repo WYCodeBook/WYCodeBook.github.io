@@ -156,12 +156,12 @@ hr {
   text-align: center;
   background-color: rgb(241, 238, 231);
   width: 100vw;
-  padding: 10% 0%;
+  padding: 5% 0%;
   height:80%;
 }
 
 .pagetitle > h1 {
-  font-size: 6vw;
+  font-size: 8vw;
 }
 
 .pagetitle > img {
@@ -173,6 +173,9 @@ hr {
   .pagetitle {
     padding: 25% 0%;
     height:auto;
+  }
+  .pagetitle > h1 {
+    font-size: auto;
   }
 }
 
