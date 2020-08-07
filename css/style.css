@@ -96,6 +96,16 @@ a:hover, a:active {
   position: relative;
 }
 
+/*mobile ready*/
+@media (max-width: 800px) {
+  .blockyellow {
+    height: 100%;
+  }
+  .blockwhite {
+    height: 100%;
+  }
+}
+
 /* homepage logo style */
 .div-img {
   /*position: fixed;*/
