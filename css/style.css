@@ -163,7 +163,7 @@ hr {
 /*mobile ready*/
 @media (max-width: 800px) {
   .pagetitle {
-    padding: 15% 0%;
+    padding: 15% 0% 0% 0%;
     height:60%;
   }
 }
@@ -172,12 +172,22 @@ hr {
   display: flex;
   flex-wrap: wrap;
   background-color: none;
+  margin:10%;
 }
 
 .pagebody > div {
   background-color: none;
-  width: 100px;
-  margin: 10px;
+  width: 20%;
+  margin: 2%;
   text-align: center;
-  line-height: 75px;
+}
+
+/*mobile ready*/
+@media (max-width: 800px) {
+  .pagebody > div {
+    background-color: none;
+    width: 100%;
+    margin: 10%;
+    text-align: center;
+  }
 }
