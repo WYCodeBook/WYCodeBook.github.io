@@ -6,6 +6,7 @@ body, html {
 
 /* font style */
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.7.0/css/all.css');
 
 h1, h2, h3, h4, h5, h6, p {
   font-family: 'Play', sans-serif;
