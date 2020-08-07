@@ -167,3 +167,8 @@ hr {
     height:60%;
   }
 }
+
+.pagebody {
+  column-count: 3;
+  column-gap: 3%;
+}
