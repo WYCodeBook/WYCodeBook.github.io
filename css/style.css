@@ -140,7 +140,8 @@ a:hover, a:active {
 }
 
 .text a::after {
-  content: " > ";
+  font-family: FontAwesome;
+  content: "  \f101";
 }
 
 /* div-line */
@@ -194,7 +195,7 @@ hr {
 
 .pagebody a::after {
   font-family: FontAwesome;
-  content: "\f101";
+  content: "  \f101";
 }
 
 /*mobile ready*/
