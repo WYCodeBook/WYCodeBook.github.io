@@ -20,8 +20,8 @@ title: Resources
 <div class="pagebody">
 {% assign sorted_tags = site.tags | sort: tag.title %}
 {% for tag in sorted_tags %}
-  <h2 id="{{ tag[0] }}">{{ tag[0] }}</h2>
-  <h4>
+  <h3 id="{{ tag[0] }}">{{ tag[0] }}</h3>
+  <p>
     <ul class="post-list">
       {% assign pages_list = tag[1] %}
       {% for post in pages_list %}
@@ -34,6 +34,6 @@ title: Resources
       {% assign pages_list = nil %}
       {% assign group = nil %}
     </ul>
-  </h4>
+  </p>
 {% endfor %}
 </div>
