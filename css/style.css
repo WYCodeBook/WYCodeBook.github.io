@@ -17,13 +17,14 @@ h1, h2, h3, h4, h5, h6, p {
 a:link, a:visited{
   color: rgb(109, 80, 131);
   background-color: none;
-  font-weight: bold;
+  text-decoration: none;
 }
 
 a:hover, a:active {
   color: rgb(241, 238, 231);
   background-color: rgb(109, 80, 131);
   text-decoration: underline;
+  font-weight: bold;
 }
 
 /* the body layout */
