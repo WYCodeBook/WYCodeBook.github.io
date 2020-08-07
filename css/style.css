@@ -163,8 +163,8 @@ hr {
 /*mobile ready*/
 @media (max-width: 800px) {
   .pagetitle {
-    padding: 20% 0% 0% 0%;
-    height:60%;
+    padding: 25% 0%;
+    height:auto;
   }
 }
 
