@@ -169,6 +169,15 @@ hr {
 }
 
 .pagebody {
-  column-count: 3;
-  column-gap: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: none;
+}
+
+.pagebody > div {
+  background-color: none;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
 }
