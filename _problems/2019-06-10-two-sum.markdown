@@ -28,7 +28,7 @@ return [0, 1].
  * @param {number[]} nums
  * @param {number} target
  * @return {number[]}
- */
+**/
 const twoSum = function(nums, target) {
     let number = [];
     for (let x=0; x<=nums.length; x++) {
