@@ -20,20 +20,22 @@ title: Resources
 <div class="pagebody">
 {% assign sorted_tags = site.tags | sort: tag.title %}
 {% for tag in sorted_tags %}
-  <h3 id="{{ tag[0] }}">{{ tag[0] }}</h3>
-  <p>
-    <ul class="post-list">
-      {% assign pages_list = tag[1] %}
-      {% for post in pages_list %}
-        {% if post.title != null %}
-        {% if group == null or group == post.group %}
-        <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
-        {% endif %}
-        {% endif %}
-      {% endfor %}
-      {% assign pages_list = nil %}
-      {% assign group = nil %}
-    </ul>
-  </p>
+  <div>
+    <h3 id="{{ tag[0] }}">{{ tag[0] }}</h3>
+    <p>
+      <ul class="post-list">
+        {% assign pages_list = tag[1] %}
+        {% for post in pages_list %}
+          {% if post.title != null %}
+          {% if group == null or group == post.group %}
+          <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
+          {% endif %}
+        {% endfor %}
+        {% assign pages_list = nil %}
+        {% assign group = nil %}
+      </ul>
+    </p>
+  </div>
 {% endfor %}
 </div>
