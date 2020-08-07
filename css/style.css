@@ -192,7 +192,8 @@ hr {
 }
 
 .pagebody a::after {
-  content: " > ";
+  font-family: FontAwesome;
+  content: "\f101";
 }
 
 /*mobile ready*/
