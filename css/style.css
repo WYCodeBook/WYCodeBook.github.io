@@ -136,5 +136,5 @@ hr {
   border:none;
   border-radius: 6px;
   padding: 10px;
-  background:linear-gradient(rgb(241, 238, 231, 0), rgb(109, 80, 131, 0.5), rgb(109, 80, 131), rgb(109, 80, 131, 0.5), rgb(241, 238, 231, 0));
+  background:linear-gradient(rgb(109, 80, 131, 0), rgb(109, 80, 131, 0.5), rgb(109, 80, 131), rgb(109, 80, 131, 0.5), rgb(109, 80, 131, 0));
 }
