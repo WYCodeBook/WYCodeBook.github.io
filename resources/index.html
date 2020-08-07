@@ -3,13 +3,15 @@ layout: default
 title: Resources
 ---
 
-<h1 id="Resources"> ⚙️ Resources ⚙️ </h1>
+<div class="pagetitle">
+  <h1>Projects</h1>
+  <img src="/img/resource2.png" alt="resources" title="resources">
+</div>
 
-<h4><ul>
-  {% assign sorted_post = site.categories.Resources | sort: "title" %}
-  {% for post in sorted_post %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul></h4>
+<div class="pagebody">
+    {% for post in site.posts %}
+      <div>
+        <a href="{{ post.url }}">{{ post.title }}<hr></a>
+      </div>
+    {% endfor %}
+</div>
