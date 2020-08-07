@@ -237,8 +237,8 @@ hr {
 .postbody {
   background-color: none;
   margin:10%;
-  text-align: right;
-  align-items: center;
+  text-align: left;
+  align-items: left;
 }
 
 .postbody a::after {
@@ -252,6 +252,6 @@ hr {
     background-color: none;
     width: 100%;
     margin: 10%;
-    text-align: right;
+    text-align: left;
   }
 }
