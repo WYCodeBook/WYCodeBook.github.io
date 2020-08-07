@@ -131,7 +131,7 @@ a:hover, a:active {
   display: flex;
   padding: 10px;
   margin: auto;
-  line-height: 40px;
+  line-height: 30px;
 
   position: absolute;
   top: 50%;
