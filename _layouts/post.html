@@ -3,14 +3,22 @@ layout: default
 title: post
 ---
 
-    <!--post-->
+<div class="posttitle">
+  <h1 align="center">{{page.title}}</h1>
+  <img src="/img/posttitle.png" alt="{{page.title}}">
+</div>
+
+
+
+
+<!--post-->
+<div>
+  <div>
+		<h1 align="center">{{page.title}}</h1>
+    <p align="center">{{page.tags}}</p>
+    <hr>
     <div>
-      <div>
-    		<h1 align="center">{{page.title}}</h1>
-        <p align="center">{{page.tags}}</p>
-        <hr>
-        <div>
-        {{ content }}
-        </div>
-      </div>
+    {{ content }}
     </div>
+  </div>
+</div>
