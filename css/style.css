@@ -157,7 +157,6 @@ hr {
   background-color: rgb(241, 238, 231);
   width: 100vw;
   padding: 5% 0%;
-  height:80%;
 }
 
 .pagetitle > h1 {
@@ -172,7 +171,6 @@ hr {
 @media (max-width: 800px) {
   .pagetitle {
     padding: 25% 0%;
-    height:auto;
   }
   .pagetitle > h1 {
     font-size: auto;
