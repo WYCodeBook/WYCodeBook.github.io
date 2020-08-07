@@ -155,7 +155,7 @@ hr {
 .pagetitle {
   text-align: center;
   background-color: rgb(241, 238, 231);
-  width: 100vw;
+  width: 100%;
   padding: 5% 0%;
 }
 
@@ -205,7 +205,7 @@ hr {
 .posttitle {
   text-align: center;
   background-color: rgb(241, 238, 231);
-  width: 100vw;
+  width: 100%;
   padding: 5% 0%;
 }
 
