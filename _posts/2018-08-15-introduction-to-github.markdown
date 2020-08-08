@@ -184,14 +184,14 @@ Click the Close issue button at the bottom of the issue
 
   - When you’re done naming the file, add the following content to your file:
 
-      {% highlight html %}
-      ---
-      layout: slide
-      title: “Welcome to our second slide!”
-      ---
-      Your test
-      Use the left arrow to go back!
-      {% endhighlight %}
+  {% highlight html %}
+  ---
+  layout: slide
+  title: “Welcome to our second slide!”
+  ---
+  Your test
+  Use the left arrow to go back!
+  {% endhighlight %}
 
   - After adding the text, you can commit the change by entering a commit message in the text-entry field below the file edit view.
 
