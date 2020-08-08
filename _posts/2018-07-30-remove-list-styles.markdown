@@ -2,9 +2,7 @@
 layout: post
 title: "Remove List Styles"
 date: "2018-07-30 23:58:08 -0700"
-categories: Notes
 tags: CSS
-description: How to remove all the styling for lists?
 ---
 
 

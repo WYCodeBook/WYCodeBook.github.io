@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "Git Repo"
+title: "Git Repo Commands"
 date: "2018-09-09 14:21:30 -0700"
-categories: Notes
 tags: GitHub
-description: Helpful commands
 ---
 
 `ls` - used to list files and directories

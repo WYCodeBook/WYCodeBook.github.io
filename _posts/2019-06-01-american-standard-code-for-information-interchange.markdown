@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ASCII"
+title: "American Standard Code for Information Interchange"
 date: "2019-06-01 23:25:15 -0700"
 tags: ASCII
 categories: Notes

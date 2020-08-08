@@ -2,10 +2,10 @@
 layout: post
 title: "JavaScript 30 Days Challenge"
 date: "2018-08-23 17:56:16 -0700"
-categories: Notes
-tags: [Challenge, JavaScript30DaysChallenge]
-description: This is a 30 days JavaScript coding challenge from https://javascript30.com/ by Wes Bos
+tags: 30 days coding challenge
 ---
+
+This is a 30 days JavaScript coding challenge from https://javascript30.com/ by Wes Bos
 
 ## Who is it for?
 

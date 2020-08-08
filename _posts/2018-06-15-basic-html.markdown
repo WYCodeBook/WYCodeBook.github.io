@@ -3,7 +3,6 @@ layout: post
 title: "Basic HTML Structure"
 date: "2018-06-15 00:05:39 -0700"
 tags: HTML
-
 ---
 
 {% highlight html %}

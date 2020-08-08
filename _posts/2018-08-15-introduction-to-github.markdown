@@ -2,10 +2,10 @@
 layout: post
 title: "Introduction to GitHub"
 date: "2018-08-15 22:25:14 -0700"
-categories: Notes
-tags: GitHub
-description: GitHub Learning Lab Course 1
+tags: GitHub Learning Lab Course
 ---
+
+GitHub Learning Lab Course 1
 
 In this course, you’ll learn how to:
 
