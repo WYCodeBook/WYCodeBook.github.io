@@ -280,6 +280,7 @@ iframe {
   display: flex;
   flex-wrap: wrap;
   background-color: rgb(241, 238, 231);
+  margin: 10vw 0;
 }
 
 .postnav > div {
@@ -287,4 +288,5 @@ iframe {
   width: 20%;
   margin: 5%;
   text-align: center;
+  flex-grow: 1;
 }
