@@ -10,10 +10,9 @@ timezone: America/Los_Angeles
 
 excerpt_separator: "<!-- more -->"
 
+permalink: /:categories/:year/:month/:day/:title:output_ext
+
 collections:
-  post:
-    output: true
-    permalink: /resources/:title/
 
   problems:
     output: true
