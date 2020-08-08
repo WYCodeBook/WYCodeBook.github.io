@@ -13,7 +13,7 @@ excerpt_separator: "<!-- more -->"
 collections:
   post:
     output: true
-    permalink: /resources/:path/
+    permalink: /resources/:title/
 
   problems:
     output: true
