@@ -260,7 +260,7 @@ hr {
 /* styling iframe */
 .projectframe {
   text-align: center;
-  align-items: left;
+  align-items: center;
   padding: 5%;
 }
 
@@ -269,9 +269,8 @@ iframe {
   overflow: scroll;
   overflow-y:hidden;
   border-style: ridge none;
-  min-width: 100%;
-  max-width: 60vw;
-  height: 80vh;
+  width: 60vw;
+  height: 70vh;
   margin: auto;
-  padding: 5%;
+  padding: 2%;
 }
