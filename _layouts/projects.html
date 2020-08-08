@@ -20,15 +20,17 @@ title: projects
 <div class="postnav">
   <div>
     {% if page.previous.url %}
-    <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+    <i class="fas fa-long-arrow-alt-left"></i><a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
     {% endif %}
   </div>
   <div>
-    <a href="{{ page.collections.url }}">{{ page.collections.title }}</a>
+    <p><a href="/projects" title="Go to Project List">More Projects</a></p>
+    <p><a href="/problems" title="Go to Solved Problems">More Solved Problems</a></p>
+    <p><a href="/resources" title="Go to Resources">More Resources</a></p>
   </div>
   <div>
     {% if page.next.url %}
-      <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+      <a href="{{ page.next.url }}">{{ page.next.title }}</a><i class="fas fa-long-arrow-alt-right"></i>
     {% endif %}
   </div>
 </div>
