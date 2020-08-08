@@ -269,8 +269,8 @@ iframe {
   overflow: scroll;
   overflow-y:hidden;
   border-style: ridge none;
-  width: 60vw;
-  height: 70vh;
+  width: 70vw;
+  height: 50vh;
   margin: auto;
   padding: 2%;
 }
