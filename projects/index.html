@@ -8,10 +8,10 @@ title: projects
   <img src="/img/project2.png" alt="projects">
 </div>
 
-<div class="pagebody" title="list of projects">
+<div class="pagebody">
     {% for project in site.projects %}
       <div>
-        <a href="{{ project.url }}">{{ project.title }}</a>
+        <a href="{{ project.url }}" title="{{ project.title }}">{{ project.title }}</a>
       </div>
     {% endfor %}
 </div>
