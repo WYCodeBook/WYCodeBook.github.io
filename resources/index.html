@@ -4,11 +4,11 @@ title: Resources
 ---
 
 <div class="pagetitle">
-  <h1>Resources</h1>
-  <img src="/img/resource2.png" alt="resources" title="resources">
+  <h1 title="resources">Resources</h1>
+  <img src="/img/resource2.png" alt="resources">
 </div>
 
-<div class="pagebody">
+<div class="pagebody" title="list of resources">
 {% assign sorted_tags = site.tags | sort: tag.title %}
 {% for tag in sorted_tags %}
   <div>

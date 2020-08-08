@@ -4,11 +4,11 @@ title: projects
 ---
 
 <div class="pagetitle">
-  <h1>Projects</h1>
-  <img src="/img/project2.png" alt="projects" title="projects">
+  <h1 title="projects">Projects</h1>
+  <img src="/img/project2.png" alt="projects">
 </div>
 
-<div class="pagebody">
+<div class="pagebody" title="list of projects">
     {% for project in site.projects %}
       <div>
         <a href="{{ project.url }}">{{ project.title }}</a>
