@@ -18,7 +18,9 @@ collections:
   problems:
     output: true
     permalink: /problems/:title/
+    title: Solved Problems
 
   projects:
     output: true
     permalink: /projects/:title/
+    title: Projects
