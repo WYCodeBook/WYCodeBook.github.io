@@ -5,7 +5,7 @@ date: "2019-08-20 20:25:16 -0700"
 tags: [JavaScript, Books]
 ---
 
-Cracking the Coding Interview by Gayle Laakmann McDowell
+# Cracking the Coding Interview by Gayle Laakmann McDowell
 
 
 [CRACKING the CODING INTERVIEW --- Main Website](http://www.crackingthecodinginterview.com/)
