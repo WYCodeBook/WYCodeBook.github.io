@@ -256,3 +256,16 @@ hr {
     text-align: left;
   }
 }
+
+/* styling iframe */
+
+iframe {
+  background: none;
+  overflow: scroll;
+  overflow-y:hidden;
+  border-style: ridge none;
+  width: fit-content;
+  max-width: 60vw;
+  height: auto;
+  margin: auto;  
+}
