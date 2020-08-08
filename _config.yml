@@ -10,7 +10,7 @@ timezone: America/Los_Angeles
 
 excerpt_separator: "<!-- more -->"
 
-permalink: /:title/
+permalink: /resources/:title/
 
 collections:
   problems:
