@@ -17,8 +17,8 @@ collections:
 
   problems:
     output: true
-    permalink: /problems/:path/
+    permalink: /problems/:title/
 
   projects:
     output: true
-    permalink: /projects/:path/
+    permalink: /projects/:title/

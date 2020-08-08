@@ -274,3 +274,18 @@ iframe {
   margin: auto;
   padding: 2%;
 }
+
+/* each post/project page's previous and next buttons */
+.postnav {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(241, 238, 231);
+  margin:10%;
+}
+
+.postnav > div {
+  background-color: none;
+  width: 30%;
+  margin: 10%;
+  text-align: center;
+}
