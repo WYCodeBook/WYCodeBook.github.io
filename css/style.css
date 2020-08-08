@@ -258,6 +258,10 @@ hr {
 }
 
 /* styling iframe */
+.projectframe {
+  text-align: center;
+}
+
 iframe {
   background: none;
   overflow: scroll;
