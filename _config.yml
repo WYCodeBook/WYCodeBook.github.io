@@ -11,7 +11,7 @@ timezone: America/Los_Angeles
 excerpt_separator: "<!-- more -->"
 
 collections:
-  resources:
+  post:
     output: true
     permalink: /resources/:path/
 
