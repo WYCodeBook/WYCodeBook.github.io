@@ -5,7 +5,7 @@ date: "2018-08-23 17:17:30 -0700"
 tags: [GitHub Learning Lab Course]
 ---
 
-GitHub Learning Lab Course 3
+# GitHub Learning Lab Course 3
 
 🔍 [Step 1](#step-1) 🔍 [Step 2](#step-2) 🔍 [Step 3](#step-3) 🔍 [Step 4](#step-4) 🔍 [Step 5](#step-5) 🔍 [Step 6](#step-6) 🔍 [Step 7](#step-7) 🔍 [Step 8](#step-8)
 

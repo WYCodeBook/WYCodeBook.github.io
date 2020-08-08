@@ -5,7 +5,7 @@ date: "2018-08-16 17:25:40 -0700"
 tags: [GitHub Learning Lab Course]
 ---
 
-GitHub Learning Lab Course 2
+# GitHub Learning Lab Course 2
 
 This course will walk you through creating and using headings more effectively, organizing thoughts in bulleted lists, and showing how much work you’ve completed with checklists. You can even use Markdown to add some depth to your work with the help of emoji, images, and links. See a word you don't understand? We've included an emoji 📖 next to some key terms. Click on it to see its definition.
 

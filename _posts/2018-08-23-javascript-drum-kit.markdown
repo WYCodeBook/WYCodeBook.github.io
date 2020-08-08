@@ -5,7 +5,7 @@ date: "2018-08-23 20:25:02 -0700"
 tags: [30 days coding challenge]
 ---
 
-JavaScript coding challenge DAY 1
+# JavaScript coding challenge DAY 1
 
 ## [DAY 1]((https://github.com/WYCodeBook/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit))
 

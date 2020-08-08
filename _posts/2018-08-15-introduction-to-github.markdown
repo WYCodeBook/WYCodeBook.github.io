@@ -5,7 +5,7 @@ date: "2018-08-15 22:25:14 -0700"
 tags: [GitHub Learning Lab Course]
 ---
 
-GitHub Learning Lab Course 1
+# GitHub Learning Lab Course 1
 
 In this course, you’ll learn how to:
 
