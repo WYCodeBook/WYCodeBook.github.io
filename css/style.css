@@ -261,6 +261,7 @@ hr {
 .projectframe {
   text-align: center;
   align-items: left;
+  padding: 5%;
 }
 
 iframe {
