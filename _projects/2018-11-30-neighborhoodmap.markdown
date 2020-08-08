@@ -12,7 +12,7 @@ product: https://curious-yu.github.io/Neighborhood-Map/
 
 
 
-# Neighborhood Map Project (REACT)
+## Neighborhood Map Project (REACT)
 
 This Udacity-FEND project is a single page application featuring a map of a specific neighborhood. I will add functionality to this map including highlighted local Starbucks (of course, who doesn't need coffee), third-party data about those locations and various ways to browse the content.
 

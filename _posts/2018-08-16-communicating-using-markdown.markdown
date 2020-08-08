@@ -2,7 +2,7 @@
 layout: post
 title: "Communicating using Markdown"
 date: "2018-08-16 17:25:40 -0700"
-tags: GitHub Learning Lab Course
+tags: [GitHub Learning Lab Course]
 ---
 
 GitHub Learning Lab Course 2

@@ -2,7 +2,7 @@
 layout: post
 title: "Migrating your repository to GitHub"
 date: "2018-08-24 20:08:55 -0700"
-tags: GitHub Learning Lab Course
+tags: [GitHub Learning Lab Course]
 ---
 
 GitHub Learning Lab Course 4

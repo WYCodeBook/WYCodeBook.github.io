@@ -2,7 +2,7 @@
 layout: post
 title: "Output Category List"
 date: "2019-05-02 16:48:07 -0700"
-tags: Jekyll
+tags: [Jekyll]
 ---
 
 A post from Stack Overflow about how to list posts by categories with post count:

@@ -2,8 +2,7 @@
 layout: post
 title: "Scott H Young: MIT CS Challenge"
 date: "2019-07-28 13:34:53 -0700"
-categories: Notes
-tags: [Challenge, MIT CS Challenge]
+tags: [MIT CS Challenge]
 ---
 
 Scott H Young completed the entire 4-year MIT curriculum for computer science, without taking any classes.

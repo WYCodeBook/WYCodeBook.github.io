@@ -2,7 +2,7 @@
 layout: post
 title: "JavaScript Drum Kit"
 date: "2018-08-23 20:25:02 -0700"
-tags: 30 days coding challenge
+tags: [30 days coding challenge]
 ---
 
 JavaScript coding challenge DAY 1

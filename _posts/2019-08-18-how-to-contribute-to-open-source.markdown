@@ -2,13 +2,12 @@
 layout: post
 title: "How to contribute to open source?"
 date: "2019-08-18 01:23:21 -0700"
-tags: GitHub
-categories: Notes
+tags: [GitHub]
 ---
 
-#### This is a list of resources for people who are [new to contributing to Open Source](https://github.com/freeCodeCamp/how-to-contribute-to-open-source).
+This is a list of resources for people who are [new to contributing to Open Source](https://github.com/freeCodeCamp/how-to-contribute-to-open-source).
 
-## Contents
+Contents
 
 1. [Contributing to Open Source in general](https://github.com/freeCodeCamp/how-to-contribute-to-open-source#contributing-to-open-source-in-general)
 

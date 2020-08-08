@@ -2,7 +2,7 @@
 layout: post
 title: "GitHub Pages"
 date: "2018-08-23 17:17:30 -0700"
-tags: GitHub Learning Lab Course
+tags: [GitHub Learning Lab Course]
 ---
 
 GitHub Learning Lab Course 3

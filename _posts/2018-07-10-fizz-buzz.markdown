@@ -8,9 +8,9 @@ tags: [Algorithms, JavaScript]
 
 Fizz buzz is a group word game for children to teach them about division. Players take turns to count incrementally, replacing any number divisible by three with the word "fizz", and any number divisible by five with the word "buzz".
 
-💥 In computing, the modulo operation (%) finds the remainder after division of one number by another (sometimes called modulus). Given two positive numbers, a (the dividend) and n (the divisor), a modulo n (abbreviated as a mod n) is the remainder of the Euclidean division of a by n.
+In computing, the modulo operation (%) finds the remainder after division of one number by another (sometimes called modulus). Given two positive numbers, a (the dividend) and n (the divisor), a modulo n (abbreviated as a mod n) is the remainder of the Euclidean division of a by n.
 
-# Examples to try...
+Examples to try...
 
 Within this example, the console will go through each numbers from 1 to 30, and replacing any number divisible by three with the word "fizz", and any number divisible by five with the word "buzz".
 
@@ -27,7 +27,8 @@ function fizzBuzz(num){
 fizzBuzz(30);
 {% endhighlight %}
 
-## Console will print...
+
+Console will print...
 
 1
 2

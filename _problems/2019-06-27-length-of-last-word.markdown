@@ -2,10 +2,9 @@
 layout: post
 title: "Length of Last Word"
 date: "2019-06-27 22:49:48 -0700"
-categories: Problems
 ---
 
-## Problem:
+# Problem:
 
 Given a string s consists of upper/lower-case alphabets and empty space characters ' ', return the length of last word in the string.
 
@@ -15,13 +14,13 @@ Note: A word is defined as a character sequence consists of non-space characters
 
 [Leetcode - Length of Last Word](https://leetcode.com/problems/length-of-last-word/)
 
-#### Example:
+Example:
 
 Input: "Hello World"
 
 Output: 5
 
-## Solution:
+# Solution:
 
 {% highlight js %}
 /**

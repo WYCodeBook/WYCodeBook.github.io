@@ -2,8 +2,7 @@
 layout: post
 title: "Jekyll Helps"
 date: "2019-07-11 16:18:30 -0700"
-tags: Jekyll
-categories: Notes
+tags: [Jekyll]
 ---
 
 ## Resources for Jekyll

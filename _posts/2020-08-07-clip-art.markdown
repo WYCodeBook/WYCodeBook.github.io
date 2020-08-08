@@ -2,6 +2,7 @@
 layout: post
 title: "Clip Art"
 date: "2020-08-07 00:40:49 -0700"
+tags: [Clip Art]
 ---
 
 [Free Clip Art](https://www.hiclipart.com/)

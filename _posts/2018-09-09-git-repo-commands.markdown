@@ -2,7 +2,7 @@
 layout: post
 title: "Git Repo Commands"
 date: "2018-09-09 14:21:30 -0700"
-tags: GitHub
+tags: [GitHub]
 ---
 
 `ls` - used to list files and directories

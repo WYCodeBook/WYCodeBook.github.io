@@ -2,8 +2,7 @@
 layout: post
 title: "Font Awesome Icons"
 date: "2019-06-06 23:44:41 -0700"
-tags: Emoji
-categories: Notes
+tags: [Emoji]
 ---
 
 Font Awesome is a font and icon toolkit based on CSS and LESS.
