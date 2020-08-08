@@ -11,18 +11,14 @@ timezone: America/Los_Angeles
 excerpt_separator: "<!-- more -->"
 
 collections:
-  resource:
+  resources:
     output: true
-    permalink: /resource/:title
+    permalink: /resources/:path/
 
   problems:
     output: true
+    permalink: /problems/:path/
 
   projects:
     output: true
-
-  certificates:
-    output: true
-
-  templates:
-    output: true
+    permalink: /projects/:path/
