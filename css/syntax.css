@@ -1,4 +1,4 @@
-.highlight  { background: white; overflow: scroll; font-size: 20px; border-style: ridge; border-radius: 8px; width: 60vw; height: auto; margin: auto; font-family: "Palatino", "Palatino Linotype", "Book Antiqua", "Georgia", serif;}
+.highlight  { background: white; overflow: scroll; font-size: 20px; border-style: ridge; border-radius: 8px; width: fit-content; max-width: 60vw;  height: auto; margin: auto; font-family: "Palatino", "Palatino Linotype", "Book Antiqua", "Georgia", serif;}
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */
@@ -62,5 +62,7 @@
 
 /*mobile ready*/
 @media (max-width: 800px) {
-  .highlight  { width: 60vw;}
+  .highlight  {
+    max-width: 80vw;
+  }
 }
