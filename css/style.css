@@ -260,6 +260,7 @@ hr {
 /* styling iframe */
 .projectframe {
   text-align: center;
+  align-items: left;
 }
 
 iframe {
