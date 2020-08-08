@@ -258,13 +258,14 @@ hr {
 }
 
 /* styling iframe */
-
 iframe {
   background: none;
   overflow: scroll;
   overflow-y:hidden;
   border-style: ridge none;
-  min-width: 60vw;
-  height: auto;
+  min-width: 100%;
+  max-width: 80vw;
+  min-height: 100%
+  max-height: 50vh;
   margin: auto;
 }
