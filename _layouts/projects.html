@@ -20,13 +20,15 @@ title: projects
 <div class="postnav">
   <div>
     {% if page.previous.url %}
-    <a href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
+    <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
     {% endif %}
   </div>
+  <div>
     <a href="{{ page.collection.url }}">{{ page.collection.title }}</a>
+  </div>
   <div>
     {% if page.next.url %}
-      <a href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
+      <a href="{{ page.next.url }}">{{ page.next.title }}</a>
     {% endif %}
   </div>
 </div>
