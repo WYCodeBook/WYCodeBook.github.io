@@ -20,7 +20,7 @@ title: projects
 <div class="postnav">
   <div>
     {% if page.previous.url %}
-    <i class="fas fa-long-arrow-alt-left"></i><a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+    <a href="{{ page.previous.url }}"><i class="fas fa-long-arrow-alt-left"></i> {{ page.previous.title }}</a>
     {% endif %}
   </div>
   <div>
@@ -30,7 +30,7 @@ title: projects
   </div>
   <div>
     {% if page.next.url %}
-      <a href="{{ page.next.url }}">{{ page.next.title }}</a><i class="fas fa-long-arrow-alt-right"></i>
+      <a href="{{ page.next.url }}">{{ page.next.title }} <i class="fas fa-long-arrow-alt-right"></i></a>
     {% endif %}
   </div>
 </div>
