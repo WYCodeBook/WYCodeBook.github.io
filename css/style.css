@@ -22,7 +22,7 @@ a:link, a:visited{
 a:hover, a:active {
   color: rgb(109, 80, 131);
   background-color: none;
-  text-shadow: 0 0 3px rgb(241, 238, 231), 0 0 2px rgb(109, 80, 131);
+  text-shadow: 3px 0 3px rgb(109, 80, 131);
   text-decoration: none;
   font-weight: bold;
 }
