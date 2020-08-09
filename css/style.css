@@ -286,7 +286,7 @@ iframe {
 .postnav > a {
   background-color: none;
   width: 20%;
-  margin: 5%;
+  padding: 5%;
   text-align: center;
   flex-grow: 1;
 }
