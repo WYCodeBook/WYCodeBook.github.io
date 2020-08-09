@@ -290,3 +290,7 @@ iframe {
   text-align: center;
   flex-grow: 1;
 }
+
+.postnav > a {
+  padding: 10%
+}
