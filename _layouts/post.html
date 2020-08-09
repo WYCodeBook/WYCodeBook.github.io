@@ -11,3 +11,19 @@ title: post
 <div class="postbody">
   {{ content }}
 </div>
+
+<h3 class="postnav">
+
+    {% if page.previous.url %}
+    <a href="{{ page.previous.url }}"><i class="far fa-arrow-alt-circle-left" title="previous"></i></a>
+    {% endif %}
+
+
+    <a href="../index.html"><i class="fas fa-redo-alt" title="back to list"></i></a>
+
+
+    {% if page.next.url %}
+      <a href="{{ page.next.url }}"><i class="far fa-arrow-alt-circle-right" title="next"></i></a>
+    {% endif %}
+
+</h3>
