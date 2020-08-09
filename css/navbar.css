@@ -1,13 +1,13 @@
 .navbar {
-  display: flex;
+  display: inline-block;
   flex-wrap: wrap;
-  width:100vw;
+  width:none;
   height: auto;
   align-items: center;
   justify-content: center;
   background-color: none;
   position: fixed;
-  bottom: 0;
+  top: 0;
 }
 
 .navbar > div {
@@ -21,10 +21,6 @@
 
 /*mobile ready*/
 @media (max-width: 800px) {
-  .navbar {
-    top: 0;
-    bottom: auto;
-  }
   .navbar > div {
     margin: 5px;
     padding: 5px;
