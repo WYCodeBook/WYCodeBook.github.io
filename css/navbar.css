@@ -21,6 +21,10 @@
 
 /*mobile ready*/
 @media (max-width: 800px) {
+  .navbar {
+    display: flex;
+    width: 100vw;
+  }
   .navbar > div {
     margin: 5px;
     padding: 5px;
