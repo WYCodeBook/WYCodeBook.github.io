@@ -35,7 +35,7 @@ a:hover, a:active {
 
   /* Full height */
   height: 100%;
-  width: 100vw;
+  width: 100%;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
