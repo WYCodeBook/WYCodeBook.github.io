@@ -14,15 +14,20 @@ The letters in J are guaranteed distinct, and all characters in J and S are lett
 
 Example 1:
 
-Input: J = "aA", S = "aAAbbbb"
+`Input: J = "aA", S = "aAAbbbb"`
 
 Output: 3
 
 Example 2:
 
-Input: J = "z", S = "ZZ"
+`Input: J = "z", S = "ZZ"`
 
 Output: 0
+
+Note:
+
+`S` and `J` will consist of letters and have length at most 50.
+The characters in `J` are distinct.
 
 # Solution:
 
