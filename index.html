@@ -52,8 +52,8 @@ title: Curious-Yu
     <div>
       <h1 title="Projects">Projects</h1>
       <div>
-
-        {% for project in site.projects limit:3 | sort: 'date' | reverse %}
+        {% assign sorted = site.projects | sort: 'date' | reverse %}
+        {% for project in sorted limit:3 %}
           <div class="banner">
             <p><a href="{{ project.url }}" title="{{ project.title }}">{{ project.title }}</a><p>
           </div>
