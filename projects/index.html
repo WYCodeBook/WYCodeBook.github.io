@@ -9,7 +9,7 @@ title: projects
 </div>
 
 <div class="pagebody">
-    {% for project in site.projects %}
+    {% for project in site.projects reversed %}
       <div>
         <a href="{{ project.url }}" title="{{ project.title }}">{{ project.title }}</a>
       </div>
