@@ -52,7 +52,7 @@ title: Curious-Yu
     <div>
       <h1 title="Projects">Projects</h1>
       <div>
-        {% for project in site.projects limit:3 | sort: 'date' | reversed %}
+        {% for project in site.projects sort: 'date' | reversed | limit:3  %}
           <div class="banner">
             <p><a href="{{ project.url }}" title="{{ project.title }}">{{ project.title }}</a><p>
           </div>
@@ -71,7 +71,7 @@ title: Curious-Yu
     <div>
       <h1 title="Solved Problems">Solved Problems</h1>
       <div>
-        {% for problem in site.problems limit:3 | sort: 'date' | reversed %}
+        {% for problem in site.problems sort: 'date' | reversed | limit:3  %}
           <div class="banner">
             <p><a href="{{ problem.url }}" title="{{ problem.title }}">{{ problem.title }}</a><p>
           </div>
@@ -90,7 +90,7 @@ title: Curious-Yu
     <div>
       <h1 title="Resources">Resources</h1>
       <div class="scrollbanner">
-        {% for post in site.posts limit:3 | sort: 'date' | reversed %}
+        {% for post in site.posts sort: 'date' | reversed | limit:3  %}
           <div class="banner">
             <p><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><p>
           </div>
