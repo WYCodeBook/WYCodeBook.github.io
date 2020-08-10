@@ -9,7 +9,7 @@ title: solved-problems
 </div>
 
 <div class="pagebody">
-    {% for problem in site.problems %}
+    {% for problem in site.problems reversed %}
       <div>
         <a href="{{ problem.url }}" title="{{ problem.title }}">{{ problem.title }}</a>
       </div>
