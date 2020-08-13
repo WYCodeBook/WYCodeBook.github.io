@@ -51,4 +51,4 @@ var isHappy = function(n) {
 
 };
 
-{% highlight js %}
+{% endhighlight %}
