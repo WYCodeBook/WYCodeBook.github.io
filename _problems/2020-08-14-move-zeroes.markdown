@@ -4,7 +4,7 @@ title: "Move Zeroes"
 date: "2020-08-14 17:59:03 -0700"
 ---
 
-#Problem
+# Problem
 
 [30-Day LeetCoding Challenge for April 2020](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/)
 
@@ -30,7 +30,7 @@ In-place means we should not be allocating any space for extra array. But we are
 
 A two-pointer approach could be helpful here. The idea would be to have one pointer for iterating the array and another pointer that just works on the non-zero elements of the array.
 
-#Solution
+# Solution
 
 {% highlight js %}
 
