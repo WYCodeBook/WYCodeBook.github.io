@@ -1,0 +1,28 @@
+name: Curious-Yu
+url: https://Curious-Yu.github.io/
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+timezone: America/Los_Angeles
+
+excerpt_separator: "<!-- more -->"
+
+collections:
+  resource:
+    output: true
+    permalink: /resource/:title
+
+  problems:
+    output: true
+
+  projects:
+    output: true
+
+  certificates:
+    output: true
+
+  templates:
+    output: true
