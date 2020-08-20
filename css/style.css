@@ -120,7 +120,7 @@ a:hover, a:active {
 /*mobile ready*/
 @media (max-width: 800px) {
   .div-img-icon {
-    height: 50%;
+    height: 40%;
     width: 50%;
   }
 }
