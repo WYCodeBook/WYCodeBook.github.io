@@ -8,7 +8,7 @@ date: "2020-08-19 17:56:48 -0700"
 
 [30-Day LeetCoding Challenge for April 2020](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/)
 
-Say you have an array prices for which the `i<sup>th</sup>` element is the price of a given stock on day `i`.
+Say you have an array prices for which the i<sup>th</sup> element is the price of a given stock on day `i`.
 
 Design an algorithm to find the maximum profit. You may complete as many transactions as you like (i.e., buy one and sell one share of the stock multiple times).
 
