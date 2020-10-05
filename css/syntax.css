@@ -1,5 +1,9 @@
 .highlight  { background: white; overflow: scroll; overflow-y:hidden; border-style: ridge none; width: fit-content; max-width: 60vw;  height: auto; margin: auto;  font-family: 'Play', sans-serif;font-size: 16px;}
 
+.linenos {
+  font-size: 16px;
+}
+
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */
@@ -65,6 +69,5 @@
 @media (max-width: 800px) {
   .highlight  {
     max-width: 80vw;
-    font-size: 16px;
   }
 }
