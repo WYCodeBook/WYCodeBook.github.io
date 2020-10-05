@@ -6,6 +6,8 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
+highlighter: rouge
+
 timezone: America/Los_Angeles
 
 excerpt_separator: "<!-- more -->"
