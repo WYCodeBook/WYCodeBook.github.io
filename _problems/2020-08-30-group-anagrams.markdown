@@ -40,7 +40,7 @@ strs[i] consists of lower-case English letters.
 
 # Solution
 
-{% highlight JavaScript linenos %}
+{% highlight JavaScript %}
 /**
  * @param {string[]} strs
  * @return {string[][]}
