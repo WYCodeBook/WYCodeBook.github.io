@@ -20,9 +20,3 @@ collections:
 
   projects:
     output: true
-
-  certificates:
-    output: true
-
-  templates:
-    output: true
