@@ -10,6 +10,8 @@ timezone: America/Los_Angeles
 
 excerpt_separator: "<!-- more -->"
 
+permalink: /resources/:title/
+
 collections:
   resource:
     output: true
@@ -17,6 +19,8 @@ collections:
 
   problems:
     output: true
+    permalink: /resources/:title/
 
   projects:
     output: true
+    permalink: /resources/:title/
