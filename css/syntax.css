@@ -65,5 +65,6 @@
 @media (max-width: 800px) {
   .highlight  {
     max-width: 80vw;
+    font-size: 16px;
   }
 }
