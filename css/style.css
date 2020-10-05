@@ -99,10 +99,10 @@ a:hover, a:active {
 /*mobile ready*/
 @media (max-width: 800px) {
   .blockyellow {
-    height: 100%;
+    height: 130%;
   }
   .blockwhite {
-    height: 100%;
+    height: 130%;
   }
 }
 
