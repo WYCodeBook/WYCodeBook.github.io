@@ -9,7 +9,7 @@ A Caesar Cipher is a simple method of encoding messages. Caesar ciphers use a su
 
 Example:
 
-`Zoo Keeper` should return as 'Bqq Mggrgt'
+`Zoo Keeper` should return as `Bqq Mggrgt`
 
 {% highlight javascript %}
 function caesarCipher(str,num) {
