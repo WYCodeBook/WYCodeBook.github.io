@@ -50,8 +50,6 @@ var singleNumber = function(nums) {
 
 # Note
 
-Bitwise XOR
-
-When a bitwise XOR is performed on a pair of bits, it returns 1 if the bits are different:
-
 ![XORbitwise](/pic/XORbitwise.PNG)
+
+From: https://www.w3schools.com/js/js_bitwise.asp
