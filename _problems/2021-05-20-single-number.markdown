@@ -54,4 +54,4 @@ Bitwise XOR
 
 When a bitwise XOR is performed on a pair of bits, it returns 1 if the bits are different:
 
-![XORbitwise](/pic/XORbitwise.png)
+![XORbitwise](/pic/XORbitwise.PNG)
