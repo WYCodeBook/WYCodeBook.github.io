@@ -14,9 +14,9 @@ h1, h2, h3, h4, h5, h6, p , ul {
 }
 
 a:link, a:visited{
-  color: rgb(109, 80, 131);
+  color: rgb(89, 65, 107);
   background-color: none;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:hover, a:active {
