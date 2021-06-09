@@ -34,7 +34,7 @@ I have 5 Portfolio Projects and blog posts to complete
 
 ### Technical Obstacles
 
-* I am no longer connected to the Flatiron Schools' Slack Group. Meaning as of this moment my only resources for help is Google and Flatiron TCs. Google is on 7/24, however, it may be hard to find the specific answer I needed from too many choices. Flatiron TCs are helpful, but they go to bed at 11pm and will not be avaliable till the next morning. (I Finally joined the slack group. But noticed not that many people are active about projects. A little disappointment here.[How to Join Slack](https://flatironschoolsupport.zendesk.com/hc/en-us/articles/1500005609942-How-to-Join-Slack))
+* I am no longer connected to the Flatiron Schools' Slack Group. Meaning as of this moment my only resources for help is Google and Flatiron TCs. Google is on 7/24, however, it may be hard to find the specific answer I needed from too many choices. Flatiron TCs are helpful, but they go to bed at 11pm and will not be avaliable till the next morning. (I Finally joined the slack group. But noticed not that many people are active about projects. A little disappointment here. [How to Join Slack](https://flatironschoolsupport.zendesk.com/hc/en-us/articles/1500005609942-How-to-Join-Slack))
 
 * Since I took a break from Flatiron for sometime, I no longer have an assigned lead instructor or section instructor. (Hope chatting with the Program Coach 06/09/2021 can resolve this problem)
 
