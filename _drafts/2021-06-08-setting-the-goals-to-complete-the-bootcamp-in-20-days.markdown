@@ -96,7 +96,7 @@ As of 06/08/2021 I am current at Module 7 section 13
 
 * Redux Project (Plan to start 06/24/2021)
 
-* Daily blog post for the next 20 days
+* Blog posts for the next 20 days
 
 ### Some resources
 
