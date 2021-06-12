@@ -48,7 +48,8 @@ nav {
 .nav_icon2 a:link, .nav_icon2 a:visited {
   font-weight: bold;
   color: #95d5c5;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: yellow;
 }
 
 .nav_icon2 a:hover, .nav_icon2 a:active {
