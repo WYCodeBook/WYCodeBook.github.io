@@ -71,10 +71,12 @@ nav {
   text-align: center;
   color: #95d5c5;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
+  margin: 10vh 0vw 20vh;
+  height: 50%;
 }
 
 .welcomepage h1 {
