@@ -17,7 +17,10 @@ nav {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  color: #95d5c5;
+  /*color: #95d5c5;*/
+  line-height: 0.5vw;
+  color: #292f38;
+  background-color: #def2ed;
 }
 
 .nav_icon1 {
@@ -61,13 +64,6 @@ nav {
 /*welcome*/
 
 .welcomepage {
-/*
-  font-family: 'Lobster';
-  padding: 6vh 1vw 20vh;
-  text-align: center;
-  color: #95d5c5;
-  display: inline-block;
-*/
   font-family: 'Lobster';
   text-align: center;
   color: #95d5c5;
