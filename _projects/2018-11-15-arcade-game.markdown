@@ -3,6 +3,7 @@ layout: projects
 title: "Arcade Game"
 date: "2018-11-15 22:06:58 -0700"
 product: https://curious-yu.github.io/fend-arcade-game/
+img: /img/posticon3.png
 ---
 
 [The Product](https://curious-yu.github.io/fend-arcade-game/)

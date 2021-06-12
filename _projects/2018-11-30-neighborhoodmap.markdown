@@ -3,6 +3,7 @@ layout: projects
 title: "Neighborhood-Map"
 date: "2018-11-30 22:32:06 -0700"
 product: https://curious-yu.github.io/Neighborhood-Map/
+img: /img/posticon1.png
 ---
 
 

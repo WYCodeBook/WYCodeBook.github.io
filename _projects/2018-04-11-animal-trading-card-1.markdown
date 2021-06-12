@@ -3,6 +3,7 @@ layout: projects
 title: "Animal Trading Card 1"
 date: "2018-04-11 00:28:52 -0700"
 product: https://curious-yu.github.io/GoogleFrontEnd-Phase1-AnimalCardProject/
+img: /img/posticon4.png
 ---
 
 

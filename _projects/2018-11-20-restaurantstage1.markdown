@@ -3,6 +3,7 @@ layout: projects
 title: "Restaurant-Stage-1"
 date: "2018-11-20 22:21:29 -0700"
 product: https://curious-yu.github.io/restaurant-stage-1/
+img: /img/posticon2.png
 ---
 
 
