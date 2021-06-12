@@ -56,6 +56,15 @@ nav {
   color: #95d5c5;
 }
 
+.welcomepage h1 {
+  font-size: 70px;
+}
+
+.welcomepage h3 {
+  font-size: 55px;
+}
+
+
 /*about*/
 .aboutpage {
   color: #292f38;
