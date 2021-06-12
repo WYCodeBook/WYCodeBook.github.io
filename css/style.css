@@ -59,6 +59,11 @@ nav {
   padding: 6vh 1vw 20vh;
   text-align: center;
   color: #95d5c5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 .welcomepage h1 {
