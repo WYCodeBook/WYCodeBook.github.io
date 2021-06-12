@@ -122,6 +122,7 @@ nav {
 
 .projectspage > div > a > img {
   width: 60%;
+  height: 60%
 }
 
 .projectspage a:link, .nav_icon2 a:visited {
