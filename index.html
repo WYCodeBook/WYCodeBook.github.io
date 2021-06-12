@@ -4,112 +4,57 @@ title: Curious-Yu
 ---
 
 <!--homepage-->
-<div class="blocktitle" id="home">
-  <div class="title flexbox">
-      <div class="logo"><img src="/img/WYlogo.png" alt="WY logo" class="logo-icon"></div>
-      <div>
-        <h1 class="typewritter" title="Wen Yu">Wen Yu</h1>
-        <p class="typewritter" title="Developer & Nutritionist">Developer & Nutritionist</p>
-      </div>
-  </div>
+<!--homepage-->
+<div class="welcomepage">
+  <h1>
+    Hello! I'm Wen Yu.
+  </h1>
+  <h3>
+    Software Engineer, Front End Developer, Nutritionst, Travler, and food enthusiast.
+  </h3>
 </div>
 
-<!--Resume-->
-<div class="divider-left"></div>
-<div class="blockyellow" id="about">
-  <div class="text flexbox">
+
+<!--about-->
+<div class="aboutpage" id="about">
     <div>
-      <h3 title="About">Education</h3>
-      <h6>BS in Computer Science - Western Governors University (2019-2020)</h6>
+      <h3>Education</h3>
+      <h6>BS in Computer Science - Western Governors University (2019-2021)</h6>
       <h6>Front End Web Developer Nano Degree - Udacity (2018)</h6>
       <h6>MS in Applied Clinical Nutrition - New York Chiropractic College (2012-2014)</h6>
       <h6>BS in Clinical Nutrition - University of California, Davis (2007-2011)</h6>
     </div>
     <div>
-      <h3>Fluent Languages</h3>
-      <h6>HTML, CSS, JavaScript, English, Mandarin, Cantonese</h6>
+      <h3>Languages</h3>
+      <h6>HTML, CSS, JavaScript</h6>
+      <h6>English, Mandarin, Cantonese</h6>
       <h3>Certificates</h3>
       <h6>Site Development Associate - CIW Advisory Council</h6>
     </div>
-  </div>
 </div>
 
+<!--projects-->
+<div class="projectspage" id="projects">
+  {% for project in site.projects reversed %}
+    <div>
+      <a href="{{ project.url }}" title="{{ project.title }}">{{ project.title }}</a>
+    </div>
+  {% endfor %}
+</div>
+
+<!--contact-->
 <!--Contact-->
-<div class="divider-right"></div>
-<div class="blockwhite" id="contact">
-  <div class="title flexbox">
-    <div>
-      <h1 title="Contact">Contact</h1>
-      <h3><a href="/WenYu-Resume2020.pdf" title="Full Resume">>> Full Resume <<</a><h3>
-      <h1>
-        <a href="mailto:wyu10amy@hotmail.com" title="Send Email"><i class="fas fa-envelope"></i></a>
-        <a href="https://github.com/Curious-Yu" title="Link to GitHub"><i class="fa fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/wen-yu/" title="Link to Linkedin"><i class="fa fa-linkedin-square"></i></a>
-      </h1>
-    </div>
-
-    <div class="div-img"><img src="/img/contact.png" alt="contact" class="div-img-icon"></div>
-
+<div class="contactpage" id="contact">
+  <div class="div-img">
+    <img src="/img/contact.png" alt="contactlogo">
   </div>
-</div>
-
-
-
-<!--Projects-->
-<div class="divider-left"></div>
-<div class="blockyellow" id="projects">
-  <div class="text flexbox">
-    <div class="div-img"><img src="/img/project.png" alt="projects" class="div-img-icon"></div>
-    <div>
-      <h1 title="Projects">Projects</h1>
-      <div>
-        {% assign sorted = site.projects | sort: 'date' | reverse %}
-        {% for project in sorted limit:3 %}
-          <div class="banner">
-            <p><a href="{{ project.url }}" title="{{ project.title }}">{{ project.title }}</a><p>
-          </div>
-        {% endfor %}
-      </div>
-      <h3><a href="/projects" title="more projects">More</a><h3>
-    </div>
-  </div>
-</div>
-
-<!--Problems-->
-<div class="divider-right"></div>
-<div class="blockwhite" id="problems">
-  <div class="text flexbox">
-    <div class="div-img"><img src="/img/problem.png" alt="problem" class="div-img-icon"></div>
-    <div>
-      <h1 title="Solved Problems">Solved Problems</h1>
-      <div>
-        {% assign sorted = site.problems | sort: 'date' | reverse %}
-        {% for problem in sorted limit:3  %}
-          <div class="banner">
-            <p><a href="{{ problem.url }}" title="{{ problem.title }}">{{ problem.title }}</a><p>
-          </div>
-        {% endfor %}
-      </div>
-      <h3><a href="/problems" title="more solved problems">More</a><h3>
-    </div>
-  </div>
-</div>
-
-<!--Resources-->
-<div class="divider-left"></div>
-<div class="blockyellow" id="resources">
-  <div class="text flexbox">
-    <div class="div-img"><img src="/img/resource.png" alt="resource" class="div-img-icon"></div>
-    <div>
-      <h1 title="Resources">Resources</h1>
-      <div class="scrollbanner">
-        {% for post in site.posts sort: 'date' | reversed | limit:3  %}
-          <div class="banner">
-            <p><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><p>
-          </div>
-        {% endfor %}
-      </div>
-      <h3><a href="/resources" title="more resources">More</a><h3>
-    </div>
+  <div>
+    <h1 title="Contact">Contact</h1>
+    <h3><a href="/WenYu-Resume2020.pdf" title="Full Resume">>> Full Resume <<</a><h3>
+    <h1>
+      <a href="mailto:wyu10amy@hotmail.com" title="Send Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://github.com/Curious-Yu" title="Link to GitHub"><i class="fa fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/wen-yu/" title="Link to Linkedin"><i class="fa fa-linkedin-square"></i></a>
+    </h1>
   </div>
 </div>

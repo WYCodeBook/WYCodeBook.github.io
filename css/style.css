@@ -1,293 +1,90 @@
-body, html {
-  height: 100%;
+/*whole page*/
+body {
   margin: 0;
   padding: 0;
 }
 
-/* font style */
-@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
-@import url('https://use.fontawesome.com/releases/v5.7.0/css/all.css');
 
-h1, h2, h3, h4, h5, h6, p , ul {
-  font-family: 'Play', sans-serif;
-  color: rgb(109, 80, 131);
+/*navigation*/
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #95d5c5;
 }
 
-a:link, a:visited{
-  color: rgb(89, 65, 107);
-  background-color: none;
-  text-decoration: none;
+.nav_icon1 {
+  text-align: center;
+  flex-grow: 6;
+  padding: 1vw;
 }
 
-a:hover, a:active {
-  color: rgb(109, 80, 131);
-  background-color: none;
-  text-shadow: 1px 0 2px rgb(109, 80, 131);
-  text-decoration: none;
+.nav_icon2 {
+  text-align: center;
+  flex-grow: 3;
+  padding: 1vw;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.nav_icon2 > div {
+  padding: 0vw 1vw;
+}
+
+.nav_icon2 a:link, .nav_icon2 a:visited {
   font-weight: bold;
+  color: #95d5c5;
+  text-decoration: none;
 }
 
-/* the body layout */
-/* homepage */
-.blocktitle {
-  /* The the background */
-  background-color: rgb(255, 255, 255);
-
-  /* Full height */
-  height: 100%;
-  width: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+.nav_icon2 a:hover, .nav_icon2 a:active {
+  color: #95d5c5;
+  text-decoration: underline;
 }
 
-/* homepage logo style */
-.logo {
-  /*position: fixed;*/
-  display: inline-block;
-}
+/*welcome*/
 
-.logo-icon {
-  height: 100%;
-  width: 100%;
-}
-
-/*mobile ready*/
-@media (max-width: 800px) {
-  .logo-icon {
-    height: 80%;
-    width: 80%;
-  }
-}
-
-.title {
+.welcomepage {
+  padding: 15vh 1vw 30vh;
   text-align: center;
-  align-items: center;
-  display: flex;
-  padding: 10px;
-  margin: auto;
-  line-height: 60px;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+  color: #95d5c5;
 }
 
-/* sections of the body */
-.blockyellow {
-  background-color: rgb(241, 238, 231);
-  width:60%;
-  padding:10% 20% 10% 20%;
-  height: 60%;
-  position: relative;
-}
-
-.blockwhite {
-  background-color: rgb(255, 255, 255);
-  width:60%;
-  padding:10% 20% 10% 20%;
-  height: 60%;
-  position: relative;
-}
-
-/*mobile ready*/
-@media (max-width: 800px) {
-  .blockyellow {
-    height: 130%;
-  }
-  .blockwhite {
-    height: 130%;
-  }
-}
-
-/* homepage logo style */
-.div-img {
-  /*position: fixed;*/
-  display: inline-block;
-}
-
-.div-img-icon {
-  height: 100%;
-  width: 100%;
-}
-
-/*mobile ready*/
-@media (max-width: 800px) {
-  .div-img-icon {
-    height: 60%;
-    width: 60%;
-  }
-}
-
-.text {
+/*about*/
+.aboutpage {
+  color: #292f38;
+  background-color: #def2ed;
   text-align: center;
-  align-items: center;
+  padding: 2vw;
   display: flex;
-  padding: 10px;
-  margin: auto;
-  line-height: 30px;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-}
-
-.text a::after {
-  font-family: FontAwesome;
-  content: "  \f101";
-}
-
-/* div-line */
-hr {
-  height:6px;
-  width: 20%;
-  border:none;
-  border-radius: 10px;
-  background:linear-gradient(rgb(109, 80, 131, 0), rgb(109, 80, 131, 0.5), rgb(109, 80, 131), rgb(109, 80, 131, 0.5), rgb(109, 80, 131, 0));
-}
-
-/* sub pages */
-.pagetitle {
-  text-align: center;
-  background-color: rgb(241, 238, 231);
-  width: 100%;
-  padding: 5% 0%;
-}
-
-.pagetitle > h1 {
-  font-size: 8vw;
-}
-
-.pagetitle > img {
-  width: 60%;
-}
-
-/*mobile ready*/
-@media (max-width: 800px) {
-  .pagetitle {
-    padding: 25% 0%;
-    width: 100vw;
-  }
-  .pagetitle > h1 {
-    font-size: auto;
-  }
-}
-
-.pagebody {
-  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
   flex-wrap: wrap;
-  background-color: none;
-  margin:10%;
-}
-
-.pagebody > div {
-  background-color: none;
-  width: 20%;
-  margin: 2%;
-  text-align: center;
-}
-
-.pagebody a::after {
-  font-family: FontAwesome;
-  content: "  \f101";
-}
-
-/*mobile ready*/
-@media (max-width: 800px) {
-  .pagebody > div {
-    background-color: none;
-    width: 100%;
-    margin: 10%;
-    text-align: center;
-  }
-}
-
-/* post pages */
-.posttitle {
-  text-align: center;
-  background-color: rgb(241, 238, 231);
-  width: 100%;
-  padding: 5% 0%;
-}
-
-.posttitle > h1 {
-  font-size: 6vw;
-}
-
-.posttitle > img {
-  width: 60%;
-}
-
-/*mobile ready*/
-@media (max-width: 800px) {
-  .posttitle {
-    padding: 25% 0%;
-    width: 100vw;
-  }
-  .posttitle > h1 {
-    font-size: auto;
-  }
-}
-
-.postbody {
-  background-color: none;
-  margin:10%;
-  text-align: left;
-  align-items: left;
-}
-
-.postbody a::after {
-  font-family: FontAwesome;
-  content: "  \f101";
-}
-
-/*mobile ready*/
-@media (max-width: 800px) {
-  .postbody > div {
-    background-color: none;
-    margin: 10%;
-    text-align: left;
-  }
-}
-
-/* styling iframe */
-.projectframe {
-  text-align: center;
   align-items: center;
-  padding: 5%;
 }
 
-iframe {
-  background: none;
-  overflow: scroll;
-  overflow-y:hidden;
-  border-style: ridge none;
-  width: 70vw;
-  height: 50vh;
-  margin: auto;
-  padding: 2%;
-}
-
-/* each post/project page's previous and next buttons */
-.postnav {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: rgb(241, 238, 231);
-  margin: 0;
-}
-
-.postnav > a {
-  background-color: none;
-  width: 20%;
-  padding: 3%;
+/*contact*/
+.contactpage {
+  background-color: #def2ed;
+  padding: 10vh 1vw;
   text-align: center;
-  flex-grow: 1;
+  color: #292f38;
 }
+
+.contactpage a:link, .contactpage a:visited {
+  font-weight: bold;
+  color: #292f38;
+  text-decoration: none;
+}
+
+.contactpage a:hover, .contactpage a:active {
+  color: #292f38;
+  text-decoration: underline;
+}
+
+/*projects*/

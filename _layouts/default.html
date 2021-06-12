@@ -11,25 +11,21 @@
 		<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'> <!-- allowing to use the font awesome icons v5.7.0 -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- allowing to use the font awesome icons v4.7.0-->
 		<link rel="stylesheet" type="text/css" href="/css/style.css"> <!-- needed for style -->
-		<link rel="stylesheet" type="text/css" href="/css/navbar.css"> <!-- needed for navbar menu -->
-		<link rel="stylesheet" type="text/css" href="/css/typewritter.css"> <!-- needed for typewritter -->
-		<link rel="stylesheet" type="text/css" href="/css/flexbox.css"> <!-- needed for flexbox -->
-		<link rel="stylesheet" type="text/css" href="/css/divider.css"> <!-- needed for divider -->
 		<link rel="stylesheet" type="text/css" href="/css/syntax.css">  <!-- needed for syntax box -->
 	</head>
 
   <body>
 
-    {{ content }}
+		<nav>
+			<div class="nav_icon1"><a href="/" title="welcome page"><img src="/img/WYlogo_mint.png" alt="welcome logo"></a></div>
+			<div class="nav_icon2">
+				<div><a href="/#about" title="about page">About</a></div>
+				<div><a href="/#projects" title="projects page">Projects</a></div>
+				<div><a href="/#contact" title="contact page">Contact</a></div>
+			</div>
+		</nav>
 
-		<h2 class="navbar">
-			<div><a href="/" title="Homepage"><i class="fas fa-home"></i></a></div>
-			<div><a href="/#about" title="Go to About"><i class="fas fa-user"></i></a></div>
-			<div><a href="/#contact" title="Contact Me"><i class="far fa-envelope"></i></a></div>
-			<div><a href="/#projects" title="Go to Projects"><i class="fas fa-laptop-code"></i></a></div>
-			<div><a href="/#problems" title="Go to Solved Problems"><i class="fas fa-code-branch"></i></a></div>
-			<div><a href="/#resources" title="Go to Resources"><i class="fas fa-pen-square"></i></a></div>
-		</h2>
+    {{ content }}
 
   </body>
 
