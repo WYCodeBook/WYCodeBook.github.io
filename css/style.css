@@ -49,6 +49,7 @@ nav {
 .nav_icon2 a:hover, .nav_icon2 a:active {
   color: #95d5c5;
   text-decoration: underline;
+  font-weight: bold;
 }
 
 /*welcome*/
