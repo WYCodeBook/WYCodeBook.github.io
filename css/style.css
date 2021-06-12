@@ -157,7 +157,6 @@ nav {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  background-color: #def2ed;
 }
 
 .projectspage a:link, .nav_icon2 a:visited {
@@ -167,7 +166,7 @@ nav {
 }
 
 .projectspage a:hover, .nav_icon2 a:active {
-  color: #95d5c5;
+  color: #292f38;
   text-decoration: underline;
-  font-weight: bold;
+  background-color: #def2ed;
 }
