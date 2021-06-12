@@ -169,4 +169,6 @@ nav {
   color: #292f38;
   text-decoration: underline;
   background-color: #def2ed;
+  border-style: solid;
+  border-radius: 20%;
 }
