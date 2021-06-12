@@ -17,7 +17,8 @@ nav {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  line-height: 0.5vw;
+  color: #292f38;
+  background-color: #def2ed;
 }
 
 .nav_icon1 {
@@ -35,8 +36,7 @@ nav {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  color: #292f38;
-  background-color: #def2ed;
+  line-height: 0.5vw;
 }
 
 .nav_icon2 > div {
@@ -49,14 +49,15 @@ nav {
 
 .nav_icon2 a:link, .nav_icon2 a:visited {
   font-weight: bold;
-  color: #292f38;
+  color: #95d5c5;
   text-decoration: underline;
-  text-decoration-color: yellow;
+  
 }
 
 .nav_icon2 a:hover, .nav_icon2 a:active {
   color: #292f38;
   text-decoration: underline;
+  text-decoration-color: yellow;
   font-weight: bold;
 }
 
