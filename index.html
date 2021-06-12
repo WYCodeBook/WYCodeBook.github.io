@@ -21,29 +21,25 @@ title: Curious-Yu
     <div>
       <h1>Education</h1>
       <div>
-        <h5>BS in Computer Science</h5>
-        <h6>Western Governors University - 2021</h6>
+        <h3>BS in Computer Science - Western Governors University (2021)</h3>
       </div>
       <div>
-        <h5>Front End Web Developer Nano Degree</h5>
-        <h6>Udacity - 2018</h6>
+        <h3>Front End Web Developer Nano Degree - Udacity (2018)</h3>
       </div>
       <div>
-        <h5>MS in Applied Clinical Nutrition</h5>
-        <h6>New York Chiropractic College - 2014</h6>
+        <h3>MS in Applied Clinical Nutrition - New York Chiropractic College (2014)</h3>
       </div>
       <div>
-        <h5>BS in Clinical Nutrition</h5>
-        <h6>University of California, Davis - 2011</h6>
+        <h3>BS in Clinical Nutrition - University of California, Davis (2011)</h3>
       </div>
     </div>
     <div>
       <h1>Languages</h1>
-      <h6>English, Mandarin, Cantonese</h6>
+      <h3>English, Mandarin, Cantonese</h3>
       <h1>Skills</h1>
-      <h6>HTML, CSS, JavaScript</h6>
+      <h3>HTML, CSS, JavaScript</h3>
       <h1>Certificates</h1>
-      <h6>Site Development Associate - CIW Advisory Council</h6>
+      <h3>Site Development Associate - CIW Advisory Council</h3>
     </div>
 </div>
 
@@ -51,11 +47,9 @@ title: Curious-Yu
 <div class="projectspage" id="projects">
   {% for project in site.projects reversed %}
     <div>
-      <a href="{{ project.url }}" title="{{ project.title }}">
+      <a href="{{ project.url }}" title="{{ project.title }}" class="projectstitle">
         <div>{{ project.title }}</div>
       </a>
     </div>
   {% endfor %}
 </div>
-
-<div></div>
