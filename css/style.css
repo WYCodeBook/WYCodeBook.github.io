@@ -50,7 +50,7 @@ nav {
 /*welcome*/
 
 .welcomepage {
-  padding: 15vh 1vw 30vh;
+  padding: 17vh 1vw 30vh;
   text-align: center;
   color: #95d5c5;
 }
@@ -60,7 +60,7 @@ nav {
   color: #292f38;
   background-color: #def2ed;
   text-align: center;
-  padding: 2vw;
+  padding: 10vh 2vw;
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
