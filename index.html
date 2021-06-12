@@ -36,8 +36,10 @@ title: Curious-Yu
 <div class="projectspage" id="projects">
   {% for project in site.projects reversed %}
     <div>
-      <a href="{{ project.url }}" title="{{ project.title }}" class="projectstitle">{{ project.title }}</a>
-      <img src="{{ project.img }}" alt="">
+      <a href="{{ project.url }}" title="{{ project.title }}" class="projectstitle">
+        {{ project.title }}
+        <img src="{{ project.img }}" alt="">
+      </a>
     </div>
   {% endfor %}
 </div>
