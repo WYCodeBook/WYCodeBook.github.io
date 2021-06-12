@@ -36,8 +36,8 @@ nav {
   padding: 0vw 1vw;
 }
 
-.nav_icon2 > div > h1 {
-  padding: 0vw 0.5vw;
+.nav_icon2 > div > h1 a {
+  padding: 0vw 1vw;
 }
 
 .nav_icon2 a:link, .nav_icon2 a:visited {
