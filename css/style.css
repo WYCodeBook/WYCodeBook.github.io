@@ -60,11 +60,18 @@ nav {
 /*welcome*/
 
 .welcomepage {
+/*
   font-family: 'Lobster';
   padding: 6vh 1vw 20vh;
   text-align: center;
   color: #95d5c5;
   display: inline-block;
+*/
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .welcomepage h1 {
