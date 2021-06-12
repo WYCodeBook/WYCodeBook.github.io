@@ -17,7 +17,6 @@ nav {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  color: #292f38;
   background-color: #def2ed;
 }
 
@@ -135,15 +134,16 @@ nav {
 
 .projectspage > div {
   text-align: center;
-  display: inline-block;
-  vertical-align: middle;
+
   width: 200px;
   height: 200px;
-}
 
-.projectsimg {
-  width: 60%;
-  height: 60%
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #def2ed;
 }
 
 .projectspage a:link, .nav_icon2 a:visited {
