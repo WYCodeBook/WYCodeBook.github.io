@@ -120,3 +120,29 @@ nav {
   width: 200px;
   height: 150px;
 }
+
+@media only screen and (min-width: 2000px)
+.projectspage >div {
+    width: 16.6667%;
+}
+
+@media only screen and (min-width: 1600px)
+.projectspage >div {
+    width: 20%;
+}
+
+@media only screen and (min-width: 1200px)
+.projectspage >div {
+    width: 25%;
+}
+
+@media only screen and (min-width: 800px)
+.projectspage >div {
+    width: 33.3333%;
+}
+
+@media only screen and (min-width: 401px)
+.projectspage >div {
+    float: left;
+    width: 50%;
+}
