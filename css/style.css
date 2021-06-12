@@ -130,8 +130,23 @@ nav {
   align-items: center;
   color: #95d5c5;
 }
-
+/*
 .projectspage > div {
+  text-align: center;
+
+  width: 200px;
+  height: 200px;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #def2ed;
+}
+*/
+
+.projectstitle {
   text-align: center;
 
   width: 200px;
