@@ -119,3 +119,7 @@ nav {
   width: 200px;
   height: 150px;
 }
+
+.projectspage > div > img {
+  width: 90%;
+}
