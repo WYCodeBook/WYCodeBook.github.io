@@ -100,6 +100,10 @@ nav {
   align-items: center;
 }
 
+.aboutpage h1 {
+  font-family: 'Lobster';
+}
+
 /*contact*/
 .contactpage {
   background-color: #def2ed;
