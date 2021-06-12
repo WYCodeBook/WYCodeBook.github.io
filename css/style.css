@@ -51,17 +51,17 @@ nav {
 
 .welcomepage {
   font-family: 'Lobster';
-  padding: 15vh 1vw 30vh;
+  padding: 10vh 1vw 20vh;
   text-align: center;
   color: #95d5c5;
 }
 
 .welcomepage h1 {
-  font-size: 10vw;
+  font-size: 8vw;
 }
 
 .welcomepage h3 {
-  font-size: 5vw;
+  font-size: 4vw;
 }
 
 
