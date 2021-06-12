@@ -114,21 +114,9 @@ nav {
 
 .projectspage > div {
   text-align: center;
-  align-items: center;
-  padding: 1vw;
-  border-radius: 25px;
-  background: #73AD21;
-  padding: 20px;
-  width: 200px;
-  height: 150px;
-}
-
-.projectstitle {
   display: inline-block;
   vertical-align: middle;
-  max-width: 90%;
-  font-size: 30px;
-  color: #FFF;
-  line-height: 1.6em;
-  box-sizing: border-box;
+  background: #73AD21;
+  width: 200px;
+  height: 150px;
 }
