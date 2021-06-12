@@ -112,7 +112,7 @@ nav {
   color: #95d5c5;
 }
 
-.projectspage > nav {
+.projectspage > div {
   text-align: center;
   padding: 1vw;
   border-radius: 25px;
