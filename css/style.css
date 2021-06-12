@@ -103,3 +103,11 @@ nav {
 }
 
 /*projects*/
+.projectspage {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #95d5c5;
+}
