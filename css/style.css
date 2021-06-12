@@ -120,7 +120,7 @@ nav {
   height: 150px;
 }
 
-.projectspage > div  a:img {
+.projectspage > div > img {
   width: 90%;
 }
 
