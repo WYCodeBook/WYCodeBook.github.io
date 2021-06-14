@@ -26,6 +26,11 @@ nav {
   padding: 1vw;
 }
 
+.nav_icon1 img {
+  width: 100px;
+  height: 75px;
+}
+
 .nav_icon2 {
   text-align: center;
   flex-grow: 3;
