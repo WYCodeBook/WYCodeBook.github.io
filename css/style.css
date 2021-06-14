@@ -68,8 +68,8 @@ nav {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  flex-wrap: nonwrap;
   align-items: center;
+  height: 80vh;
   /*
   margin: 10vh 0vw 20vh;
   height: 50%;
