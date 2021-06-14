@@ -70,8 +70,10 @@ nav {
   flex-direction: column;
   flex-wrap: nonwrap;
   align-items: center;
+  /*
   margin: 10vh 0vw 20vh;
   height: 50%;
+  */
 }
 
 .welcomepage h1 {
