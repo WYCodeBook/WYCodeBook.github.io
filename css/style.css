@@ -23,7 +23,7 @@ nav {
 .nav_icon1 {
   text-align: center;
   flex-grow: 6;
-  padding: 1vw;
+  padding: 1vw 6vw;
 }
 
 .nav_icon1 img {
