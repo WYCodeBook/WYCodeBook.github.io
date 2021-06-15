@@ -23,7 +23,7 @@ nav {
 .nav_icon1 {
   text-align: center;
   flex-grow: 6;
-  padding: 0vw 10vw;
+  padding: 0vw 25vw;
 }
 
 .nav_icon1 img {
@@ -90,7 +90,7 @@ nav {
 
 @media only screen and (max-width: 1100px) and (min-width: 450px) {
   .welcomepage {
-    height: 85vh;
+    height: 90vh;
     margin: 0vh 0vw 5vh;
   }
 }
