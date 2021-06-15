@@ -84,14 +84,14 @@ nav {
 @media only screen and (max-width: 450px) {
   .welcomepage {
     height: 65vh;
-    margin: 0vh 0vw 10vh
+    margin: 0vh 0vw 10vh;
   }
 }
 
 @media only screen and (max-width: 1100px) and (min-width: 450px) {
   .welcomepage {
     height: 85vh;
-    margin: 0vh 0vw 5vh
+    margin: 0vh 0vw 5vh;
   }
 }
 
