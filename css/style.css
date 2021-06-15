@@ -74,11 +74,23 @@ nav {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  height: 80vh;
+  height: 100vh;
   /*
   margin: 10vh 0vw 20vh;
   height: 50%;
   */
+}
+
+@media only screen and (max-width: 600px) {
+  .welcomepage {
+    height: 80vh;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .welcomepage {
+    height: 90vh;
+  }
 }
 
 .welcomepage h1 {
