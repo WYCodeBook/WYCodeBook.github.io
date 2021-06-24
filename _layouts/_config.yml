@@ -24,3 +24,5 @@ collections:
   projects:
     output: true
     permalink: /resources/:title/
+
+incremental: true

@@ -20,3 +20,5 @@ collections:
   projects:
     output: true
     permalink: /projects/:title/
+
+incremental: true
