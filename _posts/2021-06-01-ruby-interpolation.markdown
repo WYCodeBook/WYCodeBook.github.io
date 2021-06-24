@@ -2,6 +2,7 @@
 layout: post
 title: "Ruby Interpolation"
 date: "2021-06-01 22:07:47 -0700"
+tags: [Ruby]
 ---
 
 Note:
