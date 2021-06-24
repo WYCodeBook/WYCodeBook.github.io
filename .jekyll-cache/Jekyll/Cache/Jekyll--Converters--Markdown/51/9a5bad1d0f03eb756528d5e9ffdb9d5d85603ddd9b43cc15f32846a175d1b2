@@ -1,0 +1,15 @@
+I"<p>Basic HTML Structure template</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">    <span class="cp">&lt;!DOCTYPE html&gt;</span>
+    <span class="nt">&lt;html&gt;</span>
+      <span class="nt">&lt;head&gt;</span>
+        <span class="nt">&lt;title&gt;</span>Page Title<span class="nt">&lt;/title&gt;</span>
+        <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"UTF-8"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">"https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One"</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">type=</span><span class="s">"text/css"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;/head&gt;</span>
+      <span class="nt">&lt;body&gt;</span>
+        Basic content for the web page.
+      <span class="nt">&lt;/body&gt;</span>
+    <span class="nt">&lt;/html&gt;</span></code></pre></figure>
+
+:ET

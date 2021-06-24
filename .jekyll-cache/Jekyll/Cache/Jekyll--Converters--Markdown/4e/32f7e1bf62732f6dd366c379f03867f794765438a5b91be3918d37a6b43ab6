@@ -1,0 +1,46 @@
+I"�
+<h1 id="problem">Problem:</h1>
+
+<p><a href="https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/">30-Day LeetCoding Challenge for April 2020</a></p>
+
+<p>Given a non-empty array of integers, every element appears twice except for one. Find that single one.</p>
+
+<p>Note:</p>
+
+<p>Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?</p>
+
+<p>Example 1:</p>
+
+<p><code class="language-plaintext highlighter-rouge">Input: [2,2,1]</code>
+Output: 1</p>
+
+<p>Example 2:</p>
+
+<p><code class="language-plaintext highlighter-rouge">Input: [4,1,2,1,2]</code>
+Output: 4</p>
+
+<h1 id="solution">Solution:</h1>
+
+<ol>
+  <li>rearranged the order of the array</li>
+  <li>then using ‘for-loop’ to go through each pair of the numbers in the array</li>
+  <li>if ‘not-match’ is found, then return the number in that array position</li>
+</ol>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="cm">/**
+ * @param {number[]} nums
+ * @return {number}
+**/</span>
+
+
+<span class="kd">var</span> <span class="nx">singleNumber</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">nums</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">let</span> <span class="nx">number</span> <span class="o">=</span> <span class="nx">nums</span><span class="p">.</span><span class="nx">sort</span><span class="p">((</span><span class="nx">a</span><span class="p">,</span><span class="nx">b</span><span class="p">)</span><span class="o">=&gt;</span><span class="nx">a</span><span class="o">-</span><span class="nx">b</span><span class="p">);</span>
+
+    <span class="k">for</span> <span class="p">(</span><span class="nx">x</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="nx">x</span><span class="o">&lt;=</span><span class="nx">number</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">x</span><span class="o">+=</span><span class="mi">2</span><span class="p">){</span>
+        <span class="k">if</span> <span class="p">(</span><span class="nx">number</span><span class="p">[</span><span class="nx">x</span><span class="p">]</span> <span class="o">!=</span> <span class="nx">number</span><span class="p">[</span><span class="nx">x</span><span class="o">+</span><span class="mi">1</span><span class="p">]){</span>
+            <span class="k">return</span> <span class="nx">number</span><span class="p">[</span><span class="nx">x</span><span class="p">];</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">};</span></code></pre></figure>
+
+:ET

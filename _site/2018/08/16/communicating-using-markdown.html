@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Curious-Yu</title>
+		<meta charset="UTF-8">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css"> <!-- needed so older versions of IE can run codes -->
+		<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'> <!-- needed to use the Lobster font -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="Wen Yu"> <!-- allowing search engines to find my site with those key words -->
+		<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'> <!-- allowing to use the font awesome icons v5.7.0 -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- allowing to use the font awesome icons v4.7.0-->
+		<link rel="stylesheet" type="text/css" href="/css/style.css"> <!-- needed for style -->
+		<link rel="stylesheet" type="text/css" href="/css/syntax.css">  <!-- needed for syntax box -->
+	</head>
+
+  <body>
+
+		<nav>
+			<div class="nav_icon1"><a href="/" title="welcome page"><img src="/img/WYlogo_mint.png" alt="welcome logo"></a></div>
+			<div class="nav_icon2">
+				<div><a href="/#about" title="about page">About</a></div>
+				<div><a href="/#projects" title="projects page">Projects</a></div>
+				<div>
+					<h1>
+						<a href="mailto:wyu10amy@hotmail.com" title="Send Email"><i class="fas fa-envelope"></i></a>
+						<a href="https://github.com/Curious-Yu" title="Link to GitHub"><i class="fa fa-github"></i></a>
+						<a href="https://www.linkedin.com/in/wen-yu/" title="Link to Linkedin"><i class="fa fa-linkedin-square"></i></a>
+					</h1>
+				</div>
+			</div>
+		</nav>
+
+    <div class="posttitle">
+  <h1 align="center" title="Communicating using Markdown">Communicating using Markdown</h1>
+  <img src="/img/posttitle.png" alt="Communicating using Markdown">
+</div>
+
+<div class="postbody">
+  <h1 id="github-learning-lab-course-2">GitHub Learning Lab Course 2</h1>
+
+<p>This course will walk you through creating and using headings more effectively, organizing thoughts in bulleted lists, and showing how much work you’ve completed with checklists. You can even use Markdown to add some depth to your work with the help of emoji, images, and links. See a word you don’t understand? We’ve included an emoji 📖 next to some key terms. Click on it to see its definition.</p>
+
+<p>In this course, you’ll learn how to:</p>
+
+<ul>
+  <li>Use Markdown to add lists, images, and links in a comment or text file</li>
+  <li>Determine where and how to use Markdown in a GitHub repository</li>
+</ul>
+
+<h2 id="what-is-markdown">What is Markdown?</h2>
+
+<p>Markdown is a lightweight syntax for writing all types of communication on GitHub, as well as many other places on the web. You can format words as bold or italic, add images, and create lists. Mostly, Markdown is just regular text combined with a few non-alphabetic symbols, such as <code class="language-plaintext highlighter-rouge">#</code> or <code class="language-plaintext highlighter-rouge">*</code>. You can use Markdown with the formatting toolbar in issues 📖 and pull requests 📖, or you can learn the syntax and type it yourself.</p>
+
+<p>You can use Markdown most places around GitHub:</p>
+
+<ul>
+  <li>
+    <p>Comments in issues and pull requests (like this one!)</p>
+  </li>
+  <li>
+    <p>Files with the .md or .markdown extension</p>
+  </li>
+  <li>
+    <p>Sharing snippets of text in Gists</p>
+  </li>
+</ul>
+
+<h2 id="step-1-create-a-task-list">Step 1: Create a Task List</h2>
+
+<p>A task list creates checkboxes that can be checked off by people with access 📖 in a repository. They’re very useful for tracking issues and pull requests.</p>
+
+<p>If you include a task list in the first comment of an issue or pull request, you’ll see a progress indicator in your issue list.</p>
+
+<p>Watch out! The syntax for task lists is very specific. Be sure to include the spaces where required, or else they won’t render properly.</p>
+
+<h4 id="example-markup">Example markup:</h4>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">- [x] Additional markup is supported, including @mentions, #referencess, [links](url), **emphasis**, and <span class="nt">&lt;del&gt;</span>HTML tags<span class="nt">&lt;/del&gt;</span>.
+- [x] List syntax is required.
+  - You can nest lists below, too!
+- [x] This item is completed.
+- [ ] This item is not complete.</code></pre></figure>
+
+<h4 id="activity-add-a-comment">Activity: Add a comment</h4>
+
+<ul>
+  <li>Add a comment to this issue, using Markdown to create a list of items to complete.Your task can include any tasks you wish, or you can use this example:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">  - [ ] Turn on GitHub Pages
+  - [ ] Outline my portfolio
+  - [ ] Introduce myself to the world
+  </code></pre></figure>
+
+<ul>
+  <li>
+    <p>Use the Preview tab to check your markdown formatting</p>
+  </li>
+  <li>
+    <p>Click Comment</p>
+  </li>
+</ul>
+
+<h2 id="step-2-turn-on-github-pages">Step 2: Turn on GitHub Pages</h2>
+
+<p>Turning this course 2 into GitHub Pages</p>
+
+<h4 id="activity-enable-github-pages">Activity: Enable GitHub Pages</h4>
+
+<ul>
+  <li>
+    <p>Under your repository name, click Settings.</p>
+  </li>
+  <li>
+    <p>In the GitHub Pages section, use the Select source drop-down menu to select master as your GitHub Pages publishing source.</p>
+  </li>
+  <li>
+    <p>Click Save.</p>
+  </li>
+</ul>
+
+<h2 id="step-3-add-headers">Step 3: Add headers</h2>
+
+<p>We’ll learn how to edit the file in this pull request to incorporate some Markdown headers.</p>
+
+<p>You can see an example of a header at the top of this page! Just like in HTML, a header is a larger bit of text at the beginning of a section. There are six sizes.</p>
+
+<h4 id="example">Example</h4>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">    # This is an <span class="nt">&lt;h1&gt;</span> header, which is the largest
+
+    ## This is an <span class="nt">&lt;h2&gt;</span> header
+
+    ###### This is an <span class="nt">&lt;h6&gt;</span> header, which is the smallest
+
+  </code></pre></figure>
+
+<p>In issues, pull requests, and comments, you can use the text formatting toolbar.</p>
+
+<p>The toolbar isn’t available everywhere. When you edit a file, you must type the <code class="language-plaintext highlighter-rouge">#</code> symbols manually.</p>
+
+<h4 id="activity-edit-your-file-with-headers">Activity: Edit your file with headers</h4>
+
+<ul>
+  <li>
+    <p>In this pull request, click the Files changed tab.</p>
+  </li>
+  <li>
+    <p>In the upper right corner of the file view, click the small pencil ✏️ icon for the file <code class="language-plaintext highlighter-rouge">titled _includes/01-name.md</code>.</p>
+  </li>
+  <li>
+    <p>On the Edit file tab, add a # before the content to make it an H1 Header. You can add more headers, using one to six # characters.</p>
+  </li>
+  <li>
+    <p>Above your new content, click Preview changes.</p>
+  </li>
+  <li>
+    <p>At the bottom of the page, type a short, meaningful commit message that describes the change you made to the file.</p>
+  </li>
+  <li>
+    <p>Click Commit changes.</p>
+  </li>
+</ul>
+
+<h2 id="step-4-merge-your-headers">Step 4: Merge your headers</h2>
+
+<p>Let’s merge this pull request and move on with the course.</p>
+
+<h4 id="activity-merge-the-pull-request">Activity: Merge the Pull Request</h4>
+
+<p>Click Merge pull request.</p>
+
+<h4 id="activity-delete-your-branch">Activity: Delete your branch</h4>
+
+<p>Go ahead and delete your branch 📖 in this pull request.</p>
+
+<h2 id="step-5-add-an-image">Step 5: Add an image</h2>
+
+<p>You can add an image of yourself or anything else you’d like to feature. You’ll also learn how to create descriptive text, or “alt text”, for images, and how to create links.</p>
+
+<h4 id="images">Images</h4>
+
+<p>Let’s add an image. Don’t forget to include descriptive text in the square brackets. This text is read aloud for people using screen readers. It’s also shown at times when your , or in case your image doesn’t display, such as when there’s a poor connection.</p>
+
+<p><code class="language-plaintext highlighter-rouge">![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)</code></p>
+
+<h4 id="activity-adding-an-image">Activity: Adding an image</h4>
+<ul>
+  <li>
+    <p>As you did before, edit the file in this pull request.</p>
+  </li>
+  <li>
+    <p>In the file, replace <code class="language-plaintext highlighter-rouge">_includes/02-image.md</code> with the correct Markdown for your image of choice. Don’t forget to include alt-text!</p>
+  </li>
+  <li>
+    <p>Commit 📖 your changes.</p>
+  </li>
+</ul>
+
+<h2 id="step-6-add-a-profile-link">Step 6: Add a profile link</h2>
+
+<p>Next, you’ll want to add links to your awesome portfolio projects. Links help create context when you’re communicating in issues and pull requests.</p>
+
+<p>You might link to a website, a repository, or even a line of code. To create a link, put the text you want to display in square brackets, and the URL in the following parentheses.</p>
+
+<p><code class="language-plaintext highlighter-rouge">[GitHub](http://github.com)</code></p>
+
+<h4 id="activity-add-a-link">Activity: Add a link</h4>
+
+<ul>
+  <li>
+    <p>Edit the file <code class="language-plaintext highlighter-rouge">_includes/03-links.md</code>.</p>
+  </li>
+  <li>
+    <p>Replace the filler text with a link to your GitHub profile (or anywhere else).</p>
+  </li>
+</ul>
+
+<h2 id="step-7-merge-your-image-and-link">Step 7: Merge your image and link</h2>
+
+<p>Pull request to share the updates</p>
+
+<h4 id="activity-merge-the-pull-request-1">Activity: Merge the Pull Request</h4>
+
+<p>Click Merge pull request below.</p>
+
+<h2 id="step-8-add-a-list">Step 8: Add a list</h2>
+
+<p>Help people get to know you by adding a list containing a few of your favorite things. Don’t know what to add? Why not add a list of your favorite books or places to eat.</p>
+
+<h4 id="activity-create-a-list">Activity: Create a list</h4>
+
+<ul>
+  <li>
+    <p>Edit the <code class="language-plaintext highlighter-rouge">_includes/04-lists.md</code> in this pull request.</p>
+  </li>
+  <li>
+    <p>Create a markdown list in the file. It can be ordered or unordered.</p>
+  </li>
+  <li>
+    <p>Commit your changes.</p>
+  </li>
+</ul>
+
+<h2 id="step-9-use-emphasis">Step 9: Use emphasis</h2>
+
+<p>Let’s try something new. You can use bold and italic text in Markdown. There are a couple of ways to create emphasis.</p>
+
+<figure class="highlight"><pre><code class="language-md" data-lang="md">  <span class="ge">*This text will be italic*</span>
+  _This will also be italic_
+
+  <span class="gs">**This text will be bold**</span>
+  __This will also be bold__
+
+  _You <span class="gs">**can**</span> combine them_
+
+  </code></pre></figure>
+
+<h4 id="activity-add-some-emphasis">Activity: Add some emphasis</h4>
+
+<ul>
+  <li>
+    <p>Edit the file <code class="language-plaintext highlighter-rouge">_includes/05-emphasis.md</code> in this pull request.</p>
+  </li>
+  <li>
+    <p>Use the Preview tab and your ✨ new Markdown knowledge, add emphasis (like bold or italics) to your skills.</p>
+  </li>
+  <li>
+    <p>Commit your changes.</p>
+  </li>
+</ul>
+
+<h2 id="step-10-merge-lists-and-emphasis">Step 10: Merge lists and emphasis</h2>
+
+<p>You can merge this pull request when you’re ready.</p>
+
+<h4 id="activity-merge-the-pull-request-2">Activity: Merge the Pull Request</h4>
+
+<p>Go ahead and click Merge pull request below.</p>
+
+<h2 id="the-product-of-this-course">The Product of This Course</h2>
+
+<p><a href="https://wycodebook.github.io/markdown-portfolio/">Check It Out Here</a></p>
+
+<h2 id="completed-course">Completed Course!</h2>
+
+<p><img src="/pic/GHcourse2.PNG" alt="GitHub Course 2 Completed" /></p>
+
+</div>
+
+<h4 class="postnav">
+
+    
+    <a href="/2018/08/15/introduction-to-github.html"><i class="far fa-arrow-alt-circle-left" title="previous"></i></a>
+    
+
+
+    <a href="../index.html"><i class="fas fa-redo-alt" title="back to list"></i></a>
+
+
+    
+      <a href="/2018/08/23/github-pages.html"><i class="far fa-arrow-alt-circle-right" title="next"></i></a>
+    
+
+</h4>
+
+
+  </body>
+
+</html>

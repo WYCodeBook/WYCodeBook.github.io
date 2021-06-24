@@ -1,0 +1,185 @@
+I"M%<h1 id="github-learning-lab-course-4">GitHub Learning Lab Course 4</h1>
+
+<p>🔍 <a href="#step-1">Step 1</a> 🔍 <a href="#step-2">Step 2</a> 🔍 <a href="#step-3">Step 3</a> 🔍 <a href="#step-4">Step 4</a></p>
+
+<hr />
+
+<p>This course helps you seamlessly migrate a project using GitHub’s importer tool. Along the way, we will also discuss important steps for preparing and sharing your project.</p>
+
+<p>In this course, you’ll learn how to:</p>
+
+<ul>
+  <li>
+    <p>Prepare your project for a successful migration</p>
+  </li>
+  <li>
+    <p>Handle any binary files currently stored in your project</p>
+  </li>
+  <li>
+    <p>Create important Git files like a <code class="language-plaintext highlighter-rouge">.gitignore</code></p>
+  </li>
+  <li>
+    <p>Import your project to GitHub</p>
+  </li>
+</ul>
+
+<h2 id="step-1-plan-the-migration">Step 1: Plan the migration</h2>
+
+<p>Migrating your repository to GitHub gives you the feature-rich tools and collaboration needed to elevate your project to the next level. This course will guide you through the necessary steps to migrate your repository from another version control system to GitHub.</p>
+
+<h4 id="important-considerations-for-migrations">Important considerations for migrations</h4>
+
+<p>If you are moving from another version control system such as Mercurial, Subversion, or another Git platform, you will need to make a few decisions:</p>
+
+<ol>
+  <li>
+    <p>Do you need all of the history?</p>
+  </li>
+  <li>
+    <p>Is there project data that lives outside of the history you need to preserve? (ex: Issues, Discussions, Pull Requests)</p>
+  </li>
+</ol>
+
+<h4 id="should-you-keep-all-of-the-history">Should you keep all of the history?</h4>
+
+<p>If you are moving your project to GitHub as a public project, you may want to consider what is in your history. For example:</p>
+
+<ul>
+  <li>
+    <p>Is there sensitive information in historical commit 📖 messages?</p>
+  </li>
+  <li>
+    <p>Do you want to use <a href="https://help.github.com/articles/setting-your-commit-email-address-on-github/">private email addresses</a> on GitHub?</p>
+  </li>
+</ul>
+
+<p><img src="/pic/GH4.PNG" alt="Course 4" /></p>
+
+<h4 id="should-you-keep-non-git-data">Should you keep non-Git data?</h4>
+
+<p>Mapping users, keeping commit comments, and other data migrations are more complex, but not impossible. For most version control systems there are helpful Open Source 📖 tools available. Here are a few resources:</p>
+
+<ul>
+  <li>
+    <p><a href="https://help.github.com/enterprise/2.12/admin/guides/migrations/importing-data-from-third-party-version-control-systems/">GitHub’s documentation on importing from other VCS</a></p>
+  </li>
+  <li>
+    <p><a href="https://blog.github.com/2016-02-11-migrate-your-code-with-the-github-importer/">Blog post about GitHub Migrator tool</a></p>
+  </li>
+</ul>
+
+<h4 id="activity-next-steps">Activity: Next steps</h4>
+
+<p>Different situations…</p>
+
+<ul>
+  <li>
+    <p>Using the GitHub Importer</p>
+
+    <p>GitHub has a terrific import tool that will allow you to import your repository in just a few minutes.</p>
+
+    <p>First, let’s make sure your repository 📖 is Git friendly. Close this issue and I will open a new issue with next steps.</p>
+  </li>
+  <li>
+    <p>Doing a clean cutover</p>
+
+    <p>To do a clean cutover, you will need to remove the existing history. Some people like to save a back up of the project with the history. To start the process:</p>
+
+    <ol>
+      <li>
+        <p>Download a copy of the project to your local machine.</p>
+      </li>
+      <li>
+        <p>Remove version control (with Git this is as simple as running <code class="language-plaintext highlighter-rouge">rm</code> <code class="language-plaintext highlighter-rouge">-rf</code> <code class="language-plaintext highlighter-rouge">.git</code> inside the repository).</p>
+      </li>
+      <li>
+        <p>Now that your project is local on your machine and you have removed any history being tracked by Git, the remaining steps in this course largely cover migrating that Git history.</p>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p>Migrating non-Git data</p>
+
+    <p>These migrations are more nuanced and outside the scope of this course. I recommend you go through these steps with a simple repository so you can learn best practices and then apply them to your more complex migration.</p>
+
+    <p>If you don’t have a repository to use for this activity, you are welcome to use this one: https://github.com/githubtraining/github-move</p>
+  </li>
+</ul>
+
+<h2 id="step-2-prepare-the-project">Step 2: Prepare the project</h2>
+
+<h4 id="working-with-binary-files">Working with Binary files</h4>
+
+<p>In general, there are two types of files: text files and binary files.</p>
+
+<p>Text files, like most code files, are easily tracked with Git 📖 and are very lightweight.</p>
+
+<p>However, binary files like spreadsheets, presentations with slides, and videos don’t work well with Git. If your repository already has some of these files, it’s best to have a plan in place before you enable Git version control.</p>
+
+<p>You could choose to remove the binary files, or use another tool like <a href="https://git-lfs.github.com/">git-lfs</a> (Git Large File Storage). We won’t get into detail on how to set up <a href="https://git-lfs.github.com/">git-lfs</a> in this course, but we will talk about .gitignore files next, which are key to protecting your code from becoming bloated with binaries.</p>
+
+<h4 id="add-a-gitignore">Add a .gitignore</h4>
+
+<p>As we convert your project to a Git repository, it should only include the source code necessary to build or compile your project. In addition to avoiding binaries as we discussed above, you will also want to keep build artifacts out of your version controlled code.</p>
+
+<p>To do this, you will create a file in your current project named <code class="language-plaintext highlighter-rouge">.gitignore</code>. Git will use the <code class="language-plaintext highlighter-rouge">.gitignore</code> to determine which files and directories should not be tracked under version control. The <a href="https://help.github.com/articles/ignoring-files/">.gitignore file</a> is stored in your repository in order to share the ignore rules with any other users that interact with the repository.</p>
+
+<p>Since the files to be ignored are dependent on the language you are using, the open source community has contributed some great templates for <code class="language-plaintext highlighter-rouge">.gitignore</code> files in the <a href="https://github.com/github/gitignore">github/gitignore</a> repository.</p>
+
+<h4 id="activity-prepare-your-repository">Activity: Prepare your repository</h4>
+
+<ul>
+  <li>
+    <p>Remove any binary files from your repository.</p>
+  </li>
+  <li>
+    <p>In your local environment, <a href="https://help.github.com/articles/ignoring-files/">create a <code class="language-plaintext highlighter-rouge">.gitignore</code></a> file. You can use a <a href="https://github.com/github/gitignore">template</a> or create your own.</p>
+  </li>
+</ul>
+
+<h2 id="step-3-private-or-public">Step 3: Private or Public?</h2>
+
+<p>You have one more decision to make before you migrate your code! Right now, your repository is set to public.</p>
+
+<p>You can change the visibility of a repository to Private or Public at any time in your repository’s Settings tab, but there are some things you should know.</p>
+
+<h4 id="private-repositories">Private Repositories</h4>
+
+<p>If your repository is private, the only people who can see your code are you and the collaborators 📖 you’ve invited.</p>
+
+<p>There is a small charge associated with Private repositories, but if your project has sensitive information, it’s worth it.</p>
+
+<h4 id="public-repositories">Public Repositories</h4>
+
+<p>In public repositories, anybody can see your code. Millions of open source repositories on GitHub are public, too!</p>
+
+<p>Licenses, code of conduct, and other files are important when you create a public repository. There are many benefits to this, but it’s also a large responsibility. Keep in mind that once a repository is public and open source, there are certain implications about keeping it public, depending on the license chosen.</p>
+
+<p>It’s important to note that public does not equal open source! The license associated with code determines whether or not it is open source.</p>
+
+<h2 id="step-4-complete-the-import">Step 4: Complete the Import</h2>
+
+<p>It’s time for the big move! Since your source code is in Subversion, Mercurial, Team Foundation Server, or another Git repository, you can move it to GitHub using GitHub Importer. GitHub Importer doesn’t bring over every piece of data, but it does bring the history. You can read more about GitHub Importer’s capabilities <a href="https://help.github.com/articles/about-github-importer/">here</a>.</p>
+
+<h4 id="activity-import-your-project-using-github-importer">Activity: Import your project using GitHub Importer</h4>
+
+<ol>
+  <li>
+    <p>Copy the URL for your existing repository on Subversion, Mercurial, TFS, or another Git server</p>
+  </li>
+  <li>
+    <p>Mavigate to the Code tab of this repository and scroll down to the section labeled …or import code from another repository</p>
+  </li>
+  <li>
+    <p>Click Import code</p>
+  </li>
+  <li>
+    <p>Paste the URL for your repository in its current location</p>
+  </li>
+  <li>
+    <p>Click Begin import</p>
+  </li>
+</ol>
+
+<p><img src="/pic/GHcourse4.PNG" alt="GitHub Course 4 Completed" /></p>
+:ET

@@ -1,0 +1,32 @@
+.navbar {
+  display: inline-block;
+  flex-wrap: wrap;
+  width:none;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: none;
+  position: fixed;
+  top: 0;
+}
+
+.navbar > div {
+  background-color: none;
+  width: auto;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  line-height: none;
+}
+
+/*mobile ready*/
+@media (max-width: 800px) {
+  .navbar {
+    display: flex;
+    width: 100vw;
+  }
+  .navbar > div {
+    margin: 5px;
+    padding: 5px;
+  }
+}

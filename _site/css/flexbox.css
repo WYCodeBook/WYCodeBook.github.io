@@ -1,0 +1,23 @@
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: none;
+}
+
+.flexbox > div {
+  background-color: none;
+  width: 500px;
+  margin: none;
+  text-align: center;
+
+}
+
+/*mobile ready*/
+@media (max-width: 800px) {
+  .flexbox > div {
+  width: 270px;
+  }
+}

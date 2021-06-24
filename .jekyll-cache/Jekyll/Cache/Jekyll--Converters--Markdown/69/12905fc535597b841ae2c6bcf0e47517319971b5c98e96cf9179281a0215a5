@@ -1,0 +1,19 @@
+I"ô
+<p>Given a string, write a function that returns true if the given string is palindrome, else false. For example, <code class="language-plaintext highlighter-rouge">race car</code> is palindrome, but <code class="language-plaintext highlighter-rouge">racecar</code> is not palindrome.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">isPalindrome</span><span class="p">(</span><span class="nx">string</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">string</span> <span class="o">=</span> <span class="nx">string</span><span class="p">.</span><span class="nx">toLowerCase</span><span class="p">();</span>
+  <span class="kd">var</span> <span class="nx">charactersArr</span> <span class="o">=</span> <span class="nx">string</span><span class="p">.</span><span class="nx">split</span><span class="p">(</span><span class="dl">''</span><span class="p">);</span>
+  <span class="kd">var</span> <span class="nx">validCharacters</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">abcdefghijklmnopqrstuvwxyz</span><span class="dl">'</span><span class="p">.</span><span class="nx">split</span><span class="p">(</span><span class="dl">''</span><span class="p">);</span>
+
+  <span class="kd">var</span> <span class="nx">lettersArr</span> <span class="o">=</span> <span class="p">[];</span>
+  <span class="nx">charactersArr</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">char</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">validCharacters</span><span class="p">.</span><span class="nx">indexOf</span><span class="p">(</span><span class="nx">char</span><span class="p">)</span> <span class="o">&gt;</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="nx">lettersArr</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">char</span><span class="p">);</span>
+  <span class="p">});</span>
+
+  <span class="k">return</span> <span class="nx">lettersArr</span><span class="p">.</span><span class="nx">join</span><span class="p">(</span><span class="dl">''</span><span class="p">)</span> <span class="o">===</span> <span class="nx">lettersArr</span><span class="p">.</span><span class="nx">reverse</span><span class="p">().</span><span class="nx">join</span><span class="p">(</span><span class="dl">''</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="nx">isPalindrome</span><span class="p">(</span><span class="dl">"</span><span class="s2">Madam, I'm Adam</span><span class="dl">"</span><span class="p">);</span></code></pre></figure>
+
+:ET

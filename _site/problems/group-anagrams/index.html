@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Curious-Yu</title>
+		<meta charset="UTF-8">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css"> <!-- needed so older versions of IE can run codes -->
+		<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'> <!-- needed to use the Lobster font -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="Wen Yu"> <!-- allowing search engines to find my site with those key words -->
+		<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'> <!-- allowing to use the font awesome icons v5.7.0 -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- allowing to use the font awesome icons v4.7.0-->
+		<link rel="stylesheet" type="text/css" href="/css/style.css"> <!-- needed for style -->
+		<link rel="stylesheet" type="text/css" href="/css/syntax.css">  <!-- needed for syntax box -->
+	</head>
+
+  <body>
+
+		<nav>
+			<div class="nav_icon1"><a href="/" title="welcome page"><img src="/img/WYlogo_mint.png" alt="welcome logo"></a></div>
+			<div class="nav_icon2">
+				<div><a href="/#about" title="about page">About</a></div>
+				<div><a href="/#projects" title="projects page">Projects</a></div>
+				<div>
+					<h1>
+						<a href="mailto:wyu10amy@hotmail.com" title="Send Email"><i class="fas fa-envelope"></i></a>
+						<a href="https://github.com/Curious-Yu" title="Link to GitHub"><i class="fa fa-github"></i></a>
+						<a href="https://www.linkedin.com/in/wen-yu/" title="Link to Linkedin"><i class="fa fa-linkedin-square"></i></a>
+					</h1>
+				</div>
+			</div>
+		</nav>
+
+    <div class="posttitle">
+  <h1 align="center" title="Group Anagrams">Group Anagrams</h1>
+  <img src="/img/posttitle.png" alt="Group Anagrams">
+</div>
+
+<div class="postbody">
+  <h1 id="problem">Problem:</h1>
+
+<p><a href="https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/">30-Day LeetCoding Challenge for April 2020</a></p>
+
+<p>Given an array of strings <code class="language-plaintext highlighter-rouge">strs</code>, group the anagrams together. You can return the answer in any order.</p>
+
+<p>An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.</p>
+
+<p>Example 1:</p>
+
+<p><code class="language-plaintext highlighter-rouge">Input: strs = ["eat","tea","tan","ate","nat","bat"]</code></p>
+
+<p>Output: [[“bat”],[“nat”,”tan”],[“ate”,”eat”,”tea”]]</p>
+
+<p>Example 2:</p>
+
+<p><code class="language-plaintext highlighter-rouge">Input: strs = [""]</code></p>
+
+<p>Output: [[””]]</p>
+
+<p>Example 3:</p>
+
+<p><code class="language-plaintext highlighter-rouge">Input: strs = ["a"]</code></p>
+
+<p>Output: [[“a”]]</p>
+
+<p>Constraints:</p>
+
+<p>1 &lt;= strs.length &lt;= 104</p>
+
+<p>0 &lt;= strs[i].length &lt;= 100</p>
+
+<p>strs[i] consists of lower-case English letters.</p>
+
+<h1 id="solution">Solution</h1>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="cm">/**
+ * @param {string[]} strs
+ * @return {string[][]}
+ */</span>
+<span class="kd">var</span> <span class="nx">groupAnagrams</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">strs</span><span class="p">)</span> <span class="p">{</span>
+
+    <span class="kd">var</span> <span class="nx">compare</span> <span class="o">=</span> <span class="p">{};</span>
+    <span class="kd">var</span> <span class="nx">finalAnagrams</span> <span class="o">=</span><span class="p">[];</span>
+
+    <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">item</span> <span class="k">of</span> <span class="nx">strs</span><span class="p">){</span>
+        <span class="kd">let</span> <span class="nx">words</span> <span class="o">=</span> <span class="nx">item</span><span class="p">.</span><span class="nx">toLowerCase</span><span class="p">().</span><span class="nx">split</span><span class="p">(</span><span class="dl">""</span><span class="p">).</span><span class="nx">sort</span><span class="p">().</span><span class="nx">join</span><span class="p">(</span><span class="dl">""</span><span class="p">);</span>
+        <span class="nx">compare</span><span class="p">[</span><span class="nx">words</span><span class="p">]</span> <span class="o">=</span> <span class="nx">compare</span><span class="p">[</span><span class="nx">words</span><span class="p">]</span> <span class="o">||</span> <span class="p">[];</span>
+        <span class="nx">compare</span><span class="p">[</span><span class="nx">words</span><span class="p">].</span><span class="nx">push</span><span class="p">(</span><span class="nx">item</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">eachItem</span> <span class="k">in</span> <span class="nx">compare</span><span class="p">){</span>
+        <span class="nx">finalAnagrams</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">compare</span><span class="p">[</span><span class="nx">eachItem</span><span class="p">])</span>
+    <span class="p">}</span>
+
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">finalAnagrams</span><span class="p">);</span>
+    <span class="k">return</span> <span class="nx">finalAnagrams</span><span class="p">;</span>  
+<span class="p">};</span></code></pre></figure>
+
+<h1 id="notes">Notes</h1>
+
+<p>Step 1: There should be some array print out at the end. Set the final solution print out as <code class="language-plaintext highlighter-rouge">finalAnagrams</code>.</p>
+
+<p>Step 2: The words in the listed array needed to re-organize in alphabetic order, so created variable <code class="language-plaintext highlighter-rouge">words</code> to sort and re-order each words.</p>
+
+<p>Step 3: <code class="language-plaintext highlighter-rouge">compare[words] = compare[words] || []</code> is here to check/compare the current item in words to see if there is already the same one exist. If not, store the item into a new array.</p>
+
+<p>Step 4: After the comparison, <code class="language-plaintext highlighter-rouge">compare[words].push(item)</code> is used to push the actual strings from the original array into the new <code class="language-plaintext highlighter-rouge">compare</code> object.</p>
+
+<p>Step 5: It is time to go through each grouped array in the <code class="language-plaintext highlighter-rouge">compare</code> object using the For/In loop to and push all array objects into the <code class="language-plaintext highlighter-rouge">finalAnagrams</code>.</p>
+
+</div>
+
+<h4 class="postnav">
+
+    
+    <a href="/problems/best-time-to-buy-and-sell-stock-ii/"><i class="far fa-arrow-alt-circle-left" title="previous"></i></a>
+    
+
+
+    <a href="../index.html"><i class="fas fa-redo-alt" title="back to list"></i></a>
+
+
+    
+      <a href="/problems/single-number-2/"><i class="far fa-arrow-alt-circle-right" title="next"></i></a>
+    
+
+</h4>
+
+
+  </body>
+
+</html>

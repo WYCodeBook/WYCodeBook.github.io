@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Curious-Yu</title>
+		<meta charset="UTF-8">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css"> <!-- needed so older versions of IE can run codes -->
+		<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'> <!-- needed to use the Lobster font -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="Wen Yu"> <!-- allowing search engines to find my site with those key words -->
+		<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'> <!-- allowing to use the font awesome icons v5.7.0 -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- allowing to use the font awesome icons v4.7.0-->
+		<link rel="stylesheet" type="text/css" href="/css/style.css"> <!-- needed for style -->
+		<link rel="stylesheet" type="text/css" href="/css/syntax.css">  <!-- needed for syntax box -->
+	</head>
+
+  <body>
+
+		<nav>
+			<div class="nav_icon1"><a href="/" title="welcome page"><img src="/img/WYlogo_mint.png" alt="welcome logo"></a></div>
+			<div class="nav_icon2">
+				<div><a href="/#about" title="about page">About</a></div>
+				<div><a href="/#projects" title="projects page">Projects</a></div>
+				<div>
+					<h1>
+						<a href="mailto:wyu10amy@hotmail.com" title="Send Email"><i class="fas fa-envelope"></i></a>
+						<a href="https://github.com/Curious-Yu" title="Link to GitHub"><i class="fa fa-github"></i></a>
+						<a href="https://www.linkedin.com/in/wen-yu/" title="Link to Linkedin"><i class="fa fa-linkedin-square"></i></a>
+					</h1>
+				</div>
+			</div>
+		</nav>
+
+    <div class="posttitle">
+  <h1 align="center" title="JavaScript Drum Kit">JavaScript Drum Kit</h1>
+  <img src="/img/posttitle.png" alt="JavaScript Drum Kit">
+</div>
+
+<div class="postbody">
+  <h1 id="javascript-coding-challenge-day-1">JavaScript coding challenge DAY 1</h1>
+
+<h2 id="day-1"><a href="(https://github.com/WYCodeBook/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit)">DAY 1</a></h2>
+
+<p>It is very exciting to start this challenge! During the Setup-Video and Day-1 Video, Wes mentioned there are many ways people learn and practice codes with the challenge materials and there is no one-fitted-all way to learn.</p>
+
+<p>Since it’s the first day of the challenge… I will just follow step by step presented in the video and begin my learning challenge Day 1 🤩</p>
+
+<h4 id="windowaddeventlistenerkeydown-playsound">window.addEventListener(‘keydown’, playSound)</h4>
+
+<ul>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">playSound()</code> is a listener for <code class="language-plaintext highlighter-rouge">keydown</code> events registered using <code class="language-plaintext highlighter-rouge">window.addEventListener</code>.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">window</code> is the global object in a browser, or the root object of the DOM. And <code class="language-plaintext highlighter-rouge">document</code> stands for DOM.</p>
+  </li>
+</ul>
+
+<p>👓 <a href="https://www.w3schools.com/js/js_htmldom_eventlistener.asp">JavaScript HTML DOM EventListener</a></p>
+
+<ul>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">keydown</code> is the type of event</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">playSound</code> is going to be the function we want to call when the event occur</p>
+  </li>
+</ul>
+
+<p>In another word, this is what we want from <code class="language-plaintext highlighter-rouge">window.addEventListener('keydown', playSound)</code>… when we hit a key on the keyboard, meaning <code class="language-plaintext highlighter-rouge">keydown</code>, we would like to run the <code class="language-plaintext highlighter-rouge">playSound</code> function.</p>
+
+<h4 id="const-audio--documentqueryselectoraudiodata-keyekeycode">const audio = document.querySelector(‘audio[data-key=”${e.keyCode}”]’);</h4>
+
+<h4 id="const-key--documentqueryselectordivdata-keyekeycode">const key = document.querySelector(‘div[data-key=”${e.keyCode}”]’);</h4>
+
+<ul>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">keyCode</code> property is the KEY to connect our buttons(<code class="language-plaintext highlighter-rouge">&lt;div&gt;</code>s) and sounds(<code class="language-plaintext highlighter-rouge">&lt;audio&gt;</code>s).</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">keyCode</code> ‘s value is same as ASCII code (in lowercase letter ), check keycodes <a href="http://keycode.info/">here</a>.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">data-key</code> is set for mapping buttons and audios to get the <code class="language-plaintext highlighter-rouge">keyCodes</code> via <code class="language-plaintext highlighter-rouge">keydown</code> event.</p>
+  </li>
+  <li>
+    <p>the whole <code class="language-plaintext highlighter-rouge">querySelector</code> expression has to be in back ticks `</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">${}</code> is syntactic sugar for template literals, read more about Expression interpolation <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals">here</a></p>
+  </li>
+</ul>
+
+<p>💥 To figure out what key was pressed we simply look for the <code class="language-plaintext highlighter-rouge">keyCode</code> inside the event that was send to the function. You see every key has it’s own unique code. While this is different on some keyboards / inputs, they are mostly the same and you can use this little website Wes created called keycode.info to figure out the codes you need.</p>
+
+<p>👓 <a href="http://keycode.info/">Keycode for JavaScript</a></p>
+
+<h4 id="ifaudio-return">if(!audio) return;</h4>
+
+<p>This is used to stop the function from running when the selected key from the keyboard is not matching any of the listed keys and audios.</p>
+
+<h4 id="audiocurrenttime--0">audio.currentTime = 0;</h4>
+
+<h4 id="audioplay">audio.play();</h4>
+
+<p>These are used to prevent delay playing sounds as we keep selecting keys from the keyboard.</p>
+
+<h4 id="keyclasslistaddplaying">key.classList.add(‘playing’);</h4>
+
+<ul>
+  <li>use <code class="language-plaintext highlighter-rouge">item.classList.add('className')</code> to add class when key pressed. (same as <code class="language-plaintext highlighter-rouge">element.addClass('className')</code> in jQuery)</li>
+</ul>
+
+<h4 id="ifepropertyname--transform-return">if(e.propertyName != ‘transform’) return;</h4>
+<h4 id="eventtargetclasslistremoveplaying">event.target.classList.remove(‘playing’);</h4>
+
+<ul>
+  <li>to remove the add class we can just do <code class="language-plaintext highlighter-rouge">.remove</code> but not until we have checked for <code class="language-plaintext highlighter-rouge">transitionend</code> with another <code class="language-plaintext highlighter-rouge">eventListener</code>.</li>
+</ul>
+
+<h4 id="keysforeachkey--keyaddeventlistenertransitionend-removetransition">keys.forEach(key =&gt; key.addEventListener(‘transitionend’, removeTransition));</h4>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">items.forEach()</code> instead of just <code class="language-plaintext highlighter-rouge">forEach</code>, which means it’s a property of an array.</li>
+</ul>
+
+<h4 id="event">event</h4>
+
+<p>using <code class="language-plaintext highlighter-rouge">e</code> representing event</p>
+
+<h2 id="final-codes">Final Codes</h2>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="kd">function</span> <span class="nx">removeTransition</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span><span class="p">(</span><span class="nx">e</span><span class="p">.</span><span class="nx">propertyName</span> <span class="o">!=</span> <span class="dl">'</span><span class="s1">transform</span><span class="dl">'</span><span class="p">)</span> <span class="k">return</span><span class="p">;</span> <span class="c1">//skip it if it's not a transform</span>
+  <span class="nx">event</span><span class="p">.</span><span class="nx">target</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">remove</span><span class="p">(</span><span class="dl">'</span><span class="s1">playing</span><span class="dl">'</span><span class="p">);</span> <span class="c1">//used to remove the add class</span>
+<span class="p">}</span>
+
+<span class="kd">function</span> <span class="nx">playSound</span><span class="p">(</span><span class="nx">e</span><span class="p">){</span>
+  <span class="kd">const</span> <span class="nx">audio</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s2">`audio[data-key="</span><span class="p">${</span><span class="nx">e</span><span class="p">.</span><span class="nx">keyCode</span><span class="p">}</span><span class="s2">"]`</span><span class="p">);</span>
+  <span class="kd">const</span> <span class="nx">key</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s2">`div[data-key="</span><span class="p">${</span><span class="nx">e</span><span class="p">.</span><span class="nx">keyCode</span><span class="p">}</span><span class="s2">"]`</span><span class="p">);</span>
+
+  <span class="k">if</span><span class="p">(</span><span class="o">!</span><span class="nx">audio</span><span class="p">)</span> <span class="k">return</span><span class="p">;</span> <span class="c1">//stop the function from running all together</span>
+
+  <span class="nx">key</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="dl">'</span><span class="s1">playing</span><span class="dl">'</span><span class="p">);</span> <span class="c1">//adding a class to a pressed key</span>
+  <span class="nx">audio</span><span class="p">.</span><span class="nx">currentTime</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="c1">//rewind to the stop</span>
+  <span class="nx">audio</span><span class="p">.</span><span class="nx">play</span><span class="p">();</span>
+<span class="p">}</span>
+
+<span class="kd">const</span> <span class="nx">keys</span> <span class="o">=</span> <span class="nb">Array</span><span class="p">.</span><span class="k">from</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">querySelectorAll</span><span class="p">(</span><span class="dl">'</span><span class="s1">.key</span><span class="dl">'</span><span class="p">));</span>
+<span class="nx">keys</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">key</span> <span class="o">=&gt;</span> <span class="nx">key</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">transitionend</span><span class="dl">'</span><span class="p">,</span> <span class="nx">removeTransition</span><span class="p">));</span> <span class="c1">//items.forEach() instead of just forEach, which means it's a property of an array.</span>
+<span class="nb">window</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">keydown</span><span class="dl">'</span><span class="p">,</span> <span class="nx">playSound</span><span class="p">)</span> <span class="c1">//when we hit a key on the keyboard, meaning `keydown`, we would like to run the `playSound` function.</span></code></pre></figure>
+
+<h2 id="the-completed-code"><a href="https://github.com/WYCodeBook/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit">The Completed Code</a></h2>
+
+</div>
+
+<h4 class="postnav">
+
+    
+    <a href="/2018/08/23/javascript-30-days-challenge.html"><i class="far fa-arrow-alt-circle-left" title="previous"></i></a>
+    
+
+
+    <a href="../index.html"><i class="fas fa-redo-alt" title="back to list"></i></a>
+
+
+    
+      <a href="/2018/08/24/migrating-your-repository-to-github.html"><i class="far fa-arrow-alt-circle-right" title="next"></i></a>
+    
+
+</h4>
+
+
+  </body>
+
+</html>

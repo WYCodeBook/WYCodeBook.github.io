@@ -1,0 +1,4 @@
+I"<p>Note:</p>
+
+<p>Interpolation will only work on Strings wrapped in double quotes <code class="language-plaintext highlighter-rouge">""</code>. Single quotes: <code class="language-plaintext highlighter-rouge">''</code> do not support string interpolation.</p>
+:ET

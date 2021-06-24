@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Curious-Yu</title>
+		<meta charset="UTF-8">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css"> <!-- needed so older versions of IE can run codes -->
+		<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'> <!-- needed to use the Lobster font -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="Wen Yu"> <!-- allowing search engines to find my site with those key words -->
+		<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'> <!-- allowing to use the font awesome icons v5.7.0 -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- allowing to use the font awesome icons v4.7.0-->
+		<link rel="stylesheet" type="text/css" href="/css/style.css"> <!-- needed for style -->
+		<link rel="stylesheet" type="text/css" href="/css/syntax.css">  <!-- needed for syntax box -->
+	</head>
+
+  <body>
+
+		<nav>
+			<div class="nav_icon1"><a href="/" title="welcome page"><img src="/img/WYlogo_mint.png" alt="welcome logo"></a></div>
+			<div class="nav_icon2">
+				<div><a href="/#about" title="about page">About</a></div>
+				<div><a href="/#projects" title="projects page">Projects</a></div>
+				<div>
+					<h1>
+						<a href="mailto:wyu10amy@hotmail.com" title="Send Email"><i class="fas fa-envelope"></i></a>
+						<a href="https://github.com/Curious-Yu" title="Link to GitHub"><i class="fa fa-github"></i></a>
+						<a href="https://www.linkedin.com/in/wen-yu/" title="Link to Linkedin"><i class="fa fa-linkedin-square"></i></a>
+					</h1>
+				</div>
+			</div>
+		</nav>
+
+    <div class="posttitle">
+  <h1 align="center" title="Browser Events">Browser Events</h1>
+  <img src="/img/posttitle.png" alt="Browser Events">
+</div>
+
+<div class="postbody">
+  <h2 id="seeing-an-event">Seeing An Event</h2>
+
+<p>There is a hidden world of events going on right now on this very page! It’s really hard to actually see into this hidden world, though. So how can we know that events really are being announced? If they are being announced, how come they’re not easy for us to see?</p>
+
+<p>Fortunately, the Chrome browser has a special <code class="language-plaintext highlighter-rouge">monitorEvents()</code> function that will let us see different events as they are occurring.</p>
+
+<p>Check out the documentation on the Chrome DevTools site: <code class="language-plaintext highlighter-rouge">monitorEvents</code> documentation</p>
+
+<p>Chrome browser does offer an <code class="language-plaintext highlighter-rouge">unmonitorEvents()</code> function that will turn off the announcing of events for the targeted element:</p>
+
+<p>// start displaying all events on the document object
+<code class="language-plaintext highlighter-rouge">monitorEvents(document);</code></p>
+
+<p>// turn off the displaying of all events on the document object.
+<code class="language-plaintext highlighter-rouge">unmonitorEvents(document);</code></p>
+
+<p>One last little bit of info on <code class="language-plaintext highlighter-rouge">monitorEvents</code> is that this is for development/testing purposes only. It’s not supposed to be used for production code.</p>
+
+<h2 id="eventarget">EvenTarget</h2>
+
+<p>is an interface implemented by objects that can receive events and may have listeners for them.</p>
+
+<p>and</p>
+
+<p>Element, document, and window are the most common event targets, but other objects can be event targets too…</p>
+
+<p>👓 EvenTarget page: https://developer.mozilla.org/en-US/docs/Web/API/EventTarget</p>
+
+<p>If you take a look at the <code class="language-plaintext highlighter-rouge">EventTarget</code> Interface, you’ll notice that it doesn’t have any properties and only three methods! These methods are:</p>
+
+<p><code class="language-plaintext highlighter-rouge">.addEventListener()</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">.removeEventListener()</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">.dispatchEvent()</code></p>
+
+<h2 id="adding-an-event-listener">Adding An Event Listener</h2>
+
+<p>Using the <code class="language-plaintext highlighter-rouge">.addEventListener()</code> method will let us listen for events and respond to them! I just said “listen for events”. There are several ways to “phrase” this, so I want to give some examples:</p>
+
+<ul>
+  <li>listen for an event</li>
+  <li>listen to an event</li>
+  <li>hook into an event</li>
+  <li>respond to an event</li>
+</ul>
+
+<p>…all of these mean the same thing and are interchangeable with one another.</p>
+
+<p>Let’s use some pseudo-code to explain how to set an event listener:</p>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;event-target&gt;.addEventListener(&lt;event-to-listen-for&gt;, &lt;function-to-run-when-an-event-happens&gt;);</code></p>
+
+<p>So an event listener needs three things:</p>
+
+<ol>
+  <li>an event target - this is called the target</li>
+  <li>the type of event to listen for - this is called the type</li>
+  <li>a function to run when the event occurs - this is called the listener</li>
+</ol>
+
+<p>The <code class="language-plaintext highlighter-rouge">&lt;event-target&gt;</code> (i.e. the target) goes right back to what we just looked at: everything on the web is an event target (e.g. the <code class="language-plaintext highlighter-rouge">document</code> object, a <code class="language-plaintext highlighter-rouge">&lt;p&gt;</code> element, etc.).</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">&lt;event-to-listen-for&gt;</code> (i.e. the type) is the event we want to respond to. It could be a click, a double click, the pressing of a key on the keyboard, the scrolling of the mouse wheel, the submitting of a form…the list goes on!</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">&lt;function-to-run-when-an-event-happens&gt;</code> (i.e. the listener) is a function to run when the event actually occurs.</p>
+
+<p>Let’s transform the pseudo-code to a real example of an event listener:</p>
+
+<p>`const mainHeading = document.querySelector(‘h1’);</p>
+
+<p>mainHeading.addEventListener(‘click’, function () {
+  console.log(‘The heading was clicked!’);
+});`</p>
+
+<p>Let’s break down the snippet above:</p>
+
+<ul>
+  <li>the target is the first <code class="language-plaintext highlighter-rouge">&lt;h1&gt;</code> element on the page</li>
+  <li>the event type to listen for is a <code class="language-plaintext highlighter-rouge">"click"</code> event</li>
+  <li>the listener is a function that logs <code class="language-plaintext highlighter-rouge">"The heading was clicked!"</code> to the console</li>
+</ul>
+
+<p>👓 List of events: https://developer.mozilla.org/en-US/docs/Web/Events</p>
+
+<h2 id="removing-an-event-listener">Removing An Event Listener</h2>
+
+<p>To remove an event listener, we use the <code class="language-plaintext highlighter-rouge">.removeEventListener()</code> method.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">.removeEventListener()</code> method requires you to pass the same exact listener function to it as the one you passed to <code class="language-plaintext highlighter-rouge">.addEventListener()</code>.</p>
+
+<p>Let’s see some pseudo-code for the <code class="language-plaintext highlighter-rouge">.removeEventListener()</code>:</p>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;event-target&gt;.removeEventListener(&lt;event-to-listen-for&gt;, &lt;function-to-remove&gt;);</code></p>
+
+<p>So an event listener needs three things:</p>
+
+<ol>
+  <li>an event target - this is called the <code class="language-plaintext highlighter-rouge">target</code></li>
+  <li>the type of event to listen for - this is called the <code class="language-plaintext highlighter-rouge">type</code></li>
+  <li>he function to remove - this is called the <code class="language-plaintext highlighter-rouge">listener</code></li>
+</ol>
+
+<p>Remember, the listener function must be the exact same function as the one used in the <code class="language-plaintext highlighter-rouge">.addEventListener()</code> call…not just an identical looking function. Let’s look at a couple of examples.</p>
+
+<p>This code will successfully add and then remove an event listener:</p>
+
+<p><code class="language-plaintext highlighter-rouge">function myEventListeningFunction() {
+    console.log('howdy');
+}</code></p>
+
+<p>// adds a listener for clicks, to run the <code class="language-plaintext highlighter-rouge">myEventListeningFunction</code> function
+<code class="language-plaintext highlighter-rouge">document.addEventListener('click', myEventListeningFunction);</code></p>
+
+<p>// immediately removes the click listener that should run the <code class="language-plaintext highlighter-rouge">myEventListeningFunction</code> function
+<code class="language-plaintext highlighter-rouge">document.removeEventListener('click', myEventListeningFunction);</code></p>
+
+<p>It works because both <code class="language-plaintext highlighter-rouge">.addEventListener()</code> and <code class="language-plaintext highlighter-rouge">.removeEventListener</code>:</p>
+
+<ul>
+  <li>have the same target</li>
+  <li>have the same type</li>
+  <li>and pass the exact same listener</li>
+</ul>
+
+<p>💥 Instead of <code class="language-plaintext highlighter-rouge">event</code>, the parameter’s name could just as easily be:</p>
+
+<ul>
+  <li>evt</li>
+  <li>e</li>
+  <li>theEvent</li>
+  <li>horse</li>
+</ul>
+
+</div>
+
+<h4 class="postnav">
+
+    
+    <a href="/2018/09/09/git-repo-commands.html"><i class="far fa-arrow-alt-circle-left" title="previous"></i></a>
+    
+
+
+    <a href="../index.html"><i class="fas fa-redo-alt" title="back to list"></i></a>
+
+
+    
+      <a href="/2019/05/02/output-category-list.html"><i class="far fa-arrow-alt-circle-right" title="next"></i></a>
+    
+
+</h4>
+
+
+  </body>
+
+</html>
