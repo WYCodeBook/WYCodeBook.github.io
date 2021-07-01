@@ -1,0 +1,6 @@
+I"Õ<p>The MAX_SAFE_INTEGER constant has a value of 9007199254740991 (9,007,199,254,740,991 or ~9 quadrillion). The reasoning behind that number is that JavaScript uses <a href="https://en.wikipedia.org/wiki/Double-precision_floating-point_format">double-precision floating-point format</a> numbers as specified in <a href="https://en.wikipedia.org/wiki/IEEE_754">IEEE 754</a> and can only safely represent numbers between -(253 - 1) and 253 - 1.</p>
+
+<p>Note: Safe in this context refers to the ability to represent integers exactly and to correctly compare them.</p>
+
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_SAFE_INTEGER">MDN - Numberâ€‹.MAX_SAFE_INTEGER</a></p>
+:ET

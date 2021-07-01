@@ -1,0 +1,18 @@
+I"­<p>This is a 30 days JavaScript coding challenge from https://javascript30.com/ by Wes Bos</p>
+
+<h2 id="who-is-it-for">Who is it for?</h2>
+
+<p>Beginner to Intermediate developers and designers who want to become comfortable with both JavaScript fundamentals and working in the DOM without a library.</p>
+
+<p>Challenger should already know some JavaScript to start - This isnâ€™t a JavaScript 101 course. We learn by application - encountering many new situations while talking about the hows, the whys and the whats that we use to solve them.</p>
+
+<p>The challenge steer clear of opinionated design patterns, frameworks, libraries and any type of abstraction. These things are great and often needed, but can obstruct learning and constrain initial understanding.</p>
+
+<p>These tutorials rely heavily upon browser APIs, most of which involve interaction with the page. If you are stuck in console.log() land, these videos are your next step.</p>
+
+<h4 id="starter-files"><a href="https://github.com/wesbos/JavaScript30">Starter Files</a></h4>
+
+<h4 id="course-stream"><a href="https://courses.wesbos.com">Course Stream</a></h4>
+
+<h2 id="challenge-started-08232018">Challenge Started 08/23/2018</h2>
+:ET

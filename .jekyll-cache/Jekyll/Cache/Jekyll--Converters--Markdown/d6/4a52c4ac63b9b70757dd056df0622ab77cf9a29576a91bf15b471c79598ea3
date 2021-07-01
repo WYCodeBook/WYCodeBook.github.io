@@ -1,0 +1,43 @@
+I"�<h1 id="problem">Problem:</h1>
+
+<p>(From CodeSignal)</p>
+
+<p>Let say there are two arrays, <code class="language-plaintext highlighter-rouge">a</code> and <code class="language-plaintext highlighter-rouge">b</code>. We go through the <code class="language-plaintext highlighter-rouge">array a</code> from left to right and go through the <code class="language-plaintext highlighter-rouge">array b</code> from right to left… and concatenate each index of the array into <code class="language-plaintext highlighter-rouge">ab</code>. And we compare the ‘ab’ to a <code class="language-plaintext highlighter-rouge">constant k</code>, then total up the number of <code class="language-plaintext highlighter-rouge">ab</code> that’s less than the <code class="language-plaintext highlighter-rouge">constant k</code>.</p>
+
+<p>Example:</p>
+
+<p>a = [4,5,6,7,8]</p>
+
+<p>b = [1,2,3,4,5]</p>
+
+<p>k = 60</p>
+
+<p>ab = [45, 54, 63, 72, 81]</p>
+
+<p>There should be a total count of two <code class="language-plaintext highlighter-rouge">ab</code> from the concatenated arrays, because 45 and 54 is smaller than <code class="language-plaintext highlighter-rouge">k=60</code>.</p>
+
+<h1 id="solution">Solution:</h1>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="p">(</span><span class="kd">function</span> <span class="nx">main</span><span class="p">()</span> <span class="p">{</span>
+<span class="kd">const</span> <span class="nx">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">];</span>
+<span class="kd">const</span> <span class="nx">b</span> <span class="o">=</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">];</span>
+<span class="kd">const</span> <span class="nx">k</span> <span class="o">=</span> <span class="mi">20</span><span class="p">;</span>
+<span class="kd">let</span> <span class="nx">c</span> <span class="o">=</span> <span class="dl">''</span><span class="p">;</span>
+<span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="kd">let</span> <span class="nx">j</span> <span class="o">=</span> <span class="nx">b</span><span class="p">.</span><span class="nx">length</span><span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+<span class="kd">let</span> <span class="nx">count</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+<span class="k">while</span> <span class="p">(</span><span class="nx">i</span><span class="o">&lt;</span><span class="nx">a</span><span class="p">.</span><span class="nx">length</span><span class="p">){</span>
+    <span class="nx">c</span> <span class="o">=</span> <span class="nb">String</span><span class="p">(</span><span class="nx">a</span><span class="p">[</span><span class="nx">i</span><span class="p">])</span> <span class="o">+</span> <span class="nb">String</span><span class="p">(</span><span class="nx">b</span><span class="p">[</span><span class="nx">j</span><span class="p">]);</span>
+    <span class="c1">// console.log(c)</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nb">Number</span><span class="p">(</span><span class="nx">c</span><span class="p">)</span> <span class="o">&lt;</span> <span class="nx">k</span><span class="p">){</span>
+        <span class="nx">count</span><span class="o">++</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="nx">i</span><span class="o">++</span><span class="p">;</span>
+    <span class="nx">j</span><span class="o">--</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">count</span><span class="p">);</span>
+
+<span class="p">}());</span></code></pre></figure>
+
+:ET

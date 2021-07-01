@@ -1,0 +1,33 @@
+I"˜<p>A Caesar Cipher is a simple method of encoding messages. Caesar ciphers use a substitution method where letters in the alphabet are shifted by some fixed number of spaces to yield an encoding alphabet. A Caesar cipher with a shift of <code class="language-plaintext highlighter-rouge">1</code> would encode an <code class="language-plaintext highlighter-rouge">A</code> as a <code class="language-plaintext highlighter-rouge">B</code>, an <code class="language-plaintext highlighter-rouge">M</code> as an <code class="language-plaintext highlighter-rouge">N</code>, and a <code class="language-plaintext highlighter-rouge">Z</code> as an <code class="language-plaintext highlighter-rouge">A</code>, and so on.</p>
+
+<p>Example:</p>
+
+<p><code class="language-plaintext highlighter-rouge">Zoo Keeper</code> should return as <code class="language-plaintext highlighter-rouge">Bqq Mggrgt</code></p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">caesarCipher</span><span class="p">(</span><span class="nx">str</span><span class="p">,</span><span class="nx">num</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">num</span> <span class="o">=</span> <span class="nx">num</span> <span class="o">%</span> <span class="mi">26</span><span class="p">;</span>
+  <span class="kd">var</span> <span class="nx">lowerCaseString</span> <span class="o">=</span> <span class="nx">str</span><span class="p">.</span><span class="nx">toLowerCase</span><span class="p">();</span>
+  <span class="kd">var</span> <span class="nx">alphabet</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">abcdefghijklmnopqrstuvwxyz</span><span class="dl">'</span><span class="p">.</span><span class="nx">split</span><span class="p">(</span><span class="dl">''</span><span class="p">);</span>
+  <span class="kd">var</span> <span class="nx">newString</span> <span class="o">=</span> <span class="dl">''</span><span class="p">;</span>
+
+  <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">lowerCaseString</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">currentLetter</span> <span class="o">=</span> <span class="nx">lowerCaseString</span><span class="p">[</span><span class="nx">i</span><span class="p">];</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">currentLetter</span> <span class="o">===</span> <span class="dl">'</span><span class="s1"> </span><span class="dl">'</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">newString</span> <span class="o">+=</span> <span class="nx">currentLetter</span><span class="p">;</span>
+      <span class="k">continue</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kd">var</span> <span class="nx">currentIndex</span> <span class="o">=</span> <span class="nx">alphabet</span><span class="p">.</span><span class="nx">indexOf</span><span class="p">(</span><span class="nx">currentLetter</span><span class="p">);</span>
+    <span class="kd">var</span> <span class="nx">newIndex</span> <span class="o">=</span> <span class="nx">currentIndex</span> <span class="o">+</span> <span class="nx">num</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">newIndex</span> <span class="o">&gt;</span> <span class="mi">25</span><span class="p">)</span> <span class="nx">newIndex</span> <span class="o">=</span> <span class="nx">newIndex</span> <span class="o">-</span> <span class="mi">26</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">newIndex</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">)</span> <span class="nx">newIndex</span> <span class="o">=</span> <span class="mi">26</span> <span class="o">+</span> <span class="nx">newIndex</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">str</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">===</span> <span class="nx">str</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">toUpperCase</span><span class="p">())</span> <span class="p">{</span>
+      <span class="nx">newString</span> <span class="o">+=</span> <span class="nx">alphabet</span><span class="p">[</span><span class="nx">newIndex</span><span class="p">].</span><span class="nx">toUpperCase</span><span class="p">();</span>
+    <span class="p">}</span>
+    <span class="k">else</span> <span class="nx">newString</span> <span class="o">+=</span> <span class="nx">alphabet</span><span class="p">[</span><span class="nx">newIndex</span><span class="p">];</span>
+  <span class="p">};</span>
+
+  <span class="k">return</span> <span class="nx">newString</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nx">caesarCipher</span><span class="p">(</span><span class="dl">'</span><span class="s1">Zoo Keeper</span><span class="dl">'</span><span class="p">,</span> <span class="mi">2</span><span class="p">);</span></code></pre></figure>
+
+:ET
