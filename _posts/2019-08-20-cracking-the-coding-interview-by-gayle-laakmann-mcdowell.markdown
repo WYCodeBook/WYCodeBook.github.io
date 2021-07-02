@@ -2,7 +2,7 @@
 layout: post
 title: "Cracking the Coding Interview"
 date: "2019-08-20 20:25:16 -0700"
-tags: [JavaScript, Books]
+tags: [Interview, Books]
 ---
 
 # Cracking the Coding Interview by Gayle Laakmann McDowell
