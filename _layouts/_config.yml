@@ -13,13 +13,6 @@ timezone: America/Los_Angeles
 excerpt_separator: "<!-- more -->"
 
 collections:
-  resource:
-    output: true
-    permalink: /resource/:title
-
-  problems:
-    output: true
-    permalink: /resources/:title/
 
   projects:
     output: true

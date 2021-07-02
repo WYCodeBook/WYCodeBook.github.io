@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Curious-Yu</title>
+		<meta charset="UTF-8">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css"> <!-- needed so older versions of IE can run codes -->
+		<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'> <!-- needed to use the Lobster font -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="Wen Yu"> <!-- allowing search engines to find my site with those key words -->
+		<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'> <!-- allowing to use the font awesome icons v5.7.0 -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- allowing to use the font awesome icons v4.7.0-->
+		<link rel="stylesheet" type="text/css" href="/css/style.css"> <!-- needed for style -->
+		<link rel="stylesheet" type="text/css" href="/css/syntax.css">  <!-- needed for syntax box -->
+	</head>
+
+  <body>
+
+		<nav>
+			<div class="nav_icon1"><a href="/" title="welcome page"><img src="/img/WYlogo_mint.png" alt="welcome logo"></a></div>
+			<div class="nav_icon2">
+				<div><a href="/#about" title="about page">About</a></div>
+				<div><a href="/#projects" title="projects page">Projects</a></div>
+				<div><a href="/#posts" title="posts page">Posts</a></div>
+				<div><a href="/#repos" title="latest repos">Repos</a></div>
+				<div>
+					<h1>
+						<a href="mailto:wyu10amy@hotmail.com" title="Send Email"><i class="fas fa-envelope" target="_blank"></i></a>
+						<a href="https://github.com/Curious-Yu" title="Link to GitHub" target="_blank"><i class="fa fa-github"></i></a>
+						<a href="https://www.linkedin.com/in/wen-yu/" title="Link to Linkedin" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+					</h1>
+				</div>
+			</div>
+		</nav>
+
+
+    <div class="posttitle">
+  <h1 align="center" title="Last Stone Weight">Last Stone Weight</h1>
+  <img src="/img/posttitle.png" alt="Last Stone Weight">
+</div>
+
+<div class="postbody">
+  <h1 id="problem">Problem</h1>
+
+<p>We have a collection of stones, each stone has a positive integer weight.</p>
+
+<p>Each turn, we choose the two heaviest stones and smash them together.  Suppose the stones have weights <code class="language-plaintext highlighter-rouge">x</code> and <code class="language-plaintext highlighter-rouge">y</code> with <code class="language-plaintext highlighter-rouge">x &lt;= y</code>.  The result of this smash is:</p>
+
+<p>If <code class="language-plaintext highlighter-rouge">x == y</code>, both stones are totally destroyed;</p>
+
+<p>If <code class="language-plaintext highlighter-rouge">x != y</code>, the stone of weight <code class="language-plaintext highlighter-rouge">x</code> is totally destroyed, and the stone of weight <code class="language-plaintext highlighter-rouge">y</code> has new weight <code class="language-plaintext highlighter-rouge">y-x</code>.</p>
+
+<p>At the end, there is at most 1 stone left.  Return the weight of this stone (or 0 if there are no stones left.)</p>
+
+<p>Example:</p>
+
+<p>Input: <code class="language-plaintext highlighter-rouge">[2,7,4,1,8,1]</code></p>
+
+<p>Output: 1</p>
+
+<p>Explanation:</p>
+
+<p>We combine 7 and 8 to get 1 so the array converts to [2,4,1,1,1] then,
+we combine 2 and 4 to get 2 so the array converts to [2,1,1,1] then,
+we combine 2 and 1 to get 1 so the array converts to [1,1,1] then,
+we combine 1 and 1 to get 0 so the array converts to [1] then that’s the value of last stone.</p>
+
+<p>Note:</p>
+
+<p>1 &lt;= stones.length &lt;= 30</p>
+
+<p>1 &lt;= stones[i] &lt;= 1000</p>
+
+<h1 id="solution">Solution</h1>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="cm">/**
+ * @param {number[]} stones
+ * @return {number}
+ */</span>
+<span class="kd">var</span> <span class="nx">lastStoneWeight</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">stones</span><span class="p">)</span> <span class="p">{</span>
+
+    <span class="k">while</span><span class="p">(</span><span class="nx">stones</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">){</span>
+        <span class="nx">stones</span><span class="p">.</span><span class="nx">sort</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">){</span><span class="k">return</span> <span class="nx">b</span><span class="o">-</span><span class="nx">a</span><span class="p">});</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">stones</span><span class="p">);</span>
+        <span class="kd">let</span> <span class="nx">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+
+
+        <span class="k">if</span> <span class="p">(</span><span class="nx">stones</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">==</span> <span class="nx">stones</span><span class="p">[</span><span class="nx">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]){</span>
+            <span class="nx">stones</span><span class="p">.</span><span class="nx">splice</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">2</span><span class="p">);</span>
+        <span class="p">}</span>
+
+        <span class="k">if</span> <span class="p">(</span><span class="nx">stones</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">&gt;</span> <span class="nx">stones</span><span class="p">[</span><span class="nx">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]){</span>
+            <span class="kd">let</span> <span class="nx">num1</span> <span class="o">=</span> <span class="nx">stones</span><span class="p">.</span><span class="nx">shift</span><span class="p">();</span>
+            <span class="kd">let</span> <span class="nx">num2</span> <span class="o">=</span> <span class="nx">stones</span><span class="p">.</span><span class="nx">shift</span><span class="p">();</span>
+            <span class="nx">stones</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">num1</span> <span class="o">-</span> <span class="nx">num2</span><span class="p">);</span>
+
+        <span class="p">}</span>
+
+    <span class="p">}</span>
+
+    <span class="k">if</span><span class="p">(</span><span class="nx">stones</span><span class="p">.</span><span class="nx">length</span> <span class="o">==</span> <span class="mi">1</span><span class="p">){</span>
+        <span class="k">return</span> <span class="nx">stones</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">if</span><span class="p">(</span><span class="nx">stones</span><span class="p">.</span><span class="nx">length</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">stones</span><span class="p">);</span>
+<span class="p">};</span></code></pre></figure>
+
+<h1 id="note">Note</h1>
+
+<p><a href="https://www.w3schools.com/jsref/jsref_sort.asp">JavaScript Array sort() Method</a></p>
+
+<p><a href="https://www.w3schools.com/jsref/jsref_push.asp">JavaScript Array push() Method</a></p>
+
+<p><a href="https://www.w3schools.com/jsref/jsref_shift.asp">JavaScript Array shift() Method</a></p>
+
+<p><a href="https://www.w3schools.com/jsref/jsref_splice.asp">JavaScript Array splice() Method</a></p>
+
+</div>
+
+<h4 class="postnav">
+
+    
+    <a href="/2021/05/20/single-number-2.html"><i class="far fa-arrow-alt-circle-left" title="previous"></i></a>
+    
+
+
+    <a href="../index.html"><i class="fas fa-redo-alt" title="back to list"></i></a>
+
+
+    
+      <a href="/2021/06/01/ruby-interpolation.html"><i class="far fa-arrow-alt-circle-right" title="next"></i></a>
+    
+
+</h4>
+
+
+  </body>
+
+</html>
