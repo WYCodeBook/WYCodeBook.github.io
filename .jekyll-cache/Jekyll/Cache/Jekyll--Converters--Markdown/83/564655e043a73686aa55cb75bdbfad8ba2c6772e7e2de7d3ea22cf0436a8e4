@@ -1,0 +1,25 @@
+I"Ñ
+<p>Every word should be reversed but the string as a whole should not be reverse.</p>
+
+<p>Example:</p>
+
+<p><code class="language-plaintext highlighter-rouge">this is a string of words</code> should return as <code class="language-plaintext highlighter-rouge">siht si a gnirts fo sdrow</code></p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">reverseWords</span><span class="p">(</span><span class="nx">string</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">wordsArr</span> <span class="o">=</span> <span class="nx">string</span><span class="p">.</span><span class="nx">split</span><span class="p">(</span><span class="dl">'</span><span class="s1"> </span><span class="dl">'</span><span class="p">);</span>
+  <span class="kd">var</span> <span class="nx">reversedWordsArr</span> <span class="o">=</span> <span class="p">[];</span>
+
+  <span class="nx">wordsArr</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">word</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">reversedWord</span> <span class="o">=</span> <span class="dl">''</span><span class="p">;</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="nx">word</span><span class="p">.</span><span class="nx">length</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span><span class="o">--</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">reversedWord</span> <span class="o">+=</span> <span class="nx">word</span><span class="p">[</span><span class="nx">i</span><span class="p">];</span>
+    <span class="p">};</span>
+    <span class="nx">reversedWordsArr</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">reversedWord</span><span class="p">);</span>
+  <span class="p">});</span>
+
+  <span class="k">return</span> <span class="nx">reversedWordsArr</span><span class="p">.</span><span class="nx">join</span><span class="p">(</span><span class="dl">'</span><span class="s1"> </span><span class="dl">'</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="nx">reverseWords</span><span class="p">(</span><span class="dl">'</span><span class="s1">Coding JavaScript</span><span class="dl">'</span><span class="p">);</span> <span class="c1">// this should return gnidoC tpircSavaJ</span></code></pre></figure>
+
+:ET

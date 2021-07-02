@@ -1,0 +1,11 @@
+I"‘<p>Font Awesome is a font and icon toolkit based on CSS and LESS.</p>
+
+<p><a href="https://fontawesome.com/icons?d=gallery">Font Awesome Icons</a></p>
+
+<p>Be sure to add the following link to HTML:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">'stylesheet'</span> <span class="na">href=</span><span class="s">'https://use.fontawesome.com/releases/v5.7.0/css/all.css'</span> <span class="na">integrity=</span><span class="s">'sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ'</span> <span class="na">crossorigin=</span><span class="s">'anonymous'</span><span class="nt">&gt;</span> <span class="c">&lt;!-- allowing to use the font awesome icons v5.7.0 --&gt;</span>
+
+<span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"</span><span class="nt">&gt;</span> <span class="c">&lt;!-- allowing to use the font awesome icons v4.7.0--&gt;</span></code></pre></figure>
+
+:ET

@@ -1,0 +1,52 @@
+I")<h1 id="problem">Problem</h1>
+
+<p><a href="https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/">30-Day LeetCoding Challenge for April 2020</a></p>
+
+<p>Write an algorithm to determine if a number <code class="language-plaintext highlighter-rouge">n</code> is “happy”.</p>
+
+<p>A happy number is a number defined by the following process: Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers.</p>
+
+<p>Return True if <code class="language-plaintext highlighter-rouge">n</code> is a happy number, and False if not.</p>
+
+<p>Example:</p>
+
+<p><code class="language-plaintext highlighter-rouge">Input: 19</code></p>
+
+<p>Output: true</p>
+
+<p>Explanation:</p>
+
+<p>1^2 + 9^2 = 82</p>
+
+<p>8^2 + 2^2 = 68</p>
+
+<p>6^2 + 8^2 = 100</p>
+
+<p>1^2 + 0^2 + 0^2 = 1</p>
+
+<h1 id="solution">Solution</h1>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="cm">/**
+ * @param {number} n
+ * @return {boolean}
+ */</span>
+<span class="kd">var</span> <span class="nx">isHappy</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">n</span><span class="p">)</span> <span class="p">{</span>
+
+    <span class="kd">let</span> <span class="nx">count</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+    <span class="k">while</span> <span class="p">(</span><span class="nx">n</span> <span class="o">!==</span> <span class="mi">1</span><span class="p">){</span>
+        <span class="k">if</span> <span class="p">(</span><span class="nx">count</span> <span class="o">&gt;=</span> <span class="mi">1000</span><span class="p">){</span>
+            <span class="k">return</span> <span class="kc">false</span><span class="p">;</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+            <span class="nx">n</span> <span class="o">=</span> <span class="nx">n</span><span class="p">.</span><span class="nx">toString</span><span class="p">().</span><span class="nx">split</span><span class="p">(</span><span class="dl">""</span><span class="p">);</span>
+            <span class="nx">n</span> <span class="o">=</span> <span class="nx">n</span><span class="p">.</span><span class="nx">reduce</span><span class="p">((</span><span class="nx">accumulator</span><span class="p">,</span> <span class="nx">number</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nb">Number</span><span class="p">(</span><span class="nx">accumulator</span><span class="p">)</span> <span class="o">+</span> <span class="nb">Number</span><span class="p">(</span><span class="nx">number</span> <span class="o">*</span> <span class="nx">number</span><span class="p">),</span> <span class="mi">0</span><span class="p">);</span>
+            <span class="nx">count</span><span class="o">++</span><span class="p">;</span>
+            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">count</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">n</span><span class="p">);</span>
+    <span class="k">return</span> <span class="kc">true</span><span class="p">;</span>
+
+<span class="p">};</span></code></pre></figure>
+
+:ET

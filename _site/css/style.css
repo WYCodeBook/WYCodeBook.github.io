@@ -23,7 +23,7 @@ nav {
 .nav_icon1 {
   text-align: center;
   flex-grow: 6;
-  padding: 0vw 25vw;
+  padding: 0vw 20vw;
 }
 
 .nav_icon1 img {
@@ -140,55 +140,90 @@ nav {
 }
 
 /*projects*/
+.projectspageTitle {
+  text-align: center;
+  color: #292f38;
+  font-family: 'Lobster';
+  margin: 10vh 0vw;
+}
+
 .projectspage {
+  padding: 0;
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
-  color: #95d5c5;
+  align-items: flex-start;
 }
-/*
-.projectspage > div {
+
+.projectspage div {
   text-align: center;
+  font-size: 100%;
 
-  width: 200px;
-  height: 200px;
-
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
+  width: 280px;
+  height: auto;
+  
+  color: #292f38;
   background-color: #def2ed;
-}
-*/
-
-.projectstitle {
-  text-align: center;
-
-  width: 200px;
-  height: 200px;
-
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
+  border-style: none;
+  border-radius: 20px;
+  margin: 5px 0px;
 }
 
-.projectspage a:link, .nav_icon2 a:visited {
+.projectspage a {
+  padding: 5px 10px; 
+  margin: 5px; 
+}
+
+.projectspage a:link, .projectspage a:visited {
   font-weight: bold;
   color: #95d5c5;
   text-decoration: none;
 }
 
-.projectspage a:hover, .nav_icon2 a:active {
+.projectspage a:hover, .projectspage a:active {
   color: #292f38;
   text-decoration: underline;
-  background-color: #def2ed;
-  border-style: solid;
-  border-radius: 20%;
+  text-decoration-color: yellow;
+  font-weight: bold;
+}
+
+
+/*posts*/
+.postsTitle {
+  text-align: center;
+  color: #292f38;
+  font-family: 'Lobster';
+  margin: 10vh 0vw;
+}
+.postsTab {
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.postsTab div {
+  text-align: center;
+  font-size: 90%;
+
+  width: 280px;
+  height: auto;
+} 
+
+.postsTab a:link, .postsTab a:visited {
+  font-weight: bold;
+  color: #95d5c5;
+  text-decoration: none;
+}
+
+.postsTab a:hover, .postsTab a:active {
+  color: #292f38;
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  font-weight: bold;
 }
 
 /*repos*/
@@ -227,7 +262,7 @@ li.list-group-item {
   text-align: center;
   font-size: 80%;
 
-  width: 300px;
+  width: 280px;
   height: auto;
   
   color: #292f38;
@@ -242,7 +277,7 @@ li.list-group-item {
   justify-content: space-evenly;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .list-group-item a:link, .list-group-item a:visited {

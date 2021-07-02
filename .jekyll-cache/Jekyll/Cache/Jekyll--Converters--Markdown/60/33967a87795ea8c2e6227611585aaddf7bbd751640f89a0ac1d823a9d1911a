@@ -1,0 +1,71 @@
+I"{<h1 id="problem">Problem:</h1>
+
+<p><a href="https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/">30-Day LeetCoding Challenge for April 2020</a></p>
+
+<p>Say you have an array prices for which the i<sup>th</sup> element is the price of a given stock on day <code class="language-plaintext highlighter-rouge">i</code>.</p>
+
+<p>Design an algorithm to find the maximum profit. You may complete as many transactions as you like (i.e., buy one and sell one share of the stock multiple times).</p>
+
+<p>Note: You may not engage in multiple transactions at the same time (i.e., you must sell the stock before you buy again).</p>
+
+<h3 id="example-1">Example 1:</h3>
+
+<p>Input: [7,1,5,3,6,4]</p>
+
+<p><code class="language-plaintext highlighter-rouge">Output: 7</code></p>
+
+<p>Explanation:</p>
+
+<p>Buy on day 2 (price = 1) and sell on day 3 (price = 5), profit = 5-1 = 4.</p>
+
+<p>Then buy on day 4 (price = 3) and sell on day 5 (price = 6), profit = 6-3 = 3.</p>
+
+<h3 id="example-2">Example 2:</h3>
+
+<p>Input: [1,2,3,4,5]</p>
+
+<p><code class="language-plaintext highlighter-rouge">Output: 4</code></p>
+
+<p>Explanation:</p>
+
+<p>Buy on day 1 (price = 1) and sell on day 5 (price = 5), profit = 5-1 = 4.</p>
+
+<p>Note that you cannot buy on day 1, buy on day 2 and sell them later, as you are engaging multiple transactions at the same time. You must sell before buying again.</p>
+
+<h3 id="example-3">Example 3:</h3>
+
+<p>Input: [7,6,4,3,1]</p>
+
+<p><code class="language-plaintext highlighter-rouge">Output: 0</code></p>
+
+<p>Explanation: In this case, no transaction is done, i.e. max profit = 0.</p>
+
+<h3 id="constraints">Constraints:</h3>
+
+<p>1 &lt;= prices.length &lt;= 3 * 10 ^ 4</p>
+
+<p>0 &lt;= prices[i] &lt;= 10 ^ 4</p>
+
+<h1 id="solution">Solution</h1>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="cm">/**
+ * @param {number[]} prices
+ * @return {number}
+ */</span>
+<span class="kd">var</span> <span class="nx">maxProfit</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">prices</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">let</span> <span class="nx">profit</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="kd">let</span> <span class="nx">max</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="k">for</span> <span class="p">(</span><span class="nx">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="nx">prices</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">){</span>
+        <span class="k">if</span> <span class="p">(</span><span class="nx">prices</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">&gt;</span> <span class="nx">prices</span><span class="p">[</span><span class="nx">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]){</span>
+            <span class="nx">profit</span> <span class="o">=</span> <span class="nx">prices</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">-</span> <span class="nx">prices</span><span class="p">[</span><span class="nx">i</span><span class="o">-</span><span class="mi">1</span><span class="p">];</span>
+            <span class="nx">max</span> <span class="o">=</span> <span class="nx">max</span> <span class="o">+</span> <span class="nx">profit</span><span class="p">;</span>
+            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">profit</span><span class="p">);</span>
+            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">max</span><span class="p">);</span>
+        <span class="p">}</span>
+
+    <span class="p">}</span>
+
+    <span class="k">return</span> <span class="nx">max</span><span class="p">;</span>
+<span class="p">};</span></code></pre></figure>
+
+:ET
