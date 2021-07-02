@@ -74,21 +74,18 @@ nav {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
-  /*
-  margin: 10vh 0vw 20vh;
-  height: 50%;
-  */
+  height: 80vh;
+  margin: 0vh 0vw 20vh;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 550px) {
   .welcomepage {
     height: 65vh;
     margin: 0vh 0vw 10vh;
   }
 }
 
-@media only screen and (max-width: 1100px) and (min-width: 450px) {
+@media only screen and (max-width: 1100px) and (min-width: 550px) {
   .welcomepage {
     height: 90vh;
     margin: 0vh 0vw 5vh;
@@ -192,4 +189,72 @@ nav {
   background-color: #def2ed;
   border-style: solid;
   border-radius: 20%;
+}
+
+/*repos*/
+.reposTitle {
+  text-align: center;
+  color: #292f38;
+  font-family: 'Lobster';
+  margin: 10vh 0vw;
+}
+
+.fullRepos {
+  margin: 10vh 0vw;
+  text-align: center;
+}
+
+.fullRepos a:link, .fullRepos a:visited {
+  font-weight: bold;
+  color: #95d5c5;
+  text-decoration: none;
+}
+
+.fullRepos a:hover, .fullRepos a:active {
+  color: #292f38;
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  font-weight: bold;
+}
+
+li.list-group-item {
+  list-style-type: none; /* Remove bullets */
+  padding: 5px 10px; /* Remove padding */
+  margin: 5px; /* Remove margins */
+}
+
+.list-group-item {
+  text-align: center;
+  font-size: 80%;
+
+  width: 300px;
+  height: auto;
+  
+  color: #292f38;
+  background-color: #def2ed;
+  border-style: none;
+  border-radius: 20px;
+}
+
+.list-group {
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.list-group-item a:link, .list-group-item a:visited {
+  font-weight: none;
+  color: #292f38;
+  text-decoration: none;
+
+}
+
+.list-group-item a:hover, .list-group-item a:active {
+  color: #292f38;
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  background-color: none;
 }
