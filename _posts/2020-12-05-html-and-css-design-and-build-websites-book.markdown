@@ -11,6 +11,6 @@ Publisher : John Wiley & Sons; 1st edition (November 8, 2011)
 
 Author: Jon Duckett
 
-<div class="projectframe">
+<div class="theframe">
   <iframe src="https://curious-yu.github.io/HTML-and-CSS-Design-and-Build-Websites-Book/"></iframe>
 </div>

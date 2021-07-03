@@ -37,3 +37,18 @@
     text-decoration: underline;
     font-weight: bold;
   }
+
+  .theframe {
+    max-width: 60vw;  
+    height: 60vh; 
+    margin: auto;
+    padding: 10px 20px;
+  }
+
+  /*mobile ready*/
+@media (max-width: 800px) {
+    .theframe  {
+      max-width: 80vw;
+      padding: 5px 0px;
+    }
+  }
