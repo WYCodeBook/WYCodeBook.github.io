@@ -7,6 +7,10 @@
     color: #95d5c5;
 }
 
+.blogtitle h1 {
+  font-size: 3em;
+}
+
 .blogbody {
     margin: 0vh 5vw;
     color: #292f38;
