@@ -24,6 +24,9 @@ function requestUserRepos(username){
         // Loop over each object in data array
         for (let i in data) {
 
+            // This is to sort by description
+          if (data[i].description != null && data[i].language != null && data[i].fork != true){
+
             // Get the ul with id of of userRepos
             let ul = document.getElementById('userRepos');
 
@@ -42,6 +45,7 @@ function requestUserRepos(username){
 
             // Append each li to the ul
             ul.appendChild(li);
+          }
 
         }
 
