@@ -60,12 +60,12 @@ title: Curious-Yu
 
 <!--problems-->
 <div id="problems">
-  <h1 class="problemspageTitle">Projects</h1>
+  <h1 class="problemspageTitle">Solved Problems</h1>
   <div class="problemspage">  
-    {% for project in site.projects reversed %}
+    {% for problem in site.problems reversed %}
       <div>
         <a href="{{ problems.url }}" title="{{ problems.title }}" class="problemstitle">
-          <div>{{ project.title }}</div>
+          <div>{{ problem.title }}</div>
         </a>
       </div>
     {% endfor %}
