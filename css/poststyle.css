@@ -6,7 +6,7 @@
 }
 
 .blogtitle h1 {
-    font-size: 5vw;
+    font-size: 6vw;
     color: #95d5c5;
 }
 
@@ -24,7 +24,7 @@
     flex-wrap: wrap;
     align-items: center;
     line-height: 1vh;
-    font-size: 5vw;
+    font-size: 3vw;
 }
 
 .blognav a:link, .blognav a:visited {
