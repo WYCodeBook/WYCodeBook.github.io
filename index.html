@@ -64,7 +64,7 @@ title: Curious-Yu
   <div class="problemspage">  
     {% for problem in site.problems reversed %}
       <div>
-        <a href="{{ problems.url }}" title="{{ problems.title }}" class="problemstitle">
+        <a href="{{ problem.url }}" title="{{ problem.title }}" class="problemstitle">
           <div>{{ problem.title }}</div>
         </a>
       </div>
