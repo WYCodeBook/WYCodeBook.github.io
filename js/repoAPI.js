@@ -27,25 +27,25 @@ function requestUserRepos(username){
             // This is to sort by description
           if (data[i].description != null && data[i].language != null && data[i].fork != true){
 
-            // Get the ul with id of of userRepos
-            let ul = document.getElementById('userRepos');
+                // Get the ul with id of of userRepos
+                let ul = document.getElementById('userRepos');
 
-            // Create variable that will create li's to be added to ul
-            let li = document.createElement('li');
+                // Create variable that will create li's to be added to ul
+                let li = document.createElement('li');
 
-            // Add Bootstrap list item class to each li
-            li.classList.add('list-group-item')
+                // Add Bootstrap list item class to each li
+                li.classList.add('list-group-item')
 
-            // Create the html markup for each li
-            li.innerHTML = (`
-                <p><a href="${data[i].html_url}" target="_blank"><div><strong>${data[i].name} </strong> (${data[i].language})</a></p>
-            `);
-         
-          
+                // Create the html markup for each li
+                li.innerHTML = (`
+                    <p><a href="${data[i].html_url}" target="_blank"><div><strong>${data[i].name} </strong> (${data[i].language})</a></p>
+                `);
+            
+            
 
-            // Append each li to the ul
-            ul.appendChild(li);
-          }
+                // Append each li to the ul
+                ul.appendChild(li);
+            }
 
         }
 
