@@ -2,11 +2,8 @@
 
 .blogtitle{
     text-align: center;
+    font-family: 'Lobster';
     margin: 15vh 0vw;
-}
-
-.blogtitle h1 {
-    font-size: 6vw;
     color: #95d5c5;
 }
 
@@ -59,7 +56,11 @@
     }
   }
 
-  img {
-    max-width: 90vw;
-    height: auto;
-  }
+code {
+
+}
+
+img {
+  max-width: 90vw;
+  height: auto;
+}
