@@ -3,16 +3,15 @@ layout: default
 title: post
 ---
 
-<div class="posttitle">
-  <h1 align="center" title="{{page.title}}">{{page.title}}</h1>
-  <img src="/img/posttitle.png" alt="{{page.title}}">
+<div class="blogtitle">
+  <h1 title="{{page.title}}">{{page.title}}</h1>
 </div>
 
-<div class="postbody">
+<div class="blogbody">
   {{ content }}
 </div>
 
-<h4 class="postnav">
+<h1 class="blognav">
 
     {% if page.previous.url %}
     <a href="{{ page.previous.url }}"><i class="far fa-arrow-alt-circle-left" title="previous"></i></a>
@@ -26,4 +25,4 @@ title: post
       <a href="{{ page.next.url }}"><i class="far fa-arrow-alt-circle-right" title="next"></i></a>
     {% endif %}
 
-</h4>
+</h1>
