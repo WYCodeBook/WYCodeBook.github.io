@@ -16,6 +16,20 @@
     color: #292f38;
 }
 
+.blogbody a:link, .blogbody a:visited {
+  font-weight: none;
+  color: #292f38;
+  text-decoration: none;
+
+}
+
+.blogbody a:hover, .blogbody a:active {
+  color: #292f38;
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  background-color: none;
+}
+
 .blognav {
     text-align: center;
     padding: 2vw;
