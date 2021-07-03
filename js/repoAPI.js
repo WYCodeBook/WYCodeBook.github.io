@@ -7,7 +7,7 @@ function requestUserRepos(username){
     const xhr = new XMLHttpRequest();
 
     // GitHub endpoint, dynamically passing in specified username
-    const url = `https://api.github.com/users/${username}/repos?per_page=1000`;
+    const url = `https://api.github.com/users/${username}/repos?per_page=10000`;
 
     // Open a new connection, using a GET request via URL endpoint
     // Providing 3 arguments (GET/POST, The URL, Async True/False)
@@ -38,7 +38,11 @@ function requestUserRepos(username){
 
                 // Create the html markup for each li
                 li.innerHTML = (`
-                    <p><a href="${data[i].html_url}" target="_blank"><div><strong>${data[i].name} </strong> (${data[i].language})</a></p>
+                    <a href="${data[i].html_url}" target="_blank">
+                    <p><strong>${data[i].name} </strong> 
+                    (${data[i].language})</p>
+                    <p>${data[i].description}</p>
+                    </a>
                 `);
             
             
