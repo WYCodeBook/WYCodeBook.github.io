@@ -24,7 +24,6 @@
     flex-wrap: wrap;
     align-items: center;
     line-height: 1vh;
-    font-size: 3vw;
 }
 
 .blognav a:link, .blognav a:visited {
