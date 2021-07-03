@@ -2,11 +2,11 @@
 
 .blogtitle{
     text-align: center;
-    color: #95d5c5;
 }
 
 .blogtitle h1 {
     font-size: 5vw;
+    color: #95d5c5;
 }
 
 .blogbody {
