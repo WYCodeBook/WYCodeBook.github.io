@@ -64,7 +64,7 @@ title: Curious-Yu
   <div class="problemspage">  
     {% for problem in site.problems reversed %}
       <div>
-        <a href="{{ problem.url }}" title="{{ problem.title }}" class="problemstitle">
+        <a href="{{ problem.url }}" title="{{ problem.title }}" class="problemstitle" target="_blank">
           <div>{{ problem.title }}</div>
         </a>
       </div>
@@ -88,7 +88,7 @@ title: Curious-Yu
               {% for post in pages_list %}
                 {% if post.title != null %}
                 {% if group == null or group == post.group %}
-                <p><a href="{{ post.url }}" title="{{ post.title }}" target="_blank">{{ post.title }}</a></P>
+                <p><a href="{{ post.url }}" title="{{ post.title }} " target="_blank">{{ post.title }}</a></P>
                 {% endif %}
                 {% endif %}
               {% endfor %}
