@@ -139,15 +139,15 @@ nav {
   text-decoration: underline;
 }
 
-/*projects*/
-.projectspageTitle {
+/*problems*/
+.problemspageTitle {
   text-align: center;
   color: #292f38;
   font-family: 'Lobster';
   margin: 10vh 0vw;
 }
 
-.projectspage {
+.problemspage {
   padding: 0;
   display: flex;
   justify-content: space-evenly;
@@ -156,7 +156,7 @@ nav {
   align-items: flex-start;
 }
 
-.projectspage div {
+.problemspage div {
   text-align: center;
   font-size: 100%;
 
@@ -170,18 +170,18 @@ nav {
   margin: 5px 0px;
 }
 
-.projectspage a {
+.problemspage a {
   padding: 5px 10px; 
   margin: 5px; 
 }
 
-.projectspage a:link, .projectspage a:visited {
+.problemspage a:link, .problemspage a:visited {
   font-weight: bold;
   color: #95d5c5;
   text-decoration: none;
 }
 
-.projectspage a:hover, .projectspage a:active {
+.problemspage a:hover, .problemspage a:active {
   color: #292f38;
   text-decoration: underline;
   text-decoration-color: yellow;

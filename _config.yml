@@ -14,8 +14,8 @@ excerpt_separator: "<!-- more -->"
 
 collections:
 
-  projects:
+  problems:
     output: true
-    permalink: /projects/:title/
+    permalink: /problems/:title/
 
 incremental: true
