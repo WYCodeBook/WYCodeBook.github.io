@@ -2,7 +2,7 @@
 layout: post
 title: "HTML and CSS Design and Build Websites Book"
 date: "2020-12-05 02:51:40 -0800"
-tags: [HTML and CSS Design and Build Websites Book, HTML, CSS]
+tags: [Books, HTML, CSS]
 ---
 
 Practicing examples and exercises in the HTML and CSS: Design and Build Websites Book
