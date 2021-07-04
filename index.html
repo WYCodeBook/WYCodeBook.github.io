@@ -118,31 +118,3 @@ title: Curious-Yu
 
 
 
-<!--posts-->
-<div class="postspage" id="testing">
-  <h1 class="postsTitle">Solved Problems testing</h1>
-  <div class="postsTab">  
-    {% assign sorted_tags = site.problems.tags | sort: tag.title %}
-    {% for tag in sorted_tags %}
-      <div>
-        <div>
-          <h3 id="{{ tag[0] }}" title="{{ tag[0] }}">{{ tag[0] }}<hr></h3>
-          <p>
-              {% assign pages_list = tag[1] %}
-              {% for problem in pages_list %}
-                {% if problem.title != null %}
-                {% if group == null or group == problem.group %}
-                <p><a href="{{ problem.url }}" title="{{ problem.title }} " target="_blank">{{ problem.title }}</a></P>
-                {% endif %}
-                {% endif %}
-              {% endfor %}
-              {% assign pages_list = nil %}
-              {% assign group = nil %}
-          </p>
-        </div>
-
-      </div>
-    {% endfor %}
-    </div>
-
-  </div>
