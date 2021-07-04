@@ -2,7 +2,7 @@
 layout: post
 title: "Last Stone Weight"
 date: "2021-05-22 03:38:09 -0700"
-tags: [Solved Problem, JavaScript]
+tags: [Array, Heap (Priority Queue)]
 ---
 
 # Problem

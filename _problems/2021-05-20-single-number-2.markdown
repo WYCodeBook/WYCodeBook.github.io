@@ -2,7 +2,7 @@
 layout: post
 title: "Single Number 2"
 date: "2021-05-20 22:18:27 -0700"
-tags: [Solved Problem, JavaScript]
+tags: [Array, Bit Manipulation]
 ---
 
 # Problem

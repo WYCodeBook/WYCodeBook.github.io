@@ -2,7 +2,7 @@
 layout: post
 title: "Maximum Subarray"
 date: "2020-08-17 17:25:34 -0700"
-tags: [Solved Problem, JavaScript]
+tags: [Array, Divide and Conquer, Dynamic Programming]
 ---
 
 # Problem:

@@ -2,7 +2,7 @@
 layout: post
 title: "Length of Last Word"
 date: "2019-06-27 22:49:48 -0700"
-tags: [Solved Problem, JavaScript]
+tags: [Array, Bit Manipulation]
 ---
 
 # Problem:

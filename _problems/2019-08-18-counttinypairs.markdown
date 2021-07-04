@@ -2,7 +2,7 @@
 layout: post
 title: "countTinyPairs"
 date: "2019-08-18 00:56:03 -0700"
-tags: [Solved Problem, JavaScript]
+tags: [Array]
 ---
 
 # Problem:

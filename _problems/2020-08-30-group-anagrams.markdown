@@ -2,7 +2,7 @@
 layout: post
 title: "Group Anagrams"
 date: "2020-08-30 19:44:16 -0700"
-tags: [Solved Problem, JavaScript]
+tags: [Hash Table, String, Sorting]
 ---
 
 # Problem:

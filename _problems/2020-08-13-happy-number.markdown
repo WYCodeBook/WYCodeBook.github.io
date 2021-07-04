@@ -2,7 +2,7 @@
 layout: post
 title: "Happy Number"
 date: "2020-08-13 03:52:43 -0700"
-tags: [Solved Problem, JavaScript]
+tags: [Hash Table, Math, Two Pointers]
 ---
 
 # Problem

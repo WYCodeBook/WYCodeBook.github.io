@@ -2,7 +2,7 @@
 layout: post
 title: "Reverse Integer"
 date: "2021-07-03 03:38:09 -0700"
-tags: [Solved Problem, JavaScript]
+tags: [Math]
 ---
 
 # Problem

@@ -2,7 +2,7 @@
 layout: post
 title: "Reverse Words"
 date: "2020-11-22 22:28:00 -0800"
-tags: [Solved Problem, JavaScript]
+tags: [String]
 ---
 
 # Problem

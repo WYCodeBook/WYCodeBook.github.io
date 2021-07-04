@@ -2,7 +2,7 @@
 layout: post
 title: "Merge Two Sorted Lists"
 date: "2021-07-03 03:38:09 -0700"
-tags: [Solved Problem, JavaScript]
+tags: [Linked List, Recursion]
 ---
 
 # Problem

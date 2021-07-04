@@ -2,7 +2,7 @@
 layout: post
 title: "Jewels and Stones"
 date: "2018-05-30 22:12:56 -0700"
-tags: [Solved Problem, JavaScript]
+tags: [Hash Table, String]
 ---
 
 # Problem:

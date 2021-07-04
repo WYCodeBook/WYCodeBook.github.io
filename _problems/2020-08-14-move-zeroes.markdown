@@ -2,7 +2,7 @@
 layout: post
 title: "Move Zeroes"
 date: "2020-08-14 17:59:03 -0700"
-tags: [Solved Problem, JavaScript]
+tags: [Array, Two Pointers]
 ---
 
 # Problem

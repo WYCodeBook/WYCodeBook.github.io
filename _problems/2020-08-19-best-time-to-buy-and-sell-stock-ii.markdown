@@ -2,7 +2,7 @@
 layout: post
 title: "Best Time to Buy and Sell Stock II"
 date: "2020-08-19 17:56:48 -0700"
-tags: [Solved Problem, JavaScript]
+tags: [Array, Dynamic Programming, Greedy]
 ---
 
 # Problem:
