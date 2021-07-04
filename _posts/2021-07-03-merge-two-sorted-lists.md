@@ -17,6 +17,7 @@ Output: [1,1,2,3,4,4]
 Example 2:
 
 Input: l1 = [], l2 = []
+
 Output: []
 
 Example 3:
