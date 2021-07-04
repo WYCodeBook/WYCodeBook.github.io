@@ -39,6 +39,7 @@
     flex-wrap: wrap;
     align-items: center;
     line-height: 1vh;
+    margin: 10vh 0vw;
 }
 
 .blognav a:link, .blognav a:visited {
