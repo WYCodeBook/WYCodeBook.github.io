@@ -139,57 +139,8 @@ nav {
   text-decoration: underline;
 }
 
-/*problems*/
-.problemspageTitle {
-  text-align: center;
-  color: #292f38;
-  font-family: 'Lobster';
-  margin: 10vh 0vw;
-}
 
-.problemspage {
-  padding: 0;
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-start;
-}
-
-.problemspage div {
-  text-align: center;
-  font-size: 90%;
-
-  width: 280px;
-  height: auto;
-  
-  color: #292f38;
-  background-color: #def2ed;
-  border-style: none;
-  border-radius: 20px;
-  margin: 5px 0px;
-}
-
-.problemspage a {
-  padding: 5px 10px; 
-  margin: 5px; 
-}
-
-.problemspage a:link, .problemspage a:visited {
-  font-weight: bold;
-  color: #95d5c5;
-  text-decoration: none;
-}
-
-.problemspage a:hover, .problemspage a:active {
-  color: #292f38;
-  text-decoration: underline;
-  text-decoration-color: yellow;
-  font-weight: bold;
-}
-
-
-/*posts*/
+/*solved problems*/
 .postsTitle {
   text-align: center;
   color: #292f38;

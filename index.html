@@ -58,23 +58,7 @@ title: Curious-Yu
 </div>
 
 
-<!--problems-->
-<div id="problems">
-  <h1 class="problemspageTitle">Solved Problems</h1>
-  <div class="problemspage">  
-    {% for problem in site.problems reversed %}
-      <div>
-        <a href="{{ problem.url }}" title="{{ problem.title }}" class="problemstitle" target="_blank">
-          <div>{{ problem.title }}</div>
-        </a>
-      </div>
-    {% endfor %}
-  </div>
-
-</div>
-
-
-<!--posts-->
+<!--solved problems-->
 <div class="postspage" id="solved-problems">
   <h1 class="postsTitle">Solved Problems</h1>
   <div class="postsTab">  
