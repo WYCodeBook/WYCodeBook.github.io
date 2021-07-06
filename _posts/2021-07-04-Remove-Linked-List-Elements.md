@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Remove Linked List Elements"
-date: "2021-07-03 03:38:09 -0700"
+date: "2021-07-04 03:38:09 -0700"
 tags: [Linked List, Recursion]
 ---
 
