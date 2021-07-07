@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Palindrome Number"
+title: "Roman to Integer"
 date: "2021-07-05 03:38:09 -0700"
 tags: [Hash Table, Math, String]
 ---
